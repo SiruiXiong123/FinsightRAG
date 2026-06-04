@@ -1,0 +1,12 @@
+src/__pycache__/
+__pycache__/
+data_images/
+data/paddleocr_outputs/
+data/output/
+output/
+runs/
+*.log
+requirements_pip.txt
+test.ipynb
+.env
+config.yaml

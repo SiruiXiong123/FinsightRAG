@@ -1,0 +1,76 @@
+import argparse, sys
+
+try:
+    import tools
+except ImportError:  # Allows package-style execution with python -m src.main.
+    from . import tools
+
+parser = argparse.ArgumentParser()
+parser.add_argument(
+    '--InputPath', 
+    help= 'Directory path containing files to be processed, or a single file path')
+
+parser.add_argument(
+    '--Query', 
+    help= '',
+    default=None)
+
+parser.add_argument(
+    '--ConfigPath',
+    help='Path to config.yaml. Defaults to RAG_CONFIG_PATH, repo config.yaml, or parent config.yaml.',
+    default=None)
+
+parser.add_argument(
+    '--OcrOutputDir',
+    help='Directory containing PaddleOCR-VL <stem>.json and <stem>.md outputs.',
+    default=None)
+
+parser.add_argument(
+    '--PaddleOCRCommand',
+    help='Optional command template used when OCR output is missing. Supports {input}, {output_dir}, and {stem}.',
+    default=None)
+
+def main():
+    args = parser.parse_args()
+    logger = tools.Logger(
+        log_file="../RAG_log.log", 
+        logger_name=__name__).get_logger()
+    logger.info("Script execution started.")
+
+    try:
+        logger.info("Initializing QueryEngine...")
+        engine= tools.QueryEngine(
+            config_path=args.ConfigPath,
+            ocr_output_dir=args.OcrOutputDir,
+            paddleocr_command=args.PaddleOCRCommand,
+        )
+
+        logger.info(f"Listing supported files in the directory: {args.InputPath}")
+        files_to_process= engine.doc_processor.list_supported_files(args.InputPath)
+        if not files_to_process:
+            logger.warning("No supported files found in the input directory. Exiting script.")
+            sys.exit()
+
+        logger.info(f'Number of files to be processed is: {len(files_to_process)}. Here is the list: {files_to_process}')
+
+        logger.info("Building Multimodal recursive retriever with supported files...")
+        query_engine= engine.build_recursive_retriever(files_to_process)
+
+        logger.info("Query engine built successfully.")
+
+        if args.Query==None:
+            print("no query was provided ...")
+            while True:
+                Query = input("\nEnter your query:")
+                response = query_engine.query(Query)
+                print(f"\nHere is the response:\n{response.response}")
+        else:
+            response = query_engine.query(args.Query)
+            print(response.response)
+    
+    except Exception as e:
+        # Log unexpected errors
+        logger.error(f"An error occurred: {e}. Please solve it before retrying again")
+
+if __name__ == '__main__':
+    main()
