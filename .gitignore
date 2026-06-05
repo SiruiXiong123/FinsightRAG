@@ -3,6 +3,7 @@ __pycache__/
 data_images/
 data/paddleocr_outputs/
 data/output/
+indexes/
 output/
 runs/
 *.log

@@ -64,3 +64,44 @@ top_k: 10
 chunk_size: 1200
 chunk_overlap: 100
 prompt_version: v1
+
+# Text chunking / semantic merge defaults.
+text_chunking:
+  language: english
+  output_suffix: sentence_split
+  initial_chunk_output_suffix: initial_chunks
+  chunk_output_suffix: chunk_merge
+  window: 6
+  overlap: 2
+  step: 4
+  embedding_model: BAAI/bge-base-en-v1.5
+  breakpoint_percentile: 95
+  merge_similarity_threshold: 0.85
+  max_tokens: 512
+  max_embedding_tokens: 512
+  max_sentence_gap: 5
+  merge_safety_ratio: 0.40
+  high_overlap_threshold: 0.80
+  small_chunk_repair: true
+  small_chunk_sentence_count: 1
+  short_previous_merge: true
+  short_previous_max_tokens: 20
+  duplicate_overlap_threshold: 0.80
+  embed_batch_size: 32
+  device:
+
+# Table/image enrichment defaults.
+enrichment:
+  batch_size: 5
+  single_fallback_retries: 3
+  table_prompt: prompts/table_enrichment_prompt.py
+  image_prompt: prompts/image_enrichment_prompt.py
+  temperature: 0
+  max_tokens: 4096
+  timeout: 240
+
+# Per-document FAISS index defaults.
+indexing:
+  index_root: indexes
+  embed_batch_size: 32
+  device:

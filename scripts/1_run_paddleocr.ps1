@@ -80,7 +80,7 @@ $ClientImage = Select-FirstValue $env:PADDLEOCRVL_OFFLINE_IMAGE (Get-FlatYamlVal
 $VolumeName = Select-FirstValue $env:PADDLEOCRVL_MODEL_VOLUME (Get-FlatYamlValue -Path $AppConfig -Keys @("paddleocrvl_model_volume", "ModelVolume")) $DefaultPaddleOcrVlModelVolume
 $ContainerModelDir = Select-FirstValue $env:PADDLEOCRVL_CONTAINER_MODEL_DIR (Get-FlatYamlValue -Path $AppConfig -Keys @("paddleocrvl_container_model_dir", "ModelDir")) $DefaultPaddleOcrVlContainerModelDir
 $ConfiguredLocalModelDir = Get-FlatYamlValue -Path $AppConfig -Keys @("paddleocrvl_local_model_dir", "LocalModelDir")
-$LocalModelDir = Select-FirstValue $env:PADDLEOCRVL_LOCAL_MODEL_DIR (Resolve-ProjectPath $ConfiguredLocalModelDir $ProjectRoot) (Join-Path $ProjectRoot "models\PaddleOCR-VL-1.6") "C:\Users\37945\Desktop\project1\Ocrscript\models\PaddleOCR-VL-1.6"
+$LocalModelDir = Select-FirstValue $env:PADDLEOCRVL_LOCAL_MODEL_DIR (Resolve-ProjectPath $ConfiguredLocalModelDir $ProjectRoot) (Join-Path $ProjectRoot "models\PaddleOCR-VL-1.6")
 
 $ServerUrlForHost = Select-FirstValue $ServerUrlForHost $env:OCR_VLM_HOST_MODELS_URL "http://localhost:$Port/v1/models"
 $ServerUrlForContainer = Select-FirstValue $ServerUrlForContainer $env:OCR_VLM_SERVER_URL "http://host.docker.internal:$Port/v1"
