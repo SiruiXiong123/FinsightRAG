@@ -1,0 +1,1803 @@
+{
+    "input_path": "/workspace/work/data/input/MorganStanleyQ10.pdf",
+    "page_index": 69,
+    "page_count": 77,
+    "width": 1224,
+    "height": 1584,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "header",
+            "block_content": "Table of Contents",
+            "block_bbox": [
+                82,
+                28,
+                232,
+                51
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "block_polygon_points": [
+                [
+                    82.0,
+                    28.0
+                ],
+                [
+                    232.0,
+                    28.0
+                ],
+                [
+                    232.0,
+                    51.0
+                ],
+                [
+                    82.0,
+                    51.0
+                ]
+            ]
+        },
+        {
+            "block_label": "header",
+            "block_content": "Morgan Stanley",
+            "block_bbox": [
+                931,
+                58,
+                1131,
+                91
+            ],
+            "block_id": 1,
+            "block_order": null,
+            "group_id": 1,
+            "block_polygon_points": [
+                [
+                    931.0,
+                    58.0
+                ],
+                [
+                    1131.0,
+                    58.0
+                ],
+                [
+                    1131.0,
+                    91.0
+                ],
+                [
+                    931.0,
+                    91.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "Notes to Consolidated Financial Statements (Unaudited)",
+            "block_bbox": [
+                82,
+                59,
+                535,
+                114
+            ],
+            "block_id": 2,
+            "block_order": 1,
+            "group_id": 2,
+            "block_polygon_points": [
+                [
+                    82.0,
+                    59.0
+                ],
+                [
+                    535.0,
+                    59.0
+                ],
+                [
+                    535.0,
+                    114.0
+                ],
+                [
+                    82.0,
+                    114.0
+                ]
+            ]
+        },
+        {
+            "block_label": "figure_title",
+            "block_content": "Leveraged-based capital",
+            "block_bbox": [
+                85,
+                122,
+                255,
+                141
+            ],
+            "block_id": 3,
+            "block_order": null,
+            "group_id": 3,
+            "block_polygon_points": [
+                [
+                    85.0,
+                    122.0
+                ],
+                [
+                    254.0,
+                    122.0
+                ],
+                [
+                    254.0,
+                    140.0
+                ],
+                [
+                    85.0,
+                    140.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>in millions</td><td>At March 31, 2026</td><td>At December 31, 2025</td></tr><tr><td>Leveraged-based capital</td><td></td><td></td></tr><tr><td>Adjusted average assets $ ^{1} $</td><td>1,535,246</td><td>1,383,314</td></tr><tr><td>Supplementary leverage exposure $ ^{2} $</td><td>1,876,478</td><td>1,717,775</td></tr><tr><td>Leveraged-based capital ratio</td><td></td><td></td></tr><tr><td>Tier 1 leverage</td><td>6.1%</td><td>6.7%</td></tr><tr><td>SLR</td><td>5.0%</td><td>5.4%</td></tr><tr><td>Required ratio $ ^{3} $</td><td></td><td></td></tr><tr><td>Tier 1 leverage</td><td>4.0%</td><td>4.0%</td></tr><tr><td>SLR $ ^{4} $</td><td>3.5%</td><td>5.0%</td></tr></table>",
+            "block_bbox": [
+                88,
+                144,
+                592,
+                393
+            ],
+            "block_id": 4,
+            "block_order": null,
+            "group_id": 4,
+            "block_polygon_points": [
+                [
+                    88.0,
+                    144.0
+                ],
+                [
+                    592.0,
+                    144.0
+                ],
+                [
+                    592.0,
+                    393.0
+                ],
+                [
+                    88.0,
+                    393.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "1. Adjusted average assets represents the denominator of the Tier 1 leverage ratio and is composed of the average daily balance of consolidated on-balance sheet assets for the quarters ending on the respective balance sheet dates, reduced by disallowed goodwill, intangible assets, investments in covered funds, defined benefit pension plan assets, non-cash after-tax gain on sale from assets sold into securitizations, investments in our own capital instruments, certain deferred tax assets and other capital deductions.",
+            "block_bbox": [
+                87,
+                403,
+                593,
+                514
+            ],
+            "block_id": 5,
+            "block_order": 2,
+            "group_id": 5,
+            "block_polygon_points": [
+                [
+                    87.0,
+                    403.0
+                ],
+                [
+                    593.0,
+                    403.0
+                ],
+                [
+                    593.0,
+                    514.0
+                ],
+                [
+                    87.0,
+                    514.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "2. Supplementary leverage exposure is the sum of Adjusted average assets used in the Tier 1 leverage ratio and other adjustments, primarily: (i) for derivatives, potential future exposure and the effective notional principal amount of sold credit protection offset by qualifying purchased credit protection; (ii) the counterparty credit risk for repo-style transactions; and (iii) the credit equivalent amount for off-balance sheet exposures.",
+            "block_bbox": [
+                86,
+                514,
+                594,
+                607
+            ],
+            "block_id": 6,
+            "block_order": 3,
+            "group_id": 6,
+            "block_polygon_points": [
+                [
+                    86.0,
+                    514.0
+                ],
+                [
+                    594.0,
+                    514.0
+                ],
+                [
+                    594.0,
+                    607.0
+                ],
+                [
+                    86.0,
+                    607.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "3. Required ratios are inclusive of any buffers applicable as of the date presented.",
+            "block_bbox": [
+                85,
+                607,
+                567,
+                623
+            ],
+            "block_id": 7,
+            "block_order": 4,
+            "group_id": 7,
+            "block_polygon_points": [
+                [
+                    85.0,
+                    607.0
+                ],
+                [
+                    566.0,
+                    607.0
+                ],
+                [
+                    566.0,
+                    622.0
+                ],
+                [
+                    85.0,
+                    622.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "4. As of January 1, 2026, the Firm and its U.S. Bank Subsidiaries elected to early adopt the final rulemaking on changes to the enhanced supplementary leverage ratio (\"eSLR\") by the U.S. banking agencies, which removed the eSLR threshold for a covered depository institution to be considered well-capitalized and instead implemented the eSLR as a buffer standard. Under the final rule, the eSLR buffer applicable to U.S. G-SIBs equals 50% of each BHC's Method 1 G-SIB capital surcharge, which equates to 0.5% for the Firm, applied above the 3.0% minimum SLR requirement.",
+            "block_bbox": [
+                86,
+                624,
+                593,
+                746
+            ],
+            "block_id": 8,
+            "block_order": 5,
+            "group_id": 8,
+            "block_polygon_points": [
+                [
+                    86.0,
+                    624.0
+                ],
+                [
+                    593.0,
+                    624.0
+                ],
+                [
+                    593.0,
+                    746.0
+                ],
+                [
+                    86.0,
+                    746.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "U.S. Bank Subsidiaries' Regulatory Capital and Capital Ratios",
+            "block_bbox": [
+                84,
+                767,
+                592,
+                816
+            ],
+            "block_id": 9,
+            "block_order": 6,
+            "group_id": 9,
+            "block_polygon_points": [
+                [
+                    84.0,
+                    767.0
+                ],
+                [
+                    592.0,
+                    767.0
+                ],
+                [
+                    592.0,
+                    816.0
+                ],
+                [
+                    84.0,
+                    816.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "The OCC establishes capital requirements for the U.S. Bank Subsidiaries, and evaluates their compliance with such capital requirements. Regulatory capital requirements for the U.S. Bank Subsidiaries are calculated in a similar manner to the Firm's regulatory capital requirements, although G-SIB capital surcharge and SCB requirements do not apply to the U.S. Bank Subsidiaries.",
+            "block_bbox": [
+                83,
+                834,
+                594,
+                1006
+            ],
+            "block_id": 10,
+            "block_order": 7,
+            "group_id": 10,
+            "block_polygon_points": [
+                [
+                    83.0,
+                    834.0
+                ],
+                [
+                    594.0,
+                    834.0
+                ],
+                [
+                    594.0,
+                    1006.0
+                ],
+                [
+                    83.0,
+                    1006.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "The OCC’s regulatory capital framework includes Prompt Corrective Action (“PCA”) standards, including “well-capitalized” PCA standards that are based on specified regulatory capital ratio minimums. For the Firm to remain an FHC, its U.S. Bank Subsidiaries must remain well-capitalized in accordance with the OCC’s PCA standards. In addition, failure by the U.S. Bank Subsidiaries to meet minimum capital requirements may result in certain mandatory and discretionary actions by regulators that, if undertaken, could have a direct material effect on the U.S. Bank Subsidiaries’ and the Firm’s financial statements.",
+            "block_bbox": [
+                83,
+                1022,
+                594,
+                1289
+            ],
+            "block_id": 11,
+            "block_order": 8,
+            "group_id": 11,
+            "block_polygon_points": [
+                [
+                    83.0,
+                    1022.0
+                ],
+                [
+                    594.0,
+                    1022.0
+                ],
+                [
+                    594.0,
+                    1289.0
+                ],
+                [
+                    83.0,
+                    1289.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "At March 31, 2026 and December 31, 2025, MSBNA and MSPBNA risk-based capital ratios are based on the Standardized Approach rules.",
+            "block_bbox": [
+                84,
+                1305,
+                594,
+                1382
+            ],
+            "block_id": 12,
+            "block_order": 9,
+            "group_id": 12,
+            "block_polygon_points": [
+                [
+                    84.0,
+                    1305.0
+                ],
+                [
+                    594.0,
+                    1305.0
+                ],
+                [
+                    594.0,
+                    1382.0
+                ],
+                [
+                    84.0,
+                    1382.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "MSBNA's Regulatory Capital $ ^{1} $",
+            "block_bbox": [
+                630,
+                121,
+                875,
+                143
+            ],
+            "block_id": 13,
+            "block_order": 10,
+            "group_id": 13,
+            "block_polygon_points": [
+                [
+                    630.0,
+                    121.0
+                ],
+                [
+                    875.0,
+                    121.0
+                ],
+                [
+                    875.0,
+                    143.0
+                ],
+                [
+                    630.0,
+                    143.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td rowspan=\"2\">in millions</td><td rowspan=\"2\">Well-Capitalized Requirement</td><td rowspan=\"2\">Required Ratio $ ^{2} $</td><td colspan=\"2\">At March 31, 2026</td><td colspan=\"2\">At December 31, 2025</td></tr><tr><td>Amount</td><td>Ratio</td><td>Amount</td><td>Ratio</td></tr><tr><td colspan=\"7\">Risk-based capital</td></tr><tr><td>CET1 capital</td><td>6.5 %</td><td>7.0 %</td><td>42,136</td><td>19.5 %</td><td>25,545</td><td>20.3 %</td></tr><tr><td>Tier 1 capital</td><td>8.0 %</td><td>8.5 %</td><td>42,136</td><td>19.5 %</td><td>25,545</td><td>20.3 %</td></tr><tr><td>Total capital</td><td>10.0 %</td><td>10.5 %</td><td>43,207</td><td>20.0 %</td><td>26,423</td><td>21.0 %</td></tr><tr><td colspan=\"7\">Leverage-based capital</td></tr><tr><td>Tier 1 leverage</td><td>5.0 %</td><td>4.0 %</td><td>42,136</td><td>11.0 %</td><td>25,545</td><td>10.1 %</td></tr><tr><td>SLR $ ^{3,4} $</td><td>N/A</td><td>3.5 %</td><td>42,136</td><td>7.4 %</td><td>25,545</td><td>7.6 %</td></tr></table>",
+            "block_bbox": [
+                632,
+                152,
+                1145,
+                367
+            ],
+            "block_id": 14,
+            "block_order": null,
+            "group_id": 14,
+            "block_polygon_points": [
+                [
+                    632.0,
+                    152.0
+                ],
+                [
+                    1145.0,
+                    152.0
+                ],
+                [
+                    1145.0,
+                    367.0
+                ],
+                [
+                    632.0,
+                    367.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "MSPBNA's Regulatory Capital",
+            "block_bbox": [
+                630,
+                396,
+                882,
+                419
+            ],
+            "block_id": 15,
+            "block_order": 11,
+            "group_id": 15,
+            "block_polygon_points": [
+                [
+                    630.0,
+                    396.0
+                ],
+                [
+                    882.0,
+                    396.0
+                ],
+                [
+                    882.0,
+                    419.0
+                ],
+                [
+                    630.0,
+                    419.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td rowspan=\"2\">in millions</td><td rowspan=\"2\">Well-Capitalized Requirement</td><td rowspan=\"2\">Required Ratio $ ^{2} $</td><td colspan=\"2\">At March 31, 2026</td><td colspan=\"2\">At December 31, 2025</td></tr><tr><td>Amount</td><td>Ratio</td><td>Amount</td><td>Ratio</td></tr><tr><td colspan=\"7\">Risk-based capital</td></tr><tr><td>CET1 capital</td><td>6.5 %</td><td>7.0 %</td><td>18,052</td><td>27.1 %</td><td>17,298</td><td>26.1 %</td></tr><tr><td>Tier 1 capital</td><td>8.0 %</td><td>8.5 %</td><td>18,052</td><td>27.1 %</td><td>17,298</td><td>26.1 %</td></tr><tr><td>Total capital</td><td>10.0 %</td><td>10.5 %</td><td>18,416</td><td>27.7 %</td><td>17,665</td><td>26.6 %</td></tr><tr><td colspan=\"7\">Leverage-based capital</td></tr><tr><td>Tier 1 leverage</td><td>5.0 %</td><td>4.0 %</td><td>18,052</td><td>7.0 %</td><td>17,298</td><td>7.0 %</td></tr><tr><td>SLR $ ^{3,4} $</td><td>N/A</td><td>3.5 %</td><td>18,052</td><td>6.9 %</td><td>17,298</td><td>6.8 %</td></tr></table>",
+            "block_bbox": [
+                632,
+                427,
+                1145,
+                640
+            ],
+            "block_id": 16,
+            "block_order": null,
+            "group_id": 16,
+            "block_polygon_points": [
+                [
+                    632.0,
+                    427.0
+                ],
+                [
+                    1145.0,
+                    427.0
+                ],
+                [
+                    1145.0,
+                    640.0
+                ],
+                [
+                    632.0,
+                    640.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "1. MSBNA's regulatory capital and capital ratios are presented as historically reported and have not been retrospectively adjusted to reflect the merger of the MSCS fixed income business into MSBNA and MSBNA's acquisition of MSESE in the first quarter of 2026, as the Firm assesses these measures based on the legal-entity structures in effect during the applicable period.",
+            "block_bbox": [
+                631,
+                647,
+                1140,
+                726
+            ],
+            "block_id": 17,
+            "block_order": 12,
+            "group_id": 17,
+            "block_polygon_points": [
+                [
+                    631.0,
+                    647.0
+                ],
+                [
+                    1140.0,
+                    647.0
+                ],
+                [
+                    1140.0,
+                    726.0
+                ],
+                [
+                    631.0,
+                    726.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "2. Required ratios are inclusive of any buffers applicable as of the date presented. Failure to maintain the buffers would result in restrictions on the ability to make capital distributions, including the payment of dividends.",
+            "block_bbox": [
+                629,
+                725,
+                1137,
+                774
+            ],
+            "block_id": 18,
+            "block_order": 13,
+            "group_id": 18,
+            "block_polygon_points": [
+                [
+                    629.0,
+                    725.0
+                ],
+                [
+                    1137.0,
+                    725.0
+                ],
+                [
+                    1137.0,
+                    774.0
+                ],
+                [
+                    629.0,
+                    774.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "3. Beginning January 1, 2026, MSBNA and MSPBNA were subject to a 3.5% SLR standard (inclusive of a 0.5% eSLR buffer based on Method 1 G-SIB capital surcharge of 1.0%). The eSLR buffer applicable to U.S. G-SIBs $ ^{1} $ insured depository institution subsidiaries has the same form and calibration as the BHC-level standard but is capped at 1.0%, applied above the 3.0% minimum SLR requirement.",
+            "block_bbox": [
+                629,
+                773,
+                1137,
+                850
+            ],
+            "block_id": 19,
+            "block_order": 14,
+            "group_id": 19,
+            "block_polygon_points": [
+                [
+                    629.0,
+                    773.0
+                ],
+                [
+                    1137.0,
+                    773.0
+                ],
+                [
+                    1137.0,
+                    850.0
+                ],
+                [
+                    629.0,
+                    850.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "4. As of December 31, 2025, the SLR well-capitalized requirement and required ratio was 6.0% and 3.0%, respectively, for both MSBNA and MSPBNA.",
+            "block_bbox": [
+                629,
+                850,
+                1138,
+                885
+            ],
+            "block_id": 20,
+            "block_order": 15,
+            "group_id": 20,
+            "block_polygon_points": [
+                [
+                    629.0,
+                    850.0
+                ],
+                [
+                    1138.0,
+                    850.0
+                ],
+                [
+                    1138.0,
+                    885.0
+                ],
+                [
+                    629.0,
+                    885.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Additionally, MSBNA is conditionally registered with the SEC as a security-based swap dealer and is registered with the CFTC as a swap dealer. However, as MSBNA is prudentially regulated as a bank, its capital requirements continue to be determined by the OCC.",
+            "block_bbox": [
+                627,
+                900,
+                1139,
+                1023
+            ],
+            "block_id": 21,
+            "block_order": 16,
+            "group_id": 21,
+            "block_polygon_points": [
+                [
+                    627.0,
+                    900.0
+                ],
+                [
+                    1139.0,
+                    900.0
+                ],
+                [
+                    1139.0,
+                    1023.0
+                ],
+                [
+                    627.0,
+                    1023.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "Other Regulatory Capital Requirements",
+            "block_bbox": [
+                629,
+                1038,
+                983,
+                1063
+            ],
+            "block_id": 22,
+            "block_order": 17,
+            "group_id": 22,
+            "block_polygon_points": [
+                [
+                    629.0,
+                    1038.0
+                ],
+                [
+                    983.0,
+                    1038.0
+                ],
+                [
+                    983.0,
+                    1063.0
+                ],
+                [
+                    629.0,
+                    1063.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "MS&Co. Regulatory Capital",
+            "block_bbox": [
+                629,
+                1077,
+                859,
+                1102
+            ],
+            "block_id": 23,
+            "block_order": 18,
+            "group_id": 23,
+            "block_polygon_points": [
+                [
+                    629.0,
+                    1077.0
+                ],
+                [
+                    859.0,
+                    1077.0
+                ],
+                [
+                    859.0,
+                    1102.0
+                ],
+                [
+                    629.0,
+                    1102.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td></td><td>At March 31, 2026</td><td>At December 31, 2025</td></tr><tr><td>Net capital</td><td>$ 19,088</td><td>$ 19,272</td></tr><tr><td>Excess net capital</td><td>13,283</td><td>13,905</td></tr></table>",
+            "block_bbox": [
+                631,
+                1108,
+                1136,
+                1192
+            ],
+            "block_id": 24,
+            "block_order": null,
+            "group_id": 24,
+            "block_polygon_points": [
+                [
+                    631.0,
+                    1108.0
+                ],
+                [
+                    1136.0,
+                    1108.0
+                ],
+                [
+                    1136.0,
+                    1192.0
+                ],
+                [
+                    631.0,
+                    1192.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "MS&Co. is registered as a broker-dealer and a futures commission merchant with the SEC and the CFTC, respectively, and is registered as a swap dealer with the CFTC.",
+            "block_bbox": [
+                627,
+                1213,
+                1138,
+                1312
+            ],
+            "block_id": 25,
+            "block_order": 19,
+            "group_id": 25,
+            "block_polygon_points": [
+                [
+                    627.0,
+                    1213.0
+                ],
+                [
+                    1138.0,
+                    1213.0
+                ],
+                [
+                    1138.0,
+                    1312.0
+                ],
+                [
+                    627.0,
+                    1312.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "As an Alternative Net Capital broker-dealer, and in accordance with Securities Exchange Act of 1934 (\"Exchange Act\") Rule 15c3-1, Appendix E, MS&Co. is subject to minimum net capital and tentative net capital requirements and operates with capital in excess of its regulatory capital requirements. As a futures commission merchant and registered swap dealer, MS&Co. is subject to CFTC capital",
+            "block_bbox": [
+                627,
+                1327,
+                1139,
+                1499
+            ],
+            "block_id": 26,
+            "block_order": 20,
+            "group_id": 26,
+            "block_polygon_points": [
+                [
+                    627.0,
+                    1327.0
+                ],
+                [
+                    1139.0,
+                    1327.0
+                ],
+                [
+                    1139.0,
+                    1499.0
+                ],
+                [
+                    627.0,
+                    1499.0
+                ]
+            ]
+        },
+        {
+            "block_label": "footer",
+            "block_content": "March 2026 Form 10-Q",
+            "block_bbox": [
+                94,
+                1523,
+                273,
+                1545
+            ],
+            "block_id": 27,
+            "block_order": null,
+            "group_id": 27,
+            "block_polygon_points": [
+                [
+                    94.0,
+                    1523.0
+                ],
+                [
+                    272.0,
+                    1523.0
+                ],
+                [
+                    272.0,
+                    1544.0
+                ],
+                [
+                    94.0,
+                    1544.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "70",
+            "block_bbox": [
+                605,
+                1524,
+                628,
+                1544
+            ],
+            "block_id": 28,
+            "block_order": null,
+            "group_id": 28,
+            "block_polygon_points": [
+                [
+                    605.0,
+                    1524.0
+                ],
+                [
+                    627.0,
+                    1524.0
+                ],
+                [
+                    627.0,
+                    1543.0
+                ],
+                [
+                    605.0,
+                    1543.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.7660762071609497,
+                "coordinate": [
+                    82,
+                    28,
+                    232,
+                    51
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        82.0,
+                        28.0
+                    ],
+                    [
+                        232.0,
+                        28.0
+                    ],
+                    [
+                        232.0,
+                        51.0
+                    ],
+                    [
+                        82.0,
+                        51.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.8644359111785889,
+                "coordinate": [
+                    931,
+                    58,
+                    1131,
+                    91
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        931.0,
+                        58.0
+                    ],
+                    [
+                        1131.0,
+                        58.0
+                    ],
+                    [
+                        1131.0,
+                        91.0
+                    ],
+                    [
+                        931.0,
+                        91.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.6253841519355774,
+                "coordinate": [
+                    82,
+                    59,
+                    535,
+                    114
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        82.0,
+                        59.0
+                    ],
+                    [
+                        535.0,
+                        59.0
+                    ],
+                    [
+                        535.0,
+                        114.0
+                    ],
+                    [
+                        82.0,
+                        114.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 7,
+                "label": "figure_title",
+                "score": 0.344428151845932,
+                "coordinate": [
+                    85,
+                    122,
+                    255,
+                    141
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        85.0,
+                        122.0
+                    ],
+                    [
+                        254.0,
+                        122.0
+                    ],
+                    [
+                        254.0,
+                        140.0
+                    ],
+                    [
+                        85.0,
+                        140.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9541839361190796,
+                "coordinate": [
+                    88,
+                    144,
+                    592,
+                    393
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        88.0,
+                        144.0
+                    ],
+                    [
+                        592.0,
+                        144.0
+                    ],
+                    [
+                        592.0,
+                        393.0
+                    ],
+                    [
+                        88.0,
+                        393.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9396971464157104,
+                "coordinate": [
+                    87,
+                    403,
+                    593,
+                    514
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        87.0,
+                        403.0
+                    ],
+                    [
+                        593.0,
+                        403.0
+                    ],
+                    [
+                        593.0,
+                        514.0
+                    ],
+                    [
+                        87.0,
+                        514.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9229568243026733,
+                "coordinate": [
+                    86,
+                    514,
+                    594,
+                    607
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        86.0,
+                        514.0
+                    ],
+                    [
+                        594.0,
+                        514.0
+                    ],
+                    [
+                        594.0,
+                        607.0
+                    ],
+                    [
+                        86.0,
+                        607.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7713425755500793,
+                "coordinate": [
+                    85,
+                    607,
+                    567,
+                    623
+                ],
+                "order": 4,
+                "polygon_points": [
+                    [
+                        85.0,
+                        607.0
+                    ],
+                    [
+                        566.0,
+                        607.0
+                    ],
+                    [
+                        566.0,
+                        622.0
+                    ],
+                    [
+                        85.0,
+                        622.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9320762753486633,
+                "coordinate": [
+                    86,
+                    624,
+                    593,
+                    746
+                ],
+                "order": 5,
+                "polygon_points": [
+                    [
+                        86.0,
+                        624.0
+                    ],
+                    [
+                        593.0,
+                        624.0
+                    ],
+                    [
+                        593.0,
+                        746.0
+                    ],
+                    [
+                        86.0,
+                        746.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8910441994667053,
+                "coordinate": [
+                    84,
+                    767,
+                    592,
+                    816
+                ],
+                "order": 6,
+                "polygon_points": [
+                    [
+                        84.0,
+                        767.0
+                    ],
+                    [
+                        592.0,
+                        767.0
+                    ],
+                    [
+                        592.0,
+                        816.0
+                    ],
+                    [
+                        84.0,
+                        816.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9573211669921875,
+                "coordinate": [
+                    83,
+                    834,
+                    594,
+                    1006
+                ],
+                "order": 7,
+                "polygon_points": [
+                    [
+                        83.0,
+                        834.0
+                    ],
+                    [
+                        594.0,
+                        834.0
+                    ],
+                    [
+                        594.0,
+                        1006.0
+                    ],
+                    [
+                        83.0,
+                        1006.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9637430310249329,
+                "coordinate": [
+                    83,
+                    1022,
+                    594,
+                    1289
+                ],
+                "order": 8,
+                "polygon_points": [
+                    [
+                        83.0,
+                        1022.0
+                    ],
+                    [
+                        594.0,
+                        1022.0
+                    ],
+                    [
+                        594.0,
+                        1289.0
+                    ],
+                    [
+                        83.0,
+                        1289.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9282661080360413,
+                "coordinate": [
+                    84,
+                    1305,
+                    594,
+                    1382
+                ],
+                "order": 9,
+                "polygon_points": [
+                    [
+                        84.0,
+                        1305.0
+                    ],
+                    [
+                        594.0,
+                        1305.0
+                    ],
+                    [
+                        594.0,
+                        1382.0
+                    ],
+                    [
+                        84.0,
+                        1382.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.48790037631988525,
+                "coordinate": [
+                    630,
+                    121,
+                    875,
+                    143
+                ],
+                "order": 10,
+                "polygon_points": [
+                    [
+                        630.0,
+                        121.0
+                    ],
+                    [
+                        875.0,
+                        121.0
+                    ],
+                    [
+                        875.0,
+                        143.0
+                    ],
+                    [
+                        630.0,
+                        143.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.950207531452179,
+                "coordinate": [
+                    632,
+                    152,
+                    1145,
+                    367
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        632.0,
+                        152.0
+                    ],
+                    [
+                        1145.0,
+                        152.0
+                    ],
+                    [
+                        1145.0,
+                        367.0
+                    ],
+                    [
+                        632.0,
+                        367.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.4213797450065613,
+                "coordinate": [
+                    630,
+                    396,
+                    882,
+                    419
+                ],
+                "order": 11,
+                "polygon_points": [
+                    [
+                        630.0,
+                        396.0
+                    ],
+                    [
+                        882.0,
+                        396.0
+                    ],
+                    [
+                        882.0,
+                        419.0
+                    ],
+                    [
+                        630.0,
+                        419.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9301618337631226,
+                "coordinate": [
+                    632,
+                    427,
+                    1145,
+                    640
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        632.0,
+                        427.0
+                    ],
+                    [
+                        1145.0,
+                        427.0
+                    ],
+                    [
+                        1145.0,
+                        640.0
+                    ],
+                    [
+                        632.0,
+                        640.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8679320216178894,
+                "coordinate": [
+                    631,
+                    647,
+                    1140,
+                    726
+                ],
+                "order": 12,
+                "polygon_points": [
+                    [
+                        631.0,
+                        647.0
+                    ],
+                    [
+                        1140.0,
+                        647.0
+                    ],
+                    [
+                        1140.0,
+                        726.0
+                    ],
+                    [
+                        631.0,
+                        726.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.858771562576294,
+                "coordinate": [
+                    629,
+                    725,
+                    1137,
+                    774
+                ],
+                "order": 13,
+                "polygon_points": [
+                    [
+                        629.0,
+                        725.0
+                    ],
+                    [
+                        1137.0,
+                        725.0
+                    ],
+                    [
+                        1137.0,
+                        774.0
+                    ],
+                    [
+                        629.0,
+                        774.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8362942337989807,
+                "coordinate": [
+                    629,
+                    773,
+                    1137,
+                    850
+                ],
+                "order": 14,
+                "polygon_points": [
+                    [
+                        629.0,
+                        773.0
+                    ],
+                    [
+                        1137.0,
+                        773.0
+                    ],
+                    [
+                        1137.0,
+                        850.0
+                    ],
+                    [
+                        629.0,
+                        850.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7659428119659424,
+                "coordinate": [
+                    629,
+                    850,
+                    1138,
+                    885
+                ],
+                "order": 15,
+                "polygon_points": [
+                    [
+                        629.0,
+                        850.0
+                    ],
+                    [
+                        1138.0,
+                        850.0
+                    ],
+                    [
+                        1138.0,
+                        885.0
+                    ],
+                    [
+                        629.0,
+                        885.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9440084099769592,
+                "coordinate": [
+                    627,
+                    900,
+                    1139,
+                    1023
+                ],
+                "order": 16,
+                "polygon_points": [
+                    [
+                        627.0,
+                        900.0
+                    ],
+                    [
+                        1139.0,
+                        900.0
+                    ],
+                    [
+                        1139.0,
+                        1023.0
+                    ],
+                    [
+                        627.0,
+                        1023.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.4804306924343109,
+                "coordinate": [
+                    629,
+                    1038,
+                    983,
+                    1063
+                ],
+                "order": 17,
+                "polygon_points": [
+                    [
+                        629.0,
+                        1038.0
+                    ],
+                    [
+                        983.0,
+                        1038.0
+                    ],
+                    [
+                        983.0,
+                        1063.0
+                    ],
+                    [
+                        629.0,
+                        1063.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.512988269329071,
+                "coordinate": [
+                    629,
+                    1077,
+                    859,
+                    1102
+                ],
+                "order": 18,
+                "polygon_points": [
+                    [
+                        629.0,
+                        1077.0
+                    ],
+                    [
+                        859.0,
+                        1077.0
+                    ],
+                    [
+                        859.0,
+                        1102.0
+                    ],
+                    [
+                        629.0,
+                        1102.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.8977919816970825,
+                "coordinate": [
+                    631,
+                    1108,
+                    1136,
+                    1192
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        631.0,
+                        1108.0
+                    ],
+                    [
+                        1136.0,
+                        1108.0
+                    ],
+                    [
+                        1136.0,
+                        1192.0
+                    ],
+                    [
+                        631.0,
+                        1192.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.928177535533905,
+                "coordinate": [
+                    627,
+                    1213,
+                    1138,
+                    1312
+                ],
+                "order": 19,
+                "polygon_points": [
+                    [
+                        627.0,
+                        1213.0
+                    ],
+                    [
+                        1138.0,
+                        1213.0
+                    ],
+                    [
+                        1138.0,
+                        1312.0
+                    ],
+                    [
+                        627.0,
+                        1312.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9555840492248535,
+                "coordinate": [
+                    627,
+                    1327,
+                    1139,
+                    1499
+                ],
+                "order": 20,
+                "polygon_points": [
+                    [
+                        627.0,
+                        1327.0
+                    ],
+                    [
+                        1139.0,
+                        1327.0
+                    ],
+                    [
+                        1139.0,
+                        1499.0
+                    ],
+                    [
+                        627.0,
+                        1499.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.8583911061286926,
+                "coordinate": [
+                    94,
+                    1523,
+                    273,
+                    1545
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        94.0,
+                        1523.0
+                    ],
+                    [
+                        272.0,
+                        1523.0
+                    ],
+                    [
+                        272.0,
+                        1544.0
+                    ],
+                    [
+                        94.0,
+                        1544.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.7410344481468201,
+                "coordinate": [
+                    605,
+                    1524,
+                    628,
+                    1544
+                ],
+                "order": 21,
+                "polygon_points": [
+                    [
+                        605.0,
+                        1524.0
+                    ],
+                    [
+                        627.0,
+                        1524.0
+                    ],
+                    [
+                        627.0,
+                        1543.0
+                    ],
+                    [
+                        605.0,
+                        1543.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

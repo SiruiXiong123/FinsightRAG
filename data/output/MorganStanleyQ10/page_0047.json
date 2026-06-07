@@ -1,0 +1,644 @@
+{
+    "input_path": "/workspace/work/data/input/MorganStanleyQ10.pdf",
+    "page_index": 46,
+    "page_count": 77,
+    "width": 1224,
+    "height": 1584,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "header",
+            "block_content": "Table of Contents",
+            "block_bbox": [
+                83,
+                27,
+                232,
+                51
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "block_polygon_points": [
+                [
+                    83.0,
+                    27.0
+                ],
+                [
+                    232.0,
+                    27.0
+                ],
+                [
+                    232.0,
+                    51.0
+                ],
+                [
+                    83.0,
+                    51.0
+                ]
+            ]
+        },
+        {
+            "block_label": "header",
+            "block_content": "Morgan Stanley",
+            "block_bbox": [
+                932,
+                57,
+                1131,
+                91
+            ],
+            "block_id": 1,
+            "block_order": null,
+            "group_id": 1,
+            "block_polygon_points": [
+                [
+                    932.0,
+                    57.0
+                ],
+                [
+                    1131.0,
+                    57.0
+                ],
+                [
+                    1131.0,
+                    91.0
+                ],
+                [
+                    932.0,
+                    91.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "Notes to Consolidated Financial Statements (Unaudited)",
+            "block_bbox": [
+                82,
+                58,
+                535,
+                114
+            ],
+            "block_id": 2,
+            "block_order": 1,
+            "group_id": 2,
+            "block_polygon_points": [
+                [
+                    82.0,
+                    58.0
+                ],
+                [
+                    535.0,
+                    58.0
+                ],
+                [
+                    535.0,
+                    114.0
+                ],
+                [
+                    82.0,
+                    114.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td></td><td colspan=\"2\">Three Months Ended March 31,</td></tr><tr><td>$ in millions</td><td>2026</td><td>2025</td></tr><tr><td>Investments</td><td></td><td></td></tr><tr><td>Beginning balance</td><td>$ 1,507</td><td>$ 754</td></tr><tr><td>Realized and unrealized gains (losses)</td><td>12</td><td>22</td></tr><tr><td>Purchases</td><td>79</td><td>24</td></tr><tr><td>Sales</td><td>(15)</td><td>(25)</td></tr><tr><td>Net transfers</td><td>4</td><td>4</td></tr><tr><td>Ending balance</td><td>$ 1,587</td><td>$ 779</td></tr><tr><td>Unrealized gains (losses)</td><td>$ 7</td><td>$ 10</td></tr><tr><td>Net derivatives: Interest rate</td><td></td><td></td></tr><tr><td>Beginning balance</td><td>$ (154)</td><td>$ (53)</td></tr><tr><td>Realized and unrealized gains (losses)</td><td>31</td><td>(119)</td></tr><tr><td>Purchases</td><td>92</td><td>10</td></tr><tr><td>Issuances</td><td>(78)</td><td>(12)</td></tr><tr><td>Settlements</td><td>(62)</td><td>18</td></tr><tr><td>Net transfers</td><td>20</td><td>33</td></tr><tr><td>Ending balance</td><td>$ (151)</td><td>$ (123)</td></tr><tr><td>Unrealized gains (losses)</td><td>$ (10)</td><td>$ (116)</td></tr><tr><td>Net derivatives: Credit</td><td></td><td></td></tr><tr><td>Beginning balance</td><td>$ 87</td><td>$ 97</td></tr><tr><td>Realized and unrealized gains (losses)</td><td>14</td><td>(22)</td></tr><tr><td>Issuances</td><td>(1)</td><td>—</td></tr><tr><td>Settlements</td><td>42</td><td>34</td></tr><tr><td>Net transfers</td><td>6</td><td>20</td></tr><tr><td>Ending balance</td><td>$ 148</td><td>$ 129</td></tr><tr><td>Unrealized gains (losses)</td><td>$ 5</td><td>$ (54)</td></tr><tr><td>Net derivatives: Foreign exchange</td><td></td><td></td></tr><tr><td>Beginning balance</td><td>$ 36</td><td>$ 589</td></tr><tr><td>Realized and unrealized gains (losses)</td><td>(77)</td><td>(243)</td></tr><tr><td>Settlements</td><td>47</td><td>(30)</td></tr><tr><td>Net transfers</td><td>(50)</td><td>(11)</td></tr><tr><td>Ending balance</td><td>$ (44)</td><td>$ 305</td></tr><tr><td>Unrealized gains (losses)</td><td>$ (79)</td><td>$ (201)</td></tr><tr><td>Net derivatives: Equity</td><td></td><td></td></tr><tr><td>Beginning balance</td><td>$ (1,433)</td><td>$ (1,148)</td></tr><tr><td>Realized and unrealized gains (losses)</td><td>547</td><td>380</td></tr><tr><td>Purchases</td><td>102</td><td>175</td></tr><tr><td>Issuances</td><td>(308)</td><td>(144)</td></tr><tr><td>Settlements</td><td>(200)</td><td>(288)</td></tr><tr><td>Net transfers</td><td>(23)</td><td>140</td></tr><tr><td>Ending balance</td><td>$ (1,315)</td><td>$ (885)</td></tr><tr><td>Unrealized gains (losses)</td><td>$ 411</td><td>$ 298</td></tr><tr><td>Net derivatives: Commodity and other</td><td></td><td></td></tr><tr><td>Beginning balance</td><td>$ 920</td><td>$ 1,308</td></tr><tr><td>Realized and unrealized gains (losses)</td><td>386</td><td>23</td></tr><tr><td>Purchases</td><td>38</td><td>22</td></tr><tr><td>Issuances</td><td>(405)</td><td>(22)</td></tr><tr><td>Settlements</td><td>74</td><td>(64)</td></tr><tr><td>Net transfers</td><td>207</td><td>(405)</td></tr><tr><td>Ending balance</td><td>$ 1,220</td><td>$ 862</td></tr><tr><td>Unrealized gains (losses)</td><td>$ 591</td><td>$ (5)</td></tr><tr><td>Deposits</td><td></td><td></td></tr><tr><td>Beginning balance</td><td>$ 1</td><td>$ 1</td></tr><tr><td>Issuances</td><td>—</td><td>2</td></tr><tr><td>Settlements</td><td>—</td><td>(1)</td></tr><tr><td>Net transfers</td><td>—</td><td>1</td></tr><tr><td>Ending balance</td><td>$ 1</td><td>$ 3</td></tr><tr><td>Unrealized losses (gains)</td><td>$ —</td><td>$ —</td></tr></table>",
+            "block_bbox": [
+                87,
+                127,
+                594,
+                1466
+            ],
+            "block_id": 3,
+            "block_order": null,
+            "group_id": 3,
+            "block_polygon_points": [
+                [
+                    87.0,
+                    127.0
+                ],
+                [
+                    594.0,
+                    127.0
+                ],
+                [
+                    594.0,
+                    1466.0
+                ],
+                [
+                    87.0,
+                    1466.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td></td><td colspan=\"2\">Three Months Ended March 31,</td></tr><tr><td>$ in millions</td><td>2026</td><td>2025</td></tr><tr><td>Nonderivative trading liabilities</td><td></td><td></td></tr><tr><td>Beginning balance</td><td>$ 82</td><td>$ 110</td></tr><tr><td>Realized and unrealized losses (gains)</td><td>(3)</td><td>(4)</td></tr><tr><td>Purchases</td><td>(23)</td><td>(26)</td></tr><tr><td>Sales</td><td>18</td><td>25</td></tr><tr><td>Net transfers</td><td>(1)</td><td>(77)</td></tr><tr><td>Ending balance</td><td>$ 73</td><td>$ 28</td></tr><tr><td>Unrealized losses (gains)</td><td>$ (2)</td><td>$ —</td></tr><tr><td>Securities sold under agreements to repurchase</td><td></td><td></td></tr><tr><td>Beginning balance</td><td>$ 445</td><td>$ 444</td></tr><tr><td>Realized and unrealized losses (gains)</td><td>4</td><td>13</td></tr><tr><td>Net transfers</td><td>—</td><td>203</td></tr><tr><td>Ending balance</td><td>$ 449</td><td>$ 660</td></tr><tr><td>Unrealized losses (gains)</td><td>$ 4</td><td>$ 13</td></tr><tr><td>Other secured financings</td><td></td><td></td></tr><tr><td>Beginning balance</td><td>$ 306</td><td>$ 76</td></tr><tr><td>Realized and unrealized losses (gains)</td><td>—</td><td>10</td></tr><tr><td>Issuances</td><td>32</td><td>139</td></tr><tr><td>Settlements</td><td>(155)</td><td>(5)</td></tr><tr><td>Net transfers</td><td>(2)</td><td>215</td></tr><tr><td>Ending balance</td><td>$ 181</td><td>$ 435</td></tr><tr><td>Unrealized losses (gains)</td><td>$ —</td><td>$ 10</td></tr><tr><td>Borrowings</td><td></td><td></td></tr><tr><td>Beginning balance</td><td>$ 608</td><td>$ 947</td></tr><tr><td>Realized and unrealized losses (gains)</td><td>(58)</td><td>7</td></tr><tr><td>Issuances</td><td>287</td><td>91</td></tr><tr><td>Settlements</td><td>(50)</td><td>(86)</td></tr><tr><td>Net transfers</td><td>150</td><td>(57)</td></tr><tr><td>Ending balance</td><td>$ 937</td><td>$ 902</td></tr><tr><td>Unrealized losses (gains)</td><td>$ (57)</td><td>$ 3</td></tr><tr><td>Portion of Unrealized losses (gains) recorded in OCI—Change in net DVA</td><td>1</td><td>(2)</td></tr></table>",
+            "block_bbox": [
+                631,
+                126,
+                1137,
+                900
+            ],
+            "block_id": 4,
+            "block_order": null,
+            "group_id": 4,
+            "block_polygon_points": [
+                [
+                    631.0,
+                    126.0
+                ],
+                [
+                    1137.0,
+                    126.0
+                ],
+                [
+                    1137.0,
+                    900.0
+                ],
+                [
+                    631.0,
+                    900.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Level 3 instruments may be hedged with instruments classified in Level 1 and Level 2. The realized and unrealized gains or losses for assets and liabilities within the Level 3 category presented in the previous tables do not reflect the related realized and unrealized gains or losses on hedging instruments that have been classified by the Firm within the Level 1 and/or Level 2 categories.",
+            "block_bbox": [
+                626,
+                925,
+                1139,
+                1098
+            ],
+            "block_id": 5,
+            "block_order": 2,
+            "group_id": 5,
+            "block_polygon_points": [
+                [
+                    626.0,
+                    925.0
+                ],
+                [
+                    1139.0,
+                    925.0
+                ],
+                [
+                    1139.0,
+                    1098.0
+                ],
+                [
+                    626.0,
+                    1098.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "The unrealized gains (losses) during the period for assets and liabilities within the Level 3 category may include changes in fair value during the period that were attributable to both observable and unobservable inputs. Total realized and unrealized gains (losses) are primarily included in Trading revenues in the income statement.",
+            "block_bbox": [
+                627,
+                1112,
+                1139,
+                1262
+            ],
+            "block_id": 6,
+            "block_order": 3,
+            "group_id": 6,
+            "block_polygon_points": [
+                [
+                    627.0,
+                    1112.0
+                ],
+                [
+                    1139.0,
+                    1112.0
+                ],
+                [
+                    1139.0,
+                    1262.0
+                ],
+                [
+                    627.0,
+                    1262.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Additionally, in the previous tables, consolidations of VIEs are included in Purchases, and deconsolidations of VIEs are included in Settlements.",
+            "block_bbox": [
+                629,
+                1276,
+                1139,
+                1352
+            ],
+            "block_id": 7,
+            "block_order": 4,
+            "group_id": 7,
+            "block_polygon_points": [
+                [
+                    629.0,
+                    1276.0
+                ],
+                [
+                    1139.0,
+                    1276.0
+                ],
+                [
+                    1139.0,
+                    1352.0
+                ],
+                [
+                    629.0,
+                    1352.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "47",
+            "block_bbox": [
+                604,
+                1524,
+                628,
+                1544
+            ],
+            "block_id": 8,
+            "block_order": null,
+            "group_id": 8,
+            "block_polygon_points": [
+                [
+                    604.0,
+                    1524.0
+                ],
+                [
+                    627.0,
+                    1524.0
+                ],
+                [
+                    627.0,
+                    1543.0
+                ],
+                [
+                    604.0,
+                    1543.0
+                ]
+            ]
+        },
+        {
+            "block_label": "footer",
+            "block_content": "March 2026 Form 10-Q",
+            "block_bbox": [
+                960,
+                1522,
+                1138,
+                1545
+            ],
+            "block_id": 9,
+            "block_order": null,
+            "group_id": 9,
+            "block_polygon_points": [
+                [
+                    960.0,
+                    1522.0
+                ],
+                [
+                    1138.0,
+                    1522.0
+                ],
+                [
+                    1138.0,
+                    1545.0
+                ],
+                [
+                    960.0,
+                    1545.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.6982213854789734,
+                "coordinate": [
+                    83,
+                    27,
+                    232,
+                    51
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        83.0,
+                        27.0
+                    ],
+                    [
+                        232.0,
+                        27.0
+                    ],
+                    [
+                        232.0,
+                        51.0
+                    ],
+                    [
+                        83.0,
+                        51.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.8363285064697266,
+                "coordinate": [
+                    932,
+                    57,
+                    1131,
+                    91
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        932.0,
+                        57.0
+                    ],
+                    [
+                        1131.0,
+                        57.0
+                    ],
+                    [
+                        1131.0,
+                        91.0
+                    ],
+                    [
+                        932.0,
+                        91.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.5837587714195251,
+                "coordinate": [
+                    82,
+                    58,
+                    535,
+                    114
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        82.0,
+                        58.0
+                    ],
+                    [
+                        535.0,
+                        58.0
+                    ],
+                    [
+                        535.0,
+                        114.0
+                    ],
+                    [
+                        82.0,
+                        114.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9789299964904785,
+                "coordinate": [
+                    87,
+                    127,
+                    594,
+                    1466
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        87.0,
+                        127.0
+                    ],
+                    [
+                        594.0,
+                        127.0
+                    ],
+                    [
+                        594.0,
+                        1466.0
+                    ],
+                    [
+                        87.0,
+                        1466.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9676846861839294,
+                "coordinate": [
+                    631,
+                    126,
+                    1137,
+                    900
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        631.0,
+                        126.0
+                    ],
+                    [
+                        1137.0,
+                        126.0
+                    ],
+                    [
+                        1137.0,
+                        900.0
+                    ],
+                    [
+                        631.0,
+                        900.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9492978453636169,
+                "coordinate": [
+                    626,
+                    925,
+                    1139,
+                    1098
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        626.0,
+                        925.0
+                    ],
+                    [
+                        1139.0,
+                        925.0
+                    ],
+                    [
+                        1139.0,
+                        1098.0
+                    ],
+                    [
+                        626.0,
+                        1098.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.946101725101471,
+                "coordinate": [
+                    627,
+                    1112,
+                    1139,
+                    1262
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        627.0,
+                        1112.0
+                    ],
+                    [
+                        1139.0,
+                        1112.0
+                    ],
+                    [
+                        1139.0,
+                        1262.0
+                    ],
+                    [
+                        627.0,
+                        1262.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9228215217590332,
+                "coordinate": [
+                    629,
+                    1276,
+                    1139,
+                    1352
+                ],
+                "order": 4,
+                "polygon_points": [
+                    [
+                        629.0,
+                        1276.0
+                    ],
+                    [
+                        1139.0,
+                        1276.0
+                    ],
+                    [
+                        1139.0,
+                        1352.0
+                    ],
+                    [
+                        629.0,
+                        1352.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.732782781124115,
+                "coordinate": [
+                    604,
+                    1524,
+                    628,
+                    1544
+                ],
+                "order": 5,
+                "polygon_points": [
+                    [
+                        604.0,
+                        1524.0
+                    ],
+                    [
+                        627.0,
+                        1524.0
+                    ],
+                    [
+                        627.0,
+                        1543.0
+                    ],
+                    [
+                        604.0,
+                        1543.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.8481280207633972,
+                "coordinate": [
+                    960,
+                    1522,
+                    1138,
+                    1545
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        960.0,
+                        1522.0
+                    ],
+                    [
+                        1138.0,
+                        1522.0
+                    ],
+                    [
+                        1138.0,
+                        1545.0
+                    ],
+                    [
+                        960.0,
+                        1545.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

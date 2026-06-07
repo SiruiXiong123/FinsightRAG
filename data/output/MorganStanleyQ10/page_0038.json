@@ -1,0 +1,886 @@
+{
+    "input_path": "/workspace/work/data/input/MorganStanleyQ10.pdf",
+    "page_index": 37,
+    "page_count": 77,
+    "width": 1224,
+    "height": 1584,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "header",
+            "block_content": "Table of Contents",
+            "block_bbox": [
+                79,
+                28,
+                230,
+                51
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "block_polygon_points": [
+                [
+                    79.0,
+                    28.0
+                ],
+                [
+                    230.0,
+                    28.0
+                ],
+                [
+                    230.0,
+                    51.0
+                ],
+                [
+                    79.0,
+                    51.0
+                ]
+            ]
+        },
+        {
+            "block_label": "doc_title",
+            "block_content": "Report of Independent Registered Public Accounting Firm",
+            "block_bbox": [
+                303,
+                132,
+                911,
+                162
+            ],
+            "block_id": 1,
+            "block_order": 1,
+            "group_id": 1,
+            "block_polygon_points": [
+                [
+                    303.0,
+                    132.0
+                ],
+                [
+                    911.0,
+                    132.0
+                ],
+                [
+                    911.0,
+                    162.0
+                ],
+                [
+                    303.0,
+                    162.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "To the Shareholders and the Board of Directors of Morgan Stanley:",
+            "block_bbox": [
+                84,
+                225,
+                634,
+                250
+            ],
+            "block_id": 2,
+            "block_order": 2,
+            "group_id": 2,
+            "block_polygon_points": [
+                [
+                    84.0,
+                    225.0
+                ],
+                [
+                    634.0,
+                    225.0
+                ],
+                [
+                    634.0,
+                    250.0
+                ],
+                [
+                    84.0,
+                    250.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "Results of Review of Interim Financial Information",
+            "block_bbox": [
+                84,
+                269,
+                531,
+                293
+            ],
+            "block_id": 3,
+            "block_order": 3,
+            "group_id": 3,
+            "block_polygon_points": [
+                [
+                    84.0,
+                    269.0
+                ],
+                [
+                    531.0,
+                    269.0
+                ],
+                [
+                    531.0,
+                    293.0
+                ],
+                [
+                    84.0,
+                    293.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "We have reviewed the accompanying condensed consolidated balance sheet of Morgan Stanley and subsidiaries (the \"Firm\") as of March 31, 2026, and the related condensed consolidated income statements, comprehensive income statements, cash flow statements and statements of changes in total equity for the three-month periods ended March 31, 2026 and 2025, and the related notes (collectively referred to as the \"interim financial information\"). Based on our reviews, we are not aware of any material modifications that should be made to the accompanying interim financial information for it to be in conformity with accounting principles generally accepted in the United States of America.",
+            "block_bbox": [
+                84,
+                312,
+                594,
+                603
+            ],
+            "block_id": 4,
+            "block_order": 4,
+            "group_id": 4,
+            "block_polygon_points": [
+                [
+                    84.0,
+                    312.0
+                ],
+                [
+                    594.0,
+                    312.0
+                ],
+                [
+                    594.0,
+                    603.0
+                ],
+                [
+                    84.0,
+                    603.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "We have previously audited, in accordance with the standards of the Public Company Accounting Oversight Board (United States) (PCAOB), the consolidated balance sheet of the Firm as of December 31, 2025, and the related consolidated income statement, comprehensive income statement, cash flow statement and statement of changes in total equity for the year then ended (not presented herein) included in the Firm's Annual Report on Form 10-K; and in our report dated February 19, 2026, we expressed an unqualified opinion on those consolidated financial statements. In our opinion, the information set forth in the accompanying condensed consolidated balance sheet as of December 31, 2025, is fairly stated, in all material respects, in relation to the consolidated balance sheet from which it has been derived.",
+            "block_bbox": [
+                83,
+                621,
+                595,
+                959
+            ],
+            "block_id": 5,
+            "block_order": 5,
+            "group_id": 5,
+            "block_polygon_points": [
+                [
+                    83.0,
+                    621.0
+                ],
+                [
+                    595.0,
+                    621.0
+                ],
+                [
+                    595.0,
+                    959.0
+                ],
+                [
+                    83.0,
+                    959.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "/s/ Deloitte & Touche LLP\nNew York, New York\nMay 5, 2026",
+            "block_bbox": [
+                87,
+                1048,
+                312,
+                1139
+            ],
+            "block_id": 6,
+            "block_order": 6,
+            "group_id": 6,
+            "block_polygon_points": [
+                [
+                    87.0,
+                    1048.0
+                ],
+                [
+                    312.0,
+                    1048.0
+                ],
+                [
+                    312.0,
+                    1139.0
+                ],
+                [
+                    87.0,
+                    1139.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "Basis for Review Results",
+            "block_bbox": [
+                630,
+                269,
+                848,
+                293
+            ],
+            "block_id": 7,
+            "block_order": 7,
+            "group_id": 7,
+            "block_polygon_points": [
+                [
+                    630.0,
+                    269.0
+                ],
+                [
+                    848.0,
+                    269.0
+                ],
+                [
+                    848.0,
+                    293.0
+                ],
+                [
+                    630.0,
+                    293.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "This interim financial information is the responsibility of the Firm's management. We are a public accounting firm registered with the PCAOB and are required to be independent with respect to the Firm in accordance with the U.S. federal securities laws and the applicable rules and regulations of the Securities and Exchange Commission and the PCAOB.",
+            "block_bbox": [
+                627,
+                312,
+                1138,
+                482
+            ],
+            "block_id": 8,
+            "block_order": 8,
+            "group_id": 8,
+            "block_polygon_points": [
+                [
+                    627.0,
+                    312.0
+                ],
+                [
+                    1138.0,
+                    312.0
+                ],
+                [
+                    1138.0,
+                    482.0
+                ],
+                [
+                    627.0,
+                    482.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "We conducted our reviews in accordance with the standards of the PCAOB. A review of interim financial information consists principally of applying analytical procedures and making inquiries of persons responsible for financial and accounting matters. It is substantially less in scope than an audit conducted in accordance with the standards of the PCAOB, the objective of which is the expression of an opinion regarding the financial statements taken as a whole. Accordingly, we do not express such an opinion.",
+            "block_bbox": [
+                627,
+                501,
+                1138,
+                720
+            ],
+            "block_id": 9,
+            "block_order": 9,
+            "group_id": 9,
+            "block_polygon_points": [
+                [
+                    627.0,
+                    501.0
+                ],
+                [
+                    1138.0,
+                    501.0
+                ],
+                [
+                    1138.0,
+                    720.0
+                ],
+                [
+                    627.0,
+                    720.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "38",
+            "block_bbox": [
+                596,
+                1524,
+                619,
+                1544
+            ],
+            "block_id": 10,
+            "block_order": null,
+            "group_id": 10,
+            "block_polygon_points": [
+                [
+                    596.0,
+                    1524.0
+                ],
+                [
+                    618.0,
+                    1524.0
+                ],
+                [
+                    618.0,
+                    1543.0
+                ],
+                [
+                    596.0,
+                    1543.0
+                ]
+            ]
+        },
+        {
+            "block_label": "footer",
+            "block_content": "March 2026 Form 10-Q",
+            "block_bbox": [
+                951,
+                1524,
+                1129,
+                1545
+            ],
+            "block_id": 11,
+            "block_order": null,
+            "group_id": 11,
+            "block_polygon_points": [
+                [
+                    951.0,
+                    1524.0
+                ],
+                [
+                    1128.0,
+                    1524.0
+                ],
+                [
+                    1128.0,
+                    1544.0
+                ],
+                [
+                    951.0,
+                    1544.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.8347710967063904,
+                "coordinate": [
+                    79,
+                    28,
+                    230,
+                    51
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        79.0,
+                        28.0
+                    ],
+                    [
+                        230.0,
+                        28.0
+                    ],
+                    [
+                        230.0,
+                        51.0
+                    ],
+                    [
+                        79.0,
+                        51.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 6,
+                "label": "doc_title",
+                "score": 0.8635683655738831,
+                "coordinate": [
+                    303,
+                    132,
+                    911,
+                    162
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        303.0,
+                        132.0
+                    ],
+                    [
+                        911.0,
+                        132.0
+                    ],
+                    [
+                        911.0,
+                        162.0
+                    ],
+                    [
+                        303.0,
+                        162.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8302187323570251,
+                "coordinate": [
+                    84,
+                    225,
+                    634,
+                    250
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        84.0,
+                        225.0
+                    ],
+                    [
+                        634.0,
+                        225.0
+                    ],
+                    [
+                        634.0,
+                        250.0
+                    ],
+                    [
+                        84.0,
+                        250.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8433595895767212,
+                "coordinate": [
+                    84,
+                    269,
+                    531,
+                    293
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        84.0,
+                        269.0
+                    ],
+                    [
+                        531.0,
+                        269.0
+                    ],
+                    [
+                        531.0,
+                        293.0
+                    ],
+                    [
+                        84.0,
+                        293.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9641821980476379,
+                "coordinate": [
+                    84,
+                    312,
+                    594,
+                    603
+                ],
+                "order": 4,
+                "polygon_points": [
+                    [
+                        84.0,
+                        312.0
+                    ],
+                    [
+                        594.0,
+                        312.0
+                    ],
+                    [
+                        594.0,
+                        603.0
+                    ],
+                    [
+                        84.0,
+                        603.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9616197347640991,
+                "coordinate": [
+                    83,
+                    621,
+                    595,
+                    959
+                ],
+                "order": 5,
+                "polygon_points": [
+                    [
+                        83.0,
+                        621.0
+                    ],
+                    [
+                        595.0,
+                        621.0
+                    ],
+                    [
+                        595.0,
+                        959.0
+                    ],
+                    [
+                        83.0,
+                        959.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.6073251962661743,
+                "coordinate": [
+                    89,
+                    1046,
+                    313,
+                    1072
+                ],
+                "order": 6,
+                "polygon_points": [
+                    [
+                        89.0,
+                        1046.0
+                    ],
+                    [
+                        313.0,
+                        1046.0
+                    ],
+                    [
+                        313.0,
+                        1072.0
+                    ],
+                    [
+                        89.0,
+                        1072.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.3525393009185791,
+                "coordinate": [
+                    87,
+                    1048,
+                    312,
+                    1139
+                ],
+                "order": 7,
+                "polygon_points": [
+                    [
+                        87.0,
+                        1048.0
+                    ],
+                    [
+                        312.0,
+                        1048.0
+                    ],
+                    [
+                        312.0,
+                        1139.0
+                    ],
+                    [
+                        87.0,
+                        1139.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.4732351005077362,
+                "coordinate": [
+                    90,
+                    1082,
+                    278,
+                    1107
+                ],
+                "order": 8,
+                "polygon_points": [
+                    [
+                        90.0,
+                        1082.0
+                    ],
+                    [
+                        278.0,
+                        1082.0
+                    ],
+                    [
+                        278.0,
+                        1107.0
+                    ],
+                    [
+                        90.0,
+                        1107.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.3383006751537323,
+                "coordinate": [
+                    89,
+                    1081,
+                    280,
+                    1138
+                ],
+                "order": 9,
+                "polygon_points": [
+                    [
+                        89.0,
+                        1081.0
+                    ],
+                    [
+                        280.0,
+                        1081.0
+                    ],
+                    [
+                        280.0,
+                        1138.0
+                    ],
+                    [
+                        89.0,
+                        1138.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.38150957226753235,
+                "coordinate": [
+                    91,
+                    1112,
+                    203,
+                    1138
+                ],
+                "order": 10,
+                "polygon_points": [
+                    [
+                        91.0,
+                        1112.0
+                    ],
+                    [
+                        203.0,
+                        1112.0
+                    ],
+                    [
+                        203.0,
+                        1138.0
+                    ],
+                    [
+                        91.0,
+                        1138.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8218131065368652,
+                "coordinate": [
+                    630,
+                    269,
+                    848,
+                    293
+                ],
+                "order": 11,
+                "polygon_points": [
+                    [
+                        630.0,
+                        269.0
+                    ],
+                    [
+                        848.0,
+                        269.0
+                    ],
+                    [
+                        848.0,
+                        293.0
+                    ],
+                    [
+                        630.0,
+                        293.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9566302299499512,
+                "coordinate": [
+                    627,
+                    312,
+                    1138,
+                    482
+                ],
+                "order": 12,
+                "polygon_points": [
+                    [
+                        627.0,
+                        312.0
+                    ],
+                    [
+                        1138.0,
+                        312.0
+                    ],
+                    [
+                        1138.0,
+                        482.0
+                    ],
+                    [
+                        627.0,
+                        482.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9599298238754272,
+                "coordinate": [
+                    627,
+                    501,
+                    1138,
+                    720
+                ],
+                "order": 13,
+                "polygon_points": [
+                    [
+                        627.0,
+                        501.0
+                    ],
+                    [
+                        1138.0,
+                        501.0
+                    ],
+                    [
+                        1138.0,
+                        720.0
+                    ],
+                    [
+                        627.0,
+                        720.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.731464684009552,
+                "coordinate": [
+                    596,
+                    1524,
+                    619,
+                    1544
+                ],
+                "order": 14,
+                "polygon_points": [
+                    [
+                        596.0,
+                        1524.0
+                    ],
+                    [
+                        618.0,
+                        1524.0
+                    ],
+                    [
+                        618.0,
+                        1543.0
+                    ],
+                    [
+                        596.0,
+                        1543.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.8398061990737915,
+                "coordinate": [
+                    951,
+                    1524,
+                    1129,
+                    1545
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        951.0,
+                        1524.0
+                    ],
+                    [
+                        1128.0,
+                        1524.0
+                    ],
+                    [
+                        1128.0,
+                        1544.0
+                    ],
+                    [
+                        951.0,
+                        1544.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

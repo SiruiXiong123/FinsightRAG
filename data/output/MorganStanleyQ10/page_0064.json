@@ -1,0 +1,1620 @@
+{
+    "input_path": "/workspace/work/data/input/MorganStanleyQ10.pdf",
+    "page_index": 63,
+    "page_count": 77,
+    "width": 1224,
+    "height": 1584,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "header",
+            "block_content": "Table of Contents",
+            "block_bbox": [
+                83,
+                28,
+                232,
+                51
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "block_polygon_points": [
+                [
+                    83.0,
+                    28.0
+                ],
+                [
+                    232.0,
+                    28.0
+                ],
+                [
+                    232.0,
+                    51.0
+                ],
+                [
+                    83.0,
+                    51.0
+                ]
+            ]
+        },
+        {
+            "block_label": "header",
+            "block_content": "Morgan Stanley",
+            "block_bbox": [
+                932,
+                58,
+                1132,
+                91
+            ],
+            "block_id": 1,
+            "block_order": null,
+            "group_id": 1,
+            "block_polygon_points": [
+                [
+                    932.0,
+                    58.0
+                ],
+                [
+                    1132.0,
+                    58.0
+                ],
+                [
+                    1132.0,
+                    91.0
+                ],
+                [
+                    932.0,
+                    91.0
+                ]
+            ]
+        },
+        {
+            "block_label": "doc_title",
+            "block_content": "Notes to Consolidated Financial Statements (Unaudited)",
+            "block_bbox": [
+                83,
+                59,
+                534,
+                113
+            ],
+            "block_id": 2,
+            "block_order": 1,
+            "group_id": 2,
+            "block_polygon_points": [
+                [
+                    83.0,
+                    59.0
+                ],
+                [
+                    534.0,
+                    59.0
+                ],
+                [
+                    534.0,
+                    113.0
+                ],
+                [
+                    83.0,
+                    113.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "Guarantees",
+            "block_bbox": [
+                86,
+                122,
+                187,
+                143
+            ],
+            "block_id": 3,
+            "block_order": 2,
+            "group_id": 3,
+            "block_polygon_points": [
+                [
+                    86.0,
+                    122.0
+                ],
+                [
+                    186.0,
+                    122.0
+                ],
+                [
+                    186.0,
+                    142.0
+                ],
+                [
+                    86.0,
+                    142.0
+                ]
+            ]
+        },
+        {
+            "block_label": "figure_title",
+            "block_content": "At March 31, 2026",
+            "block_bbox": [
+                352,
+                159,
+                476,
+                176
+            ],
+            "block_id": 4,
+            "block_order": null,
+            "group_id": 4,
+            "block_polygon_points": [
+                [
+                    351.9999694824219,
+                    158.99998474121094
+                ],
+                [
+                    474.9999694824219,
+                    158.99998474121094
+                ],
+                [
+                    474.9999694824219,
+                    174.99998474121094
+                ],
+                [
+                    351.9999694824219,
+                    174.99998474121094
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td></td><td colspan=\"4\">Maximum Potential Payout/Notional of Obligations by Years to Maturity</td><td rowspan=\"2\">Carrying Amount\\nAsset\\n(Liability)</td></tr><tr><td>in millions</td><td>Less than 1</td><td>1-3</td><td>3-5</td><td>Over 5</td></tr><tr><td>Non-credit derivatives $ ^{{1}} $</td><td>1,522,376</td><td>795,403</td><td>210,745</td><td>602,124</td><td>(58,510)</td></tr><tr><td>Standby letters of credit and other financial guarantees issued $ ^{{2,3}} $</td><td>1,672</td><td>957</td><td>1,264</td><td>2,577</td><td>15</td></tr><tr><td>Liquidity facilities</td><td>3,549</td><td>—</td><td>—</td><td>—</td><td>3</td></tr><tr><td>Whole loan sales guarantees</td><td>34</td><td>—</td><td>1</td><td>23,071</td><td>—</td></tr><tr><td>Securitization representations and warranties $ ^{{4}} $</td><td>—</td><td>—</td><td>—</td><td>98,492</td><td>—</td></tr><tr><td>General partner guarantees</td><td>122</td><td>119</td><td>95</td><td>27</td><td>(58)</td></tr><tr><td>Client clearing guarantees</td><td>1,957</td><td>—</td><td>—</td><td>—</td><td>—</td></tr></table>",
+            "block_bbox": [
+                89,
+                177,
+                591,
+                489
+            ],
+            "block_id": 5,
+            "block_order": null,
+            "group_id": 5,
+            "block_polygon_points": [
+                [
+                    89.0,
+                    177.0
+                ],
+                [
+                    591.0,
+                    177.0
+                ],
+                [
+                    591.0,
+                    489.0
+                ],
+                [
+                    89.0,
+                    489.0
+                ]
+            ]
+        },
+        {
+            "block_label": "vision_footnote",
+            "block_content": "1. The carrying amounts of derivative contracts that meet the accounting definition of a guarantee are shown on a gross basis. For further information on derivatives contracts, see Note 6.",
+            "block_bbox": [
+                86,
+                500,
+                593,
+                548
+            ],
+            "block_id": 6,
+            "block_order": null,
+            "group_id": 6,
+            "block_polygon_points": [
+                [
+                    86.0,
+                    500.0
+                ],
+                [
+                    593.0,
+                    500.0
+                ],
+                [
+                    593.0,
+                    548.0
+                ],
+                [
+                    86.0,
+                    548.0
+                ]
+            ]
+        },
+        {
+            "block_label": "vision_footnote",
+            "block_content": "2. These amounts include certain issued standby letters of credit participated to third parties, totaling $0.6 billion of notional and collateral/recourse, due to the nature of the Firm's obligations under these arrangements.",
+            "block_bbox": [
+                85,
+                549,
+                593,
+                597
+            ],
+            "block_id": 7,
+            "block_order": null,
+            "group_id": 7,
+            "block_polygon_points": [
+                [
+                    85.0,
+                    549.0
+                ],
+                [
+                    593.0,
+                    549.0
+                ],
+                [
+                    593.0,
+                    597.0
+                ],
+                [
+                    85.0,
+                    597.0
+                ]
+            ]
+        },
+        {
+            "block_label": "vision_footnote",
+            "block_content": "3. As of March 31, 2026, the carrying amount of standby letters of credit and other financial guarantees issued includes an allowance for credit losses of $52 million.",
+            "block_bbox": [
+                85,
+                597,
+                592,
+                630
+            ],
+            "block_id": 8,
+            "block_order": null,
+            "group_id": 8,
+            "block_polygon_points": [
+                [
+                    85.0,
+                    597.0
+                ],
+                [
+                    592.0,
+                    597.0
+                ],
+                [
+                    592.0,
+                    630.0
+                ],
+                [
+                    85.0,
+                    630.0
+                ]
+            ]
+        },
+        {
+            "block_label": "vision_footnote",
+            "block_content": "4. Related to commercial, residential mortgage and asset backed securitizations.",
+            "block_bbox": [
+                85,
+                628,
+                563,
+                645
+            ],
+            "block_id": 9,
+            "block_order": null,
+            "group_id": 9,
+            "block_polygon_points": [
+                [
+                    85.0,
+                    628.0
+                ],
+                [
+                    85.0,
+                    644.0
+                ],
+                [
+                    562.0,
+                    644.0
+                ],
+                [
+                    562.0,
+                    628.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "The Firm has obligations under certain guarantee arrangements, including contracts and indemnification agreements, that contingently require the Firm to make payments to the guaranteed party based on changes in an underlying measure (such as an interest or foreign exchange rate, security or commodity price, an index, or the occurrence or non-occurrence of a specified event) related to an asset, liability or equity security of a guaranteed party. Also included as guarantees are contracts that contingently require the Firm to make payments to the guaranteed party based on another entity's failure to perform under an agreement, as well as indirect guarantees of the indebtedness of others.",
+            "block_bbox": [
+                82,
+                661,
+                594,
+                953
+            ],
+            "block_id": 10,
+            "block_order": 3,
+            "group_id": 10,
+            "block_polygon_points": [
+                [
+                    82.0,
+                    661.0
+                ],
+                [
+                    594.0,
+                    661.0
+                ],
+                [
+                    594.0,
+                    953.0
+                ],
+                [
+                    82.0,
+                    953.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "For more information on the nature of the obligations and related business activities for our guarantees, see Note 14 to the financial statements in the 2025 Form 10-K.",
+            "block_bbox": [
+                83,
+                970,
+                594,
+                1044
+            ],
+            "block_id": 11,
+            "block_order": 4,
+            "group_id": 11,
+            "block_polygon_points": [
+                [
+                    83.0,
+                    970.0
+                ],
+                [
+                    594.0,
+                    970.0
+                ],
+                [
+                    594.0,
+                    1044.0
+                ],
+                [
+                    83.0,
+                    1044.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "Other Guarantees and Indemnities",
+            "block_bbox": [
+                85,
+                1062,
+                392,
+                1086
+            ],
+            "block_id": 12,
+            "block_order": 5,
+            "group_id": 12,
+            "block_polygon_points": [
+                [
+                    85.0,
+                    1062.0
+                ],
+                [
+                    392.0,
+                    1062.0
+                ],
+                [
+                    392.0,
+                    1086.0
+                ],
+                [
+                    85.0,
+                    1086.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "In the normal course of business, the Firm provides guarantees and indemnifications in a variety of transactions. These provisions generally are standard contractual terms. Certain of these guarantees and indemnifications related to indemnities, market value guarantees, exchange and clearinghouse member guarantees, futures and over-the-counter derivatives clearing guarantees and merger and acquisition guarantees are described in Note 14 to the financial statements in the 2025 Form 10-K.",
+            "block_bbox": [
+                83,
+                1105,
+                594,
+                1325
+            ],
+            "block_id": 13,
+            "block_order": 6,
+            "group_id": 13,
+            "block_polygon_points": [
+                [
+                    83.0,
+                    1105.0
+                ],
+                [
+                    594.0,
+                    1105.0
+                ],
+                [
+                    594.0,
+                    1325.0
+                ],
+                [
+                    83.0,
+                    1325.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "In addition, in the ordinary course of business, the Firm guarantees the debt and/or certain trading obligations (including obligations associated with derivatives, foreign exchange contracts and the settlement of physical commodities) of certain subsidiaries. These guarantees generally are entity or product specific and are required by investors or trading counterparties. The activities of the Firm's subsidiaries covered by these guarantees (including any related debt or trading obligations) are included in the financial statements.",
+            "block_bbox": [
+                83,
+                1341,
+                594,
+                1512
+            ],
+            "block_id": 14,
+            "block_order": 7,
+            "group_id": 14,
+            "block_polygon_points": [
+                [
+                    83.0,
+                    1341.0
+                ],
+                [
+                    594.0,
+                    1341.0
+                ],
+                [
+                    594.0,
+                    1512.0
+                ],
+                [
+                    83.0,
+                    1512.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "",
+            "block_bbox": [
+                629,
+                122,
+                1137,
+                195
+            ],
+            "block_id": 15,
+            "block_order": 8,
+            "group_id": 14,
+            "block_polygon_points": [
+                [
+                    629.0,
+                    122.0
+                ],
+                [
+                    1137.0,
+                    122.0
+                ],
+                [
+                    1137.0,
+                    195.0
+                ],
+                [
+                    629.0,
+                    195.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "Finance Subsidiary",
+            "block_bbox": [
+                630,
+                214,
+                801,
+                239
+            ],
+            "block_id": 16,
+            "block_order": 9,
+            "group_id": 16,
+            "block_polygon_points": [
+                [
+                    630.0,
+                    214.0
+                ],
+                [
+                    801.0,
+                    214.0
+                ],
+                [
+                    801.0,
+                    239.0
+                ],
+                [
+                    630.0,
+                    239.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "The Parent Company fully and unconditionally guarantees the securities issued by Morgan Stanley Finance LLC, a wholly owned finance subsidiary. No other subsidiary of the Parent Company guarantees these securities.",
+            "block_bbox": [
+                627,
+                257,
+                1139,
+                356
+            ],
+            "block_id": 17,
+            "block_order": 10,
+            "group_id": 17,
+            "block_polygon_points": [
+                [
+                    627.0,
+                    257.0
+                ],
+                [
+                    1139.0,
+                    257.0
+                ],
+                [
+                    1139.0,
+                    356.0
+                ],
+                [
+                    627.0,
+                    356.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "Contingencies",
+            "block_bbox": [
+                629,
+                374,
+                759,
+                399
+            ],
+            "block_id": 18,
+            "block_order": 11,
+            "group_id": 18,
+            "block_polygon_points": [
+                [
+                    629.0,
+                    374.0
+                ],
+                [
+                    759.0,
+                    374.0
+                ],
+                [
+                    759.0,
+                    399.0
+                ],
+                [
+                    629.0,
+                    399.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "Legal",
+            "block_bbox": [
+                630,
+                418,
+                688,
+                443
+            ],
+            "block_id": 19,
+            "block_order": 12,
+            "group_id": 19,
+            "block_polygon_points": [
+                [
+                    630.0,
+                    418.0
+                ],
+                [
+                    687.0,
+                    418.0
+                ],
+                [
+                    687.0,
+                    442.0
+                ],
+                [
+                    630.0,
+                    442.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "In addition to the matters described below, in the normal course of business, the Firm has been named, from time to time, as a defendant in various legal actions, including arbitrations, class actions and other litigation, arising in connection with its activities as a global diversified financial services institution. Certain of the actual or threatened legal actions include claims for substantial compensatory and/or punitive damages or claims for indeterminate amounts of damages. In some cases, the third-party entities that are, or would otherwise be, the primary defendants in such cases are bankrupt, in financial distress, or may not honor applicable indemnification obligations. These actions have included, but are not limited to, antitrust claims, claims under various false claims act statutes, and matters arising from our wealth management businesses, Markets business, and our activities in the capital markets.",
+            "block_bbox": [
+                626,
+                461,
+                1139,
+                849
+            ],
+            "block_id": 20,
+            "block_order": 13,
+            "group_id": 20,
+            "block_polygon_points": [
+                [
+                    626.0,
+                    461.0
+                ],
+                [
+                    1139.0,
+                    461.0
+                ],
+                [
+                    1139.0,
+                    849.0
+                ],
+                [
+                    626.0,
+                    849.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "The Firm is also involved, from time to time, in other reviews, investigations and proceedings (both formal and informal) by governmental or other regulatory agencies regarding the Firm's business, and involving, among other matters, sales, trading, financing, prime brokerage, market-making activities, investment banking advisory services, capital markets activities, financial products or offerings sponsored, underwritten or sold by the Firm, wealth and investment management services, and tax, accounting, and operational matters, certain of which may result in adverse judgments, settlements, fines, penalties, disgorgement, restitution, forfeiture, injunctions, limitations on our ability to conduct certain business, or other relief.",
+            "block_bbox": [
+                626,
+                864,
+                1139,
+                1180
+            ],
+            "block_id": 21,
+            "block_order": 14,
+            "group_id": 21,
+            "block_polygon_points": [
+                [
+                    626.0,
+                    864.0
+                ],
+                [
+                    1139.0,
+                    864.0
+                ],
+                [
+                    1139.0,
+                    1180.0
+                ],
+                [
+                    626.0,
+                    1180.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "The Firm contests liability and/or the amount of damages as appropriate in each pending matter. Where available information indicates that it is probable a liability had been incurred at the date of the financial statements and the Firm can reasonably estimate the amount of that loss or the range of loss, the Firm accrues an estimated loss by a charge to income, including with respect to certain of the individual proceedings or investigations described below.",
+            "block_bbox": [
+                626,
+                1197,
+                1139,
+                1393
+            ],
+            "block_id": 22,
+            "block_order": 15,
+            "group_id": 22,
+            "block_polygon_points": [
+                [
+                    626.0,
+                    1197.0
+                ],
+                [
+                    1139.0,
+                    1197.0
+                ],
+                [
+                    1139.0,
+                    1393.0
+                ],
+                [
+                    626.0,
+                    1393.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "The Firm’s legal expenses can, and may in the future, fluctuate from period to period, given the current environment regarding government or regulatory agency investigations and",
+            "block_bbox": [
+                629,
+                1409,
+                1139,
+                1486
+            ],
+            "block_id": 23,
+            "block_order": 16,
+            "group_id": 23,
+            "block_polygon_points": [
+                [
+                    629.0,
+                    1409.0
+                ],
+                [
+                    1139.0,
+                    1409.0
+                ],
+                [
+                    1139.0,
+                    1486.0
+                ],
+                [
+                    629.0,
+                    1486.0
+                ]
+            ]
+        },
+        {
+            "block_label": "footer",
+            "block_content": "March 2026 Form 10-Q",
+            "block_bbox": [
+                93,
+                1524,
+                274,
+                1545
+            ],
+            "block_id": 24,
+            "block_order": null,
+            "group_id": 24,
+            "block_polygon_points": [
+                [
+                    93.0,
+                    1524.0
+                ],
+                [
+                    273.0,
+                    1524.0
+                ],
+                [
+                    273.0,
+                    1544.0
+                ],
+                [
+                    93.0,
+                    1544.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "64",
+            "block_bbox": [
+                604,
+                1525,
+                628,
+                1544
+            ],
+            "block_id": 25,
+            "block_order": null,
+            "group_id": 25,
+            "block_polygon_points": [
+                [
+                    604.0,
+                    1525.0
+                ],
+                [
+                    627.0,
+                    1525.0
+                ],
+                [
+                    627.0,
+                    1543.0
+                ],
+                [
+                    604.0,
+                    1543.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.7654857039451599,
+                "coordinate": [
+                    83,
+                    28,
+                    232,
+                    51
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        83.0,
+                        28.0
+                    ],
+                    [
+                        232.0,
+                        28.0
+                    ],
+                    [
+                        232.0,
+                        51.0
+                    ],
+                    [
+                        83.0,
+                        51.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.8637202978134155,
+                "coordinate": [
+                    932,
+                    58,
+                    1132,
+                    91
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        932.0,
+                        58.0
+                    ],
+                    [
+                        1132.0,
+                        58.0
+                    ],
+                    [
+                        1132.0,
+                        91.0
+                    ],
+                    [
+                        932.0,
+                        91.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 6,
+                "label": "doc_title",
+                "score": 0.8154305219650269,
+                "coordinate": [
+                    83,
+                    59,
+                    534,
+                    113
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        83.0,
+                        59.0
+                    ],
+                    [
+                        534.0,
+                        59.0
+                    ],
+                    [
+                        534.0,
+                        113.0
+                    ],
+                    [
+                        83.0,
+                        113.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.5331928730010986,
+                "coordinate": [
+                    86,
+                    122,
+                    187,
+                    143
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        86.0,
+                        122.0
+                    ],
+                    [
+                        186.0,
+                        122.0
+                    ],
+                    [
+                        186.0,
+                        142.0
+                    ],
+                    [
+                        86.0,
+                        142.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 7,
+                "label": "figure_title",
+                "score": 0.7190525531768799,
+                "coordinate": [
+                    352,
+                    159,
+                    476,
+                    176
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        351.9999694824219,
+                        158.99998474121094
+                    ],
+                    [
+                        474.9999694824219,
+                        158.99998474121094
+                    ],
+                    [
+                        474.9999694824219,
+                        174.99998474121094
+                    ],
+                    [
+                        351.9999694824219,
+                        174.99998474121094
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9534110426902771,
+                "coordinate": [
+                    89,
+                    177,
+                    591,
+                    489
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        89.0,
+                        177.0
+                    ],
+                    [
+                        591.0,
+                        177.0
+                    ],
+                    [
+                        591.0,
+                        489.0
+                    ],
+                    [
+                        89.0,
+                        489.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 24,
+                "label": "vision_footnote",
+                "score": 0.9236968159675598,
+                "coordinate": [
+                    86,
+                    500,
+                    593,
+                    548
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        86.0,
+                        500.0
+                    ],
+                    [
+                        593.0,
+                        500.0
+                    ],
+                    [
+                        593.0,
+                        548.0
+                    ],
+                    [
+                        86.0,
+                        548.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 24,
+                "label": "vision_footnote",
+                "score": 0.9107465744018555,
+                "coordinate": [
+                    85,
+                    549,
+                    593,
+                    597
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        85.0,
+                        549.0
+                    ],
+                    [
+                        593.0,
+                        549.0
+                    ],
+                    [
+                        593.0,
+                        597.0
+                    ],
+                    [
+                        85.0,
+                        597.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 24,
+                "label": "vision_footnote",
+                "score": 0.8584580421447754,
+                "coordinate": [
+                    85,
+                    597,
+                    592,
+                    630
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        85.0,
+                        597.0
+                    ],
+                    [
+                        592.0,
+                        597.0
+                    ],
+                    [
+                        592.0,
+                        630.0
+                    ],
+                    [
+                        85.0,
+                        630.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 24,
+                "label": "vision_footnote",
+                "score": 0.7581577897071838,
+                "coordinate": [
+                    85,
+                    628,
+                    563,
+                    645
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        85.0,
+                        628.0
+                    ],
+                    [
+                        85.0,
+                        644.0
+                    ],
+                    [
+                        562.0,
+                        644.0
+                    ],
+                    [
+                        562.0,
+                        628.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9654411673545837,
+                "coordinate": [
+                    82,
+                    661,
+                    594,
+                    953
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        82.0,
+                        661.0
+                    ],
+                    [
+                        594.0,
+                        661.0
+                    ],
+                    [
+                        594.0,
+                        953.0
+                    ],
+                    [
+                        82.0,
+                        953.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9323740005493164,
+                "coordinate": [
+                    83,
+                    970,
+                    594,
+                    1044
+                ],
+                "order": 4,
+                "polygon_points": [
+                    [
+                        83.0,
+                        970.0
+                    ],
+                    [
+                        594.0,
+                        970.0
+                    ],
+                    [
+                        594.0,
+                        1044.0
+                    ],
+                    [
+                        83.0,
+                        1044.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8419390320777893,
+                "coordinate": [
+                    85,
+                    1062,
+                    392,
+                    1086
+                ],
+                "order": 5,
+                "polygon_points": [
+                    [
+                        85.0,
+                        1062.0
+                    ],
+                    [
+                        392.0,
+                        1062.0
+                    ],
+                    [
+                        392.0,
+                        1086.0
+                    ],
+                    [
+                        85.0,
+                        1086.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9605455994606018,
+                "coordinate": [
+                    83,
+                    1105,
+                    594,
+                    1325
+                ],
+                "order": 6,
+                "polygon_points": [
+                    [
+                        83.0,
+                        1105.0
+                    ],
+                    [
+                        594.0,
+                        1105.0
+                    ],
+                    [
+                        594.0,
+                        1325.0
+                    ],
+                    [
+                        83.0,
+                        1325.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9543664455413818,
+                "coordinate": [
+                    83,
+                    1341,
+                    594,
+                    1512
+                ],
+                "order": 7,
+                "polygon_points": [
+                    [
+                        83.0,
+                        1341.0
+                    ],
+                    [
+                        594.0,
+                        1341.0
+                    ],
+                    [
+                        594.0,
+                        1512.0
+                    ],
+                    [
+                        83.0,
+                        1512.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9293978214263916,
+                "coordinate": [
+                    629,
+                    122,
+                    1137,
+                    195
+                ],
+                "order": 8,
+                "polygon_points": [
+                    [
+                        629.0,
+                        122.0
+                    ],
+                    [
+                        1137.0,
+                        122.0
+                    ],
+                    [
+                        1137.0,
+                        195.0
+                    ],
+                    [
+                        629.0,
+                        195.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.7914797067642212,
+                "coordinate": [
+                    630,
+                    214,
+                    801,
+                    239
+                ],
+                "order": 9,
+                "polygon_points": [
+                    [
+                        630.0,
+                        214.0
+                    ],
+                    [
+                        801.0,
+                        214.0
+                    ],
+                    [
+                        801.0,
+                        239.0
+                    ],
+                    [
+                        630.0,
+                        239.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9383213520050049,
+                "coordinate": [
+                    627,
+                    257,
+                    1139,
+                    356
+                ],
+                "order": 10,
+                "polygon_points": [
+                    [
+                        627.0,
+                        257.0
+                    ],
+                    [
+                        1139.0,
+                        257.0
+                    ],
+                    [
+                        1139.0,
+                        356.0
+                    ],
+                    [
+                        627.0,
+                        356.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8121206164360046,
+                "coordinate": [
+                    629,
+                    374,
+                    759,
+                    399
+                ],
+                "order": 11,
+                "polygon_points": [
+                    [
+                        629.0,
+                        374.0
+                    ],
+                    [
+                        759.0,
+                        374.0
+                    ],
+                    [
+                        759.0,
+                        399.0
+                    ],
+                    [
+                        629.0,
+                        399.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.7520007491111755,
+                "coordinate": [
+                    630,
+                    418,
+                    688,
+                    443
+                ],
+                "order": 12,
+                "polygon_points": [
+                    [
+                        630.0,
+                        418.0
+                    ],
+                    [
+                        687.0,
+                        418.0
+                    ],
+                    [
+                        687.0,
+                        442.0
+                    ],
+                    [
+                        630.0,
+                        442.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9705477356910706,
+                "coordinate": [
+                    626,
+                    461,
+                    1139,
+                    849
+                ],
+                "order": 13,
+                "polygon_points": [
+                    [
+                        626.0,
+                        461.0
+                    ],
+                    [
+                        1139.0,
+                        461.0
+                    ],
+                    [
+                        1139.0,
+                        849.0
+                    ],
+                    [
+                        626.0,
+                        849.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9675977230072021,
+                "coordinate": [
+                    626,
+                    864,
+                    1139,
+                    1180
+                ],
+                "order": 14,
+                "polygon_points": [
+                    [
+                        626.0,
+                        864.0
+                    ],
+                    [
+                        1139.0,
+                        864.0
+                    ],
+                    [
+                        1139.0,
+                        1180.0
+                    ],
+                    [
+                        626.0,
+                        1180.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.955161452293396,
+                "coordinate": [
+                    626,
+                    1197,
+                    1139,
+                    1393
+                ],
+                "order": 15,
+                "polygon_points": [
+                    [
+                        626.0,
+                        1197.0
+                    ],
+                    [
+                        1139.0,
+                        1197.0
+                    ],
+                    [
+                        1139.0,
+                        1393.0
+                    ],
+                    [
+                        626.0,
+                        1393.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.936653733253479,
+                "coordinate": [
+                    629,
+                    1409,
+                    1139,
+                    1486
+                ],
+                "order": 16,
+                "polygon_points": [
+                    [
+                        629.0,
+                        1409.0
+                    ],
+                    [
+                        1139.0,
+                        1409.0
+                    ],
+                    [
+                        1139.0,
+                        1486.0
+                    ],
+                    [
+                        629.0,
+                        1486.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.8477932214736938,
+                "coordinate": [
+                    93,
+                    1524,
+                    274,
+                    1545
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        93.0,
+                        1524.0
+                    ],
+                    [
+                        273.0,
+                        1524.0
+                    ],
+                    [
+                        273.0,
+                        1544.0
+                    ],
+                    [
+                        93.0,
+                        1544.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.7157031297683716,
+                "coordinate": [
+                    604,
+                    1525,
+                    628,
+                    1544
+                ],
+                "order": 17,
+                "polygon_points": [
+                    [
+                        604.0,
+                        1525.0
+                    ],
+                    [
+                        627.0,
+                        1525.0
+                    ],
+                    [
+                        627.0,
+                        1543.0
+                    ],
+                    [
+                        604.0,
+                        1543.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

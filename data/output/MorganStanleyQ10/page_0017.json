@@ -1,0 +1,1132 @@
+{
+    "input_path": "/workspace/work/data/input/MorganStanleyQ10.pdf",
+    "page_index": 16,
+    "page_count": 77,
+    "width": 1224,
+    "height": 1584,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "header",
+            "block_content": "Table of Contents",
+            "block_bbox": [
+                82,
+                28,
+                233,
+                51
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "block_polygon_points": [
+                [
+                    82.0,
+                    28.0
+                ],
+                [
+                    233.0,
+                    28.0
+                ],
+                [
+                    233.0,
+                    51.0
+                ],
+                [
+                    82.0,
+                    51.0
+                ]
+            ]
+        },
+        {
+            "block_label": "header",
+            "block_content": "Morgan Stanley",
+            "block_bbox": [
+                932,
+                53,
+                1132,
+                85
+            ],
+            "block_id": 1,
+            "block_order": null,
+            "group_id": 1,
+            "block_polygon_points": [
+                [
+                    932.0,
+                    53.0
+                ],
+                [
+                    1132.0,
+                    53.0
+                ],
+                [
+                    1132.0,
+                    85.0
+                ],
+                [
+                    932.0,
+                    85.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "Management’s Discussion and Analysis\nSupplemental Financial Information",
+            "block_bbox": [
+                82,
+                59,
+                493,
+                133
+            ],
+            "block_id": 2,
+            "block_order": 1,
+            "group_id": 2,
+            "block_polygon_points": [
+                [
+                    82.0,
+                    59.0
+                ],
+                [
+                    493.0,
+                    59.0
+                ],
+                [
+                    493.0,
+                    133.0
+                ],
+                [
+                    82.0,
+                    133.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Morgan Stanley Bank, N.A. (\"MSBNA\") and Morgan Stanley Private Bank, National Association (\"MSPBNA\") are our U.S. Bank Subsidiaries, (together, \"U.S. Bank Subsidiaries\").",
+            "block_bbox": [
+                84,
+                196,
+                593,
+                272
+            ],
+            "block_id": 3,
+            "block_order": 2,
+            "group_id": 3,
+            "block_polygon_points": [
+                [
+                    84.0,
+                    196.0
+                ],
+                [
+                    593.0,
+                    196.0
+                ],
+                [
+                    593.0,
+                    272.0
+                ],
+                [
+                    84.0,
+                    272.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "MSBNA is a national bank that primarily offers institutional lending and institutional sales and trading, including fixed income and equity derivatives. The institutional lending primarily includes Secured lending facilities, Commercial and Residential real estate and Corporate loans, and together with the institutional sales and trading activity is reported within the Institutional Securities business segment.",
+            "block_bbox": [
+                83,
+                288,
+                593,
+                460
+            ],
+            "block_id": 4,
+            "block_order": 3,
+            "group_id": 4,
+            "block_polygon_points": [
+                [
+                    83.0,
+                    288.0
+                ],
+                [
+                    593.0,
+                    288.0
+                ],
+                [
+                    593.0,
+                    460.0
+                ],
+                [
+                    83.0,
+                    460.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "MSPBNA is a national bank that primarily offers residential mortgage lending, securities-based and other financing, primarily to customers and clients of our Wealth Management business segment.",
+            "block_bbox": [
+                84,
+                476,
+                593,
+                575
+            ],
+            "block_id": 5,
+            "block_order": 4,
+            "group_id": 5,
+            "block_polygon_points": [
+                [
+                    84.0,
+                    476.0
+                ],
+                [
+                    593.0,
+                    476.0
+                ],
+                [
+                    593.0,
+                    575.0
+                ],
+                [
+                    84.0,
+                    575.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "U.S. Bank Subsidiaries",
+            "block_bbox": [
+                86,
+                151,
+                290,
+                177
+            ],
+            "block_id": 6,
+            "block_order": 5,
+            "group_id": 6,
+            "block_polygon_points": [
+                [
+                    86.0,
+                    151.0
+                ],
+                [
+                    290.0,
+                    151.0
+                ],
+                [
+                    290.0,
+                    177.0
+                ],
+                [
+                    86.0,
+                    177.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Both MSBNA and MSPBNA source deposits from Wealth Management clients, utilize other sources of funding, and maintain investment portfolios for liquidity and interest rate risk management purposes.",
+            "block_bbox": [
+                84,
+                592,
+                593,
+                692
+            ],
+            "block_id": 7,
+            "block_order": 6,
+            "group_id": 7,
+            "block_polygon_points": [
+                [
+                    84.0,
+                    592.0
+                ],
+                [
+                    593.0,
+                    592.0
+                ],
+                [
+                    593.0,
+                    692.0
+                ],
+                [
+                    84.0,
+                    692.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Consistent with the Firm’s strategic objective of ongoing growth of eligible assets at MSBNA, on February 14, 2026, the Fixed Income business of Morgan Stanley Capital Services LLC (“MSCS”) was merged into MSBNA, and on March 14, 2026, Morgan Stanley Europe SE (“MSESE”), together with its subsidiary Morgan Stanley Bank AG (collectively, the “MSESE Group”) was acquired by MSBNA (collectively the “Reorganization”). In the following table, U.S. Bank Subsidiaries’ Supplemental Financial Information are presented as if the Reorganization occurred at the beginning of 2025. Prior period amounts have been revised to conform with the current period presentation.",
+            "block_bbox": [
+                83,
+                708,
+                594,
+                999
+            ],
+            "block_id": 8,
+            "block_order": 7,
+            "group_id": 8,
+            "block_polygon_points": [
+                [
+                    83.0,
+                    708.0
+                ],
+                [
+                    594.0,
+                    708.0
+                ],
+                [
+                    594.0,
+                    999.0
+                ],
+                [
+                    83.0,
+                    999.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "For a further discussion of our credit risks, see “Quantitative and Qualitative Disclosures about Risk—Credit Risk” herein. For a further discussion about loans and lending commitments, see Notes 9 and 13 to the financial statements.",
+            "block_bbox": [
+                84,
+                1016,
+                593,
+                1115
+            ],
+            "block_id": 9,
+            "block_order": 8,
+            "group_id": 9,
+            "block_polygon_points": [
+                [
+                    84.0,
+                    1016.0
+                ],
+                [
+                    593.0,
+                    1016.0
+                ],
+                [
+                    593.0,
+                    1115.0
+                ],
+                [
+                    84.0,
+                    1115.0
+                ]
+            ]
+        },
+        {
+            "block_label": "figure_title",
+            "block_content": "U.S. Bank Subsidiaries' Consolidated Supplemental Financial Information $ ^{1} $",
+            "block_bbox": [
+                630,
+                103,
+                1137,
+                147
+            ],
+            "block_id": 10,
+            "block_order": null,
+            "group_id": 10,
+            "block_polygon_points": [
+                [
+                    630.0,
+                    103.0
+                ],
+                [
+                    1137.0,
+                    103.0
+                ],
+                [
+                    1137.0,
+                    147.0
+                ],
+                [
+                    630.0,
+                    147.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td></td><td>At March 31, 2026</td><td>At December 31, 2025</td></tr><tr><td>Trading assets at fair value (23.3 and 37.8 pledged as collateral)</td><td>77.4</td><td>91.7</td></tr><tr><td>Investment securities</td><td></td><td></td></tr><tr><td>Available-for-sale at fair value</td><td>86.2</td><td>88.4</td></tr><tr><td>Held-to-maturity</td><td>43.2</td><td>44.2</td></tr><tr><td>Total Investment securities</td><td>129.4</td><td>132.6</td></tr><tr><td>Wealth Management loans $ ^{2} $</td><td></td><td></td></tr><tr><td>Residential real estate</td><td>73.4</td><td>72.3</td></tr><tr><td>Securities-based lending and Other $ ^{3} $</td><td>112.9</td><td>108.9</td></tr><tr><td>Total Wealth Management loans</td><td>186.3</td><td>181.2</td></tr><tr><td>Institutional Securities loans $ ^{2} $</td><td></td><td></td></tr><tr><td>Corporate</td><td>16.4</td><td>8.9</td></tr><tr><td>Secured lending facilities</td><td>69.2</td><td>67.2</td></tr><tr><td>Commercial and Residential real estate</td><td>12.2</td><td>11.2</td></tr><tr><td>Securities-based lending and Other</td><td>9.6</td><td>9.9</td></tr><tr><td>Total Institutional Securities loans</td><td>107.4</td><td>97.2</td></tr><tr><td>Total assets</td><td>591.7</td><td>598.7</td></tr><tr><td>Deposits $ ^{4} $</td><td>420.1</td><td>408.7</td></tr><tr><td>Trading liabilities at fair value</td><td>29.6</td><td>31.7</td></tr></table>",
+            "block_bbox": [
+                631,
+                157,
+                1136,
+                634
+            ],
+            "block_id": 11,
+            "block_order": null,
+            "group_id": 11,
+            "block_polygon_points": [
+                [
+                    631.0,
+                    157.0
+                ],
+                [
+                    1136.0,
+                    157.0
+                ],
+                [
+                    1136.0,
+                    634.0
+                ],
+                [
+                    631.0,
+                    634.0
+                ]
+            ]
+        },
+        {
+            "block_label": "vision_footnote",
+            "block_content": "1. Financial information is presented on a consolidated basis, inclusive of MSBNA, MSPBNA and their subsidiaries. Amounts exclude transactions between the bank subsidiaries, as well as deposits from the Parent Company and affiliates.",
+            "block_bbox": [
+                631,
+                639,
+                1136,
+                687
+            ],
+            "block_id": 12,
+            "block_order": null,
+            "group_id": 12,
+            "block_polygon_points": [
+                [
+                    631.0,
+                    639.0
+                ],
+                [
+                    1136.0,
+                    639.0
+                ],
+                [
+                    1136.0,
+                    687.0
+                ],
+                [
+                    631.0,
+                    687.0
+                ]
+            ]
+        },
+        {
+            "block_label": "vision_footnote",
+            "block_content": "2. Represents loans, net of ACL. For a further discussion of loans in the Wealth Management and Institutional Securities business segments, see \"Quantitative and Qualitative Disclosures about Risk—Credit Risk\" herein.",
+            "block_bbox": [
+                629,
+                688,
+                1138,
+                734
+            ],
+            "block_id": 13,
+            "block_order": null,
+            "group_id": 13,
+            "block_polygon_points": [
+                [
+                    629.0,
+                    688.0
+                ],
+                [
+                    1138.0,
+                    688.0
+                ],
+                [
+                    1138.0,
+                    734.0
+                ],
+                [
+                    629.0,
+                    734.0
+                ]
+            ]
+        },
+        {
+            "block_label": "vision_footnote",
+            "block_content": "3. Other loans primarily include tailored lending. For a further discussion of Other loans, see \"Quantitative and Qualitative Disclosures about Risk—Credit Risk\" herein.",
+            "block_bbox": [
+                629,
+                734,
+                1138,
+                778
+            ],
+            "block_id": 14,
+            "block_order": null,
+            "group_id": 14,
+            "block_polygon_points": [
+                [
+                    629.0,
+                    734.0
+                ],
+                [
+                    1138.0,
+                    734.0
+                ],
+                [
+                    1138.0,
+                    778.0
+                ],
+                [
+                    629.0,
+                    778.0
+                ]
+            ]
+        },
+        {
+            "block_label": "vision_footnote",
+            "block_content": "4. For further information on deposits, see \"Liquidity and Capital Resources—Funding Management—Balance Sheet—Unsecured Financing\" herein.",
+            "block_bbox": [
+                630,
+                777,
+                1137,
+                811
+            ],
+            "block_id": 15,
+            "block_order": null,
+            "group_id": 15,
+            "block_polygon_points": [
+                [
+                    630.0,
+                    777.0
+                ],
+                [
+                    1137.0,
+                    777.0
+                ],
+                [
+                    1137.0,
+                    811.0
+                ],
+                [
+                    630.0,
+                    811.0
+                ]
+            ]
+        },
+        {
+            "block_label": "footer",
+            "block_content": "March 2026 Form 10-Q",
+            "block_bbox": [
+                85,
+                1523,
+                264,
+                1545
+            ],
+            "block_id": 16,
+            "block_order": null,
+            "group_id": 16,
+            "block_polygon_points": [
+                [
+                    85.0,
+                    1523.0
+                ],
+                [
+                    263.0,
+                    1523.0
+                ],
+                [
+                    263.0,
+                    1544.0
+                ],
+                [
+                    85.0,
+                    1544.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "17",
+            "block_bbox": [
+                597,
+                1524,
+                619,
+                1544
+            ],
+            "block_id": 17,
+            "block_order": null,
+            "group_id": 17,
+            "block_polygon_points": [
+                [
+                    597.0,
+                    1524.0
+                ],
+                [
+                    618.0,
+                    1524.0
+                ],
+                [
+                    618.0,
+                    1543.0
+                ],
+                [
+                    597.0,
+                    1543.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.7739787101745605,
+                "coordinate": [
+                    82,
+                    28,
+                    233,
+                    51
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        82.0,
+                        28.0
+                    ],
+                    [
+                        233.0,
+                        28.0
+                    ],
+                    [
+                        233.0,
+                        51.0
+                    ],
+                    [
+                        82.0,
+                        51.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.8785836696624756,
+                "coordinate": [
+                    932,
+                    53,
+                    1132,
+                    85
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        932.0,
+                        53.0
+                    ],
+                    [
+                        1132.0,
+                        53.0
+                    ],
+                    [
+                        1132.0,
+                        85.0
+                    ],
+                    [
+                        932.0,
+                        85.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.4051588773727417,
+                "coordinate": [
+                    82,
+                    59,
+                    493,
+                    133
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        82.0,
+                        59.0
+                    ],
+                    [
+                        493.0,
+                        59.0
+                    ],
+                    [
+                        493.0,
+                        133.0
+                    ],
+                    [
+                        82.0,
+                        133.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.927745521068573,
+                "coordinate": [
+                    84,
+                    196,
+                    593,
+                    272
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        84.0,
+                        196.0
+                    ],
+                    [
+                        593.0,
+                        196.0
+                    ],
+                    [
+                        593.0,
+                        272.0
+                    ],
+                    [
+                        84.0,
+                        272.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9566693902015686,
+                "coordinate": [
+                    83,
+                    288,
+                    593,
+                    460
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        83.0,
+                        288.0
+                    ],
+                    [
+                        593.0,
+                        288.0
+                    ],
+                    [
+                        593.0,
+                        460.0
+                    ],
+                    [
+                        83.0,
+                        460.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9466057419776917,
+                "coordinate": [
+                    84,
+                    476,
+                    593,
+                    575
+                ],
+                "order": 4,
+                "polygon_points": [
+                    [
+                        84.0,
+                        476.0
+                    ],
+                    [
+                        593.0,
+                        476.0
+                    ],
+                    [
+                        593.0,
+                        575.0
+                    ],
+                    [
+                        84.0,
+                        575.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.7642019987106323,
+                "coordinate": [
+                    86,
+                    151,
+                    290,
+                    177
+                ],
+                "order": 5,
+                "polygon_points": [
+                    [
+                        86.0,
+                        151.0
+                    ],
+                    [
+                        290.0,
+                        151.0
+                    ],
+                    [
+                        290.0,
+                        177.0
+                    ],
+                    [
+                        86.0,
+                        177.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9436545968055725,
+                "coordinate": [
+                    84,
+                    592,
+                    593,
+                    692
+                ],
+                "order": 6,
+                "polygon_points": [
+                    [
+                        84.0,
+                        592.0
+                    ],
+                    [
+                        593.0,
+                        592.0
+                    ],
+                    [
+                        593.0,
+                        692.0
+                    ],
+                    [
+                        84.0,
+                        692.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9626228213310242,
+                "coordinate": [
+                    83,
+                    708,
+                    594,
+                    999
+                ],
+                "order": 7,
+                "polygon_points": [
+                    [
+                        83.0,
+                        708.0
+                    ],
+                    [
+                        594.0,
+                        708.0
+                    ],
+                    [
+                        594.0,
+                        999.0
+                    ],
+                    [
+                        83.0,
+                        999.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9367093443870544,
+                "coordinate": [
+                    84,
+                    1016,
+                    593,
+                    1115
+                ],
+                "order": 8,
+                "polygon_points": [
+                    [
+                        84.0,
+                        1016.0
+                    ],
+                    [
+                        593.0,
+                        1016.0
+                    ],
+                    [
+                        593.0,
+                        1115.0
+                    ],
+                    [
+                        84.0,
+                        1115.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 7,
+                "label": "figure_title",
+                "score": 0.5399741530418396,
+                "coordinate": [
+                    630,
+                    103,
+                    1137,
+                    147
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        630.0,
+                        103.0
+                    ],
+                    [
+                        1137.0,
+                        103.0
+                    ],
+                    [
+                        1137.0,
+                        147.0
+                    ],
+                    [
+                        630.0,
+                        147.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.971763014793396,
+                "coordinate": [
+                    631,
+                    157,
+                    1136,
+                    634
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        631.0,
+                        157.0
+                    ],
+                    [
+                        1136.0,
+                        157.0
+                    ],
+                    [
+                        1136.0,
+                        634.0
+                    ],
+                    [
+                        631.0,
+                        634.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 24,
+                "label": "vision_footnote",
+                "score": 0.8356691002845764,
+                "coordinate": [
+                    631,
+                    639,
+                    1136,
+                    687
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        631.0,
+                        639.0
+                    ],
+                    [
+                        1136.0,
+                        639.0
+                    ],
+                    [
+                        1136.0,
+                        687.0
+                    ],
+                    [
+                        631.0,
+                        687.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 24,
+                "label": "vision_footnote",
+                "score": 0.8653326034545898,
+                "coordinate": [
+                    629,
+                    688,
+                    1138,
+                    734
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        629.0,
+                        688.0
+                    ],
+                    [
+                        1138.0,
+                        688.0
+                    ],
+                    [
+                        1138.0,
+                        734.0
+                    ],
+                    [
+                        629.0,
+                        734.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 24,
+                "label": "vision_footnote",
+                "score": 0.9059252738952637,
+                "coordinate": [
+                    629,
+                    734,
+                    1138,
+                    778
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        629.0,
+                        734.0
+                    ],
+                    [
+                        1138.0,
+                        734.0
+                    ],
+                    [
+                        1138.0,
+                        778.0
+                    ],
+                    [
+                        629.0,
+                        778.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 24,
+                "label": "vision_footnote",
+                "score": 0.877223014831543,
+                "coordinate": [
+                    630,
+                    777,
+                    1137,
+                    811
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        630.0,
+                        777.0
+                    ],
+                    [
+                        1137.0,
+                        777.0
+                    ],
+                    [
+                        1137.0,
+                        811.0
+                    ],
+                    [
+                        630.0,
+                        811.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.85214763879776,
+                "coordinate": [
+                    85,
+                    1523,
+                    264,
+                    1545
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        85.0,
+                        1523.0
+                    ],
+                    [
+                        263.0,
+                        1523.0
+                    ],
+                    [
+                        263.0,
+                        1544.0
+                    ],
+                    [
+                        85.0,
+                        1544.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.7301248908042908,
+                "coordinate": [
+                    597,
+                    1524,
+                    619,
+                    1544
+                ],
+                "order": 9,
+                "polygon_points": [
+                    [
+                        597.0,
+                        1524.0
+                    ],
+                    [
+                        618.0,
+                        1524.0
+                    ],
+                    [
+                        618.0,
+                        1543.0
+                    ],
+                    [
+                        597.0,
+                        1543.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

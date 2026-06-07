@@ -1,0 +1,461 @@
+{
+    "input_path": "/workspace/work/data/input/MorganStanleyQ10.pdf",
+    "page_index": 75,
+    "page_count": 77,
+    "width": 1224,
+    "height": 1584,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "paragraph_title",
+            "block_content": "Table of Contents",
+            "block_bbox": [
+                82,
+                28,
+                232,
+                52
+            ],
+            "block_id": 0,
+            "block_order": 1,
+            "group_id": 0,
+            "block_polygon_points": [
+                [
+                    82.0,
+                    28.0
+                ],
+                [
+                    232.0,
+                    28.0
+                ],
+                [
+                    232.0,
+                    52.0
+                ],
+                [
+                    82.0,
+                    52.0
+                ]
+            ]
+        },
+        {
+            "block_label": "header",
+            "block_content": "Morgan Stanley",
+            "block_bbox": [
+                932,
+                53,
+                1131,
+                81
+            ],
+            "block_id": 1,
+            "block_order": null,
+            "group_id": 1,
+            "block_polygon_points": [
+                [
+                    932.0,
+                    53.0
+                ],
+                [
+                    1131.0,
+                    53.0
+                ],
+                [
+                    1131.0,
+                    81.0
+                ],
+                [
+                    932.0,
+                    81.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "Glossary of Common Terms and Acronyms",
+            "block_bbox": [
+                81,
+                61,
+                536,
+                90
+            ],
+            "block_id": 2,
+            "block_order": 2,
+            "group_id": 2,
+            "block_polygon_points": [
+                [
+                    81.0,
+                    61.0
+                ],
+                [
+                    536.0,
+                    61.0
+                ],
+                [
+                    536.0,
+                    90.0
+                ],
+                [
+                    81.0,
+                    90.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "2025 Form Annual report on Form 10-K for year ended 10-K December 31, 2025 filed with the SEC\nABS Asset-backed securities\nACL Allowance for credit losses\nAFS Available-for-sale\nAML Anti-money laundering\nAOCI Accumulated other comprehensive income (loss)\nAUM Assets under management or supervision\nBalance sheet Consolidated balance sheet\nBHC Bank holding company\nbps Basis points; one basis point equals 1/100th of 1%\nCash flow statement Consolidated cash flow statement\nCCAR Comprehensive Capital Analysis and Review\nCCyB Countercyclical capital buffer\nCDO Collateralized debt obligation(s), including Collateralized loan obligation(s)\nCDS Credit default swaps\nCECL Current Expected Credit Losses, as calculated under the Financial Instruments—Credit Losses accounting update\nCET1 Common Equity Tier 1\nCFTC U.S. Commodity Futures Trading Commission\nCLN Credit-linked note(s)\nCLO Collateralized loan obligation(s)\nCMBS Commercial mortgage-backed securities\nCMO Collateralized mortgage obligation(s)\nCRE Commercial real estate\nCRM Credit Risk Management Department\nCTA Cumulative foreign currency translation adjustments\nDCP Employee deferred cash-based compensation plans linked to investment performance\nDCP Investments associated with certain DCP investments\nDVA Debt valuation adjustment\nEBITDA Earnings before interest, taxes, depreciation and amortization\nEMEA Europe, Middle East and Africa\nEPS Earnings per common share\nFDIC Federal Deposit Insurance Corporation\nFFELP Federal Family Education Loan Program\nFHC Financial holding company\nFICO Fair Isaac Corporation\nFinancial statements Consolidated financial statements\nFVO Fair value option\nG-SIB Global systemically important bank\nHFI Held-for-investment\nHFS Held-for-sale\nHQLA High-quality liquid assets\nHTM Held-to-maturity\nI/E Intersegment eliminations\nIM Investment Management\nIncome statement Consolidated income statement",
+            "block_bbox": [
+                78,
+                105,
+                600,
+                1430
+            ],
+            "block_id": 3,
+            "block_order": 3,
+            "group_id": 3,
+            "block_polygon_points": [
+                [
+                    78.0,
+                    105.0
+                ],
+                [
+                    600.0,
+                    105.0
+                ],
+                [
+                    600.0,
+                    1430.0
+                ],
+                [
+                    78.0,
+                    1430.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "IRS Internal Revenue Service\nIS Institutional Securities\nLCR Liquidity coverage ratio, as adopted by the U.S. banking agencies\nLTV Loan-to-value\nM&A Merger, acquisition and restructuring transaction\nMSBNA Morgan Stanley Bank, N.A.\nMS&Co. Morgan Stanley & Co. LLC\nMSCG Morgan Stanley Capital Group Inc.\nMSCS Morgan Stanley Capital Services LLC\nMSESE Morgan Stanley Europe SE\nMSIP Morgan Stanley & Co. International plc\nMSMS Morgan Stanley MUFG Securities Co., Ltd.\nMSPBNA Morgan Stanley Private Bank, National Association\nMSSB Morgan Stanley Smith Barney LLC\nMUFG Mitsubishi UFJ Financial Group, Inc.\nMUMSS Mitsubishi UFJ Morgan Stanley Securities Co., Ltd.\nMWh Megawatt hour\nN/A Not Applicable\nN/M Not Meaningful\nNAV Net asset value\nNon-GAAP Non-generally accepted accounting principles in the U.S.\nNSFR Net stable funding ratio, as adopted by the U.S. banking agencies\nOCC Office of the Comptroller of the Currency\nOCI Other comprehensive income (loss)\nOTC Over-the-counter\nPSU Performance-based stock unit\nROE Return on average common equity\nROTCE Return on average tangible common equity\nROU Right-of-use\nRSU Restricted stock unit\nRWA Risk-weighted assets\nSCB Stress capital buffer\nSEC U.S. Securities and Exchange Commission\nSLR Supplementary leverage ratio\nS&P Standard & Poor's Special purpose entity\nSPE Single point of entry\nSPOE Total loss-absorbing capacity\nTLAC United Kingdom\nU.K. Unpaid principal balance\nUPB United States of America\nU.S. MSBNA and MSPBNA\nU.S. Bank Subsidiaries\nU.S. GAAP Accounting principles generally accepted in the U.S.\nVaR Value-at-Risk\nVIE Variable interest entity\nWACC Implied weighted average cost of capital\nWM Wealth Management",
+            "block_bbox": [
+                626,
+                103,
+                1119,
+                1423
+            ],
+            "block_id": 4,
+            "block_order": 4,
+            "group_id": 4,
+            "block_polygon_points": [
+                [
+                    626.0,
+                    103.0
+                ],
+                [
+                    1119.0,
+                    103.0
+                ],
+                [
+                    1119.0,
+                    1423.0
+                ],
+                [
+                    626.0,
+                    1423.0
+                ]
+            ]
+        },
+        {
+            "block_label": "footer",
+            "block_content": "March 2026 Form 10-Q",
+            "block_bbox": [
+                94,
+                1523,
+                273,
+                1545
+            ],
+            "block_id": 5,
+            "block_order": null,
+            "group_id": 5,
+            "block_polygon_points": [
+                [
+                    94.0,
+                    1523.0
+                ],
+                [
+                    272.0,
+                    1523.0
+                ],
+                [
+                    272.0,
+                    1544.0
+                ],
+                [
+                    94.0,
+                    1544.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "76",
+            "block_bbox": [
+                604,
+                1524,
+                628,
+                1544
+            ],
+            "block_id": 6,
+            "block_order": null,
+            "group_id": 6,
+            "block_polygon_points": [
+                [
+                    604.0,
+                    1524.0
+                ],
+                [
+                    627.0,
+                    1524.0
+                ],
+                [
+                    627.0,
+                    1543.0
+                ],
+                [
+                    604.0,
+                    1543.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.4939559996128082,
+                "coordinate": [
+                    82,
+                    28,
+                    232,
+                    52
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        82.0,
+                        28.0
+                    ],
+                    [
+                        232.0,
+                        28.0
+                    ],
+                    [
+                        232.0,
+                        52.0
+                    ],
+                    [
+                        82.0,
+                        52.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.7660520672798157,
+                "coordinate": [
+                    932,
+                    53,
+                    1131,
+                    81
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        932.0,
+                        53.0
+                    ],
+                    [
+                        1131.0,
+                        53.0
+                    ],
+                    [
+                        1131.0,
+                        81.0
+                    ],
+                    [
+                        932.0,
+                        81.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.6944530606269836,
+                "coordinate": [
+                    81,
+                    61,
+                    536,
+                    90
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        81.0,
+                        61.0
+                    ],
+                    [
+                        536.0,
+                        61.0
+                    ],
+                    [
+                        536.0,
+                        90.0
+                    ],
+                    [
+                        81.0,
+                        90.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.910236656665802,
+                "coordinate": [
+                    78,
+                    105,
+                    600,
+                    1430
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        78.0,
+                        105.0
+                    ],
+                    [
+                        600.0,
+                        105.0
+                    ],
+                    [
+                        600.0,
+                        1430.0
+                    ],
+                    [
+                        78.0,
+                        1430.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9327915906906128,
+                "coordinate": [
+                    626,
+                    103,
+                    1119,
+                    1423
+                ],
+                "order": 4,
+                "polygon_points": [
+                    [
+                        626.0,
+                        103.0
+                    ],
+                    [
+                        1119.0,
+                        103.0
+                    ],
+                    [
+                        1119.0,
+                        1423.0
+                    ],
+                    [
+                        626.0,
+                        1423.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.8498324155807495,
+                "coordinate": [
+                    94,
+                    1523,
+                    273,
+                    1545
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        94.0,
+                        1523.0
+                    ],
+                    [
+                        272.0,
+                        1523.0
+                    ],
+                    [
+                        272.0,
+                        1544.0
+                    ],
+                    [
+                        94.0,
+                        1544.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.7212637662887573,
+                "coordinate": [
+                    604,
+                    1524,
+                    628,
+                    1544
+                ],
+                "order": 5,
+                "polygon_points": [
+                    [
+                        604.0,
+                        1524.0
+                    ],
+                    [
+                        627.0,
+                        1524.0
+                    ],
+                    [
+                        627.0,
+                        1543.0
+                    ],
+                    [
+                        604.0,
+                        1543.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

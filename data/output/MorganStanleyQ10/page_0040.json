@@ -1,0 +1,461 @@
+{
+    "input_path": "/workspace/work/data/input/MorganStanleyQ10.pdf",
+    "page_index": 39,
+    "page_count": 77,
+    "width": 1224,
+    "height": 1584,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "header",
+            "block_content": "Table of Contents",
+            "block_bbox": [
+                82,
+                28,
+                233,
+                51
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "block_polygon_points": [
+                [
+                    82.0,
+                    28.0
+                ],
+                [
+                    233.0,
+                    28.0
+                ],
+                [
+                    233.0,
+                    51.0
+                ],
+                [
+                    82.0,
+                    51.0
+                ]
+            ]
+        },
+        {
+            "block_label": "header",
+            "block_content": "Morgan Stanley",
+            "block_bbox": [
+                931,
+                58,
+                1131,
+                91
+            ],
+            "block_id": 1,
+            "block_order": null,
+            "group_id": 1,
+            "block_polygon_points": [
+                [
+                    931.0,
+                    58.0
+                ],
+                [
+                    1131.0,
+                    58.0
+                ],
+                [
+                    1131.0,
+                    91.0
+                ],
+                [
+                    931.0,
+                    91.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "Consolidated Balance Sheet",
+            "block_bbox": [
+                82,
+                58,
+                374,
+                86
+            ],
+            "block_id": 2,
+            "block_order": 1,
+            "group_id": 2,
+            "block_polygon_points": [
+                [
+                    82.0,
+                    58.0
+                ],
+                [
+                    374.0,
+                    58.0
+                ],
+                [
+                    374.0,
+                    86.0
+                ],
+                [
+                    82.0,
+                    86.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>$ in millions, except share data</td><td>(Unaudited) At March 31, 2026</td><td>At December 31, 2025</td></tr><tr><td>Assets</td><td></td><td></td></tr><tr><td>Cash and cash equivalents</td><td>$ 133,529</td><td>$ 111,695</td></tr><tr><td>Trading assets at fair value ($283,742 and $213,269 pledged as collateral)</td><td>526,211</td><td>428,276</td></tr><tr><td>Investment securities:</td><td></td><td></td></tr><tr><td>Available-for-sale at fair value (amortized cost of $112,050 and $112,522)</td><td>109,817</td><td>110,466</td></tr><tr><td>Held-to-maturity (fair value of $42,993 and $45,615)</td><td>50,546</td><td>53,090</td></tr><tr><td>Securities purchased under agreements to resell (includes $— and $— at fair value)</td><td>128,880</td><td>120,243</td></tr><tr><td>Securities borrowed</td><td>154,570</td><td>151,908</td></tr><tr><td>Customer and other receivables</td><td>132,599</td><td>114,720</td></tr><tr><td>Loans:</td><td></td><td></td></tr><tr><td>Held for investment (net of allowance for credit losses of $1,174 and $1,132)</td><td>276,683</td><td>268,720</td></tr><tr><td>Held for sale</td><td>17,231</td><td>9,374</td></tr><tr><td>Goodwill</td><td>17,105</td><td>16,726</td></tr><tr><td>Intangible assets (net of accumulated amortization of $1,968 and $1,882)</td><td>5,960</td><td>6,010</td></tr><tr><td>Other assets</td><td>28,287</td><td>29,042</td></tr><tr><td>Total assets</td><td>$ 1,581,418</td><td>$ 1,420,270</td></tr><tr><td>Liabilities</td><td></td><td></td></tr><tr><td>Deposits (includes $8,593 and $8,755 at fair value)</td><td>$ 427,971</td><td>$ 415,523</td></tr><tr><td>Trading liabilities at fair value</td><td>217,356</td><td>169,569</td></tr><tr><td>Securities sold under agreements to repurchase (includes $699 and $696 at fair value)</td><td>119,831</td><td>78,539</td></tr><tr><td>Securities loaned</td><td>19,589</td><td>17,310</td></tr><tr><td>Other secured financings (includes $17,533 and $16,871 at fair value)</td><td>22,666</td><td>21,603</td></tr><tr><td>Customer and other payables</td><td>259,289</td><td>226,519</td></tr><tr><td>Other liabilities and accrued expenses</td><td>27,764</td><td>29,620</td></tr><tr><td>Borrowings (includes $137,633 and $132,479 at fair value)</td><td>371,568</td><td>348,935</td></tr><tr><td>Total liabilities</td><td>1,466,034</td><td>1,307,618</td></tr><tr><td>Commitments and contingent liabilities (see Note 13)</td><td></td><td></td></tr><tr><td>Equity</td><td></td><td></td></tr><tr><td>Morgan Stanley shareholders&#x27; equity:</td><td></td><td></td></tr><tr><td>Preferred stock</td><td>9,750</td><td>9,750</td></tr><tr><td>Common stock, $0.01 par value:</td><td></td><td></td></tr><tr><td>Shares authorized: 3,500,000,000; Shares issued: 2,038,893,979; Shares outstanding: 1,579,629,298 and 1,582,834,137</td><td>20</td><td>20</td></tr><tr><td>Additional paid-in capital</td><td>30,988</td><td>31,153</td></tr><tr><td>Retained earnings</td><td>118,913</td><td>115,091</td></tr><tr><td>Employee stock trusts</td><td>6,003</td><td>5,154</td></tr><tr><td>Accumulated other comprehensive income (loss)</td><td>(5,506)</td><td>(6,285)</td></tr><tr><td>Common stock held in treasury at cost, $0.01 par value (459,264,6</td><td></td><td></td></tr></table>",
+            "block_bbox": [
+                87,
+                138,
+                1142,
+                1240
+            ],
+            "block_id": 3,
+            "block_order": null,
+            "group_id": 3,
+            "block_polygon_points": [
+                [
+                    87.0,
+                    138.0
+                ],
+                [
+                    1142.0,
+                    138.0
+                ],
+                [
+                    1142.0,
+                    1240.0
+                ],
+                [
+                    87.0,
+                    1240.0
+                ]
+            ]
+        },
+        {
+            "block_label": "footer",
+            "block_content": "March 2026 Form 10-Q",
+            "block_bbox": [
+                96,
+                1523,
+                275,
+                1545
+            ],
+            "block_id": 4,
+            "block_order": null,
+            "group_id": 4,
+            "block_polygon_points": [
+                [
+                    96.0,
+                    1523.0
+                ],
+                [
+                    274.0,
+                    1523.0
+                ],
+                [
+                    274.0,
+                    1544.0
+                ],
+                [
+                    96.0,
+                    1544.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "40",
+            "block_bbox": [
+                596,
+                1524,
+                620,
+                1544
+            ],
+            "block_id": 5,
+            "block_order": null,
+            "group_id": 5,
+            "block_polygon_points": [
+                [
+                    596.0,
+                    1524.0
+                ],
+                [
+                    619.0,
+                    1524.0
+                ],
+                [
+                    619.0,
+                    1543.0
+                ],
+                [
+                    596.0,
+                    1543.0
+                ]
+            ]
+        },
+        {
+            "block_label": "footer",
+            "block_content": "See Notes to Consolidated Financial Statements",
+            "block_bbox": [
+                766,
+                1523,
+                1118,
+                1545
+            ],
+            "block_id": 6,
+            "block_order": null,
+            "group_id": 6,
+            "block_polygon_points": [
+                [
+                    766.0,
+                    1523.0
+                ],
+                [
+                    1118.0,
+                    1523.0
+                ],
+                [
+                    1118.0,
+                    1545.0
+                ],
+                [
+                    766.0,
+                    1545.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.7755936980247498,
+                "coordinate": [
+                    82,
+                    28,
+                    233,
+                    51
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        82.0,
+                        28.0
+                    ],
+                    [
+                        233.0,
+                        28.0
+                    ],
+                    [
+                        233.0,
+                        51.0
+                    ],
+                    [
+                        82.0,
+                        51.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.8592686653137207,
+                "coordinate": [
+                    931,
+                    58,
+                    1131,
+                    91
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        931.0,
+                        58.0
+                    ],
+                    [
+                        1131.0,
+                        58.0
+                    ],
+                    [
+                        1131.0,
+                        91.0
+                    ],
+                    [
+                        931.0,
+                        91.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.5460919737815857,
+                "coordinate": [
+                    82,
+                    58,
+                    374,
+                    86
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        82.0,
+                        58.0
+                    ],
+                    [
+                        374.0,
+                        58.0
+                    ],
+                    [
+                        374.0,
+                        86.0
+                    ],
+                    [
+                        82.0,
+                        86.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9778382182121277,
+                "coordinate": [
+                    87,
+                    138,
+                    1142,
+                    1240
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        87.0,
+                        138.0
+                    ],
+                    [
+                        1142.0,
+                        138.0
+                    ],
+                    [
+                        1142.0,
+                        1240.0
+                    ],
+                    [
+                        87.0,
+                        1240.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.8431307673454285,
+                "coordinate": [
+                    96,
+                    1523,
+                    275,
+                    1545
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        96.0,
+                        1523.0
+                    ],
+                    [
+                        274.0,
+                        1523.0
+                    ],
+                    [
+                        274.0,
+                        1544.0
+                    ],
+                    [
+                        96.0,
+                        1544.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.7404904961585999,
+                "coordinate": [
+                    596,
+                    1524,
+                    620,
+                    1544
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        596.0,
+                        1524.0
+                    ],
+                    [
+                        619.0,
+                        1524.0
+                    ],
+                    [
+                        619.0,
+                        1543.0
+                    ],
+                    [
+                        596.0,
+                        1543.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.8680899143218994,
+                "coordinate": [
+                    766,
+                    1523,
+                    1118,
+                    1545
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        766.0,
+                        1523.0
+                    ],
+                    [
+                        1118.0,
+                        1523.0
+                    ],
+                    [
+                        1118.0,
+                        1545.0
+                    ],
+                    [
+                        766.0,
+                        1545.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

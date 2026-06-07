@@ -1,0 +1,498 @@
+{
+  "query": "evidence preview",
+  "document_id": "MorganStanleyQ10",
+  "retrieval_mode": "preview",
+  "fallback_triggered": true,
+  "retriever_result": {
+    "query": "evidence preview",
+    "document_id": "MorganStanleyQ10",
+    "retrieval_mode": "preview",
+    "fallback_triggered": true,
+    "contexts": [
+      {
+        "id": "table_000001",
+        "document_id": "MorganStanleyQ10",
+        "modality": "table",
+        "page": 1,
+        "bbox": [
+          81.0,
+          393.0,
+          1136.0,
+          485.0
+        ],
+        "title": "Morgan Stanley Registrar Information Table",
+        "content": "The table provides key registration information for Morgan Stanley. It lists Delaware as the state of incorporation or organization, 1585 Broadway, New York, NY 10036 as the address of principal executive offices, 36-3145972 as the IRS Employer Identification Number, and (212) 761-4000 as the registrant’s telephone number. This information is presented in a structured format for official identification purposes.",
+        "summary": "Corporate registration details; includes state of incorporation, address, IRS EIN, and phone number.",
+        "crop_path": "data/output\\MorganStanleyQ10_tables\\table_0001_page_0001_Morgan_Stanley.png",
+        "asset_path": "data/output\\MorganStanleyQ10_tables\\table_0001_page_0001_Morgan_Stanley.png",
+        "score": null
+      },
+      {
+        "id": "table_000002",
+        "document_id": "MorganStanleyQ10",
+        "modality": "table",
+        "page": 1,
+        "bbox": [
+          80.0,
+          530.0,
+          1143.0,
+          1099.0
+        ],
+        "title": "Morgan Stanley Stock Classes and Exchange Listing Table",
+        "content": "The table details various classes of Morgan Stanley’s securities, including Common Stock, multiple series of Non-Cumulative Preferred Stock, and Global Medium-Term Notes. Each class is assigned a specific trading symbol (e.g., MS for Common Stock, MS/PA for Series A Preferred Stock) and is registered on the New York Stock Exchange. The table provides a clear mapping between security types and their market identifiers.",
+        "summary": "A table listing stock classes, trading symbols, and exchange registration details.",
+        "crop_path": "data/output\\MorganStanleyQ10_tables\\table_0002_page_0001_defaulttitle.png",
+        "asset_path": "data/output\\MorganStanleyQ10_tables\\table_0002_page_0001_defaulttitle.png",
+        "score": null
+      },
+      {
+        "id": "table_000003",
+        "document_id": "MorganStanleyQ10",
+        "modality": "table",
+        "page": 2,
+        "bbox": [
+          89.0,
+          169.0,
+          1139.0,
+          1454.0
+        ],
+        "title": "Table of Contents for Quarterly Report",
+        "content": "This table of contents outlines the structure of Morgan Stanley’s Quarterly Report on Form 10-Q for the quarter ended March 31, 2026. It organizes content into sections such as Financial Information, Management’s Discussion and Analysis, Risk Disclosures, Consolidated Financial Statements, and Other Information, each with corresponding part, item, and page numbers. The table facilitates navigation through the report’s detailed disclosures.",
+        "summary": "Table of Contents; lists sections, parts, items, and page numbers for a financial report.",
+        "crop_path": "data/output\\MorganStanleyQ10_tables\\table_0003_page_0002_QUARTERLY_REPORT_ON_FORM_10-Q_For_the_quarter_ended_March_31_2026.png",
+        "asset_path": "data/output\\MorganStanleyQ10_tables\\table_0003_page_0002_QUARTERLY_REPORT_ON_FORM_10-Q_For_the_quarter_ended_March_31_2026.png",
+        "score": null
+      },
+      {
+        "id": "table_000004",
+        "document_id": "MorganStanleyQ10",
+        "modality": "table",
+        "page": 7,
+        "bbox": [
+          633.0,
+          154.0,
+          1137.0,
+          1064.0
+        ],
+        "title": "Selected Financial Information and Statistical Data Table",
+        "content": "The table presents selected financial data for Morgan Stanley for the three months ended March 31, 2026, compared to 2025. It includes consolidated results such as net revenues ($20,580 million in 2026 vs. $17,739 million in 2025) and earnings per diluted common share ($3.43 vs. $2.60). It also details consolidated financial measures like ROE, ROTCE, and pre-tax margins by segment. Additionally, it provides data on liquidity resources, assets, deposits, and capital ratios, all presented in millions or billions, with comparisons between March 31, 2026, and December 31, 2025.",
+        "summary": "Financial summary; includes consolidated results, financial measures, liquidity resources, assets, and capital ratios.",
+        "crop_path": "data/output\\MorganStanleyQ10_tables\\table_0004_page_0007_Selected_Financial_Information_and_Other_Statistical_Data.png",
+        "asset_path": "data/output\\MorganStanleyQ10_tables\\table_0004_page_0007_Selected_Financial_Information_and_Other_Statistical_Data.png",
+        "score": null
+      },
+      {
+        "id": "image_000001",
+        "document_id": "MorganStanleyQ10",
+        "modality": "image",
+        "page": 5,
+        "bbox": [
+          633.0,
+          194.0,
+          1130.0,
+          444.0
+        ],
+        "title": "Net Income Applicable to Morgan Stanley Bar Chart",
+        "content": "The bar chart displays net income applicable to Morgan Stanley for two quarters: 1Q 2025 and 1Q 2026. The bar for 1Q 2025 shows a value of $4,315 million, while the bar for 1Q 2026 shows a value of $5,567 million. The chart indicates an increase in net income from the first quarter of 2025 to the first quarter of 2026.",
+        "summary": "Bar chart comparing net income; horizontal axis by quarter and vertical axis by amount in millions.",
+        "crop_path": "data/output\\MorganStanleyQ10_images\\image_0001_page_0005_Net_Income_Applicable_to_Morgan_Stanley_in_millions.png",
+        "asset_path": "data/output\\MorganStanleyQ10_images\\image_0001_page_0005_Net_Income_Applicable_to_Morgan_Stanley_in_millions.png",
+        "score": null
+      },
+      {
+        "id": "image_000002",
+        "document_id": "MorganStanleyQ10",
+        "modality": "image",
+        "page": 5,
+        "bbox": [
+          635.0,
+          542.0,
+          1129.0,
+          808.0
+        ],
+        "title": "Earnings per Diluted Common Share Bar Chart",
+        "content": "The bar chart presents earnings per diluted common share for two quarters: 1Q 2025 and 1Q 2026. The bar for 1Q 2025 shows a value of $2.60, while the bar for 1Q 2026 shows a value of $3.43. The chart indicates an increase in earnings per share from the first quarter of 2025 to the first quarter of 2026.",
+        "summary": "Bar chart showing earnings per share; horizontal axis by quarter and vertical axis by amount in dollars.",
+        "crop_path": "data/output\\MorganStanleyQ10_images\\image_0002_page_0005_Earnings_per_Diluted_Common_Share.png",
+        "asset_path": "data/output\\MorganStanleyQ10_images\\image_0002_page_0005_Earnings_per_Diluted_Common_Share.png",
+        "score": null
+      },
+      {
+        "id": "image_000003",
+        "document_id": "MorganStanleyQ10",
+        "modality": "image",
+        "page": 5,
+        "bbox": [
+          77.0,
+          1107.0,
+          587.0,
+          1423.0
+        ],
+        "title": "Net Revenues Bar Chart",
+        "content": "The bar chart displays net revenues for two quarters: 1Q 2025 and 1Q 2026. The bar for 1Q 2025 shows a value of $17,739 million, while the bar for 1Q 2026 shows a value of $20,580 million. The chart indicates an increase in net revenues from the first quarter of 2025 to the first quarter of 2026.",
+        "summary": "Bar chart comparing net revenues; horizontal axis by quarter and vertical axis by amount in millions.",
+        "crop_path": "data/output\\MorganStanleyQ10_images\\image_0003_page_0005_Net_Revenues_in_millions.png",
+        "asset_path": "data/output\\MorganStanleyQ10_images\\image_0003_page_0005_Net_Revenues_in_millions.png",
+        "score": null
+      }
+    ],
+    "trace": {
+      "num_text": 0,
+      "num_table": 4,
+      "num_image": 3,
+      "total": 7
+    }
+  },
+  "contexts_by_modality": {
+    "text": [],
+    "table": [
+      {
+        "id": "table_000001",
+        "document_id": "MorganStanleyQ10",
+        "modality": "table",
+        "score": null,
+        "page": 1,
+        "page_span": null,
+        "bbox": [
+          81.0,
+          393.0,
+          1136.0,
+          485.0
+        ],
+        "title": "Morgan Stanley Registrar Information Table",
+        "content": "The table provides key registration information for Morgan Stanley. It lists Delaware as the state of incorporation or organization, 1585 Broadway, New York, NY 10036 as the address of principal executive offices, 36-3145972 as the IRS Employer Identification Number, and (212) 761-4000 as the registrant’s telephone number. This information is presented in a structured format for official identification purposes.",
+        "summary": "Corporate registration details; includes state of incorporation, address, IRS EIN, and phone number.",
+        "json": null,
+        "crop_path": "data/output\\MorganStanleyQ10_tables\\table_0001_page_0001_Morgan_Stanley.png",
+        "asset_path": "data/output\\MorganStanleyQ10_tables\\table_0001_page_0001_Morgan_Stanley.png",
+        "evidence_id": "T1"
+      },
+      {
+        "id": "table_000002",
+        "document_id": "MorganStanleyQ10",
+        "modality": "table",
+        "score": null,
+        "page": 1,
+        "page_span": null,
+        "bbox": [
+          80.0,
+          530.0,
+          1143.0,
+          1099.0
+        ],
+        "title": "Morgan Stanley Stock Classes and Exchange Listing Table",
+        "content": "The table details various classes of Morgan Stanley’s securities, including Common Stock, multiple series of Non-Cumulative Preferred Stock, and Global Medium-Term Notes. Each class is assigned a specific trading symbol (e.g., MS for Common Stock, MS/PA for Series A Preferred Stock) and is registered on the New York Stock Exchange. The table provides a clear mapping between security types and their market identifiers.",
+        "summary": "A table listing stock classes, trading symbols, and exchange registration details.",
+        "json": null,
+        "crop_path": "data/output\\MorganStanleyQ10_tables\\table_0002_page_0001_defaulttitle.png",
+        "asset_path": "data/output\\MorganStanleyQ10_tables\\table_0002_page_0001_defaulttitle.png",
+        "evidence_id": "T2"
+      },
+      {
+        "id": "table_000003",
+        "document_id": "MorganStanleyQ10",
+        "modality": "table",
+        "score": null,
+        "page": 2,
+        "page_span": null,
+        "bbox": [
+          89.0,
+          169.0,
+          1139.0,
+          1454.0
+        ],
+        "title": "Table of Contents for Quarterly Report",
+        "content": "This table of contents outlines the structure of Morgan Stanley’s Quarterly Report on Form 10-Q for the quarter ended March 31, 2026. It organizes content into sections such as Financial Information, Management’s Discussion and Analysis, Risk Disclosures, Consolidated Financial Statements, and Other Information, each with corresponding part, item, and page numbers. The table facilitates navigation through the report’s detailed disclosures.",
+        "summary": "Table of Contents; lists sections, parts, items, and page numbers for a financial report.",
+        "json": null,
+        "crop_path": "data/output\\MorganStanleyQ10_tables\\table_0003_page_0002_QUARTERLY_REPORT_ON_FORM_10-Q_For_the_quarter_ended_March_31_2026.png",
+        "asset_path": "data/output\\MorganStanleyQ10_tables\\table_0003_page_0002_QUARTERLY_REPORT_ON_FORM_10-Q_For_the_quarter_ended_March_31_2026.png",
+        "evidence_id": "T3"
+      },
+      {
+        "id": "table_000004",
+        "document_id": "MorganStanleyQ10",
+        "modality": "table",
+        "score": null,
+        "page": 7,
+        "page_span": null,
+        "bbox": [
+          633.0,
+          154.0,
+          1137.0,
+          1064.0
+        ],
+        "title": "Selected Financial Information and Statistical Data Table",
+        "content": "The table presents selected financial data for Morgan Stanley for the three months ended March 31, 2026, compared to 2025. It includes consolidated results such as net revenues ($20,580 million in 2026 vs. $17,739 million in 2025) and earnings per diluted common share ($3.43 vs. $2.60). It also details consolidated financial measures like ROE, ROTCE, and pre-tax margins by segment. Additionally, it provides data on liquidity resources, assets, deposits, and capital ratios, all presented in millions or billions, with comparisons between March 31, 2026, and December 31, 2025.",
+        "summary": "Financial summary; includes consolidated results, financial measures, liquidity resources, assets, and capital ratios.",
+        "json": null,
+        "crop_path": "data/output\\MorganStanleyQ10_tables\\table_0004_page_0007_Selected_Financial_Information_and_Other_Statistical_Data.png",
+        "asset_path": "data/output\\MorganStanleyQ10_tables\\table_0004_page_0007_Selected_Financial_Information_and_Other_Statistical_Data.png",
+        "evidence_id": "T4"
+      }
+    ],
+    "image": [
+      {
+        "id": "image_000001",
+        "document_id": "MorganStanleyQ10",
+        "modality": "image",
+        "score": null,
+        "page": 5,
+        "page_span": null,
+        "bbox": [
+          633.0,
+          194.0,
+          1130.0,
+          444.0
+        ],
+        "title": "Net Income Applicable to Morgan Stanley Bar Chart",
+        "content": "The bar chart displays net income applicable to Morgan Stanley for two quarters: 1Q 2025 and 1Q 2026. The bar for 1Q 2025 shows a value of $4,315 million, while the bar for 1Q 2026 shows a value of $5,567 million. The chart indicates an increase in net income from the first quarter of 2025 to the first quarter of 2026.",
+        "summary": "Bar chart comparing net income; horizontal axis by quarter and vertical axis by amount in millions.",
+        "json": null,
+        "crop_path": "data/output\\MorganStanleyQ10_images\\image_0001_page_0005_Net_Income_Applicable_to_Morgan_Stanley_in_millions.png",
+        "asset_path": "data/output\\MorganStanleyQ10_images\\image_0001_page_0005_Net_Income_Applicable_to_Morgan_Stanley_in_millions.png",
+        "evidence_id": "I1"
+      },
+      {
+        "id": "image_000002",
+        "document_id": "MorganStanleyQ10",
+        "modality": "image",
+        "score": null,
+        "page": 5,
+        "page_span": null,
+        "bbox": [
+          635.0,
+          542.0,
+          1129.0,
+          808.0
+        ],
+        "title": "Earnings per Diluted Common Share Bar Chart",
+        "content": "The bar chart presents earnings per diluted common share for two quarters: 1Q 2025 and 1Q 2026. The bar for 1Q 2025 shows a value of $2.60, while the bar for 1Q 2026 shows a value of $3.43. The chart indicates an increase in earnings per share from the first quarter of 2025 to the first quarter of 2026.",
+        "summary": "Bar chart showing earnings per share; horizontal axis by quarter and vertical axis by amount in dollars.",
+        "json": null,
+        "crop_path": "data/output\\MorganStanleyQ10_images\\image_0002_page_0005_Earnings_per_Diluted_Common_Share.png",
+        "asset_path": "data/output\\MorganStanleyQ10_images\\image_0002_page_0005_Earnings_per_Diluted_Common_Share.png",
+        "evidence_id": "I2"
+      },
+      {
+        "id": "image_000003",
+        "document_id": "MorganStanleyQ10",
+        "modality": "image",
+        "score": null,
+        "page": 5,
+        "page_span": null,
+        "bbox": [
+          77.0,
+          1107.0,
+          587.0,
+          1423.0
+        ],
+        "title": "Net Revenues Bar Chart",
+        "content": "The bar chart displays net revenues for two quarters: 1Q 2025 and 1Q 2026. The bar for 1Q 2025 shows a value of $17,739 million, while the bar for 1Q 2026 shows a value of $20,580 million. The chart indicates an increase in net revenues from the first quarter of 2025 to the first quarter of 2026.",
+        "summary": "Bar chart comparing net revenues; horizontal axis by quarter and vertical axis by amount in millions.",
+        "json": null,
+        "crop_path": "data/output\\MorganStanleyQ10_images\\image_0003_page_0005_Net_Revenues_in_millions.png",
+        "asset_path": "data/output\\MorganStanleyQ10_images\\image_0003_page_0005_Net_Revenues_in_millions.png",
+        "evidence_id": "I3"
+      }
+    ]
+  },
+  "montages": {
+    "table": {
+      "path": "data/output/MorganStanleyQ10_table_montage_004e2627.jpg",
+      "absolute_path": "data/output\\MorganStanleyQ10_table_montage_004e2627.jpg",
+      "kind": "table",
+      "layout": "vertical",
+      "evidence_ids": [
+        "T1",
+        "T2",
+        "T3",
+        "T4"
+      ],
+      "width": 503,
+      "height": 1992,
+      "pixel_count": 1001976,
+      "source_count": 4
+    },
+    "image": {
+      "path": "data/output/MorganStanleyQ10_image_montage_004e2627.jpg",
+      "absolute_path": "data/output\\MorganStanleyQ10_image_montage_004e2627.jpg",
+      "kind": "image",
+      "layout": "grid",
+      "evidence_ids": [
+        "I1",
+        "I2",
+        "I3"
+      ],
+      "width": 1161,
+      "height": 863,
+      "pixel_count": 1001943,
+      "source_count": 3
+    }
+  },
+  "vlm_inputs": {
+    "text_contexts": [],
+    "table_contexts": [
+      {
+        "id": "table_000001",
+        "document_id": "MorganStanleyQ10",
+        "modality": "table",
+        "score": null,
+        "page": 1,
+        "page_span": null,
+        "bbox": [
+          81.0,
+          393.0,
+          1136.0,
+          485.0
+        ],
+        "title": "Morgan Stanley Registrar Information Table",
+        "content": "The table provides key registration information for Morgan Stanley. It lists Delaware as the state of incorporation or organization, 1585 Broadway, New York, NY 10036 as the address of principal executive offices, 36-3145972 as the IRS Employer Identification Number, and (212) 761-4000 as the registrant’s telephone number. This information is presented in a structured format for official identification purposes.",
+        "summary": "Corporate registration details; includes state of incorporation, address, IRS EIN, and phone number.",
+        "json": null,
+        "crop_path": "data/output\\MorganStanleyQ10_tables\\table_0001_page_0001_Morgan_Stanley.png",
+        "asset_path": "data/output\\MorganStanleyQ10_tables\\table_0001_page_0001_Morgan_Stanley.png",
+        "evidence_id": "T1"
+      },
+      {
+        "id": "table_000002",
+        "document_id": "MorganStanleyQ10",
+        "modality": "table",
+        "score": null,
+        "page": 1,
+        "page_span": null,
+        "bbox": [
+          80.0,
+          530.0,
+          1143.0,
+          1099.0
+        ],
+        "title": "Morgan Stanley Stock Classes and Exchange Listing Table",
+        "content": "The table details various classes of Morgan Stanley’s securities, including Common Stock, multiple series of Non-Cumulative Preferred Stock, and Global Medium-Term Notes. Each class is assigned a specific trading symbol (e.g., MS for Common Stock, MS/PA for Series A Preferred Stock) and is registered on the New York Stock Exchange. The table provides a clear mapping between security types and their market identifiers.",
+        "summary": "A table listing stock classes, trading symbols, and exchange registration details.",
+        "json": null,
+        "crop_path": "data/output\\MorganStanleyQ10_tables\\table_0002_page_0001_defaulttitle.png",
+        "asset_path": "data/output\\MorganStanleyQ10_tables\\table_0002_page_0001_defaulttitle.png",
+        "evidence_id": "T2"
+      },
+      {
+        "id": "table_000003",
+        "document_id": "MorganStanleyQ10",
+        "modality": "table",
+        "score": null,
+        "page": 2,
+        "page_span": null,
+        "bbox": [
+          89.0,
+          169.0,
+          1139.0,
+          1454.0
+        ],
+        "title": "Table of Contents for Quarterly Report",
+        "content": "This table of contents outlines the structure of Morgan Stanley’s Quarterly Report on Form 10-Q for the quarter ended March 31, 2026. It organizes content into sections such as Financial Information, Management’s Discussion and Analysis, Risk Disclosures, Consolidated Financial Statements, and Other Information, each with corresponding part, item, and page numbers. The table facilitates navigation through the report’s detailed disclosures.",
+        "summary": "Table of Contents; lists sections, parts, items, and page numbers for a financial report.",
+        "json": null,
+        "crop_path": "data/output\\MorganStanleyQ10_tables\\table_0003_page_0002_QUARTERLY_REPORT_ON_FORM_10-Q_For_the_quarter_ended_March_31_2026.png",
+        "asset_path": "data/output\\MorganStanleyQ10_tables\\table_0003_page_0002_QUARTERLY_REPORT_ON_FORM_10-Q_For_the_quarter_ended_March_31_2026.png",
+        "evidence_id": "T3"
+      },
+      {
+        "id": "table_000004",
+        "document_id": "MorganStanleyQ10",
+        "modality": "table",
+        "score": null,
+        "page": 7,
+        "page_span": null,
+        "bbox": [
+          633.0,
+          154.0,
+          1137.0,
+          1064.0
+        ],
+        "title": "Selected Financial Information and Statistical Data Table",
+        "content": "The table presents selected financial data for Morgan Stanley for the three months ended March 31, 2026, compared to 2025. It includes consolidated results such as net revenues ($20,580 million in 2026 vs. $17,739 million in 2025) and earnings per diluted common share ($3.43 vs. $2.60). It also details consolidated financial measures like ROE, ROTCE, and pre-tax margins by segment. Additionally, it provides data on liquidity resources, assets, deposits, and capital ratios, all presented in millions or billions, with comparisons between March 31, 2026, and December 31, 2025.",
+        "summary": "Financial summary; includes consolidated results, financial measures, liquidity resources, assets, and capital ratios.",
+        "json": null,
+        "crop_path": "data/output\\MorganStanleyQ10_tables\\table_0004_page_0007_Selected_Financial_Information_and_Other_Statistical_Data.png",
+        "asset_path": "data/output\\MorganStanleyQ10_tables\\table_0004_page_0007_Selected_Financial_Information_and_Other_Statistical_Data.png",
+        "evidence_id": "T4"
+      }
+    ],
+    "image_contexts": [
+      {
+        "id": "image_000001",
+        "document_id": "MorganStanleyQ10",
+        "modality": "image",
+        "score": null,
+        "page": 5,
+        "page_span": null,
+        "bbox": [
+          633.0,
+          194.0,
+          1130.0,
+          444.0
+        ],
+        "title": "Net Income Applicable to Morgan Stanley Bar Chart",
+        "content": "The bar chart displays net income applicable to Morgan Stanley for two quarters: 1Q 2025 and 1Q 2026. The bar for 1Q 2025 shows a value of $4,315 million, while the bar for 1Q 2026 shows a value of $5,567 million. The chart indicates an increase in net income from the first quarter of 2025 to the first quarter of 2026.",
+        "summary": "Bar chart comparing net income; horizontal axis by quarter and vertical axis by amount in millions.",
+        "json": null,
+        "crop_path": "data/output\\MorganStanleyQ10_images\\image_0001_page_0005_Net_Income_Applicable_to_Morgan_Stanley_in_millions.png",
+        "asset_path": "data/output\\MorganStanleyQ10_images\\image_0001_page_0005_Net_Income_Applicable_to_Morgan_Stanley_in_millions.png",
+        "evidence_id": "I1"
+      },
+      {
+        "id": "image_000002",
+        "document_id": "MorganStanleyQ10",
+        "modality": "image",
+        "score": null,
+        "page": 5,
+        "page_span": null,
+        "bbox": [
+          635.0,
+          542.0,
+          1129.0,
+          808.0
+        ],
+        "title": "Earnings per Diluted Common Share Bar Chart",
+        "content": "The bar chart presents earnings per diluted common share for two quarters: 1Q 2025 and 1Q 2026. The bar for 1Q 2025 shows a value of $2.60, while the bar for 1Q 2026 shows a value of $3.43. The chart indicates an increase in earnings per share from the first quarter of 2025 to the first quarter of 2026.",
+        "summary": "Bar chart showing earnings per share; horizontal axis by quarter and vertical axis by amount in dollars.",
+        "json": null,
+        "crop_path": "data/output\\MorganStanleyQ10_images\\image_0002_page_0005_Earnings_per_Diluted_Common_Share.png",
+        "asset_path": "data/output\\MorganStanleyQ10_images\\image_0002_page_0005_Earnings_per_Diluted_Common_Share.png",
+        "evidence_id": "I2"
+      },
+      {
+        "id": "image_000003",
+        "document_id": "MorganStanleyQ10",
+        "modality": "image",
+        "score": null,
+        "page": 5,
+        "page_span": null,
+        "bbox": [
+          77.0,
+          1107.0,
+          587.0,
+          1423.0
+        ],
+        "title": "Net Revenues Bar Chart",
+        "content": "The bar chart displays net revenues for two quarters: 1Q 2025 and 1Q 2026. The bar for 1Q 2025 shows a value of $17,739 million, while the bar for 1Q 2026 shows a value of $20,580 million. The chart indicates an increase in net revenues from the first quarter of 2025 to the first quarter of 2026.",
+        "summary": "Bar chart comparing net revenues; horizontal axis by quarter and vertical axis by amount in millions.",
+        "json": null,
+        "crop_path": "data/output\\MorganStanleyQ10_images\\image_0003_page_0005_Net_Revenues_in_millions.png",
+        "asset_path": "data/output\\MorganStanleyQ10_images\\image_0003_page_0005_Net_Revenues_in_millions.png",
+        "evidence_id": "I3"
+      }
+    ],
+    "image_paths": [
+      "data/output/MorganStanleyQ10_table_montage_004e2627.jpg",
+      "data/output/MorganStanleyQ10_image_montage_004e2627.jpg"
+    ]
+  },
+  "trace": {
+    "num_text": 0,
+    "num_table": 4,
+    "num_image": 3,
+    "table_montage_created": true,
+    "image_montage_created": true
+  }
+}

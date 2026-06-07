@@ -1,0 +1,888 @@
+{
+    "input_path": "/workspace/work/data/input/MorganStanleyQ10.pdf",
+    "page_index": 18,
+    "page_count": 77,
+    "width": 1224,
+    "height": 1584,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "header",
+            "block_content": "Table of Contents",
+            "block_bbox": [
+                82,
+                28,
+                233,
+                51
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "block_polygon_points": [
+                [
+                    82.0,
+                    28.0
+                ],
+                [
+                    233.0,
+                    28.0
+                ],
+                [
+                    233.0,
+                    51.0
+                ],
+                [
+                    82.0,
+                    51.0
+                ]
+            ]
+        },
+        {
+            "block_label": "header",
+            "block_content": "Morgan Stanley",
+            "block_bbox": [
+                931,
+                53,
+                1132,
+                86
+            ],
+            "block_id": 1,
+            "block_order": null,
+            "group_id": 1,
+            "block_polygon_points": [
+                [
+                    931.0,
+                    53.0
+                ],
+                [
+                    1132.0,
+                    53.0
+                ],
+                [
+                    1132.0,
+                    86.0
+                ],
+                [
+                    931.0,
+                    86.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "Management's Discussion and Analysis",
+            "block_bbox": [
+                81,
+                58,
+                493,
+                87
+            ],
+            "block_id": 2,
+            "block_order": 1,
+            "group_id": 2,
+            "block_polygon_points": [
+                [
+                    81.0,
+                    58.0
+                ],
+                [
+                    493.0,
+                    58.0
+                ],
+                [
+                    493.0,
+                    87.0
+                ],
+                [
+                    81.0,
+                    87.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "Accounting Development Updates",
+            "block_bbox": [
+                84,
+                104,
+                443,
+                132
+            ],
+            "block_id": 3,
+            "block_order": 2,
+            "group_id": 3,
+            "block_polygon_points": [
+                [
+                    84.0,
+                    104.0
+                ],
+                [
+                    443.0,
+                    104.0
+                ],
+                [
+                    443.0,
+                    132.0
+                ],
+                [
+                    84.0,
+                    132.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "The Financial Accounting Standards Board has issued certain accounting updates that apply to us. Accounting updates not referenced below were assessed and determined to be either not applicable or to not have a material impact on our financial statements upon adoption.",
+            "block_bbox": [
+                84,
+                148,
+                595,
+                272
+            ],
+            "block_id": 4,
+            "block_order": 3,
+            "group_id": 4,
+            "block_polygon_points": [
+                [
+                    84.0,
+                    148.0
+                ],
+                [
+                    595.0,
+                    148.0
+                ],
+                [
+                    595.0,
+                    272.0
+                ],
+                [
+                    84.0,
+                    272.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "- ASU 2025-06 - Internal-Use Software (Issued September 2025). This update introduces targeted improvements to the recognition and capitalization guidance for internal-use software costs. The update eliminates the prior “project stage” framework and instead requires capitalization of software development costs when (i) management has authorized and committed to funding the software project, and (ii) it is probable that the project will be completed and the software will be used to perform its intended function. In assessing the probability threshold, entities are required to evaluate whether significant development uncertainty exists, including whether the software contains novel or unproven functionality or whether significant performance requirements have not been identified or continue to be substantially revised. The update is effective for the Firm beginning January 1, 2028, with early adoption permitted. Transition may be applied prospectively, retrospectively, or under a modified approach. We are currently evaluating this accounting update.",
+            "block_bbox": [
+                80,
+                293,
+                595,
+                724
+            ],
+            "block_id": 5,
+            "block_order": 4,
+            "group_id": 5,
+            "block_polygon_points": [
+                [
+                    80.0,
+                    293.0
+                ],
+                [
+                    595.0,
+                    293.0
+                ],
+                [
+                    595.0,
+                    724.0
+                ],
+                [
+                    80.0,
+                    724.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "• ASU 2025-08 - Purchased Loans (Issued November 2025). This update expands the application of the “gross-up” approach for purchased credit deteriorated financial assets under Topic 326 to include purchased seasoned loans (excluding credit cards), measured at amortized cost that are not credit deteriorated. Purchased seasoned loans include loans obtained in a business combination or loans acquired at least 90 days after origination and the acquirer was not involved in the origination, either through an asset purchase or through consolidation of a variable interest entity. The gross-up approach requires recognition of an allowance for credit losses at acquisition with a corresponding increase to the amortized cost basis of the loan. The update is effective for the Firm beginning January 1, 2027, with early adoption permitted. Transition will be applied prospectively to loans acquired on or after the adoption date. We are currently evaluating this accounting update; however, we do not expect a material impact on our financial statements upon adoption.\n• ASU 2025-10 - Government Grants (Issued December 2025). This update introduces guidance on the accounting for government grants, including recognition, measurement and presentation requirements to reduce diversity in practice and increase consistency among business entities. The guidance excludes transactions within the scope of ASC 740, Income Taxes, government guarantees and the benefit of below-market interest rate loans. Grants related to an asset or to income will be recognized when it is probable that an entity will comply with the conditions attached to the grant, the grant will be received and the related expenses that the grant is intended to compensate have been incurred. For grants related to an asset, entities may elect either a deferred income approach or a cost accumulation approach. The update is effective for the Firm beginning January 1, 2029, with early adoption permitted. Transition may be applied on a modified prospective approach, a modified retrospective approach or on a full retrospective approach. We are currently evaluating this accounting update; however, we do not expect a material impact on our financial statements upon adoption.",
+            "block_bbox": [
+                79,
+                737,
+                595,
+                1197
+            ],
+            "block_id": 6,
+            "block_order": 5,
+            "group_id": 6,
+            "block_polygon_points": [
+                [
+                    79.0,
+                    737.0
+                ],
+                [
+                    595.0,
+                    737.0
+                ],
+                [
+                    595.0,
+                    1197.0
+                ],
+                [
+                    79.0,
+                    1197.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "",
+            "block_bbox": [
+                625,
+                103,
+                1140,
+                592
+            ],
+            "block_id": 7,
+            "block_order": 6,
+            "group_id": 6,
+            "block_polygon_points": [
+                [
+                    625.0,
+                    103.0
+                ],
+                [
+                    1140.0,
+                    103.0
+                ],
+                [
+                    1140.0,
+                    592.0
+                ],
+                [
+                    625.0,
+                    592.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "Critical Accounting Estimates",
+            "block_bbox": [
+                628,
+                607,
+                946,
+                634
+            ],
+            "block_id": 8,
+            "block_order": 7,
+            "group_id": 8,
+            "block_polygon_points": [
+                [
+                    628.0,
+                    607.0
+                ],
+                [
+                    946.0,
+                    607.0
+                ],
+                [
+                    946.0,
+                    634.0
+                ],
+                [
+                    628.0,
+                    634.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Our financial statements are prepared in accordance with U.S. GAAP, which requires us to make estimates and assumptions (see Note 1 to the financial statements). We believe that of our significant accounting policies (see Note 2 to the financial statements in the 2025 Form 10-K and Note 2 to the financial statements), the fair value of financial instruments, goodwill and intangible assets, legal and regulatory contingencies (see Note 14 to the financial statements in the 2025 Form 10-K and Note 13 to the financial statements) and income taxes policies involve a higher degree of judgment and complexity. For a further discussion about our critical accounting policies, see \"Management's Discussion and Analysis of Financial Condition and Results of Operations—Critical Accounting Estimates\" in the 2025 Form 10-K.",
+            "block_bbox": [
+                627,
+                655,
+                1139,
+                995
+            ],
+            "block_id": 9,
+            "block_order": 8,
+            "group_id": 9,
+            "block_polygon_points": [
+                [
+                    627.0,
+                    655.0
+                ],
+                [
+                    1139.0,
+                    655.0
+                ],
+                [
+                    1139.0,
+                    995.0
+                ],
+                [
+                    627.0,
+                    995.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "Liquidity and Capital Resources",
+            "block_bbox": [
+                628,
+                1012,
+                971,
+                1040
+            ],
+            "block_id": 10,
+            "block_order": 9,
+            "group_id": 10,
+            "block_polygon_points": [
+                [
+                    628.0,
+                    1012.0
+                ],
+                [
+                    971.0,
+                    1012.0
+                ],
+                [
+                    971.0,
+                    1040.0
+                ],
+                [
+                    628.0,
+                    1040.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Our liquidity and capital policies are established and maintained by senior management, with oversight by the Asset/Liability Management Committee and our Board of Directors (“Board”). Through various risk and control committees, senior management reviews business performance relative to these policies, monitors the availability of alternative sources of financing, and oversees the liquidity, interest rate and currency sensitivity of our asset and liability position. Our Corporate Treasury department (“Treasury”), Firm Risk Committee, Asset/Liability Management Committee, and other committees and control groups assist in evaluating, monitoring and managing the impact that our business activities have on our balance sheet, liquidity and capital structure. Liquidity and capital matters are reported regularly to the Board and the Risk Committee of the Board.",
+            "block_bbox": [
+                626,
+                1059,
+                1140,
+                1446
+            ],
+            "block_id": 11,
+            "block_order": 10,
+            "group_id": 11,
+            "block_polygon_points": [
+                [
+                    626.0,
+                    1059.0
+                ],
+                [
+                    1140.0,
+                    1059.0
+                ],
+                [
+                    1140.0,
+                    1446.0
+                ],
+                [
+                    626.0,
+                    1446.0
+                ]
+            ]
+        },
+        {
+            "block_label": "footer",
+            "block_content": "March 2026 Form 10-Q",
+            "block_bbox": [
+                85,
+                1523,
+                264,
+                1545
+            ],
+            "block_id": 12,
+            "block_order": null,
+            "group_id": 12,
+            "block_polygon_points": [
+                [
+                    85.0,
+                    1523.0
+                ],
+                [
+                    263.0,
+                    1523.0
+                ],
+                [
+                    263.0,
+                    1544.0
+                ],
+                [
+                    85.0,
+                    1544.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "19",
+            "block_bbox": [
+                596,
+                1524,
+                619,
+                1544
+            ],
+            "block_id": 13,
+            "block_order": null,
+            "group_id": 13,
+            "block_polygon_points": [
+                [
+                    596.0,
+                    1524.0
+                ],
+                [
+                    618.0,
+                    1524.0
+                ],
+                [
+                    618.0,
+                    1543.0
+                ],
+                [
+                    596.0,
+                    1543.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.7453893423080444,
+                "coordinate": [
+                    82,
+                    28,
+                    233,
+                    51
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        82.0,
+                        28.0
+                    ],
+                    [
+                        233.0,
+                        28.0
+                    ],
+                    [
+                        233.0,
+                        51.0
+                    ],
+                    [
+                        82.0,
+                        51.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.8768268823623657,
+                "coordinate": [
+                    931,
+                    53,
+                    1132,
+                    86
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        931.0,
+                        53.0
+                    ],
+                    [
+                        1132.0,
+                        53.0
+                    ],
+                    [
+                        1132.0,
+                        86.0
+                    ],
+                    [
+                        931.0,
+                        86.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8358297348022461,
+                "coordinate": [
+                    81,
+                    58,
+                    493,
+                    87
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        81.0,
+                        58.0
+                    ],
+                    [
+                        493.0,
+                        58.0
+                    ],
+                    [
+                        493.0,
+                        87.0
+                    ],
+                    [
+                        81.0,
+                        87.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8533809185028076,
+                "coordinate": [
+                    84,
+                    104,
+                    443,
+                    132
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        84.0,
+                        104.0
+                    ],
+                    [
+                        443.0,
+                        104.0
+                    ],
+                    [
+                        443.0,
+                        132.0
+                    ],
+                    [
+                        84.0,
+                        132.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9494925141334534,
+                "coordinate": [
+                    84,
+                    148,
+                    595,
+                    272
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        84.0,
+                        148.0
+                    ],
+                    [
+                        595.0,
+                        148.0
+                    ],
+                    [
+                        595.0,
+                        272.0
+                    ],
+                    [
+                        84.0,
+                        272.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9676483273506165,
+                "coordinate": [
+                    80,
+                    293,
+                    595,
+                    724
+                ],
+                "order": 4,
+                "polygon_points": [
+                    [
+                        80.0,
+                        293.0
+                    ],
+                    [
+                        595.0,
+                        293.0
+                    ],
+                    [
+                        595.0,
+                        724.0
+                    ],
+                    [
+                        80.0,
+                        724.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9658405184745789,
+                "coordinate": [
+                    79,
+                    737,
+                    595,
+                    1197
+                ],
+                "order": 5,
+                "polygon_points": [
+                    [
+                        79.0,
+                        737.0
+                    ],
+                    [
+                        595.0,
+                        737.0
+                    ],
+                    [
+                        595.0,
+                        1197.0
+                    ],
+                    [
+                        79.0,
+                        1197.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9699161648750305,
+                "coordinate": [
+                    625,
+                    103,
+                    1140,
+                    592
+                ],
+                "order": 6,
+                "polygon_points": [
+                    [
+                        625.0,
+                        103.0
+                    ],
+                    [
+                        1140.0,
+                        103.0
+                    ],
+                    [
+                        1140.0,
+                        592.0
+                    ],
+                    [
+                        625.0,
+                        592.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8477767109870911,
+                "coordinate": [
+                    628,
+                    607,
+                    946,
+                    634
+                ],
+                "order": 7,
+                "polygon_points": [
+                    [
+                        628.0,
+                        607.0
+                    ],
+                    [
+                        946.0,
+                        607.0
+                    ],
+                    [
+                        946.0,
+                        634.0
+                    ],
+                    [
+                        628.0,
+                        634.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9634626507759094,
+                "coordinate": [
+                    627,
+                    655,
+                    1139,
+                    995
+                ],
+                "order": 8,
+                "polygon_points": [
+                    [
+                        627.0,
+                        655.0
+                    ],
+                    [
+                        1139.0,
+                        655.0
+                    ],
+                    [
+                        1139.0,
+                        995.0
+                    ],
+                    [
+                        627.0,
+                        995.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8461872339248657,
+                "coordinate": [
+                    628,
+                    1012,
+                    971,
+                    1040
+                ],
+                "order": 9,
+                "polygon_points": [
+                    [
+                        628.0,
+                        1012.0
+                    ],
+                    [
+                        971.0,
+                        1012.0
+                    ],
+                    [
+                        971.0,
+                        1040.0
+                    ],
+                    [
+                        628.0,
+                        1040.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9663544297218323,
+                "coordinate": [
+                    626,
+                    1059,
+                    1140,
+                    1446
+                ],
+                "order": 10,
+                "polygon_points": [
+                    [
+                        626.0,
+                        1059.0
+                    ],
+                    [
+                        1140.0,
+                        1059.0
+                    ],
+                    [
+                        1140.0,
+                        1446.0
+                    ],
+                    [
+                        626.0,
+                        1446.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.8587105870246887,
+                "coordinate": [
+                    85,
+                    1523,
+                    264,
+                    1545
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        85.0,
+                        1523.0
+                    ],
+                    [
+                        263.0,
+                        1523.0
+                    ],
+                    [
+                        263.0,
+                        1544.0
+                    ],
+                    [
+                        85.0,
+                        1544.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.7203290462493896,
+                "coordinate": [
+                    596,
+                    1524,
+                    619,
+                    1544
+                ],
+                "order": 11,
+                "polygon_points": [
+                    [
+                        596.0,
+                        1524.0
+                    ],
+                    [
+                        618.0,
+                        1524.0
+                    ],
+                    [
+                        618.0,
+                        1543.0
+                    ],
+                    [
+                        596.0,
+                        1543.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

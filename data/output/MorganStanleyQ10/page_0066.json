@@ -1,0 +1,1071 @@
+{
+    "input_path": "/workspace/work/data/input/MorganStanleyQ10.pdf",
+    "page_index": 65,
+    "page_count": 77,
+    "width": 1224,
+    "height": 1584,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "header",
+            "block_content": "Table of Contents",
+            "block_bbox": [
+                82,
+                28,
+                233,
+                51
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "block_polygon_points": [
+                [
+                    82.0,
+                    28.0
+                ],
+                [
+                    233.0,
+                    28.0
+                ],
+                [
+                    233.0,
+                    51.0
+                ],
+                [
+                    82.0,
+                    51.0
+                ]
+            ]
+        },
+        {
+            "block_label": "header",
+            "block_content": "Morgan Stanley",
+            "block_bbox": [
+                931,
+                58,
+                1132,
+                91
+            ],
+            "block_id": 1,
+            "block_order": null,
+            "group_id": 1,
+            "block_polygon_points": [
+                [
+                    931.0,
+                    58.0
+                ],
+                [
+                    1132.0,
+                    58.0
+                ],
+                [
+                    1132.0,
+                    91.0
+                ],
+                [
+                    931.0,
+                    91.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "Notes to Consolidated Financial Statements (Unaudited)",
+            "block_bbox": [
+                81,
+                58,
+                535,
+                114
+            ],
+            "block_id": 2,
+            "block_order": 1,
+            "group_id": 2,
+            "block_polygon_points": [
+                [
+                    81.0,
+                    58.0
+                ],
+                [
+                    535.0,
+                    58.0
+                ],
+                [
+                    535.0,
+                    114.0
+                ],
+                [
+                    81.0,
+                    114.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "U.K. Government Bond Matter",
+            "block_bbox": [
+                85,
+                122,
+                350,
+                147
+            ],
+            "block_id": 3,
+            "block_order": 2,
+            "group_id": 3,
+            "block_polygon_points": [
+                [
+                    85.0,
+                    122.0
+                ],
+                [
+                    350.0,
+                    122.0
+                ],
+                [
+                    350.0,
+                    147.0
+                ],
+                [
+                    85.0,
+                    147.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "On February 21, 2025, the U.K. Competition and Markets Authority announced a settlement with the Firm, as well as other financial institutions, in connection with its investigation of suspected anti-competitive arrangements in the financial services sector, specifically regarding the Firm's activities concerning certain liquid fixed income products between 2009 and 2012. Separately, on June 16, 2023, the Firm was named as a defendant in a purported antitrust class action in the United States District Court for the SDNY styled Oklahoma Firefighters Pension and Retirement System v. Deutsche Bank Aktiengesellschaft, et al., alleging, inter alia, that the Firm, together with a number of other financial institution defendants, violated U.S. antitrust laws in connection with their alleged effort to fix prices of gilts traded in the United States between 2009 and 2013. The complaint seeks, inter alia, certification of the class of plaintiffs and treble damages. On September 16, 2024, the court granted defendants' joint motion to dismiss, and the complaint was dismissed without prejudice. In October of 2024, the Firm and certain other defendants reached an agreement in principle to settle the U.S. litigation. On March 17, 2025, the court granted preliminary approval of the settlement.",
+            "block_bbox": [
+                82,
+                169,
+                595,
+                702
+            ],
+            "block_id": 4,
+            "block_order": 3,
+            "group_id": 4,
+            "block_polygon_points": [
+                [
+                    82.0,
+                    169.0
+                ],
+                [
+                    595.0,
+                    169.0
+                ],
+                [
+                    595.0,
+                    702.0
+                ],
+                [
+                    82.0,
+                    702.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "Other",
+            "block_bbox": [
+                85,
+                718,
+                146,
+                742
+            ],
+            "block_id": 5,
+            "block_order": 4,
+            "group_id": 5,
+            "block_polygon_points": [
+                [
+                    85.0,
+                    718.0
+                ],
+                [
+                    145.0,
+                    718.0
+                ],
+                [
+                    145.0,
+                    741.0
+                ],
+                [
+                    85.0,
+                    741.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "On May 17, 2013, the plaintiff in IKB International S.A. in Liquidation, et al. v. Morgan Stanley, et al. filed a complaint against the Firm and certain affiliates in the Supreme Court of the State of New York, New York County. The complaint alleges that defendants made material misrepresentations and omissions in the sale to the plaintiff of certain mortgage pass-through certificates backed by securitization trusts containing residential mortgage loans. The total amount of certificates allegedly sponsored, underwritten and/or sold by the Firm to the plaintiff was approximately $133 million. The complaint alleges causes of action against the Firm for common law fraud, fraudulent concealment, aiding and abetting fraud, and negligent misrepresentation, and seeks, inter alia, compensatory and punitive damages. On October 29, 2014, the court granted in part and denied in part the Firm's motion to dismiss. All claims regarding four certificates were dismissed. After these dismissals, the remaining amount of certificates allegedly issued by the Firm or sold to the plaintiff by the Firm was approximately $116 million. On August 11, 2016, the Appellate Division affirmed the trial court's order denying in part the Firm's motion to dismiss the complaint. On July 15, 2022, the Firm filed a motion for summary judgment on all remaining claims. On March 1, 2023, the court granted in part and denied in part the Firm's motion for summary judgment, narrowing the alleged misrepresentations at issue in the case. On March 26, 2024, the Appellate Division affirmed the trial court's summary judgment order. On August 27, 2024, the plaintiff notified the court that in light of the court's rulings to exclude certain evidence at trial, the plaintiff could not prove its claims at trial, and requested that the court dismiss the case, subject to its right to appeal the evidentiary rulings. On August 28, 2024, the court dismissed the case, and judgment was entered in the Firm's favor. The plaintiff has appealed.",
+            "block_bbox": [
+                81,
+                762,
+                597,
+                1512
+            ],
+            "block_id": 6,
+            "block_order": 5,
+            "group_id": 6,
+            "block_polygon_points": [
+                [
+                    81.0,
+                    762.0
+                ],
+                [
+                    597.0,
+                    762.0
+                ],
+                [
+                    597.0,
+                    1512.0
+                ],
+                [
+                    81.0,
+                    1512.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "",
+            "block_bbox": [
+                626,
+                122,
+                1138,
+                196
+            ],
+            "block_id": 7,
+            "block_order": 6,
+            "group_id": 6,
+            "block_polygon_points": [
+                [
+                    626.0,
+                    122.0
+                ],
+                [
+                    1138.0,
+                    122.0
+                ],
+                [
+                    1138.0,
+                    196.0
+                ],
+                [
+                    626.0,
+                    196.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Beginning in February of 2024, Morgan Stanley Smith Barney LLC (“MSSB”) and E*TRADE Securities LLC (“E*TRADE Securities”), among others, have been named as defendants in multiple putative class actions pending in the federal district courts for the District of New Jersey and SDNY. The class action claims have been brought on behalf of brokerage, advisory and retirement account holders, alleging various contractual, fiduciary, and statutory claims (including under the Racketeer Influenced and Corrupt Organizations Act, 18 U.S.C. §1962(c)-(d)) that MSSB and/or E*TRADE Securities failed to pay a reasonable rate of interest on its cash sweep products. All matters pending in the SDNY (which focus solely on MSSB’s cash sweep program) were consolidated into one action styled Estate of Sherlip, et al. v. Morgan Stanley, et al. An amended class action complaint was filed on August 15, 2025. On September 12, 2025, MSSB moved to dismiss the complaint. The matters pending in the District of New Jersey (which includes claims against both MSSB and E*TRADE Securities) have been consolidated into one action styled In re E*TRADE Cash Sweep Litigation, No. 2:24-cv-00603. The Firm awaits the appointment of lead counsel and, thereafter, the filing of a consolidated complaint in that matter. Together, the complaints seek, inter alia, certification of classes of plaintiffs, unspecified compensatory damages, equitable and injunctive relief, and treble damages. The Firm is also responding to requests from state securities regulators regarding brokerage account cash balances swept to the affiliate bank deposit program.",
+            "block_bbox": [
+                626,
+                216,
+                1140,
+                918
+            ],
+            "block_id": 8,
+            "block_order": 7,
+            "group_id": 8,
+            "block_polygon_points": [
+                [
+                    626.0,
+                    216.0
+                ],
+                [
+                    1140.0,
+                    216.0
+                ],
+                [
+                    1140.0,
+                    918.0
+                ],
+                [
+                    626.0,
+                    918.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "14. Variable Interest Entities and Securitization Activities",
+            "block_bbox": [
+                629,
+                933,
+                1138,
+                989
+            ],
+            "block_id": 9,
+            "block_order": 8,
+            "group_id": 9,
+            "block_polygon_points": [
+                [
+                    629.0,
+                    933.0
+                ],
+                [
+                    1138.0,
+                    933.0
+                ],
+                [
+                    1138.0,
+                    989.0
+                ],
+                [
+                    629.0,
+                    989.0
+                ]
+            ]
+        },
+        {
+            "block_label": "figure_title",
+            "block_content": "Consolidated VIE Assets and Liabilities by Type of Activity",
+            "block_bbox": [
+                629,
+                1011,
+                1112,
+                1034
+            ],
+            "block_id": 10,
+            "block_order": null,
+            "group_id": 10,
+            "block_polygon_points": [
+                [
+                    629.0,
+                    1011.0
+                ],
+                [
+                    1112.0,
+                    1011.0
+                ],
+                [
+                    1112.0,
+                    1034.0
+                ],
+                [
+                    629.0,
+                    1034.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td></td><td colspan=\"2\">At March 31, 2026</td><td colspan=\"2\">At December 31, 2025</td></tr><tr><td>in millions</td><td>VIE Assets</td><td>VIE Liabilities</td><td>VIE Assets</td><td>VIE Liabilities</td></tr><tr><td>$ MABS^{{1}} $</td><td>1,115</td><td>517</td><td>468</td><td>2</td></tr><tr><td>Investment  $ vehicles^{{2}} $</td><td>654</td><td>384</td><td>263</td><td>5</td></tr><tr><td>MTOB</td><td>1,631</td><td>1,529</td><td>1,781</td><td>1,651</td></tr><tr><td>Other</td><td>120</td><td>5</td><td>47</td><td>3</td></tr><tr><td>Total</td><td>3,520</td><td>2,435</td><td>2,559</td><td>1,661</td></tr></table>",
+            "block_bbox": [
+                631,
+                1047,
+                1135,
+                1205
+            ],
+            "block_id": 11,
+            "block_order": null,
+            "group_id": 11,
+            "block_polygon_points": [
+                [
+                    631.0,
+                    1047.0
+                ],
+                [
+                    1135.0,
+                    1047.0
+                ],
+                [
+                    1135.0,
+                    1205.0
+                ],
+                [
+                    631.0,
+                    1205.0
+                ]
+            ]
+        },
+        {
+            "block_label": "vision_footnote",
+            "block_content": "MTOB—Municipal tender option bonds",
+            "block_bbox": [
+                630,
+                1215,
+                864,
+                1233
+            ],
+            "block_id": 12,
+            "block_order": null,
+            "group_id": 12,
+            "block_polygon_points": [
+                [
+                    630.0,
+                    1215.0
+                ],
+                [
+                    863.0,
+                    1215.0
+                ],
+                [
+                    863.0,
+                    1232.0
+                ],
+                [
+                    630.0,
+                    1232.0
+                ]
+            ]
+        },
+        {
+            "block_label": "vision_footnote",
+            "block_content": "1. Amounts include transactions backed by residential mortgage loans, commercial mortgage loans and other types of assets, including consumer or commercial assets and may be in loan or security form. The value of assets is determined based on the fair value of the liabilities and the interests owned by the Firm in such VIEs as the fair values for the liabilities and interests owned are more observable.",
+            "block_bbox": [
+                630,
+                1232,
+                1139,
+                1314
+            ],
+            "block_id": 13,
+            "block_order": null,
+            "group_id": 13,
+            "block_polygon_points": [
+                [
+                    630.0,
+                    1232.0
+                ],
+                [
+                    1139.0,
+                    1232.0
+                ],
+                [
+                    1139.0,
+                    1314.0
+                ],
+                [
+                    630.0,
+                    1314.0
+                ]
+            ]
+        },
+        {
+            "block_label": "vision_footnote",
+            "block_content": "2. Amounts include investment funds and CLOs.",
+            "block_bbox": [
+                630,
+                1310,
+                920,
+                1327
+            ],
+            "block_id": 14,
+            "block_order": null,
+            "group_id": 14,
+            "block_polygon_points": [
+                [
+                    630.0,
+                    1310.0
+                ],
+                [
+                    630.0,
+                    1326.0
+                ],
+                [
+                    919.0,
+                    1326.0
+                ],
+                [
+                    919.0,
+                    1310.0
+                ]
+            ]
+        },
+        {
+            "block_label": "footer",
+            "block_content": "March 2026 Form 10-Q",
+            "block_bbox": [
+                93,
+                1524,
+                273,
+                1545
+            ],
+            "block_id": 15,
+            "block_order": null,
+            "group_id": 15,
+            "block_polygon_points": [
+                [
+                    93.0,
+                    1524.0
+                ],
+                [
+                    272.0,
+                    1524.0
+                ],
+                [
+                    272.0,
+                    1544.0
+                ],
+                [
+                    93.0,
+                    1544.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "66",
+            "block_bbox": [
+                604,
+                1525,
+                628,
+                1544
+            ],
+            "block_id": 16,
+            "block_order": null,
+            "group_id": 16,
+            "block_polygon_points": [
+                [
+                    604.0,
+                    1525.0
+                ],
+                [
+                    627.0,
+                    1525.0
+                ],
+                [
+                    627.0,
+                    1543.0
+                ],
+                [
+                    604.0,
+                    1543.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.7906953692436218,
+                "coordinate": [
+                    82,
+                    28,
+                    233,
+                    51
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        82.0,
+                        28.0
+                    ],
+                    [
+                        233.0,
+                        28.0
+                    ],
+                    [
+                        233.0,
+                        51.0
+                    ],
+                    [
+                        82.0,
+                        51.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.8780331015586853,
+                "coordinate": [
+                    931,
+                    58,
+                    1132,
+                    91
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        931.0,
+                        58.0
+                    ],
+                    [
+                        1132.0,
+                        58.0
+                    ],
+                    [
+                        1132.0,
+                        91.0
+                    ],
+                    [
+                        931.0,
+                        91.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8013567328453064,
+                "coordinate": [
+                    81,
+                    58,
+                    535,
+                    114
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        81.0,
+                        58.0
+                    ],
+                    [
+                        535.0,
+                        58.0
+                    ],
+                    [
+                        535.0,
+                        114.0
+                    ],
+                    [
+                        81.0,
+                        114.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.7024977803230286,
+                "coordinate": [
+                    85,
+                    122,
+                    350,
+                    147
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        85.0,
+                        122.0
+                    ],
+                    [
+                        350.0,
+                        122.0
+                    ],
+                    [
+                        350.0,
+                        147.0
+                    ],
+                    [
+                        85.0,
+                        147.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9682188034057617,
+                "coordinate": [
+                    82,
+                    169,
+                    595,
+                    702
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        82.0,
+                        169.0
+                    ],
+                    [
+                        595.0,
+                        169.0
+                    ],
+                    [
+                        595.0,
+                        702.0
+                    ],
+                    [
+                        82.0,
+                        702.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.7892420291900635,
+                "coordinate": [
+                    85,
+                    718,
+                    146,
+                    742
+                ],
+                "order": 4,
+                "polygon_points": [
+                    [
+                        85.0,
+                        718.0
+                    ],
+                    [
+                        145.0,
+                        718.0
+                    ],
+                    [
+                        145.0,
+                        741.0
+                    ],
+                    [
+                        85.0,
+                        741.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9699941277503967,
+                "coordinate": [
+                    81,
+                    762,
+                    597,
+                    1512
+                ],
+                "order": 5,
+                "polygon_points": [
+                    [
+                        81.0,
+                        762.0
+                    ],
+                    [
+                        597.0,
+                        762.0
+                    ],
+                    [
+                        597.0,
+                        1512.0
+                    ],
+                    [
+                        81.0,
+                        1512.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9394962787628174,
+                "coordinate": [
+                    626,
+                    122,
+                    1138,
+                    196
+                ],
+                "order": 6,
+                "polygon_points": [
+                    [
+                        626.0,
+                        122.0
+                    ],
+                    [
+                        1138.0,
+                        122.0
+                    ],
+                    [
+                        1138.0,
+                        196.0
+                    ],
+                    [
+                        626.0,
+                        196.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9748319387435913,
+                "coordinate": [
+                    626,
+                    216,
+                    1140,
+                    918
+                ],
+                "order": 7,
+                "polygon_points": [
+                    [
+                        626.0,
+                        216.0
+                    ],
+                    [
+                        1140.0,
+                        216.0
+                    ],
+                    [
+                        1140.0,
+                        918.0
+                    ],
+                    [
+                        626.0,
+                        918.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8714519739151001,
+                "coordinate": [
+                    629,
+                    933,
+                    1138,
+                    989
+                ],
+                "order": 8,
+                "polygon_points": [
+                    [
+                        629.0,
+                        933.0
+                    ],
+                    [
+                        1138.0,
+                        933.0
+                    ],
+                    [
+                        1138.0,
+                        989.0
+                    ],
+                    [
+                        629.0,
+                        989.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 7,
+                "label": "figure_title",
+                "score": 0.7934157848358154,
+                "coordinate": [
+                    629,
+                    1011,
+                    1112,
+                    1034
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        629.0,
+                        1011.0
+                    ],
+                    [
+                        1112.0,
+                        1011.0
+                    ],
+                    [
+                        1112.0,
+                        1034.0
+                    ],
+                    [
+                        629.0,
+                        1034.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9499072432518005,
+                "coordinate": [
+                    631,
+                    1047,
+                    1135,
+                    1205
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        631.0,
+                        1047.0
+                    ],
+                    [
+                        1135.0,
+                        1047.0
+                    ],
+                    [
+                        1135.0,
+                        1205.0
+                    ],
+                    [
+                        631.0,
+                        1205.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 24,
+                "label": "vision_footnote",
+                "score": 0.7432445287704468,
+                "coordinate": [
+                    630,
+                    1215,
+                    864,
+                    1233
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        630.0,
+                        1215.0
+                    ],
+                    [
+                        863.0,
+                        1215.0
+                    ],
+                    [
+                        863.0,
+                        1232.0
+                    ],
+                    [
+                        630.0,
+                        1232.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 24,
+                "label": "vision_footnote",
+                "score": 0.8134467601776123,
+                "coordinate": [
+                    630,
+                    1232,
+                    1139,
+                    1314
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        630.0,
+                        1232.0
+                    ],
+                    [
+                        1139.0,
+                        1232.0
+                    ],
+                    [
+                        1139.0,
+                        1314.0
+                    ],
+                    [
+                        630.0,
+                        1314.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 24,
+                "label": "vision_footnote",
+                "score": 0.7510927319526672,
+                "coordinate": [
+                    630,
+                    1310,
+                    920,
+                    1327
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        630.0,
+                        1310.0
+                    ],
+                    [
+                        630.0,
+                        1326.0
+                    ],
+                    [
+                        919.0,
+                        1326.0
+                    ],
+                    [
+                        919.0,
+                        1310.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.8520658016204834,
+                "coordinate": [
+                    93,
+                    1524,
+                    273,
+                    1545
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        93.0,
+                        1524.0
+                    ],
+                    [
+                        272.0,
+                        1524.0
+                    ],
+                    [
+                        272.0,
+                        1544.0
+                    ],
+                    [
+                        93.0,
+                        1544.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.7146884202957153,
+                "coordinate": [
+                    604,
+                    1525,
+                    628,
+                    1544
+                ],
+                "order": 9,
+                "polygon_points": [
+                    [
+                        604.0,
+                        1525.0
+                    ],
+                    [
+                        627.0,
+                        1525.0
+                    ],
+                    [
+                        627.0,
+                        1543.0
+                    ],
+                    [
+                        604.0,
+                        1543.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

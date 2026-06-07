@@ -1,0 +1,613 @@
+{
+    "input_path": "/workspace/work/data/input/MorganStanleyQ10.pdf",
+    "page_index": 47,
+    "page_count": 77,
+    "width": 1224,
+    "height": 1584,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "header",
+            "block_content": "Table of Contents",
+            "block_bbox": [
+                82,
+                28,
+                232,
+                51
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "block_polygon_points": [
+                [
+                    82.0,
+                    28.0
+                ],
+                [
+                    232.0,
+                    28.0
+                ],
+                [
+                    232.0,
+                    51.0
+                ],
+                [
+                    82.0,
+                    51.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "Notes to Consolidated Financial Statements (Unaudited)",
+            "block_bbox": [
+                82,
+                58,
+                536,
+                114
+            ],
+            "block_id": 1,
+            "block_order": 1,
+            "group_id": 1,
+            "block_polygon_points": [
+                [
+                    82.0,
+                    58.0
+                ],
+                [
+                    536.0,
+                    58.0
+                ],
+                [
+                    536.0,
+                    114.0
+                ],
+                [
+                    82.0,
+                    114.0
+                ]
+            ]
+        },
+        {
+            "block_label": "header",
+            "block_content": "Morgan Stanley",
+            "block_bbox": [
+                931,
+                57,
+                1132,
+                91
+            ],
+            "block_id": 2,
+            "block_order": null,
+            "group_id": 2,
+            "block_polygon_points": [
+                [
+                    931.0,
+                    57.0
+                ],
+                [
+                    1132.0,
+                    57.0
+                ],
+                [
+                    1132.0,
+                    91.0
+                ],
+                [
+                    931.0,
+                    91.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "Significant Unobservable Inputs Used in Recurring and Nonrecurring Level 3 Fair Value Measurements",
+            "block_bbox": [
+                84,
+                122,
+                594,
+                172
+            ],
+            "block_id": 3,
+            "block_order": 2,
+            "group_id": 3,
+            "block_polygon_points": [
+                [
+                    84.0,
+                    122.0
+                ],
+                [
+                    594.0,
+                    122.0
+                ],
+                [
+                    594.0,
+                    172.0
+                ],
+                [
+                    84.0,
+                    172.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Valuation Techniques and Unobservable Inputs",
+            "block_bbox": [
+                85,
+                179,
+                477,
+                202
+            ],
+            "block_id": 4,
+            "block_order": 3,
+            "group_id": 4,
+            "block_polygon_points": [
+                [
+                    85.0,
+                    179.0
+                ],
+                [
+                    477.0,
+                    179.0
+                ],
+                [
+                    477.0,
+                    202.0
+                ],
+                [
+                    85.0,
+                    202.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td></td><td colspan=\"2\">Balance / Range (Average $ ^{{1}} $)</td></tr><tr><td>in millions, except inputs</td><td>At March 31, 2026</td><td>At December 31, 2025</td></tr><tr><td colspan=\"3\">Assets at Fair Value on a Recurring Basis</td></tr><tr><td>Other sovereign government obligations</td><td>55</td><td>59</td></tr><tr><td>Comparable pricing:</td><td></td><td></td></tr><tr><td>Bond price</td><td>65 to 112 points (99 points)</td><td>58 to 112 points (100 points)</td></tr><tr><td>MABS</td><td>629</td><td>317</td></tr><tr><td>Comparable pricing:</td><td></td><td></td></tr><tr><td>Bond price</td><td>30 to 104 points (75 points)</td><td>30 to 100 points (68 points)</td></tr><tr><td>Loans and lending commitments</td><td>1,667</td><td>1,424</td></tr><tr><td>Comparable pricing:</td><td></td><td></td></tr><tr><td>Loan price</td><td>43 to 103 points (91 points)</td><td>54 to 102 points (81 points)</td></tr><tr><td>Corporate and other debt</td><td>1,475</td><td>1,414</td></tr><tr><td>Comparable pricing:</td><td></td><td></td></tr><tr><td>Bond price</td><td>29 to 130 points (86 points)</td><td>29 to 130 points (90 points)</td></tr><tr><td>Discounted cash flow:</td><td></td><td></td></tr><tr><td>Loss given default</td><td>40% to 40% (40% / 40%)</td><td>40% to 40% (40% / 40%)</td></tr><tr><td>Corporate equities</td><td>184</td><td>276</td></tr><tr><td>Comparable pricing:</td><td></td><td></td></tr><tr><td>Equity price</td><td>100%</td><td>100%</td></tr><tr><td>Investments</td><td>1,587</td><td>1,507</td></tr><tr><td>Discounted cash flow:</td><td></td><td></td></tr><tr><td>WACC</td><td>10% to 21% (16%)</td><td>10% to 21% (16%)</td></tr><tr><td>Exit multiple</td><td>9 to 9 times (9 times)</td><td>9 to 9 times (9 times)</td></tr><tr><td>Market approach:</td><td></td><td></td></tr><tr><td>EBITDA multiple</td><td>17 times</td><td>18 times</td></tr><tr><td>Comparable pricing:</td><td></td><td></td></tr><tr><td>Equity price</td><td>24% to 100% (95%)</td><td>24% to 100% (95%)</td></tr><tr><td>Net derivative and other contracts:</td><td></td><td></td></tr><tr><td>Interest rate</td><td>(151)</td><td>(154)</td></tr><tr><td>Option model:</td><td></td><td></td></tr><tr><td>IR volatility skew</td><td>63% to 94% (72% / 74%)</td><td>52% to 86% (67% / 66%)</td></tr><tr><td>IR curve correlation</td><td>53% to 99% (85% / 86%)</td><td>56% to 99% (87% / 88%)</td></tr><tr><td>Bond volatility</td><td>67% to 107% (92% / 91%)</td><td>63% to 97% (80% / 80%)</td></tr><tr><td>Inflation volatility</td><td>32% to 67% (44% / 40%)</td><td>32% to 67% (44% / 40%)</td></tr><tr><td>Credit</td><td>148</td><td>87</td></tr><tr><td>Credit default swap model:</td><td></td><td></td></tr><tr><td>Cash-synthetic basis</td><td>9 points</td><td>11 points</td></tr><tr><td>Bond price</td><td>0 to 96 points (79 points)</td><td>0 to 97 points (53 points)</td></tr><tr><td>Credit spread</td><td>22 to 679 bps (109 bps)</td><td>22 to 680 bps (108 bps)</td></tr><tr><td>Funding spread</td><td>N/M</td><td>6 to 590 bps (77 bps)</td></tr></table>",
+            "block_bbox": [
+                86,
+                201,
+                595,
+                1312
+            ],
+            "block_id": 5,
+            "block_order": null,
+            "group_id": 5,
+            "block_polygon_points": [
+                [
+                    86.0,
+                    201.0
+                ],
+                [
+                    595.0,
+                    201.0
+                ],
+                [
+                    595.0,
+                    1312.0
+                ],
+                [
+                    86.0,
+                    1312.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td rowspan=\"2\">in millions, except inputs</td><td colspan=\"3\">Balance / Range (Average $ ^{{1}} $)</td></tr><tr><td>At March 31, 2026</td><td colspan=\"2\">At December 31, 2025</td></tr><tr><td>Foreign exchange $ ^{{2}} $</td><td>&lt;fcel&gt;</td><td>(44)</td><td>36</td></tr><tr><td>Option model:</td><td></td><td></td><td></td></tr><tr><td>IR curve</td><td colspan=\"2\">-1% to 6% (0% / 0%)</td><td>-1% to 10% (2% / 1%)</td></tr><tr><td>Foreign exchange volatility skew</td><td colspan=\"2\">6% to 12% (9% / 10%)</td><td>6% to 10% (8% / 8%)</td></tr><tr><td>Contingency probability</td><td colspan=\"2\">95% to 95% (95% / 95%)</td><td>80% to 95% (95% / 95%)</td></tr><tr><td>Equity $ ^{{2}} $</td><td>&lt;fcel&gt;</td><td>(1,315)</td><td>(1,433)</td></tr><tr><td>Option model:</td><td></td><td></td><td></td></tr><tr><td>Equity volatility</td><td colspan=\"2\">3% to 137% (28%)</td><td>1% to 133% (27%)</td></tr><tr><td>Equity volatility skew</td><td colspan=\"2\">-11% to 4% (-2%)</td><td>-11% to 3% (-1%)</td></tr><tr><td>Equity correlation</td><td colspan=\"2\">-16% to 100% (63%)</td><td>0% to 100% (57%)</td></tr><tr><td>FX correlation</td><td colspan=\"2\">-84% to 90% (-17%)</td><td>-90% to 90% (-30%)</td></tr><tr><td>IR correlation</td><td colspan=\"2\">-25% to 85% (18%)</td><td>-5% to 16% (15%)</td></tr><tr><td>Commodity and other</td><td>&lt;fcel&gt;</td><td>1,220</td><td>920</td></tr><tr><td>Option model:</td><td></td><td></td><td></td></tr><tr><td>Forward power price</td><td colspan=\"2\">5 to 136 (58) per MWh</td><td>5 to 141 (59) per MWh</td></tr><tr><td>Forward natural gas price</td><td colspan=\"2\">1 to 8 (3) per MMBtu</td><td>N/M</td></tr><tr><td>Commodity volatility</td><td colspan=\"2\">14% to 95% (28%)</td><td>6% to 137% (29%)</td></tr><tr><td>Cross-commodity correlation</td><td colspan=\"2\">69% to 99% (96%)</td><td>54% to 99% (98%)</td></tr><tr><td colspan=\"4\">Liabilities Measured at Fair Value on a Recurring Basis</td></tr><tr><td>Corporate and other debt</td><td>54</td><td>50</td><td></td></tr><tr><td>Comparable pricing:</td><td></td><td></td><td></td></tr><tr><td>Bond price</td><td colspan=\"2\">1 to 100 points (28 points)</td><td>2 to 101 points (25 points)</td></tr><tr><td>Securities sold under agreements to repurchase</td><td>449</td><td>445</td><td></td></tr><tr><td>Discounted cash flow:</td><td></td><td></td><td></td></tr><tr><td>Funding spread</td><td colspan=\"2\">21 to 145 bps (71 / 61 bps)</td><td>18 to 109 bps (63 / 63 bps)</td></tr><tr><td>Other secured financings</td><td>181</td><td>306</td><td></td></tr><tr><td>Comparable pricing:</td><td></td><td></td><td></td></tr><tr><td>Loan price</td><td colspan=\"2\">66 to 89 points (72 points)</td><td>0 to 98 points (66 points)</td></tr><tr><td>Borrowings</td><td>937</td><td>608</td><td></td></tr><tr><td>Option model:</td><td></td><td></td><td></td></tr><tr><td>Equity volatility</td><td colspan=\"2\">9% to 93% (30%)</td><td>5% to 102% (44%)</td></tr><tr><td>Equity volatility skew</td><td colspan=\"2\">-4% to 1% (-1%)</td><td>-3% to 1% (-1%)</td></tr><tr><td>Equity correlation</td><td colspan=\"2\">10% to 100% (83%)</td><td>20% to 100% (84%)</td></tr><tr><td>Equity - FX correlation</td><td colspan=\"2\">-88% to 21% (-19%)</td><td>-70% to 30% (-19%)</td></tr><tr><td>Credit default swap model:</td><td></td><td></td><td></td></tr><tr><td>Credit spread</td><td colspan=\"2\">377 to 377 bps (377 bps)</td><td>325 to 325 bps (325 bps)</td></tr><tr><td>Discounted cash flow:</td><td></td><td></td><td></td></tr><tr><td>Loss given default</td><td colspan=\"2\">40% to 40% (40% / 40%)</td><td>40% to 40% (40%</td></tr></table>",
+            "block_bbox": [
+                629,
+                133,
+                1139,
+                1333
+            ],
+            "block_id": 6,
+            "block_order": null,
+            "group_id": 6,
+            "block_polygon_points": [
+                [
+                    629.0,
+                    133.0
+                ],
+                [
+                    1139.0,
+                    133.0
+                ],
+                [
+                    1139.0,
+                    1333.0
+                ],
+                [
+                    629.0,
+                    1333.0
+                ]
+            ]
+        },
+        {
+            "block_label": "footer",
+            "block_content": "March 2026 Form 10-Q",
+            "block_bbox": [
+                94,
+                1523,
+                273,
+                1545
+            ],
+            "block_id": 7,
+            "block_order": null,
+            "group_id": 7,
+            "block_polygon_points": [
+                [
+                    94.0,
+                    1523.0
+                ],
+                [
+                    272.0,
+                    1523.0
+                ],
+                [
+                    272.0,
+                    1544.0
+                ],
+                [
+                    94.0,
+                    1544.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "48",
+            "block_bbox": [
+                604,
+                1524,
+                628,
+                1544
+            ],
+            "block_id": 8,
+            "block_order": null,
+            "group_id": 8,
+            "block_polygon_points": [
+                [
+                    604.0,
+                    1524.0
+                ],
+                [
+                    627.0,
+                    1524.0
+                ],
+                [
+                    627.0,
+                    1543.0
+                ],
+                [
+                    604.0,
+                    1543.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.72801274061203,
+                "coordinate": [
+                    82,
+                    28,
+                    232,
+                    51
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        82.0,
+                        28.0
+                    ],
+                    [
+                        232.0,
+                        28.0
+                    ],
+                    [
+                        232.0,
+                        51.0
+                    ],
+                    [
+                        82.0,
+                        51.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.547744870185852,
+                "coordinate": [
+                    82,
+                    58,
+                    536,
+                    114
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        82.0,
+                        58.0
+                    ],
+                    [
+                        536.0,
+                        58.0
+                    ],
+                    [
+                        536.0,
+                        114.0
+                    ],
+                    [
+                        82.0,
+                        114.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.8449912071228027,
+                "coordinate": [
+                    931,
+                    57,
+                    1132,
+                    91
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        931.0,
+                        57.0
+                    ],
+                    [
+                        1132.0,
+                        57.0
+                    ],
+                    [
+                        1132.0,
+                        91.0
+                    ],
+                    [
+                        931.0,
+                        91.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.33735477924346924,
+                "coordinate": [
+                    84,
+                    122,
+                    594,
+                    172
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        84.0,
+                        122.0
+                    ],
+                    [
+                        594.0,
+                        122.0
+                    ],
+                    [
+                        594.0,
+                        172.0
+                    ],
+                    [
+                        84.0,
+                        172.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.3026493191719055,
+                "coordinate": [
+                    85,
+                    179,
+                    477,
+                    202
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        85.0,
+                        179.0
+                    ],
+                    [
+                        477.0,
+                        179.0
+                    ],
+                    [
+                        477.0,
+                        202.0
+                    ],
+                    [
+                        85.0,
+                        202.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9568997621536255,
+                "coordinate": [
+                    86,
+                    201,
+                    595,
+                    1312
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        86.0,
+                        201.0
+                    ],
+                    [
+                        595.0,
+                        201.0
+                    ],
+                    [
+                        595.0,
+                        1312.0
+                    ],
+                    [
+                        86.0,
+                        1312.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.8489981889724731,
+                "coordinate": [
+                    629,
+                    133,
+                    1139,
+                    1333
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        629.0,
+                        133.0
+                    ],
+                    [
+                        1139.0,
+                        133.0
+                    ],
+                    [
+                        1139.0,
+                        1333.0
+                    ],
+                    [
+                        629.0,
+                        1333.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.3261308968067169,
+                "coordinate": [
+                    633,
+                    1021,
+                    1137,
+                    1330
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        633.0,
+                        1021.0
+                    ],
+                    [
+                        1137.0,
+                        1021.0
+                    ],
+                    [
+                        1137.0,
+                        1330.0
+                    ],
+                    [
+                        633.0,
+                        1330.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.8539811968803406,
+                "coordinate": [
+                    94,
+                    1523,
+                    273,
+                    1545
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        94.0,
+                        1523.0
+                    ],
+                    [
+                        272.0,
+                        1523.0
+                    ],
+                    [
+                        272.0,
+                        1544.0
+                    ],
+                    [
+                        94.0,
+                        1544.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.7088850140571594,
+                "coordinate": [
+                    604,
+                    1524,
+                    628,
+                    1544
+                ],
+                "order": 4,
+                "polygon_points": [
+                    [
+                        604.0,
+                        1524.0
+                    ],
+                    [
+                        627.0,
+                        1524.0
+                    ],
+                    [
+                        627.0,
+                        1543.0
+                    ],
+                    [
+                        604.0,
+                        1543.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

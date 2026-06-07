@@ -1,0 +1,827 @@
+{
+    "input_path": "/workspace/work/data/input/MorganStanleyQ10.pdf",
+    "page_index": 0,
+    "page_count": 77,
+    "width": 1224,
+    "height": 1584,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "doc_title",
+            "block_content": "UNITED STATES SECURITIES AND EXCHANGE COMMISSION\nWashington, D.C. 20549\nFORM 10-Q\nQUARTERLY REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934\nFor the quarterly period ended March 31, 2026\nCommission File Number 1-11758",
+            "block_bbox": [
+                117,
+                77,
+                1096,
+                279
+            ],
+            "block_id": 0,
+            "block_order": 1,
+            "group_id": 0,
+            "block_polygon_points": [
+                [
+                    117.0,
+                    77.0
+                ],
+                [
+                    1096.0,
+                    77.0
+                ],
+                [
+                    1096.0,
+                    279.0
+                ],
+                [
+                    117.0,
+                    279.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "Morgan Stanley",
+            "block_bbox": [
+                474,
+                304,
+                739,
+                344
+            ],
+            "block_id": 1,
+            "block_order": 2,
+            "group_id": 1,
+            "block_polygon_points": [
+                [
+                    474.0,
+                    304.0
+                ],
+                [
+                    739.0,
+                    304.0
+                ],
+                [
+                    739.0,
+                    344.0
+                ],
+                [
+                    474.0,
+                    344.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "(Exact name of Registrant as specified in its charter)",
+            "block_bbox": [
+                435,
+                355,
+                778,
+                376
+            ],
+            "block_id": 2,
+            "block_order": 3,
+            "group_id": 2,
+            "block_polygon_points": [
+                [
+                    435.0,
+                    355.0
+                ],
+                [
+                    777.0,
+                    355.0
+                ],
+                [
+                    777.0,
+                    375.0
+                ],
+                [
+                    435.0,
+                    375.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>Delaware\\n(State or other jurisdiction of incorporation or organization)</td><td>1585 Broadway\\nNew York, NY 10036\\n(Address of principal executive offices, including Zip Code)</td><td>36-3145972\\n(I.R.S. Employer Identification No.)</td><td>(212) 761-4000\\n(Registrant&#x27;s telephone number, including area code)</td></tr></table>",
+            "block_bbox": [
+                81,
+                393,
+                1136,
+                485
+            ],
+            "block_id": 3,
+            "block_order": null,
+            "group_id": 3,
+            "block_polygon_points": [
+                [
+                    81.0,
+                    393.0
+                ],
+                [
+                    1136.0,
+                    393.0
+                ],
+                [
+                    1136.0,
+                    485.0
+                ],
+                [
+                    81.0,
+                    485.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Securities registered pursuant to Section 12(b) of the Act:",
+            "block_bbox": [
+                82,
+                498,
+                579,
+                521
+            ],
+            "block_id": 4,
+            "block_order": 4,
+            "group_id": 4,
+            "block_polygon_points": [
+                [
+                    82.0,
+                    498.0
+                ],
+                [
+                    579.0,
+                    498.0
+                ],
+                [
+                    579.0,
+                    521.0
+                ],
+                [
+                    82.0,
+                    521.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>Title of each class</td><td>Trading Symbol(s)</td><td>Name of exchange on which registered</td></tr><tr><td>Common Stock, $0.01 par value</td><td>MS</td><td>New York Stock Exchange</td></tr><tr><td colspan=\"3\">Depositary Shares, each representing 1/1,000th interest in a share of Floating Rate</td></tr><tr><td>Non-Cumulative Preferred Stock, Series A, $0.01 par value</td><td>MS/PA</td><td>New York Stock Exchange</td></tr><tr><td colspan=\"3\">Depositary Shares, each representing 1/1,000th interest in a share of Fixed-to-Floating Rate</td></tr><tr><td>Non-Cumulative Preferred Stock, Series E, $0.01 par value</td><td>MS/PE</td><td>New York Stock Exchange</td></tr><tr><td colspan=\"3\">Depositary Shares, each representing 1/1,000th interest in a share of Fixed-to-Floating Rate</td></tr><tr><td>Non-Cumulative Preferred Stock, Series F, $0.01 par value</td><td>MS/PF</td><td>New York Stock Exchange</td></tr><tr><td colspan=\"3\">Depositary Shares, each representing 1/1,000th interest in a share of Fixed-to-Floating Rate</td></tr><tr><td>Non-Cumulative Preferred Stock, Series I, $0.01 par value</td><td>MS/PI</td><td>New York Stock Exchange</td></tr><tr><td colspan=\"3\">Depositary Shares, each representing 1/1,000th interest in a share of Fixed-to-Floating Rate</td></tr><tr><td>Non-Cumulative Preferred Stock, Series K, $0.01 par value</td><td>MS/PK</td><td>New York Stock Exchange</td></tr><tr><td colspan=\"3\">Depositary Shares, each representing 1/1,000th interest in a share of 4.875%</td></tr><tr><td>Non-Cumulative Preferred Stock, Series L, $0.01 par value</td><td>MS/PL</td><td>New York Stock Exchange</td></tr><tr><td colspan=\"3\">Depositary Shares, each representing 1/1,000th interest in a share of 4.250%</td></tr><tr><td>Non-Cumulative Preferred Stock, Series O, $0.01 par value</td><td>MS/PO</td><td>New York Stock Exchange</td></tr><tr><td colspan=\"3\">Depositary Shares, each representing 1/1,000th interest in a share of 6.500%</td></tr><tr><td>Non-Cumulative Preferred Stock, Series P, $0.01 par value</td><td>MS/PP</td><td>New York Stock Exchange</td></tr><tr><td colspan=\"3\">Depositary Shares, each representing 1/1,000th interest in a share of 6.625%</td></tr><tr><td>Non-Cumulative Preferred Stock, Series Q, $0.01 par value</td><td>MS/PQ</td><td>New York Stock Exchange</td></tr><tr><td colspan=\"3\">Global Medium-Term Notes, Series A, Floating Rate Notes Due 2029</td></tr><tr><td>of Morgan Stanley Finance LLC (and Registrant&#x27;s guarantee with respect thereto)</td><td>MS/29</td><td>New York Stock Exchange</td></tr></table>",
+            "block_bbox": [
+                80,
+                530,
+                1143,
+                1099
+            ],
+            "block_id": 5,
+            "block_order": null,
+            "group_id": 5,
+            "block_polygon_points": [
+                [
+                    80.0,
+                    530.0
+                ],
+                [
+                    1143.0,
+                    530.0
+                ],
+                [
+                    1143.0,
+                    1099.0
+                ],
+                [
+                    80.0,
+                    1099.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Indicate by check mark whether the Registrant (1) has filed all reports required to be filed by Section 13 or 15(d) of the Securities Exchange Act of 1934 during the preceding 12 months (or for such shorter period that the Registrant was required to file such reports), and (2) has been subject to such filing requirements for the past 90 days. Yes ☒ No ☐",
+            "block_bbox": [
+                76,
+                1117,
+                1144,
+                1177
+            ],
+            "block_id": 6,
+            "block_order": 5,
+            "group_id": 6,
+            "block_polygon_points": [
+                [
+                    76.0,
+                    1117.0
+                ],
+                [
+                    1144.0,
+                    1117.0
+                ],
+                [
+                    1144.0,
+                    1177.0
+                ],
+                [
+                    76.0,
+                    1177.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Indicate by check mark whether the Registrant has submitted electronically every Interactive Data File required to be submitted pursuant to Rule 405 of Regulation S-T ( $ § 232.405 $ of this chapter) during the preceding 12 months (or for such shorter period that the Registrant was required to submit such files). Yes ☒ No ☐",
+            "block_bbox": [
+                76,
+                1186,
+                1144,
+                1228
+            ],
+            "block_id": 7,
+            "block_order": 6,
+            "group_id": 7,
+            "block_polygon_points": [
+                [
+                    76.0,
+                    1186.0
+                ],
+                [
+                    1144.0,
+                    1186.0
+                ],
+                [
+                    1144.0,
+                    1228.0
+                ],
+                [
+                    76.0,
+                    1228.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Indicate by check mark whether the Registrant is a large accelerated filer, an accelerated filer, a non-accelerated filer, smaller reporting company, or an emerging growth company. See the definitions of “large accelerated filer,” “accelerated filer,” “smaller reporting company,” and “emerging growth company” in Rule 12b-2 of the Exchange Act. (Check one):",
+            "block_bbox": [
+                76,
+                1237,
+                1144,
+                1296
+            ],
+            "block_id": 8,
+            "block_order": 7,
+            "group_id": 8,
+            "block_polygon_points": [
+                [
+                    76.0,
+                    1237.0
+                ],
+                [
+                    1144.0,
+                    1237.0
+                ],
+                [
+                    1144.0,
+                    1296.0
+                ],
+                [
+                    76.0,
+                    1296.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Large accelerated filer ☒ Accelerated filer ☐ Non-accelerated filer ☐ Smaller reporting company ☐ Emerging growth company ☐",
+            "block_bbox": [
+                80,
+                1312,
+                1131,
+                1333
+            ],
+            "block_id": 9,
+            "block_order": 8,
+            "group_id": 9,
+            "block_polygon_points": [
+                [
+                    80.0,
+                    1312.0
+                ],
+                [
+                    1131.0,
+                    1312.0
+                ],
+                [
+                    1131.0,
+                    1333.0
+                ],
+                [
+                    80.0,
+                    1333.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "If an emerging growth company, indicate by check mark if the Registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. □",
+            "block_bbox": [
+                76,
+                1353,
+                1145,
+                1393
+            ],
+            "block_id": 10,
+            "block_order": 9,
+            "group_id": 10,
+            "block_polygon_points": [
+                [
+                    76.0,
+                    1353.0
+                ],
+                [
+                    1145.0,
+                    1353.0
+                ],
+                [
+                    1145.0,
+                    1393.0
+                ],
+                [
+                    76.0,
+                    1393.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Indicate by check mark whether the Registrant is a shell company (as defined in Rule 12b-2 of the Exchange Act). Yes ☐ No ☒",
+            "block_bbox": [
+                76,
+                1403,
+                931,
+                1423
+            ],
+            "block_id": 11,
+            "block_order": 10,
+            "group_id": 11,
+            "block_polygon_points": [
+                [
+                    76.11123657226562,
+                    1398.000732421875
+                ],
+                [
+                    930.1112060546875,
+                    1403.000732421875
+                ],
+                [
+                    930.0,
+                    1422.0
+                ],
+                [
+                    75.99996948242188,
+                    1417.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "As of April 30, 2026, there were 1,577,284,817 shares of the Registrant's Common Stock, par value $0.01 per share, outstanding.",
+            "block_bbox": [
+                75,
+                1434,
+                916,
+                1456
+            ],
+            "block_id": 12,
+            "block_order": 11,
+            "group_id": 12,
+            "block_polygon_points": [
+                [
+                    75.0,
+                    1434.0
+                ],
+                [
+                    916.0,
+                    1434.0
+                ],
+                [
+                    916.0,
+                    1456.0
+                ],
+                [
+                    75.0,
+                    1456.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 6,
+                "label": "doc_title",
+                "score": 0.35990893840789795,
+                "coordinate": [
+                    117,
+                    77,
+                    1096,
+                    279
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        117.0,
+                        77.0
+                    ],
+                    [
+                        1096.0,
+                        77.0
+                    ],
+                    [
+                        1096.0,
+                        279.0
+                    ],
+                    [
+                        117.0,
+                        279.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.454496830701828,
+                "coordinate": [
+                    474,
+                    304,
+                    739,
+                    344
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        474.0,
+                        304.0
+                    ],
+                    [
+                        739.0,
+                        304.0
+                    ],
+                    [
+                        739.0,
+                        344.0
+                    ],
+                    [
+                        474.0,
+                        344.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7125178575515747,
+                "coordinate": [
+                    435,
+                    355,
+                    778,
+                    376
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        435.0,
+                        355.0
+                    ],
+                    [
+                        777.0,
+                        355.0
+                    ],
+                    [
+                        777.0,
+                        375.0
+                    ],
+                    [
+                        435.0,
+                        375.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.836770236492157,
+                "coordinate": [
+                    81,
+                    393,
+                    1136,
+                    485
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        81.0,
+                        393.0
+                    ],
+                    [
+                        1136.0,
+                        393.0
+                    ],
+                    [
+                        1136.0,
+                        485.0
+                    ],
+                    [
+                        81.0,
+                        485.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.3562595844268799,
+                "coordinate": [
+                    82,
+                    498,
+                    579,
+                    521
+                ],
+                "order": 4,
+                "polygon_points": [
+                    [
+                        82.0,
+                        498.0
+                    ],
+                    [
+                        579.0,
+                        498.0
+                    ],
+                    [
+                        579.0,
+                        521.0
+                    ],
+                    [
+                        82.0,
+                        521.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9566050171852112,
+                "coordinate": [
+                    80,
+                    530,
+                    1143,
+                    1099
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        80.0,
+                        530.0
+                    ],
+                    [
+                        1143.0,
+                        530.0
+                    ],
+                    [
+                        1143.0,
+                        1099.0
+                    ],
+                    [
+                        80.0,
+                        1099.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.6338385343551636,
+                "coordinate": [
+                    76,
+                    1117,
+                    1144,
+                    1177
+                ],
+                "order": 5,
+                "polygon_points": [
+                    [
+                        76.0,
+                        1117.0
+                    ],
+                    [
+                        1144.0,
+                        1117.0
+                    ],
+                    [
+                        1144.0,
+                        1177.0
+                    ],
+                    [
+                        76.0,
+                        1177.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.815830647945404,
+                "coordinate": [
+                    76,
+                    1186,
+                    1144,
+                    1228
+                ],
+                "order": 6,
+                "polygon_points": [
+                    [
+                        76.0,
+                        1186.0
+                    ],
+                    [
+                        1144.0,
+                        1186.0
+                    ],
+                    [
+                        1144.0,
+                        1228.0
+                    ],
+                    [
+                        76.0,
+                        1228.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9016743302345276,
+                "coordinate": [
+                    76,
+                    1237,
+                    1144,
+                    1296
+                ],
+                "order": 7,
+                "polygon_points": [
+                    [
+                        76.0,
+                        1237.0
+                    ],
+                    [
+                        1144.0,
+                        1237.0
+                    ],
+                    [
+                        1144.0,
+                        1296.0
+                    ],
+                    [
+                        76.0,
+                        1296.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.6703605651855469,
+                "coordinate": [
+                    80,
+                    1312,
+                    1131,
+                    1333
+                ],
+                "order": 8,
+                "polygon_points": [
+                    [
+                        80.0,
+                        1312.0
+                    ],
+                    [
+                        1131.0,
+                        1312.0
+                    ],
+                    [
+                        1131.0,
+                        1333.0
+                    ],
+                    [
+                        80.0,
+                        1333.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8319226503372192,
+                "coordinate": [
+                    76,
+                    1353,
+                    1145,
+                    1393
+                ],
+                "order": 9,
+                "polygon_points": [
+                    [
+                        76.0,
+                        1353.0
+                    ],
+                    [
+                        1145.0,
+                        1353.0
+                    ],
+                    [
+                        1145.0,
+                        1393.0
+                    ],
+                    [
+                        76.0,
+                        1393.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7482241988182068,
+                "coordinate": [
+                    76,
+                    1403,
+                    931,
+                    1423
+                ],
+                "order": 10,
+                "polygon_points": [
+                    [
+                        76.11123657226562,
+                        1398.000732421875
+                    ],
+                    [
+                        930.1112060546875,
+                        1403.000732421875
+                    ],
+                    [
+                        930.0,
+                        1422.0
+                    ],
+                    [
+                        75.99996948242188,
+                        1417.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7153087258338928,
+                "coordinate": [
+                    75,
+                    1434,
+                    916,
+                    1456
+                ],
+                "order": 11,
+                "polygon_points": [
+                    [
+                        75.0,
+                        1434.0
+                    ],
+                    [
+                        916.0,
+                        1434.0
+                    ],
+                    [
+                        916.0,
+                        1456.0
+                    ],
+                    [
+                        75.0,
+                        1456.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

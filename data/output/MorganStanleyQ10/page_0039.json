@@ -1,0 +1,583 @@
+{
+    "input_path": "/workspace/work/data/input/MorganStanleyQ10.pdf",
+    "page_index": 38,
+    "page_count": 77,
+    "width": 1224,
+    "height": 1584,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "header",
+            "block_content": "Table of Contents",
+            "block_bbox": [
+                82,
+                27,
+                233,
+                52
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "block_polygon_points": [
+                [
+                    82.0,
+                    27.0
+                ],
+                [
+                    233.0,
+                    27.0
+                ],
+                [
+                    233.0,
+                    52.0
+                ],
+                [
+                    82.0,
+                    52.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "Consolidated Income Statement (Unaudited)",
+            "block_bbox": [
+                82,
+                57,
+                417,
+                116
+            ],
+            "block_id": 1,
+            "block_order": 1,
+            "group_id": 1,
+            "block_polygon_points": [
+                [
+                    82.0,
+                    57.0
+                ],
+                [
+                    417.0,
+                    57.0
+                ],
+                [
+                    417.0,
+                    116.0
+                ],
+                [
+                    82.0,
+                    116.0
+                ]
+            ]
+        },
+        {
+            "block_label": "header",
+            "block_content": "Morgan Stanley",
+            "block_bbox": [
+                931,
+                57,
+                1131,
+                92
+            ],
+            "block_id": 2,
+            "block_order": null,
+            "group_id": 2,
+            "block_polygon_points": [
+                [
+                    931.0,
+                    57.0
+                ],
+                [
+                    1131.0,
+                    57.0
+                ],
+                [
+                    1131.0,
+                    92.0
+                ],
+                [
+                    931.0,
+                    92.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td></td><td colspan=\"2\">Three Months Ended March 31,</td></tr><tr><td>in millions, except per share data</td><td>2026</td><td>2025</td></tr><tr><td>Revenues</td><td></td><td></td></tr><tr><td>Investment banking</td><td>$ 2,289</td><td>$ 1,711</td></tr><tr><td>Trading</td><td>6,730</td><td>5,111</td></tr><tr><td>Investments</td><td>146</td><td>369</td></tr><tr><td>Commissions and fees</td><td>1,690</td><td>1,481</td></tr><tr><td>Asset management</td><td>6,730</td><td>5,963</td></tr><tr><td>Other</td><td>292</td><td>751</td></tr><tr><td>Total non-interest revenues</td><td>17,877</td><td>15,386</td></tr><tr><td>Interest income</td><td>15,273</td><td>13,748</td></tr><tr><td>Interest expense</td><td>12,570</td><td>11,395</td></tr><tr><td>Net interest</td><td>2,703</td><td>2,353</td></tr><tr><td>Net revenues</td><td>20,580</td><td>17,739</td></tr><tr><td>Provision for credit losses</td><td>98</td><td>135</td></tr><tr><td>Non-interest expenses</td><td></td><td></td></tr><tr><td>Compensation and benefits</td><td>8,542</td><td>7,521</td></tr><tr><td>Brokerage, clearing and exchange fees</td><td>1,256</td><td>1,222</td></tr><tr><td>Information processing and communications</td><td>1,148</td><td>1,050</td></tr><tr><td>Professional services</td><td>602</td><td>674</td></tr><tr><td>Occupancy and equipment</td><td>483</td><td>449</td></tr><tr><td>Marketing and business development</td><td>310</td><td>238</td></tr><tr><td>Other</td><td>1,130</td><td>906</td></tr><tr><td>Total non-interest expenses</td><td>13,471</td><td>12,060</td></tr><tr><td>Income before provision for income taxes</td><td>7,011</td><td>5,544</td></tr><tr><td>Provision for income taxes</td><td>1,373</td><td>1,173</td></tr><tr><td>Net income</td><td>$ 5,638</td><td>$ 4,371</td></tr><tr><td>Net income applicable to noncontrolling interests</td><td>71</td><td>56</td></tr><tr><td>Net income applicable to Morgan Stanley</td><td>$ 5,567</td><td>$ 4,315</td></tr><tr><td>Preferred stock dividends</td><td>156</td><td>158</td></tr><tr><td>Earnings applicable to Morgan Stanley common shareholders</td><td>$ 5,411</td><td>$ 4,157</td></tr><tr><td>Earnings per common share</td><td></td><td></td></tr><tr><td>Basic</td><td>$ 3.47</td><td>$ 2.62</td></tr><tr><td>Diluted</td><td>$ 3.43</td><td>$ 2.60</td></tr><tr><td>Average common shares outstanding</td><td></td><td></td></tr><tr><td>Basic</td><td>1,561</td><td>1,584</td></tr><tr><td>Diluted</td><td>1,576</td><td>1,600</td></tr></table>",
+            "block_bbox": [
+                87,
+                142,
+                1136,
+                1048
+            ],
+            "block_id": 3,
+            "block_order": null,
+            "group_id": 3,
+            "block_polygon_points": [
+                [
+                    87.0,
+                    142.0
+                ],
+                [
+                    1136.0,
+                    142.0
+                ],
+                [
+                    1136.0,
+                    1048.0
+                ],
+                [
+                    87.0,
+                    1048.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "Consolidated Comprehensive Income Statement (Unaudited)",
+            "block_bbox": [
+                85,
+                1070,
+                587,
+                1130
+            ],
+            "block_id": 4,
+            "block_order": 2,
+            "group_id": 4,
+            "block_polygon_points": [
+                [
+                    85.0,
+                    1070.0
+                ],
+                [
+                    587.0,
+                    1070.0
+                ],
+                [
+                    587.0,
+                    1130.0
+                ],
+                [
+                    85.0,
+                    1130.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td></td><td colspan=\"2\">Three Months Ended March 31,</td></tr><tr><td>$ in millions</td><td>2026</td><td>2025</td></tr><tr><td>Net income</td><td>$ 5,638</td><td>$ 4,371</td></tr><tr><td>Other comprehensive income (loss), net of tax:</td><td></td><td></td></tr><tr><td>Foreign currency translation adjustments</td><td>(18)</td><td>188</td></tr><tr><td>Change in net unrealized gains (losses) on available-for-sale securities</td><td>(135)</td><td>358</td></tr><tr><td>Pension and other</td><td>4</td><td>2</td></tr><tr><td>Change in net debt valuation adjustment</td><td>1,229</td><td>338</td></tr><tr><td>Net change in cash flow hedges</td><td>(298)</td><td>17</td></tr><tr><td>Total other comprehensive income (loss)</td><td>$ 782</td><td>$ 903</td></tr><tr><td>Comprehensive income</td><td>$ 6,420</td><td>$ 5,274</td></tr><tr><td>Net income applicable to noncontrolling interests</td><td>71</td><td>56</td></tr><tr><td>Other comprehensive income (loss) applicable to noncontrolling interests</td><td>3</td><td>50</td></tr><tr><td>Comprehensive income applicable to Morgan Stanley</td><td>$ 6,346</td><td>$ 5,168</td></tr></table>",
+            "block_bbox": [
+                86,
+                1147,
+                1135,
+                1504
+            ],
+            "block_id": 5,
+            "block_order": null,
+            "group_id": 5,
+            "block_polygon_points": [
+                [
+                    86.0,
+                    1147.0
+                ],
+                [
+                    1135.0,
+                    1147.0
+                ],
+                [
+                    1135.0,
+                    1504.0
+                ],
+                [
+                    86.0,
+                    1504.0
+                ]
+            ]
+        },
+        {
+            "block_label": "footer",
+            "block_content": "See Notes to Consolidated Financial Statements",
+            "block_bbox": [
+                85,
+                1523,
+                440,
+                1546
+            ],
+            "block_id": 6,
+            "block_order": null,
+            "group_id": 6,
+            "block_polygon_points": [
+                [
+                    85.0,
+                    1523.0
+                ],
+                [
+                    440.0,
+                    1523.0
+                ],
+                [
+                    440.0,
+                    1546.0
+                ],
+                [
+                    85.0,
+                    1546.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "39",
+            "block_bbox": [
+                596,
+                1524,
+                619,
+                1544
+            ],
+            "block_id": 7,
+            "block_order": null,
+            "group_id": 7,
+            "block_polygon_points": [
+                [
+                    596.0,
+                    1524.0
+                ],
+                [
+                    618.0,
+                    1524.0
+                ],
+                [
+                    618.0,
+                    1543.0
+                ],
+                [
+                    596.0,
+                    1543.0
+                ]
+            ]
+        },
+        {
+            "block_label": "footer",
+            "block_content": "March 2026 Form 10-Q",
+            "block_bbox": [
+                949,
+                1523,
+                1129,
+                1546
+            ],
+            "block_id": 8,
+            "block_order": null,
+            "group_id": 8,
+            "block_polygon_points": [
+                [
+                    949.0,
+                    1523.0
+                ],
+                [
+                    1129.0,
+                    1523.0
+                ],
+                [
+                    1129.0,
+                    1546.0
+                ],
+                [
+                    949.0,
+                    1546.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.6854366660118103,
+                "coordinate": [
+                    82,
+                    27,
+                    233,
+                    52
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        82.0,
+                        27.0
+                    ],
+                    [
+                        233.0,
+                        27.0
+                    ],
+                    [
+                        233.0,
+                        52.0
+                    ],
+                    [
+                        82.0,
+                        52.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.6330326199531555,
+                "coordinate": [
+                    82,
+                    57,
+                    417,
+                    116
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        82.0,
+                        57.0
+                    ],
+                    [
+                        417.0,
+                        57.0
+                    ],
+                    [
+                        417.0,
+                        116.0
+                    ],
+                    [
+                        82.0,
+                        116.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.8348329067230225,
+                "coordinate": [
+                    931,
+                    57,
+                    1131,
+                    92
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        931.0,
+                        57.0
+                    ],
+                    [
+                        1131.0,
+                        57.0
+                    ],
+                    [
+                        1131.0,
+                        92.0
+                    ],
+                    [
+                        931.0,
+                        92.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9771564602851868,
+                "coordinate": [
+                    87,
+                    142,
+                    1136,
+                    1048
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        87.0,
+                        142.0
+                    ],
+                    [
+                        1136.0,
+                        142.0
+                    ],
+                    [
+                        1136.0,
+                        1048.0
+                    ],
+                    [
+                        87.0,
+                        1048.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.558008074760437,
+                "coordinate": [
+                    85,
+                    1070,
+                    587,
+                    1130
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        85.0,
+                        1070.0
+                    ],
+                    [
+                        587.0,
+                        1070.0
+                    ],
+                    [
+                        587.0,
+                        1130.0
+                    ],
+                    [
+                        85.0,
+                        1130.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9645624756813049,
+                "coordinate": [
+                    86,
+                    1147,
+                    1135,
+                    1504
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        86.0,
+                        1147.0
+                    ],
+                    [
+                        1135.0,
+                        1147.0
+                    ],
+                    [
+                        1135.0,
+                        1504.0
+                    ],
+                    [
+                        86.0,
+                        1504.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.8096504211425781,
+                "coordinate": [
+                    85,
+                    1523,
+                    440,
+                    1546
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        85.0,
+                        1523.0
+                    ],
+                    [
+                        440.0,
+                        1523.0
+                    ],
+                    [
+                        440.0,
+                        1546.0
+                    ],
+                    [
+                        85.0,
+                        1546.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.7525264024734497,
+                "coordinate": [
+                    596,
+                    1524,
+                    619,
+                    1544
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        596.0,
+                        1524.0
+                    ],
+                    [
+                        618.0,
+                        1524.0
+                    ],
+                    [
+                        618.0,
+                        1543.0
+                    ],
+                    [
+                        596.0,
+                        1543.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.8082883954048157,
+                "coordinate": [
+                    949,
+                    1523,
+                    1129,
+                    1546
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        949.0,
+                        1523.0
+                    ],
+                    [
+                        1129.0,
+                        1523.0
+                    ],
+                    [
+                        1129.0,
+                        1546.0
+                    ],
+                    [
+                        949.0,
+                        1546.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

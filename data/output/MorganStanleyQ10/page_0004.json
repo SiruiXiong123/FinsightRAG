@@ -1,0 +1,827 @@
+{
+    "input_path": "/workspace/work/data/input/MorganStanleyQ10.pdf",
+    "page_index": 3,
+    "page_count": 77,
+    "width": 1224,
+    "height": 1584,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "header",
+            "block_content": "Table of Contents",
+            "block_bbox": [
+                82,
+                29,
+                232,
+                51
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "block_polygon_points": [
+                [
+                    82.0,
+                    29.0
+                ],
+                [
+                    231.0,
+                    29.0
+                ],
+                [
+                    231.0,
+                    50.0
+                ],
+                [
+                    82.0,
+                    50.0
+                ]
+            ]
+        },
+        {
+            "block_label": "header",
+            "block_content": "Morgan Stanley",
+            "block_bbox": [
+                931,
+                54,
+                1132,
+                87
+            ],
+            "block_id": 1,
+            "block_order": null,
+            "group_id": 1,
+            "block_polygon_points": [
+                [
+                    931.0,
+                    54.0
+                ],
+                [
+                    1132.0,
+                    54.0
+                ],
+                [
+                    1132.0,
+                    87.0
+                ],
+                [
+                    931.0,
+                    87.0
+                ]
+            ]
+        },
+        {
+            "block_label": "doc_title",
+            "block_content": "Management's Discussion and Analysis of Financial Condition and Results of Operations",
+            "block_bbox": [
+                84,
+                103,
+                1007,
+                133
+            ],
+            "block_id": 2,
+            "block_order": 1,
+            "group_id": 2,
+            "block_polygon_points": [
+                [
+                    84.0,
+                    103.0
+                ],
+                [
+                    1007.0,
+                    103.0
+                ],
+                [
+                    1007.0,
+                    133.0
+                ],
+                [
+                    84.0,
+                    133.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "Introduction",
+            "block_bbox": [
+                85,
+                153,
+                225,
+                180
+            ],
+            "block_id": 3,
+            "block_order": 2,
+            "group_id": 3,
+            "block_polygon_points": [
+                [
+                    85.0,
+                    153.0
+                ],
+                [
+                    225.0,
+                    153.0
+                ],
+                [
+                    225.0,
+                    180.0
+                ],
+                [
+                    85.0,
+                    180.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Morgan Stanley is a global financial services firm that maintains significant market positions in each of its business segments—Institutional Securities, Wealth Management and Investment Management. Morgan Stanley, through its subsidiaries and affiliates, provides a wide variety of products and services to a large and diversified group of clients and customers, including corporations, governments, financial institutions and individuals. We operate as an Integrated Firm whereby we serve clients holistically across our business segments. Unless the context otherwise requires, the terms “Morgan Stanley,” “Firm,” “us,” “we” or “our” mean Morgan Stanley (the “Parent Company”) together with its consolidated subsidiaries. See the “Glossary of Common Terms and Acronyms” for the definition of certain terms and acronyms used throughout this Form 10-Q.",
+            "block_bbox": [
+                83,
+                201,
+                594,
+                564
+            ],
+            "block_id": 4,
+            "block_order": 3,
+            "group_id": 4,
+            "block_polygon_points": [
+                [
+                    83.0,
+                    201.0
+                ],
+                [
+                    594.0,
+                    201.0
+                ],
+                [
+                    594.0,
+                    564.0
+                ],
+                [
+                    83.0,
+                    564.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "A description of the clients and principal products and services of each of our business segments is below. Through the Integrated Firm some of our clients may use the products and services of more than one of our business segments.",
+            "block_bbox": [
+                84,
+                581,
+                593,
+                680
+            ],
+            "block_id": 5,
+            "block_order": 4,
+            "group_id": 5,
+            "block_polygon_points": [
+                [
+                    84.0,
+                    581.0
+                ],
+                [
+                    593.0,
+                    581.0
+                ],
+                [
+                    593.0,
+                    680.0
+                ],
+                [
+                    84.0,
+                    680.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Institutional Securities provides a variety of products and services to corporations, governments, financial institutions and ultra-high net worth clients. Investment Banking services consist of capital raising and financial advisory services, including the underwriting of debt, equity securities and other products, as well as advice on mergers and acquisitions, restructurings and project finance. Our Markets business, which comprises Equity and Fixed Income, provides sales, financing, prime brokerage, market-making, and Asia wealth management services and holds certain business-related investments. Lending activities include originating corporate loans and commercial real estate loans, providing secured lending facilities, and extending securities-based and other financing to clients. Other activities include research.",
+            "block_bbox": [
+                101,
+                697,
+                594,
+                1060
+            ],
+            "block_id": 6,
+            "block_order": 5,
+            "group_id": 6,
+            "block_polygon_points": [
+                [
+                    101.0,
+                    697.0
+                ],
+                [
+                    594.0,
+                    697.0
+                ],
+                [
+                    594.0,
+                    1060.0
+                ],
+                [
+                    101.0,
+                    1060.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Wealth Management provides a comprehensive array of financial services and solutions to individual investors, including high and ultra-high net worth individuals, and businesses and institutions. Wealth Management supports clients through three channels: Advisor-Led, Self-Directed and Workplace. Wealth Management includes: financial advisor-led brokerage, investment advisory, custody, cash management, and administrative services; self-directed brokerage services; financial and wealth planning services; workplace services, including stock plan administration; securities-based lending, residential and commercial real estate loans and other lending products; banking; and retirement plan services.\nInvestment Management provides a broad range of investment strategies and products that span geographies, asset classes, and public and private markets to a diverse group of clients across institutional and intermediary channels. Strategies and products, which are offered through a variety of investment vehicles, include equity, fixed income, alternatives and solutions, and liquidity and overlay services. Institutional clients include defined benefit/defined contribution plans, foundations, endowments, government entities, sovereign wealth funds, insurance companies, third-party fund sponsors and corporations. Individual clients are generally served through intermediaries, including affiliated and non-affiliated distributors.",
+            "block_bbox": [
+                101,
+                1077,
+                595,
+                1393
+            ],
+            "block_id": 7,
+            "block_order": 6,
+            "group_id": 7,
+            "block_polygon_points": [
+                [
+                    101.0,
+                    1077.0
+                ],
+                [
+                    595.0,
+                    1077.0
+                ],
+                [
+                    595.0,
+                    1393.0
+                ],
+                [
+                    101.0,
+                    1393.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "",
+            "block_bbox": [
+                645,
+                200,
+                1139,
+                539
+            ],
+            "block_id": 8,
+            "block_order": 7,
+            "group_id": 7,
+            "block_polygon_points": [
+                [
+                    645.0,
+                    200.0
+                ],
+                [
+                    1139.0,
+                    200.0
+                ],
+                [
+                    1139.0,
+                    539.0
+                ],
+                [
+                    645.0,
+                    539.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Management’s Discussion and Analysis includes certain metrics that we believe to be useful to us, investors, analysts and other stakeholders by providing further transparency about, or an additional means of assessing, our financial condition and operating results. Such metrics, when used, are defined and may be different from or inconsistent with metrics used by other companies.",
+            "block_bbox": [
+                627,
+                557,
+                1139,
+                728
+            ],
+            "block_id": 9,
+            "block_order": 8,
+            "group_id": 9,
+            "block_polygon_points": [
+                [
+                    627.0,
+                    557.0
+                ],
+                [
+                    1139.0,
+                    557.0
+                ],
+                [
+                    1139.0,
+                    728.0
+                ],
+                [
+                    627.0,
+                    728.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "The results of operations in the past have been, and in the future may continue to be, materially affected by: competition; legislative, legal and regulatory developments; market and economic conditions; and other risk factors. These factors also may have an adverse impact on our ability to achieve our strategic objectives. Additionally, the discussion of our results of operations herein may contain forward-looking statements. These statements, which reflect management's beliefs and expectations, are subject to risks and uncertainties that may cause actual results to differ materially. For a discussion of the risks and uncertainties that may affect our future results, see \"Forward-Looking Statements\", \"Business—Competition\", \"Business—Supervision and Regulation\" and \"Risk Factors\" in the 2025 Form 10-K and \"Liquidity and Capital Resources—Regulatory Requirements\" herein.",
+            "block_bbox": [
+                626,
+                745,
+                1139,
+                1132
+            ],
+            "block_id": 10,
+            "block_order": 9,
+            "group_id": 10,
+            "block_polygon_points": [
+                [
+                    626.0,
+                    745.0
+                ],
+                [
+                    1139.0,
+                    745.0
+                ],
+                [
+                    1139.0,
+                    1132.0
+                ],
+                [
+                    626.0,
+                    1132.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "4",
+            "block_bbox": [
+                600,
+                1525,
+                614,
+                1543
+            ],
+            "block_id": 11,
+            "block_order": null,
+            "group_id": 11,
+            "block_polygon_points": [
+                [
+                    600.0,
+                    1525.0
+                ],
+                [
+                    613.0,
+                    1525.0
+                ],
+                [
+                    613.0,
+                    1542.0
+                ],
+                [
+                    600.0,
+                    1542.0
+                ]
+            ]
+        },
+        {
+            "block_label": "footer",
+            "block_content": "March 2026 Form 10-Q",
+            "block_bbox": [
+                951,
+                1523,
+                1129,
+                1545
+            ],
+            "block_id": 12,
+            "block_order": null,
+            "group_id": 12,
+            "block_polygon_points": [
+                [
+                    951.0,
+                    1523.0
+                ],
+                [
+                    1128.0,
+                    1523.0
+                ],
+                [
+                    1128.0,
+                    1544.0
+                ],
+                [
+                    951.0,
+                    1544.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.8353580832481384,
+                "coordinate": [
+                    82,
+                    29,
+                    232,
+                    51
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        82.0,
+                        29.0
+                    ],
+                    [
+                        231.0,
+                        29.0
+                    ],
+                    [
+                        231.0,
+                        50.0
+                    ],
+                    [
+                        82.0,
+                        50.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.8780009150505066,
+                "coordinate": [
+                    931,
+                    54,
+                    1132,
+                    87
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        931.0,
+                        54.0
+                    ],
+                    [
+                        1132.0,
+                        54.0
+                    ],
+                    [
+                        1132.0,
+                        87.0
+                    ],
+                    [
+                        931.0,
+                        87.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 6,
+                "label": "doc_title",
+                "score": 0.7139909267425537,
+                "coordinate": [
+                    84,
+                    103,
+                    1007,
+                    133
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        84.0,
+                        103.0
+                    ],
+                    [
+                        1007.0,
+                        103.0
+                    ],
+                    [
+                        1007.0,
+                        133.0
+                    ],
+                    [
+                        84.0,
+                        133.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8137722611427307,
+                "coordinate": [
+                    85,
+                    153,
+                    225,
+                    180
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        85.0,
+                        153.0
+                    ],
+                    [
+                        225.0,
+                        153.0
+                    ],
+                    [
+                        225.0,
+                        180.0
+                    ],
+                    [
+                        85.0,
+                        180.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9656881093978882,
+                "coordinate": [
+                    83,
+                    201,
+                    594,
+                    564
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        83.0,
+                        201.0
+                    ],
+                    [
+                        594.0,
+                        201.0
+                    ],
+                    [
+                        594.0,
+                        564.0
+                    ],
+                    [
+                        83.0,
+                        564.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9455175399780273,
+                "coordinate": [
+                    84,
+                    581,
+                    593,
+                    680
+                ],
+                "order": 4,
+                "polygon_points": [
+                    [
+                        84.0,
+                        581.0
+                    ],
+                    [
+                        593.0,
+                        581.0
+                    ],
+                    [
+                        593.0,
+                        680.0
+                    ],
+                    [
+                        84.0,
+                        680.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9662784337997437,
+                "coordinate": [
+                    101,
+                    697,
+                    594,
+                    1060
+                ],
+                "order": 5,
+                "polygon_points": [
+                    [
+                        101.0,
+                        697.0
+                    ],
+                    [
+                        594.0,
+                        697.0
+                    ],
+                    [
+                        594.0,
+                        1060.0
+                    ],
+                    [
+                        101.0,
+                        1060.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9641402363777161,
+                "coordinate": [
+                    101,
+                    1077,
+                    595,
+                    1393
+                ],
+                "order": 6,
+                "polygon_points": [
+                    [
+                        101.0,
+                        1077.0
+                    ],
+                    [
+                        595.0,
+                        1077.0
+                    ],
+                    [
+                        595.0,
+                        1393.0
+                    ],
+                    [
+                        101.0,
+                        1393.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9660547375679016,
+                "coordinate": [
+                    645,
+                    200,
+                    1139,
+                    539
+                ],
+                "order": 7,
+                "polygon_points": [
+                    [
+                        645.0,
+                        200.0
+                    ],
+                    [
+                        1139.0,
+                        200.0
+                    ],
+                    [
+                        1139.0,
+                        539.0
+                    ],
+                    [
+                        645.0,
+                        539.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9559365510940552,
+                "coordinate": [
+                    627,
+                    557,
+                    1139,
+                    728
+                ],
+                "order": 8,
+                "polygon_points": [
+                    [
+                        627.0,
+                        557.0
+                    ],
+                    [
+                        1139.0,
+                        557.0
+                    ],
+                    [
+                        1139.0,
+                        728.0
+                    ],
+                    [
+                        627.0,
+                        728.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9675449728965759,
+                "coordinate": [
+                    626,
+                    745,
+                    1139,
+                    1132
+                ],
+                "order": 9,
+                "polygon_points": [
+                    [
+                        626.0,
+                        745.0
+                    ],
+                    [
+                        1139.0,
+                        745.0
+                    ],
+                    [
+                        1139.0,
+                        1132.0
+                    ],
+                    [
+                        626.0,
+                        1132.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.6750617027282715,
+                "coordinate": [
+                    600,
+                    1525,
+                    614,
+                    1543
+                ],
+                "order": 10,
+                "polygon_points": [
+                    [
+                        600.0,
+                        1525.0
+                    ],
+                    [
+                        613.0,
+                        1525.0
+                    ],
+                    [
+                        613.0,
+                        1542.0
+                    ],
+                    [
+                        600.0,
+                        1542.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.8554636240005493,
+                "coordinate": [
+                    951,
+                    1523,
+                    1129,
+                    1545
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        951.0,
+                        1523.0
+                    ],
+                    [
+                        1128.0,
+                        1523.0
+                    ],
+                    [
+                        1128.0,
+                        1544.0
+                    ],
+                    [
+                        951.0,
+                        1544.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,1132 @@
+{
+    "input_path": "/workspace/work/data/input/MorganStanleyQ10.pdf",
+    "page_index": 2,
+    "page_count": 77,
+    "width": 1224,
+    "height": 1584,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "header",
+            "block_content": "Table of Contents",
+            "block_bbox": [
+                83,
+                29,
+                232,
+                51
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "block_polygon_points": [
+                [
+                    83.0,
+                    29.0
+                ],
+                [
+                    231.0,
+                    29.0
+                ],
+                [
+                    231.0,
+                    50.0
+                ],
+                [
+                    83.0,
+                    50.0
+                ]
+            ]
+        },
+        {
+            "block_label": "header",
+            "block_content": "Morgan Stanley",
+            "block_bbox": [
+                932,
+                55,
+                1132,
+                87
+            ],
+            "block_id": 1,
+            "block_order": null,
+            "group_id": 1,
+            "block_polygon_points": [
+                [
+                    932.0,
+                    55.0
+                ],
+                [
+                    1132.0,
+                    55.0
+                ],
+                [
+                    1132.0,
+                    87.0
+                ],
+                [
+                    932.0,
+                    87.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "Available Information",
+            "block_bbox": [
+                507,
+                105,
+                706,
+                128
+            ],
+            "block_id": 2,
+            "block_order": 1,
+            "group_id": 2,
+            "block_polygon_points": [
+                [
+                    507.0,
+                    105.0
+                ],
+                [
+                    706.0,
+                    105.0
+                ],
+                [
+                    706.0,
+                    128.0
+                ],
+                [
+                    507.0,
+                    128.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "We file annual, quarterly and current reports, proxy statements and other information with the Securities and Exchange Commission (“SEC”). The SEC maintains a website, www.sec.gov, that contains annual, quarterly and current reports, proxy and information statements, and other information that issuers file electronically with the SEC. Our electronic SEC filings are available to the public at the SEC’s website.",
+            "block_bbox": [
+                84,
+                145,
+                1138,
+                242
+            ],
+            "block_id": 3,
+            "block_order": 2,
+            "group_id": 3,
+            "block_polygon_points": [
+                [
+                    84.0,
+                    145.0
+                ],
+                [
+                    1138.0,
+                    145.0
+                ],
+                [
+                    1138.0,
+                    242.0
+                ],
+                [
+                    84.0,
+                    242.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Our website is www.morganstanley.com. You can access our Investor Relations webpage at www.morganstanley.com/about-us-ir. We make available free of charge, on or through our Investor Relations webpage, our proxy statements, annual reports on Form 10-K, quarterly reports on Form 10-Q, current reports on Form 8-K and any amendments to those reports filed or furnished pursuant to the Securities Exchange Act of 1934, as amended (\"Exchange Act\"), as soon as reasonably practicable after such material is electronically filed with, or furnished to, the SEC. We also make available, through our Investor Relations webpage, via a link to the SEC's website, statements of beneficial ownership of our equity securities filed by our directors, officers, 10% or greater shareholders and others under Section 16 of the Exchange Act.",
+            "block_bbox": [
+                84,
+                257,
+                1138,
+                426
+            ],
+            "block_id": 4,
+            "block_order": 3,
+            "group_id": 4,
+            "block_polygon_points": [
+                [
+                    84.0,
+                    257.0
+                ],
+                [
+                    1138.0,
+                    257.0
+                ],
+                [
+                    1138.0,
+                    426.0
+                ],
+                [
+                    84.0,
+                    426.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "You can access information about our corporate governance at www.morganstanley.com/about-us-governance. Our webpages include:",
+            "block_bbox": [
+                85,
+                449,
+                1101,
+                496
+            ],
+            "block_id": 5,
+            "block_order": 4,
+            "group_id": 5,
+            "block_polygon_points": [
+                [
+                    85.0,
+                    449.0
+                ],
+                [
+                    1101.0,
+                    449.0
+                ],
+                [
+                    1101.0,
+                    496.0
+                ],
+                [
+                    85.0,
+                    496.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "• Amended and Restated Certificate of Incorporation;",
+            "block_bbox": [
+                85,
+                521,
+                527,
+                543
+            ],
+            "block_id": 6,
+            "block_order": 5,
+            "group_id": 6,
+            "block_polygon_points": [
+                [
+                    85.0,
+                    521.0
+                ],
+                [
+                    527.0,
+                    521.0
+                ],
+                [
+                    527.0,
+                    543.0
+                ],
+                [
+                    85.0,
+                    543.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "• Amended and Restated Bylaws;",
+            "block_bbox": [
+                86,
+                546,
+                368,
+                566
+            ],
+            "block_id": 7,
+            "block_order": 6,
+            "group_id": 7,
+            "block_polygon_points": [
+                [
+                    86.0,
+                    546.0
+                ],
+                [
+                    367.0,
+                    546.0
+                ],
+                [
+                    367.0,
+                    565.0
+                ],
+                [
+                    86.0,
+                    565.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "• Charters for our Audit Committee, Compensation, Management Development and Succession Committee, Governance and Sustainability Committee, Operations and Technology Committee, and Risk Committee;",
+            "block_bbox": [
+                86,
+                568,
+                1137,
+                616
+            ],
+            "block_id": 8,
+            "block_order": 7,
+            "group_id": 8,
+            "block_polygon_points": [
+                [
+                    86.0,
+                    568.0
+                ],
+                [
+                    1137.0,
+                    568.0
+                ],
+                [
+                    1137.0,
+                    616.0
+                ],
+                [
+                    86.0,
+                    616.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "• Corporate Governance Policies;",
+            "block_bbox": [
+                86,
+                618,
+                368,
+                638
+            ],
+            "block_id": 9,
+            "block_order": 8,
+            "group_id": 9,
+            "block_polygon_points": [
+                [
+                    86.0,
+                    618.0
+                ],
+                [
+                    367.0,
+                    618.0
+                ],
+                [
+                    367.0,
+                    637.0
+                ],
+                [
+                    86.0,
+                    637.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "• Policy Regarding Corporate Political Activities;",
+            "block_bbox": [
+                86,
+                640,
+                496,
+                663
+            ],
+            "block_id": 10,
+            "block_order": 9,
+            "group_id": 10,
+            "block_polygon_points": [
+                [
+                    86.0,
+                    640.0
+                ],
+                [
+                    496.0,
+                    640.0
+                ],
+                [
+                    496.0,
+                    663.0
+                ],
+                [
+                    86.0,
+                    663.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "• Policy Regarding Shareholder Rights Plan;",
+            "block_bbox": [
+                86,
+                665,
+                456,
+                688
+            ],
+            "block_id": 11,
+            "block_order": 10,
+            "group_id": 11,
+            "block_polygon_points": [
+                [
+                    86.0,
+                    665.0
+                ],
+                [
+                    456.0,
+                    665.0
+                ],
+                [
+                    456.0,
+                    688.0
+                ],
+                [
+                    86.0,
+                    688.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "• Equity Ownership Commitment;",
+            "block_bbox": [
+                86,
+                689,
+                374,
+                711
+            ],
+            "block_id": 12,
+            "block_order": 11,
+            "group_id": 12,
+            "block_polygon_points": [
+                [
+                    86.0,
+                    689.0
+                ],
+                [
+                    374.0,
+                    689.0
+                ],
+                [
+                    374.0,
+                    711.0
+                ],
+                [
+                    86.0,
+                    711.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "• Code of Ethics and Business Conduct;",
+            "block_bbox": [
+                86,
+                713,
+                418,
+                735
+            ],
+            "block_id": 13,
+            "block_order": 12,
+            "group_id": 13,
+            "block_polygon_points": [
+                [
+                    86.0,
+                    713.0
+                ],
+                [
+                    418.0,
+                    713.0
+                ],
+                [
+                    418.0,
+                    735.0
+                ],
+                [
+                    86.0,
+                    735.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "• Code of Conduct; and",
+            "block_bbox": [
+                86,
+                737,
+                288,
+                759
+            ],
+            "block_id": 14,
+            "block_order": 13,
+            "group_id": 14,
+            "block_polygon_points": [
+                [
+                    86.0,
+                    737.0
+                ],
+                [
+                    287.0,
+                    737.0
+                ],
+                [
+                    287.0,
+                    758.0
+                ],
+                [
+                    86.0,
+                    758.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "• Integrity Hotline Information.",
+            "block_bbox": [
+                86,
+                761,
+                350,
+                784
+            ],
+            "block_id": 15,
+            "block_order": 14,
+            "group_id": 15,
+            "block_polygon_points": [
+                [
+                    86.0,
+                    761.0
+                ],
+                [
+                    350.0,
+                    761.0
+                ],
+                [
+                    350.0,
+                    784.0
+                ],
+                [
+                    86.0,
+                    784.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Our Code of Ethics and Business Conduct applies to all directors, officers and employees, including our Chief Executive Officer, Chief Financial Officer and Chief Accounting Officer and Controller. We will post any amendments to the Code of Ethics and Business Conduct and any waivers that are required to be disclosed by the rules of either the SEC or the New York Stock Exchange LLC on our website. You can request a copy of these documents, excluding exhibits, at no cost, by contacting Investor Relations, 1585 Broadway, New York, NY 10036 (212-761-4000). The information on our website is not incorporated by reference into this report.",
+            "block_bbox": [
+                84,
+                801,
+                1138,
+                945
+            ],
+            "block_id": 16,
+            "block_order": 15,
+            "group_id": 16,
+            "block_polygon_points": [
+                [
+                    84.0,
+                    801.0
+                ],
+                [
+                    1138.0,
+                    801.0
+                ],
+                [
+                    1138.0,
+                    945.0
+                ],
+                [
+                    84.0,
+                    945.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "3",
+            "block_bbox": [
+                606,
+                1525,
+                621,
+                1543
+            ],
+            "block_id": 17,
+            "block_order": null,
+            "group_id": 17,
+            "block_polygon_points": [
+                [
+                    606.0,
+                    1525.0
+                ],
+                [
+                    620.0,
+                    1525.0
+                ],
+                [
+                    620.0,
+                    1542.0
+                ],
+                [
+                    606.0,
+                    1542.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.8569306135177612,
+                "coordinate": [
+                    83,
+                    29,
+                    232,
+                    51
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        83.0,
+                        29.0
+                    ],
+                    [
+                        231.0,
+                        29.0
+                    ],
+                    [
+                        231.0,
+                        50.0
+                    ],
+                    [
+                        83.0,
+                        50.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.8894715309143066,
+                "coordinate": [
+                    932,
+                    55,
+                    1132,
+                    87
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        932.0,
+                        55.0
+                    ],
+                    [
+                        1132.0,
+                        55.0
+                    ],
+                    [
+                        1132.0,
+                        87.0
+                    ],
+                    [
+                        932.0,
+                        87.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8313021063804626,
+                "coordinate": [
+                    507,
+                    105,
+                    706,
+                    128
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        507.0,
+                        105.0
+                    ],
+                    [
+                        706.0,
+                        105.0
+                    ],
+                    [
+                        706.0,
+                        128.0
+                    ],
+                    [
+                        507.0,
+                        128.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9481475949287415,
+                "coordinate": [
+                    84,
+                    145,
+                    1138,
+                    242
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        84.0,
+                        145.0
+                    ],
+                    [
+                        1138.0,
+                        145.0
+                    ],
+                    [
+                        1138.0,
+                        242.0
+                    ],
+                    [
+                        84.0,
+                        242.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9558837413787842,
+                "coordinate": [
+                    84,
+                    257,
+                    1138,
+                    426
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        84.0,
+                        257.0
+                    ],
+                    [
+                        1138.0,
+                        257.0
+                    ],
+                    [
+                        1138.0,
+                        426.0
+                    ],
+                    [
+                        84.0,
+                        426.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8986974358558655,
+                "coordinate": [
+                    85,
+                    449,
+                    1101,
+                    496
+                ],
+                "order": 4,
+                "polygon_points": [
+                    [
+                        85.0,
+                        449.0
+                    ],
+                    [
+                        1101.0,
+                        449.0
+                    ],
+                    [
+                        1101.0,
+                        496.0
+                    ],
+                    [
+                        85.0,
+                        496.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8268691301345825,
+                "coordinate": [
+                    85,
+                    521,
+                    527,
+                    543
+                ],
+                "order": 5,
+                "polygon_points": [
+                    [
+                        85.0,
+                        521.0
+                    ],
+                    [
+                        527.0,
+                        521.0
+                    ],
+                    [
+                        527.0,
+                        543.0
+                    ],
+                    [
+                        85.0,
+                        543.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8167665004730225,
+                "coordinate": [
+                    86,
+                    546,
+                    368,
+                    566
+                ],
+                "order": 6,
+                "polygon_points": [
+                    [
+                        86.0,
+                        546.0
+                    ],
+                    [
+                        367.0,
+                        546.0
+                    ],
+                    [
+                        367.0,
+                        565.0
+                    ],
+                    [
+                        86.0,
+                        565.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8971098065376282,
+                "coordinate": [
+                    86,
+                    568,
+                    1137,
+                    616
+                ],
+                "order": 7,
+                "polygon_points": [
+                    [
+                        86.0,
+                        568.0
+                    ],
+                    [
+                        1137.0,
+                        568.0
+                    ],
+                    [
+                        1137.0,
+                        616.0
+                    ],
+                    [
+                        86.0,
+                        616.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7931423187255859,
+                "coordinate": [
+                    86,
+                    618,
+                    368,
+                    638
+                ],
+                "order": 8,
+                "polygon_points": [
+                    [
+                        86.0,
+                        618.0
+                    ],
+                    [
+                        367.0,
+                        618.0
+                    ],
+                    [
+                        367.0,
+                        637.0
+                    ],
+                    [
+                        86.0,
+                        637.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7909379601478577,
+                "coordinate": [
+                    86,
+                    640,
+                    496,
+                    663
+                ],
+                "order": 9,
+                "polygon_points": [
+                    [
+                        86.0,
+                        640.0
+                    ],
+                    [
+                        496.0,
+                        640.0
+                    ],
+                    [
+                        496.0,
+                        663.0
+                    ],
+                    [
+                        86.0,
+                        663.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8293531537055969,
+                "coordinate": [
+                    86,
+                    665,
+                    456,
+                    688
+                ],
+                "order": 10,
+                "polygon_points": [
+                    [
+                        86.0,
+                        665.0
+                    ],
+                    [
+                        456.0,
+                        665.0
+                    ],
+                    [
+                        456.0,
+                        688.0
+                    ],
+                    [
+                        86.0,
+                        688.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8196320533752441,
+                "coordinate": [
+                    86,
+                    689,
+                    374,
+                    711
+                ],
+                "order": 11,
+                "polygon_points": [
+                    [
+                        86.0,
+                        689.0
+                    ],
+                    [
+                        374.0,
+                        689.0
+                    ],
+                    [
+                        374.0,
+                        711.0
+                    ],
+                    [
+                        86.0,
+                        711.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8140900135040283,
+                "coordinate": [
+                    86,
+                    713,
+                    418,
+                    735
+                ],
+                "order": 12,
+                "polygon_points": [
+                    [
+                        86.0,
+                        713.0
+                    ],
+                    [
+                        418.0,
+                        713.0
+                    ],
+                    [
+                        418.0,
+                        735.0
+                    ],
+                    [
+                        86.0,
+                        735.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7831946015357971,
+                "coordinate": [
+                    86,
+                    737,
+                    288,
+                    759
+                ],
+                "order": 13,
+                "polygon_points": [
+                    [
+                        86.0,
+                        737.0
+                    ],
+                    [
+                        287.0,
+                        737.0
+                    ],
+                    [
+                        287.0,
+                        758.0
+                    ],
+                    [
+                        86.0,
+                        758.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8196350932121277,
+                "coordinate": [
+                    86,
+                    761,
+                    350,
+                    784
+                ],
+                "order": 14,
+                "polygon_points": [
+                    [
+                        86.0,
+                        761.0
+                    ],
+                    [
+                        350.0,
+                        761.0
+                    ],
+                    [
+                        350.0,
+                        784.0
+                    ],
+                    [
+                        86.0,
+                        784.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9601002335548401,
+                "coordinate": [
+                    84,
+                    801,
+                    1138,
+                    945
+                ],
+                "order": 15,
+                "polygon_points": [
+                    [
+                        84.0,
+                        801.0
+                    ],
+                    [
+                        1138.0,
+                        801.0
+                    ],
+                    [
+                        1138.0,
+                        945.0
+                    ],
+                    [
+                        84.0,
+                        945.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.6884496808052063,
+                "coordinate": [
+                    606,
+                    1525,
+                    621,
+                    1543
+                ],
+                "order": 16,
+                "polygon_points": [
+                    [
+                        606.0,
+                        1525.0
+                    ],
+                    [
+                        620.0,
+                        1525.0
+                    ],
+                    [
+                        620.0,
+                        1542.0
+                    ],
+                    [
+                        606.0,
+                        1542.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

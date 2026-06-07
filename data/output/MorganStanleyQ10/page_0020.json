@@ -1,0 +1,1376 @@
+{
+    "input_path": "/workspace/work/data/input/MorganStanleyQ10.pdf",
+    "page_index": 19,
+    "page_count": 77,
+    "width": 1224,
+    "height": 1584,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "header",
+            "block_content": "Table of Contents",
+            "block_bbox": [
+                82,
+                28,
+                233,
+                51
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "block_polygon_points": [
+                [
+                    82.0,
+                    28.0
+                ],
+                [
+                    233.0,
+                    28.0
+                ],
+                [
+                    233.0,
+                    51.0
+                ],
+                [
+                    82.0,
+                    51.0
+                ]
+            ]
+        },
+        {
+            "block_label": "header",
+            "block_content": "Morgan Stanley",
+            "block_bbox": [
+                932,
+                53,
+                1132,
+                85
+            ],
+            "block_id": 1,
+            "block_order": null,
+            "group_id": 1,
+            "block_polygon_points": [
+                [
+                    932.0,
+                    53.0
+                ],
+                [
+                    1132.0,
+                    53.0
+                ],
+                [
+                    1132.0,
+                    85.0
+                ],
+                [
+                    932.0,
+                    85.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "Management's Discussion and Analysis",
+            "block_bbox": [
+                82,
+                58,
+                492,
+                86
+            ],
+            "block_id": 2,
+            "block_order": 1,
+            "group_id": 2,
+            "block_polygon_points": [
+                [
+                    82.0,
+                    58.0
+                ],
+                [
+                    492.0,
+                    58.0
+                ],
+                [
+                    492.0,
+                    86.0
+                ],
+                [
+                    82.0,
+                    86.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "Balance Sheet",
+            "block_bbox": [
+                86,
+                103,
+                239,
+                130
+            ],
+            "block_id": 3,
+            "block_order": 2,
+            "group_id": 3,
+            "block_polygon_points": [
+                [
+                    86.0,
+                    103.0
+                ],
+                [
+                    239.0,
+                    103.0
+                ],
+                [
+                    239.0,
+                    130.0
+                ],
+                [
+                    86.0,
+                    130.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "We monitor and evaluate the composition and size of our balance sheet on a regular basis. Our balance sheet management process includes quarterly planning, business-specific thresholds, monitoring of business-specific usage versus key performance metrics and new business impact assessments.",
+            "block_bbox": [
+                83,
+                152,
+                594,
+                299
+            ],
+            "block_id": 4,
+            "block_order": 3,
+            "group_id": 4,
+            "block_polygon_points": [
+                [
+                    83.0,
+                    152.0
+                ],
+                [
+                    594.0,
+                    152.0
+                ],
+                [
+                    594.0,
+                    299.0
+                ],
+                [
+                    83.0,
+                    299.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "We establish balance sheet thresholds at the consolidated and business segment levels. We monitor balance sheet utilization and review variances resulting from business activity and market fluctuations. On a regular basis, we review current performance versus established thresholds and assess the need to re-allocate our balance sheet based on business segment needs. We also monitor key metrics, including asset and liability size and capital usage.",
+            "block_bbox": [
+                83,
+                317,
+                594,
+                511
+            ],
+            "block_id": 5,
+            "block_order": 4,
+            "group_id": 5,
+            "block_polygon_points": [
+                [
+                    83.0,
+                    317.0
+                ],
+                [
+                    594.0,
+                    317.0
+                ],
+                [
+                    594.0,
+                    511.0
+                ],
+                [
+                    83.0,
+                    511.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "Total Assets by Business Segment",
+            "block_bbox": [
+                86,
+                529,
+                377,
+                551
+            ],
+            "block_id": 6,
+            "block_order": 5,
+            "group_id": 6,
+            "block_polygon_points": [
+                [
+                    86.0,
+                    529.0
+                ],
+                [
+                    377.0,
+                    529.0
+                ],
+                [
+                    377.0,
+                    551.0
+                ],
+                [
+                    86.0,
+                    551.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td></td><td colspan=\"4\">At March 31, 2026</td></tr><tr><td>in millions</td><td>IS</td><td>WM</td><td>IM</td><td>Total</td></tr><tr><td>Assets</td><td></td><td></td><td></td><td></td></tr><tr><td>Cash and cash equivalents $ ^{1} $</td><td>120,384</td><td>13,082</td><td>63</td><td>133,529</td></tr><tr><td>Trading assets at fair value</td><td>512,777</td><td>7,898</td><td>5,536</td><td>526,211</td></tr><tr><td>Investment securities $ ^{1} $</td><td>121,147</td><td>39,216</td><td>—</td><td>160,363</td></tr><tr><td>Securities purchased under agreements to resell</td><td>114,763</td><td>14,117</td><td>—</td><td>128,880</td></tr><tr><td>Securities borrowed</td><td>153,734</td><td>836</td><td>—</td><td>154,570</td></tr><tr><td>Customer and other receivables</td><td>87,890</td><td>43,196</td><td>1,513</td><td>132,599</td></tr><tr><td>Loans $ ^{2} $</td><td>107,633</td><td>186,278</td><td>3</td><td>293,914</td></tr><tr><td>Goodwill</td><td>435</td><td>10,581</td><td>6,089</td><td>17,105</td></tr><tr><td>Intangible assets</td><td>20</td><td>2,587</td><td>3,353</td><td>5,960</td></tr><tr><td>Other assets $ ^{3} $</td><td>16,414</td><td>10,606</td><td>1,267</td><td>28,287</td></tr><tr><td>Total assets</td><td>1,235,197</td><td>328,397</td><td>17,824</td><td>1,581,418</td></tr></table>",
+            "block_bbox": [
+                89,
+                558,
+                594,
+                883
+            ],
+            "block_id": 7,
+            "block_order": null,
+            "group_id": 7,
+            "block_polygon_points": [
+                [
+                    89.0,
+                    558.0
+                ],
+                [
+                    594.0,
+                    558.0
+                ],
+                [
+                    594.0,
+                    883.0
+                ],
+                [
+                    89.0,
+                    883.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td></td><td colspan=\"4\">At December 31, 2025</td></tr><tr><td>in millions</td><td>IS</td><td>WM</td><td>IM</td><td>Total</td></tr><tr><td>Assets</td><td></td><td></td><td></td><td></td></tr><tr><td>Cash and cash equivalents</td><td>81,228</td><td>30,426</td><td>41</td><td>111,695</td></tr><tr><td>Trading assets at fair value</td><td>410,573</td><td>12,428</td><td>5,275</td><td>428,276</td></tr><tr><td>Investment securities</td><td>34,111</td><td>129,445</td><td>—</td><td>163,556</td></tr><tr><td>Securities purchased under agreements to resell</td><td>106,728</td><td>13,515</td><td>—</td><td>120,243</td></tr><tr><td>Securities borrowed</td><td>150,902</td><td>1,006</td><td>—</td><td>151,908</td></tr><tr><td>Customer and other receivables</td><td>71,645</td><td>41,447</td><td>1,628</td><td>114,720</td></tr><tr><td>Loans $ ^{2} $</td><td>96,850</td><td>181,241</td><td>3</td><td>278,094</td></tr><tr><td>Goodwill</td><td>437</td><td>10,199</td><td>6,090</td><td>16,726</td></tr><tr><td>Intangible assets</td><td>21</td><td>2,607</td><td>3,382</td><td>6,010</td></tr><tr><td>Other assets $ ^{3} $</td><td>17,058</td><td>10,703</td><td>1,281</td><td>29,042</td></tr><tr><td>Total assets</td><td>969,553</td><td>433,017</td><td>17,700</td><td>1,420,270</td></tr></table>",
+            "block_bbox": [
+                89,
+                923,
+                594,
+                1245
+            ],
+            "block_id": 8,
+            "block_order": null,
+            "group_id": 8,
+            "block_polygon_points": [
+                [
+                    89.0,
+                    923.0
+                ],
+                [
+                    594.0,
+                    923.0
+                ],
+                [
+                    594.0,
+                    1245.0
+                ],
+                [
+                    89.0,
+                    1245.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "1. In connection with MSBNA's acquisition of MSESE and the merging of the Fixed Income business of MSCS into MSBNA, the Firm updated its segment balance sheet allocation methodology in the first quarter of 2026. As a result of this update, certain liquid marketable securities and cash which were previously included in the Wealth Management balance sheet are included within the Institutional Securities balance sheet beginning in the current quarter to align with liquidity resources with segment activities.",
+            "block_bbox": [
+                88,
+                1257,
+                593,
+                1367
+            ],
+            "block_id": 9,
+            "block_order": 6,
+            "group_id": 9,
+            "block_polygon_points": [
+                [
+                    88.0,
+                    1257.0
+                ],
+                [
+                    593.0,
+                    1257.0
+                ],
+                [
+                    593.0,
+                    1367.0
+                ],
+                [
+                    88.0,
+                    1367.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "2. Amounts include loans held for investment, net of ACL, and loans held for sale but exclude loans at fair value, which are included in Trading assets in the balance sheet (see Note 9 to the financial statements).",
+            "block_bbox": [
+                85,
+                1366,
+                593,
+                1413
+            ],
+            "block_id": 10,
+            "block_order": 7,
+            "group_id": 10,
+            "block_polygon_points": [
+                [
+                    85.0,
+                    1366.0
+                ],
+                [
+                    593.0,
+                    1366.0
+                ],
+                [
+                    593.0,
+                    1413.0
+                ],
+                [
+                    85.0,
+                    1413.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "3. Other assets primarily includes premises, equipment and software, ROU assets related to leases, other investments and deferred tax assets.",
+            "block_bbox": [
+                86,
+                1412,
+                594,
+                1447
+            ],
+            "block_id": 11,
+            "block_order": 8,
+            "group_id": 11,
+            "block_polygon_points": [
+                [
+                    86.0,
+                    1412.0
+                ],
+                [
+                    594.0,
+                    1412.0
+                ],
+                [
+                    594.0,
+                    1447.0
+                ],
+                [
+                    86.0,
+                    1447.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "A substantial portion of total assets consists of cash and cash equivalents, liquid marketable securities and short-term receivables. In the Institutional Securities business segment, these arise from market-making, financing and prime brokerage activities, and in the Wealth Management business segment, these arise from banking activities. Liquid marketable securities arising from management of the investment portfolio are included in the balance sheets of the Institutional Securities and Wealth Management business segments. For further information, refer to Note 19 to the financial statements.",
+            "block_bbox": [
+                85,
+                1463,
+                593,
+                1512
+            ],
+            "block_id": 12,
+            "block_order": 9,
+            "group_id": 12,
+            "block_polygon_points": [
+                [
+                    85.0,
+                    1463.0
+                ],
+                [
+                    593.0,
+                    1463.0
+                ],
+                [
+                    593.0,
+                    1512.0
+                ],
+                [
+                    85.0,
+                    1512.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "",
+            "block_bbox": [
+                627,
+                104,
+                1139,
+                322
+            ],
+            "block_id": 13,
+            "block_order": 10,
+            "group_id": 12,
+            "block_polygon_points": [
+                [
+                    627.0,
+                    104.0
+                ],
+                [
+                    1139.0,
+                    104.0
+                ],
+                [
+                    1139.0,
+                    322.0
+                ],
+                [
+                    627.0,
+                    322.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "Liquidity Risk Management Framework",
+            "block_bbox": [
+                628,
+                340,
+                986,
+                365
+            ],
+            "block_id": 14,
+            "block_order": 11,
+            "group_id": 14,
+            "block_polygon_points": [
+                [
+                    628.0,
+                    340.0
+                ],
+                [
+                    986.0,
+                    340.0
+                ],
+                [
+                    986.0,
+                    365.0
+                ],
+                [
+                    628.0,
+                    365.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "The core components of our Liquidity Risk Management Framework are the Required Liquidity Framework, Liquidity Stress Tests and Liquidity Resources, which support our target liquidity profile. For a further discussion about the Firm's Required Liquidity Framework and Liquidity Stress Tests, see \"Management's Discussion and Analysis of Financial Condition and Results of Operations—Liquidity and Capital Resources—Liquidity Risk Management Framework\" in the 2025 Form 10-K.",
+            "block_bbox": [
+                627,
+                381,
+                1139,
+                601
+            ],
+            "block_id": 15,
+            "block_order": 12,
+            "group_id": 15,
+            "block_polygon_points": [
+                [
+                    627.0,
+                    381.0
+                ],
+                [
+                    1139.0,
+                    381.0
+                ],
+                [
+                    1139.0,
+                    601.0
+                ],
+                [
+                    627.0,
+                    601.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "At March 31, 2026 and December 31, 2025, we maintained sufficient liquidity to meet current and contingent funding obligations as modeled in our Liquidity Stress Tests.",
+            "block_bbox": [
+                627,
+                615,
+                1138,
+                691
+            ],
+            "block_id": 16,
+            "block_order": 13,
+            "group_id": 16,
+            "block_polygon_points": [
+                [
+                    627.0,
+                    615.0
+                ],
+                [
+                    1138.0,
+                    615.0
+                ],
+                [
+                    1138.0,
+                    691.0
+                ],
+                [
+                    627.0,
+                    691.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "Liquidity Resources",
+            "block_bbox": [
+                629,
+                708,
+                804,
+                733
+            ],
+            "block_id": 17,
+            "block_order": 14,
+            "group_id": 17,
+            "block_polygon_points": [
+                [
+                    629.0,
+                    708.0
+                ],
+                [
+                    804.0,
+                    708.0
+                ],
+                [
+                    804.0,
+                    733.0
+                ],
+                [
+                    629.0,
+                    733.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "We maintain sufficient Liquidity Resources, which consist of HQLA and cash deposits with banks, to cover daily funding needs and to meet strategic liquidity targets sized by the Required Liquidity Framework and Liquidity Stress Tests. We actively manage the amount of our Liquidity Resources considering the following components: unsecured debt maturity profile; balance sheet size and composition; funding needs in a stressed environment, inclusive of contingent cash outflows; legal entity, regional and segment liquidity requirements; regulatory requirements; and collateral requirements.",
+            "block_bbox": [
+                627,
+                752,
+                1140,
+                1019
+            ],
+            "block_id": 18,
+            "block_order": 15,
+            "group_id": 18,
+            "block_polygon_points": [
+                [
+                    627.0,
+                    752.0
+                ],
+                [
+                    1140.0,
+                    752.0
+                ],
+                [
+                    1140.0,
+                    1019.0
+                ],
+                [
+                    627.0,
+                    1019.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "The amount of Liquidity Resources we hold is based on our risk appetite and is calibrated to meet various internal and regulatory requirements and to fund prospective business activities. The Liquidity Resources are primarily held within the Parent Company and its major operating subsidiaries. The Total HQLA values in the tables immediately following are different from Eligible HQLA, which, in accordance with the LCR rule, also takes into account certain regulatory weightings and other operational considerations.",
+            "block_bbox": [
+                626,
+                1035,
+                1139,
+                1256
+            ],
+            "block_id": 19,
+            "block_order": 16,
+            "group_id": 19,
+            "block_polygon_points": [
+                [
+                    626.0,
+                    1035.0
+                ],
+                [
+                    1139.0,
+                    1035.0
+                ],
+                [
+                    1139.0,
+                    1256.0
+                ],
+                [
+                    626.0,
+                    1256.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "20",
+            "block_bbox": [
+                596,
+                1525,
+                619,
+                1544
+            ],
+            "block_id": 20,
+            "block_order": null,
+            "group_id": 20,
+            "block_polygon_points": [
+                [
+                    596.0,
+                    1525.0
+                ],
+                [
+                    618.0,
+                    1525.0
+                ],
+                [
+                    618.0,
+                    1543.0
+                ],
+                [
+                    596.0,
+                    1543.0
+                ]
+            ]
+        },
+        {
+            "block_label": "footer",
+            "block_content": "March 2026 Form 10-Q",
+            "block_bbox": [
+                951,
+                1523,
+                1129,
+                1545
+            ],
+            "block_id": 21,
+            "block_order": null,
+            "group_id": 21,
+            "block_polygon_points": [
+                [
+                    951.0,
+                    1523.0
+                ],
+                [
+                    1128.0,
+                    1523.0
+                ],
+                [
+                    1128.0,
+                    1544.0
+                ],
+                [
+                    951.0,
+                    1544.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.6684998273849487,
+                "coordinate": [
+                    82,
+                    28,
+                    233,
+                    51
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        82.0,
+                        28.0
+                    ],
+                    [
+                        233.0,
+                        28.0
+                    ],
+                    [
+                        233.0,
+                        51.0
+                    ],
+                    [
+                        82.0,
+                        51.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.8820405602455139,
+                "coordinate": [
+                    932,
+                    53,
+                    1132,
+                    85
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        932.0,
+                        53.0
+                    ],
+                    [
+                        1132.0,
+                        53.0
+                    ],
+                    [
+                        1132.0,
+                        85.0
+                    ],
+                    [
+                        932.0,
+                        85.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.7903417944908142,
+                "coordinate": [
+                    82,
+                    58,
+                    492,
+                    86
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        82.0,
+                        58.0
+                    ],
+                    [
+                        492.0,
+                        58.0
+                    ],
+                    [
+                        492.0,
+                        86.0
+                    ],
+                    [
+                        82.0,
+                        86.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8506861925125122,
+                "coordinate": [
+                    86,
+                    103,
+                    239,
+                    130
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        86.0,
+                        103.0
+                    ],
+                    [
+                        239.0,
+                        103.0
+                    ],
+                    [
+                        239.0,
+                        130.0
+                    ],
+                    [
+                        86.0,
+                        130.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9525341391563416,
+                "coordinate": [
+                    83,
+                    152,
+                    594,
+                    299
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        83.0,
+                        152.0
+                    ],
+                    [
+                        594.0,
+                        152.0
+                    ],
+                    [
+                        594.0,
+                        299.0
+                    ],
+                    [
+                        83.0,
+                        299.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9603792428970337,
+                "coordinate": [
+                    83,
+                    317,
+                    594,
+                    511
+                ],
+                "order": 4,
+                "polygon_points": [
+                    [
+                        83.0,
+                        317.0
+                    ],
+                    [
+                        594.0,
+                        317.0
+                    ],
+                    [
+                        594.0,
+                        511.0
+                    ],
+                    [
+                        83.0,
+                        511.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.48089563846588135,
+                "coordinate": [
+                    86,
+                    529,
+                    377,
+                    551
+                ],
+                "order": 5,
+                "polygon_points": [
+                    [
+                        86.0,
+                        529.0
+                    ],
+                    [
+                        377.0,
+                        529.0
+                    ],
+                    [
+                        377.0,
+                        551.0
+                    ],
+                    [
+                        86.0,
+                        551.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9629471302032471,
+                "coordinate": [
+                    89,
+                    558,
+                    594,
+                    883
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        89.0,
+                        558.0
+                    ],
+                    [
+                        594.0,
+                        558.0
+                    ],
+                    [
+                        594.0,
+                        883.0
+                    ],
+                    [
+                        89.0,
+                        883.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9488314986228943,
+                "coordinate": [
+                    89,
+                    923,
+                    594,
+                    1245
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        89.0,
+                        923.0
+                    ],
+                    [
+                        594.0,
+                        923.0
+                    ],
+                    [
+                        594.0,
+                        1245.0
+                    ],
+                    [
+                        89.0,
+                        1245.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8268070816993713,
+                "coordinate": [
+                    88,
+                    1257,
+                    593,
+                    1367
+                ],
+                "order": 6,
+                "polygon_points": [
+                    [
+                        88.0,
+                        1257.0
+                    ],
+                    [
+                        593.0,
+                        1257.0
+                    ],
+                    [
+                        593.0,
+                        1367.0
+                    ],
+                    [
+                        88.0,
+                        1367.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8674814701080322,
+                "coordinate": [
+                    85,
+                    1366,
+                    593,
+                    1413
+                ],
+                "order": 7,
+                "polygon_points": [
+                    [
+                        85.0,
+                        1366.0
+                    ],
+                    [
+                        593.0,
+                        1366.0
+                    ],
+                    [
+                        593.0,
+                        1413.0
+                    ],
+                    [
+                        85.0,
+                        1413.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.788452684879303,
+                "coordinate": [
+                    86,
+                    1412,
+                    594,
+                    1447
+                ],
+                "order": 8,
+                "polygon_points": [
+                    [
+                        86.0,
+                        1412.0
+                    ],
+                    [
+                        594.0,
+                        1412.0
+                    ],
+                    [
+                        594.0,
+                        1447.0
+                    ],
+                    [
+                        86.0,
+                        1447.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9068390130996704,
+                "coordinate": [
+                    85,
+                    1463,
+                    593,
+                    1512
+                ],
+                "order": 9,
+                "polygon_points": [
+                    [
+                        85.0,
+                        1463.0
+                    ],
+                    [
+                        593.0,
+                        1463.0
+                    ],
+                    [
+                        593.0,
+                        1512.0
+                    ],
+                    [
+                        85.0,
+                        1512.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9630509614944458,
+                "coordinate": [
+                    627,
+                    104,
+                    1139,
+                    322
+                ],
+                "order": 10,
+                "polygon_points": [
+                    [
+                        627.0,
+                        104.0
+                    ],
+                    [
+                        1139.0,
+                        104.0
+                    ],
+                    [
+                        1139.0,
+                        322.0
+                    ],
+                    [
+                        627.0,
+                        322.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8599877953529358,
+                "coordinate": [
+                    628,
+                    340,
+                    986,
+                    365
+                ],
+                "order": 11,
+                "polygon_points": [
+                    [
+                        628.0,
+                        340.0
+                    ],
+                    [
+                        986.0,
+                        340.0
+                    ],
+                    [
+                        986.0,
+                        365.0
+                    ],
+                    [
+                        628.0,
+                        365.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9579856395721436,
+                "coordinate": [
+                    627,
+                    381,
+                    1139,
+                    601
+                ],
+                "order": 12,
+                "polygon_points": [
+                    [
+                        627.0,
+                        381.0
+                    ],
+                    [
+                        1139.0,
+                        381.0
+                    ],
+                    [
+                        1139.0,
+                        601.0
+                    ],
+                    [
+                        627.0,
+                        601.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9343471527099609,
+                "coordinate": [
+                    627,
+                    615,
+                    1138,
+                    691
+                ],
+                "order": 13,
+                "polygon_points": [
+                    [
+                        627.0,
+                        615.0
+                    ],
+                    [
+                        1138.0,
+                        615.0
+                    ],
+                    [
+                        1138.0,
+                        691.0
+                    ],
+                    [
+                        627.0,
+                        691.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8341175317764282,
+                "coordinate": [
+                    629,
+                    708,
+                    804,
+                    733
+                ],
+                "order": 14,
+                "polygon_points": [
+                    [
+                        629.0,
+                        708.0
+                    ],
+                    [
+                        804.0,
+                        708.0
+                    ],
+                    [
+                        804.0,
+                        733.0
+                    ],
+                    [
+                        629.0,
+                        733.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9635571241378784,
+                "coordinate": [
+                    627,
+                    752,
+                    1140,
+                    1019
+                ],
+                "order": 15,
+                "polygon_points": [
+                    [
+                        627.0,
+                        752.0
+                    ],
+                    [
+                        1140.0,
+                        752.0
+                    ],
+                    [
+                        1140.0,
+                        1019.0
+                    ],
+                    [
+                        627.0,
+                        1019.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9585999250411987,
+                "coordinate": [
+                    626,
+                    1035,
+                    1139,
+                    1256
+                ],
+                "order": 16,
+                "polygon_points": [
+                    [
+                        626.0,
+                        1035.0
+                    ],
+                    [
+                        1139.0,
+                        1035.0
+                    ],
+                    [
+                        1139.0,
+                        1256.0
+                    ],
+                    [
+                        626.0,
+                        1256.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.7445725798606873,
+                "coordinate": [
+                    596,
+                    1525,
+                    619,
+                    1544
+                ],
+                "order": 17,
+                "polygon_points": [
+                    [
+                        596.0,
+                        1525.0
+                    ],
+                    [
+                        618.0,
+                        1525.0
+                    ],
+                    [
+                        618.0,
+                        1543.0
+                    ],
+                    [
+                        596.0,
+                        1543.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.8494531512260437,
+                "coordinate": [
+                    951,
+                    1523,
+                    1129,
+                    1545
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        951.0,
+                        1523.0
+                    ],
+                    [
+                        1128.0,
+                        1523.0
+                    ],
+                    [
+                        1128.0,
+                        1544.0
+                    ],
+                    [
+                        951.0,
+                        1544.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

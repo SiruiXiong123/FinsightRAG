@@ -1,0 +1,827 @@
+{
+    "input_path": "/workspace/work/data/input/MorganStanleyQ10.pdf",
+    "page_index": 64,
+    "page_count": 77,
+    "width": 1224,
+    "height": 1584,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "header",
+            "block_content": "Table of Contents",
+            "block_bbox": [
+                82,
+                28,
+                233,
+                51
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "block_polygon_points": [
+                [
+                    82.0,
+                    28.0
+                ],
+                [
+                    233.0,
+                    28.0
+                ],
+                [
+                    233.0,
+                    51.0
+                ],
+                [
+                    82.0,
+                    51.0
+                ]
+            ]
+        },
+        {
+            "block_label": "header",
+            "block_content": "Morgan Stanley",
+            "block_bbox": [
+                931,
+                58,
+                1132,
+                91
+            ],
+            "block_id": 1,
+            "block_order": null,
+            "group_id": 1,
+            "block_polygon_points": [
+                [
+                    931.0,
+                    58.0
+                ],
+                [
+                    1132.0,
+                    58.0
+                ],
+                [
+                    1132.0,
+                    91.0
+                ],
+                [
+                    931.0,
+                    91.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "Notes to Consolidated Financial Statements (Unaudited)",
+            "block_bbox": [
+                80,
+                58,
+                536,
+                114
+            ],
+            "block_id": 2,
+            "block_order": 1,
+            "group_id": 2,
+            "block_polygon_points": [
+                [
+                    80.0,
+                    58.0
+                ],
+                [
+                    536.0,
+                    58.0
+                ],
+                [
+                    536.0,
+                    114.0
+                ],
+                [
+                    80.0,
+                    114.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "private litigation affecting global financial services firms, including the Firm.",
+            "block_bbox": [
+                83,
+                122,
+                592,
+                173
+            ],
+            "block_id": 3,
+            "block_order": 2,
+            "group_id": 3,
+            "block_polygon_points": [
+                [
+                    83.0,
+                    122.0
+                ],
+                [
+                    592.0,
+                    122.0
+                ],
+                [
+                    592.0,
+                    173.0
+                ],
+                [
+                    83.0,
+                    173.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "In many legal proceedings and investigations, it is inherently difficult to determine whether any loss is probable or reasonably possible, or to estimate the amount of any loss. In addition, even where the Firm has determined that a loss is probable or reasonably possible or an exposure to loss or range of loss exists in excess of the liability already accrued with respect to a previously recognized loss contingency, the Firm may be unable to reasonably estimate the amount of the loss or range of loss. It is particularly difficult to determine if a loss is probable or reasonably possible, or to estimate the amount of loss, where the factual record is being developed or contested or where plaintiffs or government entities seek substantial or indeterminate damages, restitution, forfeiture, disgorgement or penalties. Numerous issues may need to be resolved in an investigation or proceeding before a determination can be made that a loss or additional loss (or range of loss or range of additional loss) is probable or reasonably possible, or to estimate the amount of loss, including through potentially lengthy discovery or determination of important factual matters, determination of issues related to class certification, the calculation of damages or other relief, and consideration of novel or unsettled legal questions relevant to the proceedings or investigations in question.",
+            "block_bbox": [
+                82,
+                191,
+                596,
+                769
+            ],
+            "block_id": 4,
+            "block_order": 3,
+            "group_id": 4,
+            "block_polygon_points": [
+                [
+                    82.0,
+                    191.0
+                ],
+                [
+                    596.0,
+                    191.0
+                ],
+                [
+                    596.0,
+                    769.0
+                ],
+                [
+                    82.0,
+                    769.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "The Firm has identified below any individual proceedings or investigations where the Firm believes a material loss to be reasonably possible. In certain legal proceedings in which the Firm has determined that a material loss is reasonably possible, the Firm is unable to reasonably estimate the loss or range of loss. There are other matters in which the Firm has determined a loss or range of loss to be reasonably possible, but the Firm does not believe, based on current knowledge and after consultation with counsel, that such losses could have a material adverse effect on the Firm's financial statements as a whole, although the outcome of such proceedings or investigations may significantly impact the Firm's business or results of operations for any particular reporting period, or cause significant reputational harm.",
+            "block_bbox": [
+                82,
+                788,
+                595,
+                1131
+            ],
+            "block_id": 5,
+            "block_order": 4,
+            "group_id": 5,
+            "block_polygon_points": [
+                [
+                    82.0,
+                    788.0
+                ],
+                [
+                    595.0,
+                    788.0
+                ],
+                [
+                    595.0,
+                    1131.0
+                ],
+                [
+                    82.0,
+                    1131.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "While the Firm has identified below certain proceedings or investigations that the Firm believes to be material, individually or collectively, there can be no assurance that material losses will not be incurred from claims that have not yet been asserted or those where potential losses have not yet been determined to be probable or reasonably possible.",
+            "block_bbox": [
+                83,
+                1145,
+                595,
+                1293
+            ],
+            "block_id": 6,
+            "block_order": 5,
+            "group_id": 6,
+            "block_polygon_points": [
+                [
+                    83.0,
+                    1145.0
+                ],
+                [
+                    595.0,
+                    1145.0
+                ],
+                [
+                    595.0,
+                    1293.0
+                ],
+                [
+                    83.0,
+                    1293.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "Antitrust Related Matters",
+            "block_bbox": [
+                85,
+                1310,
+                317,
+                1335
+            ],
+            "block_id": 7,
+            "block_order": 6,
+            "group_id": 7,
+            "block_polygon_points": [
+                [
+                    85.0,
+                    1310.0
+                ],
+                [
+                    317.0,
+                    1310.0
+                ],
+                [
+                    317.0,
+                    1335.0
+                ],
+                [
+                    85.0,
+                    1335.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "The Firm and other financial institutions are responding to a number of governmental investigations and civil litigation matters related to allegations of anticompetitive conduct in various aspects of the financial services industry, including the matters described below.\nBeginning in February of 2016, the Firm was named as a defendant in multiple purported antitrust class actions now consolidated into a single proceeding in the United States District Court for the Southern District of New York (\"SDNY\") styled In Re: Interest Rate Swaps Antitrust Litigation. Plaintiffs allege, inter alia, that the Firm, together with a number of other financial institution defendants, violated U.S. and New York state antitrust laws from 2008 through December of 2016 in connection with alleged efforts to prevent the development of electronic exchange-based platforms for interest rate swaps trading. Complaints were filed both on behalf of a purported class of investors who purchased interest rate swaps from defendants, as well as on behalf of three operators of swap execution facilities that allegedly were thwarted by the defendants in their efforts to develop such platforms. The consolidated complaints seek, inter alia, certification of the investor class of plaintiffs and treble damages. On July 28, 2017, the court granted in part and denied in part the defendants' motion to dismiss the complaints. On December 15, 2023, the court denied the class plaintiffs' motion for class certification. On December 29, 2023, the class plaintiffs petitioned the United States Court of Appeals for the Second Circuit for leave to appeal that decision. On February 28, 2024, the parties reached an agreement in principle to settle the class claims. On July 17, 2025, the court granted final approval of the settlement. The claims brought by the three operators of swap execution facilities remain pending, and on March 12, 2026, defendants filed a motion for summary judgment.",
+            "block_bbox": [
+                82,
+                1354,
+                594,
+                1476
+            ],
+            "block_id": 8,
+            "block_order": 7,
+            "group_id": 8,
+            "block_polygon_points": [
+                [
+                    82.0,
+                    1354.0
+                ],
+                [
+                    594.0,
+                    1354.0
+                ],
+                [
+                    594.0,
+                    1476.0
+                ],
+                [
+                    82.0,
+                    1476.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "",
+            "block_bbox": [
+                625,
+                120,
+                1140,
+                822
+            ],
+            "block_id": 9,
+            "block_order": 8,
+            "group_id": 8,
+            "block_polygon_points": [
+                [
+                    625.0,
+                    120.0
+                ],
+                [
+                    1140.0,
+                    120.0
+                ],
+                [
+                    1140.0,
+                    822.0
+                ],
+                [
+                    625.0,
+                    822.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "The Firm is a defendant in three antitrust class action complaints which have been consolidated into one proceeding in the United States District Court for the SDNY under the caption City of Philadelphia, et al. v. Bank of America Corporation, et al. Plaintiffs allege, inter alia, that the Firm, together with a number of other financial institution defendants, violated U.S. antitrust laws and relevant state laws in connection with alleged efforts to artificially inflate interest rates for Variable Rate Demand Obligations (\"VRDO\"). The consolidated complaint seeks, inter alia, certification of the class of plaintiffs and treble damages. The complaint was filed on behalf of a class of municipal issuers of VRDO for which defendants served as remarketing agent. On November 2, 2020, the court granted in part and denied in part the defendants' motion to dismiss the consolidated complaint, dismissing state law claims, but denying dismissal of the U.S. antitrust claims. On September 21, 2023, the court granted plaintiffs' motion for class certification. On February 5, 2024, the United States Court of Appeals for the Second Circuit granted leave to appeal that decision and, on August 1, 2025, affirmed the court's decision. On December 1, 2025, defendants filed a petition for writ of certiorari with the United States Supreme Court regarding the Second Circuit's August 2025 decision, which the Supreme Court denied on April 20, 2026.",
+            "block_bbox": [
+                626,
+                841,
+                1141,
+                1446
+            ],
+            "block_id": 10,
+            "block_order": 9,
+            "group_id": 10,
+            "block_polygon_points": [
+                [
+                    626.0,
+                    841.0
+                ],
+                [
+                    1141.0,
+                    841.0
+                ],
+                [
+                    1141.0,
+                    1446.0
+                ],
+                [
+                    626.0,
+                    1446.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "65",
+            "block_bbox": [
+                604,
+                1525,
+                628,
+                1544
+            ],
+            "block_id": 11,
+            "block_order": null,
+            "group_id": 11,
+            "block_polygon_points": [
+                [
+                    604.0,
+                    1525.0
+                ],
+                [
+                    627.0,
+                    1525.0
+                ],
+                [
+                    627.0,
+                    1543.0
+                ],
+                [
+                    604.0,
+                    1543.0
+                ]
+            ]
+        },
+        {
+            "block_label": "footer",
+            "block_content": "March 2026 Form 10-Q",
+            "block_bbox": [
+                959,
+                1523,
+                1139,
+                1545
+            ],
+            "block_id": 12,
+            "block_order": null,
+            "group_id": 12,
+            "block_polygon_points": [
+                [
+                    959.0,
+                    1523.0
+                ],
+                [
+                    1138.0,
+                    1523.0
+                ],
+                [
+                    1138.0,
+                    1544.0
+                ],
+                [
+                    959.0,
+                    1544.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.7485265135765076,
+                "coordinate": [
+                    82,
+                    28,
+                    233,
+                    51
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        82.0,
+                        28.0
+                    ],
+                    [
+                        233.0,
+                        28.0
+                    ],
+                    [
+                        233.0,
+                        51.0
+                    ],
+                    [
+                        82.0,
+                        51.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.8594731092453003,
+                "coordinate": [
+                    931,
+                    58,
+                    1132,
+                    91
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        931.0,
+                        58.0
+                    ],
+                    [
+                        1132.0,
+                        58.0
+                    ],
+                    [
+                        1132.0,
+                        91.0
+                    ],
+                    [
+                        931.0,
+                        91.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.6849611401557922,
+                "coordinate": [
+                    80,
+                    58,
+                    536,
+                    114
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        80.0,
+                        58.0
+                    ],
+                    [
+                        536.0,
+                        58.0
+                    ],
+                    [
+                        536.0,
+                        114.0
+                    ],
+                    [
+                        80.0,
+                        114.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8245792388916016,
+                "coordinate": [
+                    83,
+                    122,
+                    592,
+                    173
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        83.0,
+                        122.0
+                    ],
+                    [
+                        592.0,
+                        122.0
+                    ],
+                    [
+                        592.0,
+                        173.0
+                    ],
+                    [
+                        83.0,
+                        173.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.841311514377594,
+                "coordinate": [
+                    82,
+                    191,
+                    596,
+                    769
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        82.0,
+                        191.0
+                    ],
+                    [
+                        596.0,
+                        191.0
+                    ],
+                    [
+                        596.0,
+                        769.0
+                    ],
+                    [
+                        82.0,
+                        769.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9595397114753723,
+                "coordinate": [
+                    82,
+                    788,
+                    595,
+                    1131
+                ],
+                "order": 4,
+                "polygon_points": [
+                    [
+                        82.0,
+                        788.0
+                    ],
+                    [
+                        595.0,
+                        788.0
+                    ],
+                    [
+                        595.0,
+                        1131.0
+                    ],
+                    [
+                        82.0,
+                        1131.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9461554884910583,
+                "coordinate": [
+                    83,
+                    1145,
+                    595,
+                    1293
+                ],
+                "order": 5,
+                "polygon_points": [
+                    [
+                        83.0,
+                        1145.0
+                    ],
+                    [
+                        595.0,
+                        1145.0
+                    ],
+                    [
+                        595.0,
+                        1293.0
+                    ],
+                    [
+                        83.0,
+                        1293.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.804535448551178,
+                "coordinate": [
+                    85,
+                    1310,
+                    317,
+                    1335
+                ],
+                "order": 6,
+                "polygon_points": [
+                    [
+                        85.0,
+                        1310.0
+                    ],
+                    [
+                        317.0,
+                        1310.0
+                    ],
+                    [
+                        317.0,
+                        1335.0
+                    ],
+                    [
+                        85.0,
+                        1335.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9391369819641113,
+                "coordinate": [
+                    82,
+                    1354,
+                    594,
+                    1476
+                ],
+                "order": 7,
+                "polygon_points": [
+                    [
+                        82.0,
+                        1354.0
+                    ],
+                    [
+                        594.0,
+                        1354.0
+                    ],
+                    [
+                        594.0,
+                        1476.0
+                    ],
+                    [
+                        82.0,
+                        1476.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9697373509407043,
+                "coordinate": [
+                    625,
+                    120,
+                    1140,
+                    822
+                ],
+                "order": 8,
+                "polygon_points": [
+                    [
+                        625.0,
+                        120.0
+                    ],
+                    [
+                        1140.0,
+                        120.0
+                    ],
+                    [
+                        1140.0,
+                        822.0
+                    ],
+                    [
+                        625.0,
+                        822.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9695497155189514,
+                "coordinate": [
+                    626,
+                    841,
+                    1141,
+                    1446
+                ],
+                "order": 9,
+                "polygon_points": [
+                    [
+                        626.0,
+                        841.0
+                    ],
+                    [
+                        1141.0,
+                        841.0
+                    ],
+                    [
+                        1141.0,
+                        1446.0
+                    ],
+                    [
+                        626.0,
+                        1446.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.7252649068832397,
+                "coordinate": [
+                    604,
+                    1525,
+                    628,
+                    1544
+                ],
+                "order": 10,
+                "polygon_points": [
+                    [
+                        604.0,
+                        1525.0
+                    ],
+                    [
+                        627.0,
+                        1525.0
+                    ],
+                    [
+                        627.0,
+                        1543.0
+                    ],
+                    [
+                        604.0,
+                        1543.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.8342781662940979,
+                "coordinate": [
+                    959,
+                    1523,
+                    1139,
+                    1545
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        959.0,
+                        1523.0
+                    ],
+                    [
+                        1138.0,
+                        1523.0
+                    ],
+                    [
+                        1138.0,
+                        1544.0
+                    ],
+                    [
+                        959.0,
+                        1544.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

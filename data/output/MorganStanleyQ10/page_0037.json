@@ -1,0 +1,1071 @@
+{
+    "input_path": "/workspace/work/data/input/MorganStanleyQ10.pdf",
+    "page_index": 36,
+    "page_count": 77,
+    "width": 1224,
+    "height": 1584,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "header",
+            "block_content": "Table of Contents",
+            "block_bbox": [
+                83,
+                29,
+                232,
+                50
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "block_polygon_points": [
+                [
+                    83.0,
+                    29.0
+                ],
+                [
+                    231.0,
+                    29.0
+                ],
+                [
+                    231.0,
+                    49.0
+                ],
+                [
+                    83.0,
+                    49.0
+                ]
+            ]
+        },
+        {
+            "block_label": "header",
+            "block_content": "Morgan Stanley",
+            "block_bbox": [
+                931,
+                54,
+                1132,
+                87
+            ],
+            "block_id": 1,
+            "block_order": null,
+            "group_id": 1,
+            "block_polygon_points": [
+                [
+                    931.0,
+                    54.0
+                ],
+                [
+                    1132.0,
+                    54.0
+                ],
+                [
+                    1132.0,
+                    87.0
+                ],
+                [
+                    931.0,
+                    87.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "Risk Disclosures",
+            "block_bbox": [
+                83,
+                64,
+                258,
+                89
+            ],
+            "block_id": 2,
+            "block_order": 1,
+            "group_id": 2,
+            "block_polygon_points": [
+                [
+                    83.0,
+                    64.0
+                ],
+                [
+                    258.0,
+                    64.0
+                ],
+                [
+                    258.0,
+                    89.0
+                ],
+                [
+                    83.0,
+                    89.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "notional amount assuming zero recovery adjusted for the fair value of any receivable or payable. For further description of the contractual terms for purchased credit protection and whether they may limit the effectiveness of our hedges, see \"Quantitative and Qualitative Disclosures about Risk—Credit Risk—Derivatives\" in the 2025 Form 10-K.",
+            "block_bbox": [
+                101,
+                104,
+                594,
+                186
+            ],
+            "block_id": 3,
+            "block_order": 2,
+            "group_id": 3,
+            "block_polygon_points": [
+                [
+                    101.0,
+                    104.0
+                ],
+                [
+                    594.0,
+                    104.0
+                ],
+                [
+                    594.0,
+                    186.0
+                ],
+                [
+                    101.0,
+                    186.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "Operational Risk",
+            "block_bbox": [
+                86,
+                202,
+                270,
+                229
+            ],
+            "block_id": 4,
+            "block_order": 3,
+            "group_id": 4,
+            "block_polygon_points": [
+                [
+                    86.0,
+                    202.0
+                ],
+                [
+                    270.0,
+                    202.0
+                ],
+                [
+                    270.0,
+                    229.0
+                ],
+                [
+                    86.0,
+                    229.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Operational risk refers to the risk of loss, or of damage to our reputation, resulting from inadequate or failed processes or systems, human factors (e.g., inappropriate or unlawful conduct) or external events (e.g., cyberattacks or third-party vulnerabilities) that may manifest as, for example, loss of information, business disruption, theft and fraud, legal and compliance risks, or damage to physical assets. We may experience operational risk events across the full scope of our business activities, including revenue-generating activities and support and control groups (e.g., IT and trade processing). For a further discussion about our operational risk, see “Quantitative and Qualitative Disclosures about Risk—Operational Risk” in the 2025 Form 10-K.",
+            "block_bbox": [
+                83,
+                252,
+                594,
+                565
+            ],
+            "block_id": 5,
+            "block_order": 4,
+            "group_id": 5,
+            "block_polygon_points": [
+                [
+                    83.0,
+                    252.0
+                ],
+                [
+                    594.0,
+                    252.0
+                ],
+                [
+                    594.0,
+                    565.0
+                ],
+                [
+                    83.0,
+                    565.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "Model Risk",
+            "block_bbox": [
+                85,
+                582,
+                213,
+                609
+            ],
+            "block_id": 6,
+            "block_order": 5,
+            "group_id": 6,
+            "block_polygon_points": [
+                [
+                    85.0,
+                    582.0
+                ],
+                [
+                    213.0,
+                    582.0
+                ],
+                [
+                    213.0,
+                    609.0
+                ],
+                [
+                    85.0,
+                    609.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Model risk is the potential for adverse consequences from decisions based on incorrect or misused model outputs. Model risk can lead to financial loss, poor business and strategic decision-making, noncompliance with applicable laws and/or regulations or damage to the Firm's reputation. The risk inherent in a model is a function of the materiality, complexity and uncertainty around inputs and assumptions. Model risk is generated from the use of models impacting financial statements, regulatory filings, capital adequacy assessments and the formulation of strategy. For a further discussion about our model risk, see “Quantitative and Qualitative Disclosures about Risk—Model Risk” in the 2025 Form 10-K.",
+            "block_bbox": [
+                83,
+                631,
+                594,
+                945
+            ],
+            "block_id": 7,
+            "block_order": 6,
+            "group_id": 7,
+            "block_polygon_points": [
+                [
+                    83.0,
+                    631.0
+                ],
+                [
+                    594.0,
+                    631.0
+                ],
+                [
+                    594.0,
+                    945.0
+                ],
+                [
+                    83.0,
+                    945.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "Liquidity Risk",
+            "block_bbox": [
+                85,
+                963,
+                243,
+                992
+            ],
+            "block_id": 8,
+            "block_order": 7,
+            "group_id": 8,
+            "block_polygon_points": [
+                [
+                    85.0,
+                    963.0
+                ],
+                [
+                    243.0,
+                    963.0
+                ],
+                [
+                    243.0,
+                    992.0
+                ],
+                [
+                    85.0,
+                    992.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Liquidity risk refers to the risk that we will be unable to finance our operations due to a loss of access to the capital markets or difficulty in liquidating our assets. Liquidity risk also encompasses our ability (or perceived ability) to meet our financial obligations without experiencing significant business disruption or reputational damage that may threaten our viability as a going concern. For a further discussion about our liquidity risk, see “Quantitative and Qualitative Disclosures about Risk—Liquidity Risk” in the 2025 Form 10-K and “Management’s Discussion and Analysis of Financial Condition and Results of Operations—Liquidity and Capital Resources” herein.",
+            "block_bbox": [
+                83,
+                1011,
+                595,
+                1303
+            ],
+            "block_id": 9,
+            "block_order": 8,
+            "group_id": 9,
+            "block_polygon_points": [
+                [
+                    83.0,
+                    1011.0
+                ],
+                [
+                    595.0,
+                    1011.0
+                ],
+                [
+                    595.0,
+                    1303.0
+                ],
+                [
+                    83.0,
+                    1303.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "Legal, Regulatory and Compliance Risk",
+            "block_bbox": [
+                85,
+                1321,
+                504,
+                1349
+            ],
+            "block_id": 10,
+            "block_order": 9,
+            "group_id": 10,
+            "block_polygon_points": [
+                [
+                    85.0,
+                    1321.0
+                ],
+                [
+                    504.0,
+                    1321.0
+                ],
+                [
+                    504.0,
+                    1349.0
+                ],
+                [
+                    85.0,
+                    1349.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Legal, regulatory and compliance risk includes the risk of legal or regulatory sanctions, material financial loss, including fines, penalties, judgments, damages and/or settlements, limitations on our business, or loss to reputation that we may suffer as a result of failure to comply with laws, regulations, rules, related self-regulatory organization standards and codes of conduct applicable to our business activities. This risk also includes contractual and commercial risk, such as the risk that a counterparty's performance obligations will be unenforceable. It also includes compliance with AML, terrorist financing, and anti-corruption rules and regulations. For a further discussion about our legal and compliance risk, see “Quantitative and Qualitative Disclosures about Risk—Legal, Regulatory and Compliance Risk” in the 2025 Form 10-K.",
+            "block_bbox": [
+                84,
+                1369,
+                595,
+                1514
+            ],
+            "block_id": 11,
+            "block_order": 10,
+            "group_id": 11,
+            "block_polygon_points": [
+                [
+                    84.0,
+                    1369.0
+                ],
+                [
+                    595.0,
+                    1369.0
+                ],
+                [
+                    595.0,
+                    1514.0
+                ],
+                [
+                    84.0,
+                    1514.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "",
+            "block_bbox": [
+                627,
+                104,
+                1139,
+                321
+            ],
+            "block_id": 12,
+            "block_order": 11,
+            "group_id": 11,
+            "block_polygon_points": [
+                [
+                    627.0,
+                    104.0
+                ],
+                [
+                    1139.0,
+                    104.0
+                ],
+                [
+                    1139.0,
+                    321.0
+                ],
+                [
+                    627.0,
+                    321.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "Climate Risk",
+            "block_bbox": [
+                630,
+                340,
+                773,
+                366
+            ],
+            "block_id": 13,
+            "block_order": 12,
+            "group_id": 13,
+            "block_polygon_points": [
+                [
+                    630.0,
+                    340.0
+                ],
+                [
+                    773.0,
+                    340.0
+                ],
+                [
+                    773.0,
+                    366.0
+                ],
+                [
+                    630.0,
+                    366.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Climate-related risk consists of physical and transition risks. Physical risks include harm to people and property arising from acute climate-related events, such as floods, hurricanes, heatwaves, droughts and wildfires, and chronic, longer-term shifts in climate patterns, such as higher global average temperatures, rising sea levels and long-term droughts. Transition risks include policy, legal, technology and market changes. Examples of these transition risks include changes in consumer and business sentiment, related technologies, shareholder preferences and any additional regulatory and legislative requirements, including increased disclosure requirements or taxation of carbon emissions. Climate risk, which is not expected to have a significant effect on our consolidated results of operations or financial condition in the near term, is an overarching risk that can impact other categories of risk. For a further discussion about our climate risk, see “Quantitative and Qualitative Disclosures about Risk—Climate Risk” in the 2025 Form 10-K.",
+            "block_bbox": [
+                626,
+                388,
+                1139,
+                825
+            ],
+            "block_id": 14,
+            "block_order": 13,
+            "group_id": 14,
+            "block_polygon_points": [
+                [
+                    626.0,
+                    388.0
+                ],
+                [
+                    1139.0,
+                    388.0
+                ],
+                [
+                    1139.0,
+                    825.0
+                ],
+                [
+                    626.0,
+                    825.0
+                ]
+            ]
+        },
+        {
+            "block_label": "footer",
+            "block_content": "March 2026 Form 10-Q",
+            "block_bbox": [
+                85,
+                1524,
+                264,
+                1545
+            ],
+            "block_id": 15,
+            "block_order": null,
+            "group_id": 15,
+            "block_polygon_points": [
+                [
+                    85.0,
+                    1524.0
+                ],
+                [
+                    263.0,
+                    1524.0
+                ],
+                [
+                    263.0,
+                    1544.0
+                ],
+                [
+                    85.0,
+                    1544.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "37",
+            "block_bbox": [
+                596,
+                1524,
+                619,
+                1544
+            ],
+            "block_id": 16,
+            "block_order": null,
+            "group_id": 16,
+            "block_polygon_points": [
+                [
+                    596.0,
+                    1524.0
+                ],
+                [
+                    618.0,
+                    1524.0
+                ],
+                [
+                    618.0,
+                    1543.0
+                ],
+                [
+                    596.0,
+                    1543.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.8050602674484253,
+                "coordinate": [
+                    83,
+                    29,
+                    232,
+                    50
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        83.0,
+                        29.0
+                    ],
+                    [
+                        231.0,
+                        29.0
+                    ],
+                    [
+                        231.0,
+                        49.0
+                    ],
+                    [
+                        83.0,
+                        49.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.8795607089996338,
+                "coordinate": [
+                    931,
+                    54,
+                    1132,
+                    87
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        931.0,
+                        54.0
+                    ],
+                    [
+                        1132.0,
+                        54.0
+                    ],
+                    [
+                        1132.0,
+                        87.0
+                    ],
+                    [
+                        931.0,
+                        87.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.821986734867096,
+                "coordinate": [
+                    83,
+                    64,
+                    258,
+                    89
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        83.0,
+                        64.0
+                    ],
+                    [
+                        258.0,
+                        64.0
+                    ],
+                    [
+                        258.0,
+                        89.0
+                    ],
+                    [
+                        83.0,
+                        89.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8947458863258362,
+                "coordinate": [
+                    101,
+                    104,
+                    594,
+                    186
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        101.0,
+                        104.0
+                    ],
+                    [
+                        594.0,
+                        104.0
+                    ],
+                    [
+                        594.0,
+                        186.0
+                    ],
+                    [
+                        101.0,
+                        186.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8537299633026123,
+                "coordinate": [
+                    86,
+                    202,
+                    270,
+                    229
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        86.0,
+                        202.0
+                    ],
+                    [
+                        270.0,
+                        202.0
+                    ],
+                    [
+                        270.0,
+                        229.0
+                    ],
+                    [
+                        86.0,
+                        229.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9649080038070679,
+                "coordinate": [
+                    83,
+                    252,
+                    594,
+                    565
+                ],
+                "order": 4,
+                "polygon_points": [
+                    [
+                        83.0,
+                        252.0
+                    ],
+                    [
+                        594.0,
+                        252.0
+                    ],
+                    [
+                        594.0,
+                        565.0
+                    ],
+                    [
+                        83.0,
+                        565.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8168034553527832,
+                "coordinate": [
+                    85,
+                    582,
+                    213,
+                    609
+                ],
+                "order": 5,
+                "polygon_points": [
+                    [
+                        85.0,
+                        582.0
+                    ],
+                    [
+                        213.0,
+                        582.0
+                    ],
+                    [
+                        213.0,
+                        609.0
+                    ],
+                    [
+                        85.0,
+                        609.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9619847536087036,
+                "coordinate": [
+                    83,
+                    631,
+                    594,
+                    945
+                ],
+                "order": 6,
+                "polygon_points": [
+                    [
+                        83.0,
+                        631.0
+                    ],
+                    [
+                        594.0,
+                        631.0
+                    ],
+                    [
+                        594.0,
+                        945.0
+                    ],
+                    [
+                        83.0,
+                        945.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8360976576805115,
+                "coordinate": [
+                    85,
+                    963,
+                    243,
+                    992
+                ],
+                "order": 7,
+                "polygon_points": [
+                    [
+                        85.0,
+                        963.0
+                    ],
+                    [
+                        243.0,
+                        963.0
+                    ],
+                    [
+                        243.0,
+                        992.0
+                    ],
+                    [
+                        85.0,
+                        992.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9633871912956238,
+                "coordinate": [
+                    83,
+                    1011,
+                    595,
+                    1303
+                ],
+                "order": 8,
+                "polygon_points": [
+                    [
+                        83.0,
+                        1011.0
+                    ],
+                    [
+                        595.0,
+                        1011.0
+                    ],
+                    [
+                        595.0,
+                        1303.0
+                    ],
+                    [
+                        83.0,
+                        1303.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8513070940971375,
+                "coordinate": [
+                    85,
+                    1321,
+                    504,
+                    1349
+                ],
+                "order": 9,
+                "polygon_points": [
+                    [
+                        85.0,
+                        1321.0
+                    ],
+                    [
+                        504.0,
+                        1321.0
+                    ],
+                    [
+                        504.0,
+                        1349.0
+                    ],
+                    [
+                        85.0,
+                        1349.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9408208727836609,
+                "coordinate": [
+                    84,
+                    1369,
+                    595,
+                    1514
+                ],
+                "order": 10,
+                "polygon_points": [
+                    [
+                        84.0,
+                        1369.0
+                    ],
+                    [
+                        595.0,
+                        1369.0
+                    ],
+                    [
+                        595.0,
+                        1514.0
+                    ],
+                    [
+                        84.0,
+                        1514.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9563771486282349,
+                "coordinate": [
+                    627,
+                    104,
+                    1139,
+                    321
+                ],
+                "order": 11,
+                "polygon_points": [
+                    [
+                        627.0,
+                        104.0
+                    ],
+                    [
+                        1139.0,
+                        104.0
+                    ],
+                    [
+                        1139.0,
+                        321.0
+                    ],
+                    [
+                        627.0,
+                        321.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8302671313285828,
+                "coordinate": [
+                    630,
+                    340,
+                    773,
+                    366
+                ],
+                "order": 12,
+                "polygon_points": [
+                    [
+                        630.0,
+                        340.0
+                    ],
+                    [
+                        773.0,
+                        340.0
+                    ],
+                    [
+                        773.0,
+                        366.0
+                    ],
+                    [
+                        630.0,
+                        366.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9658737778663635,
+                "coordinate": [
+                    626,
+                    388,
+                    1139,
+                    825
+                ],
+                "order": 13,
+                "polygon_points": [
+                    [
+                        626.0,
+                        388.0
+                    ],
+                    [
+                        1139.0,
+                        388.0
+                    ],
+                    [
+                        1139.0,
+                        825.0
+                    ],
+                    [
+                        626.0,
+                        825.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.855449914932251,
+                "coordinate": [
+                    85,
+                    1524,
+                    264,
+                    1545
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        85.0,
+                        1524.0
+                    ],
+                    [
+                        263.0,
+                        1524.0
+                    ],
+                    [
+                        263.0,
+                        1544.0
+                    ],
+                    [
+                        85.0,
+                        1544.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.7393878102302551,
+                "coordinate": [
+                    596,
+                    1524,
+                    619,
+                    1544
+                ],
+                "order": 14,
+                "polygon_points": [
+                    [
+                        596.0,
+                        1524.0
+                    ],
+                    [
+                        618.0,
+                        1524.0
+                    ],
+                    [
+                        618.0,
+                        1543.0
+                    ],
+                    [
+                        596.0,
+                        1543.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

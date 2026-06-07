@@ -1,0 +1,918 @@
+{
+    "input_path": "/workspace/work/data/input/MorganStanleyQ10.pdf",
+    "page_index": 55,
+    "page_count": 77,
+    "width": 1224,
+    "height": 1584,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "header",
+            "block_content": "Table of Contents",
+            "block_bbox": [
+                82,
+                28,
+                232,
+                51
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "block_polygon_points": [
+                [
+                    82.0,
+                    28.0
+                ],
+                [
+                    232.0,
+                    28.0
+                ],
+                [
+                    232.0,
+                    51.0
+                ],
+                [
+                    82.0,
+                    51.0
+                ]
+            ]
+        },
+        {
+            "block_label": "header",
+            "block_content": "Morgan Stanley",
+            "block_bbox": [
+                932,
+                58,
+                1132,
+                91
+            ],
+            "block_id": 1,
+            "block_order": null,
+            "group_id": 1,
+            "block_polygon_points": [
+                [
+                    932.0,
+                    58.0
+                ],
+                [
+                    1132.0,
+                    58.0
+                ],
+                [
+                    1132.0,
+                    91.0
+                ],
+                [
+                    932.0,
+                    91.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "Notes to Consolidated Financial Statements (Unaudited)",
+            "block_bbox": [
+                82,
+                59,
+                535,
+                114
+            ],
+            "block_id": 2,
+            "block_order": 1,
+            "group_id": 2,
+            "block_polygon_points": [
+                [
+                    82.0,
+                    59.0
+                ],
+                [
+                    535.0,
+                    59.0
+                ],
+                [
+                    535.0,
+                    114.0
+                ],
+                [
+                    82.0,
+                    114.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "AFS Securities in an Unrealized Loss Position",
+            "block_bbox": [
+                85,
+                121,
+                465,
+                145
+            ],
+            "block_id": 3,
+            "block_order": 2,
+            "group_id": 3,
+            "block_polygon_points": [
+                [
+                    85.0,
+                    121.0
+                ],
+                [
+                    465.0,
+                    121.0
+                ],
+                [
+                    465.0,
+                    145.0
+                ],
+                [
+                    85.0,
+                    145.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td></td><td colspan=\"2\">At March 31, 2026</td><td colspan=\"2\">At December 31, 2025</td></tr><tr><td>$ in millions</td><td>Fair Value</td><td>Gross Unrealized Losses</td><td>Fair Value</td><td>Gross Unrealized Losses</td></tr><tr><td>U.S. Treasury securities</td><td></td><td></td><td></td><td></td></tr><tr><td>Less than 12 months</td><td>$ 22,092</td><td>$ 57</td><td>$ 47</td><td>$ —</td></tr><tr><td>12 months or longer</td><td>3,183</td><td>6</td><td>7,440</td><td>25</td></tr><tr><td>Total</td><td>25,275</td><td>63</td><td>7,487</td><td>25</td></tr><tr><td>U.S. agency securities</td><td></td><td></td><td></td><td></td></tr><tr><td>Less than 12 months</td><td>1,031</td><td>3</td><td>75</td><td>—</td></tr><tr><td>12 months or longer</td><td>15,873</td><td>1,963</td><td>17,290</td><td>1,943</td></tr><tr><td>Total</td><td>16,904</td><td>1,966</td><td>17,365</td><td>1,943</td></tr><tr><td>Agency CMBS</td><td></td><td></td><td></td><td></td></tr><tr><td>Less than 12 months</td><td>58</td><td>—</td><td>133</td><td>—</td></tr><tr><td>12 months or longer</td><td>4,440</td><td>276</td><td>4,675</td><td>286</td></tr><tr><td>Total</td><td>4,498</td><td>276</td><td>4,808</td><td>286</td></tr><tr><td>State and municipal securities</td><td></td><td></td><td></td><td></td></tr><tr><td>Less than 12 months</td><td>786</td><td>11</td><td>360</td><td>4</td></tr><tr><td>12 months or longer</td><td>355</td><td>14</td><td>382</td><td>13</td></tr><tr><td>Total</td><td>1,141</td><td>25</td><td>742</td><td>17</td></tr><tr><td>FFELP student loan ABS</td><td></td><td></td><td></td><td></td></tr><tr><td>Less than 12 months</td><td>1</td><td>—</td><td>—</td><td>—</td></tr><tr><td>12 months or longer</td><td>359</td><td>7</td><td>383</td><td>6</td></tr><tr><td>Total</td><td>360</td><td>7</td><td>383</td><td>6</td></tr><tr><td>Unallocated basis adjustment</td><td>—</td><td>—</td><td>—</td><td>2</td></tr><tr><td colspan=\"5\">Total AFS securities in an unrealized loss position</td></tr><tr><td>Less than 12 months</td><td>23,968</td><td>71</td><td>615</td><td>4</td></tr><tr><td>12 months or longer</td><td>24,210</td><td>2,266</td><td>30,170</td><td>2,273</td></tr><tr><td>Unallocated basis adjustment</td><td>—</td><td>—</td><td>—</td><td>2</td></tr><tr><td>Total</td><td>$ 48,178</td><td>$ 2,337</td><td>$ 30,785</td><td>$ 2,279</td></tr></table>",
+            "block_bbox": [
+                87,
+                158,
+                599,
+                841
+            ],
+            "block_id": 4,
+            "block_order": null,
+            "group_id": 4,
+            "block_polygon_points": [
+                [
+                    87.0,
+                    158.0
+                ],
+                [
+                    599.0,
+                    158.0
+                ],
+                [
+                    599.0,
+                    841.0
+                ],
+                [
+                    87.0,
+                    841.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "For AFS securities, the Firm believes there are no securities in an unrealized loss position that have credit losses after performing the analysis described in Note 2 in the 2025 Form 10-K and the Firm expects to recover the amortized cost basis of these securities. Additionally, the Firm does not intend to sell these securities and is not likely to be required to sell these securities prior to recovery of the amortized cost basis. As of March 31, 2026 and December 31, 2025, the securities in an unrealized loss position are predominantly investment grade.",
+            "block_bbox": [
+                84,
+                865,
+                594,
+                1109
+            ],
+            "block_id": 5,
+            "block_order": 3,
+            "group_id": 5,
+            "block_polygon_points": [
+                [
+                    84.0,
+                    865.0
+                ],
+                [
+                    594.0,
+                    865.0
+                ],
+                [
+                    594.0,
+                    1109.0
+                ],
+                [
+                    84.0,
+                    1109.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "The HTM securities net carrying amounts at March 31, 2026 and December 31, 2025 reflect an ACL of $62 million and $60 million, respectively, predominantly related to Non-agency CMBS. See Note 2 in the 2025 Form 10-K for a description of the ACL methodology used for HTM Securities.",
+            "block_bbox": [
+                83,
+                1125,
+                595,
+                1272
+            ],
+            "block_id": 6,
+            "block_order": 4,
+            "group_id": 6,
+            "block_polygon_points": [
+                [
+                    83.0,
+                    1125.0
+                ],
+                [
+                    595.0,
+                    1125.0
+                ],
+                [
+                    595.0,
+                    1272.0
+                ],
+                [
+                    83.0,
+                    1272.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "As of March 31, 2026 and December 31, 2025, 96% and 97%, respectively, of the Firm's portfolio of HTM securities were investment grade U.S. agency securities, U.S. Treasury securities and Agency CMBS, which were on accrual status and for which there is an underlying assumption of zero credit losses. Non-investment grade HTM securities primarily consisted of certain Non-agency CMBS securities, for which the expected credit losses were insignificant and were predominantly on accrual status at March 31, 2026 and December 31, 2025.",
+            "block_bbox": [
+                83,
+                1289,
+                594,
+                1485
+            ],
+            "block_id": 7,
+            "block_order": 5,
+            "group_id": 7,
+            "block_polygon_points": [
+                [
+                    83.0,
+                    1289.0
+                ],
+                [
+                    594.0,
+                    1289.0
+                ],
+                [
+                    594.0,
+                    1485.0
+                ],
+                [
+                    83.0,
+                    1485.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "",
+            "block_bbox": [
+                627,
+                122,
+                1137,
+                172
+            ],
+            "block_id": 8,
+            "block_order": 6,
+            "group_id": 7,
+            "block_polygon_points": [
+                [
+                    627.0,
+                    122.0
+                ],
+                [
+                    1137.0,
+                    122.0
+                ],
+                [
+                    1137.0,
+                    172.0
+                ],
+                [
+                    627.0,
+                    172.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "See Note 14 for additional information on securities issued by VIEs, including U.S. agency mortgage-backed securities, non-agency CMBS, and FFELP student loan ABS.",
+            "block_bbox": [
+                628,
+                189,
+                1138,
+                265
+            ],
+            "block_id": 9,
+            "block_order": 7,
+            "group_id": 9,
+            "block_polygon_points": [
+                [
+                    628.0,
+                    189.0
+                ],
+                [
+                    1138.0,
+                    189.0
+                ],
+                [
+                    1138.0,
+                    265.0
+                ],
+                [
+                    628.0,
+                    265.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "Investment Securities by Contractual Maturity",
+            "block_bbox": [
+                629,
+                281,
+                1009,
+                305
+            ],
+            "block_id": 10,
+            "block_order": 8,
+            "group_id": 10,
+            "block_polygon_points": [
+                [
+                    629.0,
+                    281.0
+                ],
+                [
+                    1009.0,
+                    281.0
+                ],
+                [
+                    1009.0,
+                    305.0
+                ],
+                [
+                    629.0,
+                    305.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td></td><td colspan=\"3\">At March 31, 2026</td></tr><tr><td>in millions</td><td>Amortized Cost $ ^{{1}} $</td><td>Fair Value</td><td>Annualized Average Yield $ ^{{2,3}} $</td></tr><tr><td>AFS securities</td><td></td><td></td><td></td></tr><tr><td>U.S. Treasury securities:</td><td></td><td></td><td></td></tr><tr><td>Due within 1 year</td><td>31,053</td><td>31,084</td><td>3.9 %</td></tr><tr><td>After 1 year through 5 years</td><td>49,308</td><td>49,291</td><td>3.9 %</td></tr><tr><td>After 5 years through 10 years</td><td>363</td><td>363</td><td>4.0 %</td></tr><tr><td>Total</td><td>80,724</td><td>80,738</td><td></td></tr><tr><td>U.S. agency securities:</td><td></td><td></td><td></td></tr><tr><td>Due within 1 year</td><td>9</td><td>9</td><td>1.5 %</td></tr><tr><td>After 1 year through 5 years</td><td>200</td><td>190</td><td>1.9 %</td></tr><tr><td>After 5 years through 10 years</td><td>333</td><td>308</td><td>1.6 %</td></tr><tr><td>After 10 years</td><td>23,480</td><td>21,573</td><td>3.2 %</td></tr><tr><td>Total</td><td>24,022</td><td>22,080</td><td></td></tr><tr><td>Agency CMBS:</td><td></td><td></td><td></td></tr><tr><td>Due within 1 year</td><td>538</td><td>534</td><td>2.1 %</td></tr><tr><td>After 1 year through 5 years</td><td>3,673</td><td>3,594</td><td>1.9 %</td></tr><tr><td>After 5 years through 10 years</td><td>176</td><td>172</td><td>1.5 %</td></tr><tr><td>After 10 years</td><td>939</td><td>751</td><td>1.6 %</td></tr><tr><td>Total</td><td>5,326</td><td>5,051</td><td></td></tr><tr><td>State and municipal securities:</td><td></td><td></td><td></td></tr><tr><td>Due within 1 year</td><td>81</td><td>81</td><td>4.8 %</td></tr><tr><td>After 1 year through 5 years</td><td>228</td><td>225</td><td>3.6 %</td></tr><tr><td>After 5 years through 10 years</td><td>160</td><td>158</td><td>4.5 %</td></tr><tr><td>After 10 Years</td><td>1,066</td><td>1,047</td><td>4.6 %</td></tr><tr><td>Total</td><td>1,535</td><td>1,511</td><td></td></tr><tr><td>FFELP student loan ABS:</td><td></td><td></td><td></td></tr><tr><td>Due within 1 year</td><td>57</td><td>55</td><td>4.7 %</td></tr><tr><td>After 1 year through 5 years</td><td>46</td><td>44</td><td>4.7 %</td></tr><tr><td>After 5 years through 10 years</td><td>24</td><td>24</td><td>3.9 %</td></tr><tr><td>After 10 years</td><td>316</td><td>314</td><td>4.8 %</td></tr><tr><td>Total</td><td>443</td><td>437</td><td></td></tr><tr><td>Total AFS securities</td><td>112,050</td><td>109,817</td><td>3.6 %</td></tr></table>",
+            "block_bbox": [
+                630,
+                333,
+                1138,
+                1099
+            ],
+            "block_id": 11,
+            "block_order": null,
+            "group_id": 11,
+            "block_polygon_points": [
+                [
+                    630.0,
+                    333.0
+                ],
+                [
+                    1138.0,
+                    333.0
+                ],
+                [
+                    1138.0,
+                    1099.0
+                ],
+                [
+                    630.0,
+                    1099.0
+                ]
+            ]
+        },
+        {
+            "block_label": "footer",
+            "block_content": "March 2026 Form 10-Q",
+            "block_bbox": [
+                93,
+                1523,
+                273,
+                1546
+            ],
+            "block_id": 12,
+            "block_order": null,
+            "group_id": 12,
+            "block_polygon_points": [
+                [
+                    93.0,
+                    1523.0
+                ],
+                [
+                    273.0,
+                    1523.0
+                ],
+                [
+                    273.0,
+                    1546.0
+                ],
+                [
+                    93.0,
+                    1546.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "56",
+            "block_bbox": [
+                605,
+                1524,
+                628,
+                1545
+            ],
+            "block_id": 13,
+            "block_order": null,
+            "group_id": 13,
+            "block_polygon_points": [
+                [
+                    605.0,
+                    1524.0
+                ],
+                [
+                    627.0,
+                    1524.0
+                ],
+                [
+                    627.0,
+                    1544.0
+                ],
+                [
+                    605.0,
+                    1544.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.7634220123291016,
+                "coordinate": [
+                    82,
+                    28,
+                    232,
+                    51
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        82.0,
+                        28.0
+                    ],
+                    [
+                        232.0,
+                        28.0
+                    ],
+                    [
+                        232.0,
+                        51.0
+                    ],
+                    [
+                        82.0,
+                        51.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.8657596707344055,
+                "coordinate": [
+                    932,
+                    58,
+                    1132,
+                    91
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        932.0,
+                        58.0
+                    ],
+                    [
+                        1132.0,
+                        58.0
+                    ],
+                    [
+                        1132.0,
+                        91.0
+                    ],
+                    [
+                        932.0,
+                        91.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.7161331176757812,
+                "coordinate": [
+                    82,
+                    59,
+                    535,
+                    114
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        82.0,
+                        59.0
+                    ],
+                    [
+                        535.0,
+                        59.0
+                    ],
+                    [
+                        535.0,
+                        114.0
+                    ],
+                    [
+                        82.0,
+                        114.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.42189645767211914,
+                "coordinate": [
+                    85,
+                    121,
+                    465,
+                    145
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        85.0,
+                        121.0
+                    ],
+                    [
+                        465.0,
+                        121.0
+                    ],
+                    [
+                        465.0,
+                        145.0
+                    ],
+                    [
+                        85.0,
+                        145.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9754712581634521,
+                "coordinate": [
+                    87,
+                    158,
+                    599,
+                    841
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        87.0,
+                        158.0
+                    ],
+                    [
+                        599.0,
+                        158.0
+                    ],
+                    [
+                        599.0,
+                        841.0
+                    ],
+                    [
+                        87.0,
+                        841.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9615713357925415,
+                "coordinate": [
+                    84,
+                    865,
+                    594,
+                    1109
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        84.0,
+                        865.0
+                    ],
+                    [
+                        594.0,
+                        865.0
+                    ],
+                    [
+                        594.0,
+                        1109.0
+                    ],
+                    [
+                        84.0,
+                        1109.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9552057981491089,
+                "coordinate": [
+                    83,
+                    1125,
+                    595,
+                    1272
+                ],
+                "order": 4,
+                "polygon_points": [
+                    [
+                        83.0,
+                        1125.0
+                    ],
+                    [
+                        595.0,
+                        1125.0
+                    ],
+                    [
+                        595.0,
+                        1272.0
+                    ],
+                    [
+                        83.0,
+                        1272.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9506048560142517,
+                "coordinate": [
+                    83,
+                    1289,
+                    594,
+                    1485
+                ],
+                "order": 5,
+                "polygon_points": [
+                    [
+                        83.0,
+                        1289.0
+                    ],
+                    [
+                        594.0,
+                        1289.0
+                    ],
+                    [
+                        594.0,
+                        1485.0
+                    ],
+                    [
+                        83.0,
+                        1485.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9074372053146362,
+                "coordinate": [
+                    627,
+                    122,
+                    1137,
+                    172
+                ],
+                "order": 6,
+                "polygon_points": [
+                    [
+                        627.0,
+                        122.0
+                    ],
+                    [
+                        1137.0,
+                        122.0
+                    ],
+                    [
+                        1137.0,
+                        172.0
+                    ],
+                    [
+                        627.0,
+                        172.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9230344295501709,
+                "coordinate": [
+                    628,
+                    189,
+                    1138,
+                    265
+                ],
+                "order": 7,
+                "polygon_points": [
+                    [
+                        628.0,
+                        189.0
+                    ],
+                    [
+                        1138.0,
+                        189.0
+                    ],
+                    [
+                        1138.0,
+                        265.0
+                    ],
+                    [
+                        628.0,
+                        265.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.46322089433670044,
+                "coordinate": [
+                    629,
+                    281,
+                    1009,
+                    305
+                ],
+                "order": 8,
+                "polygon_points": [
+                    [
+                        629.0,
+                        281.0
+                    ],
+                    [
+                        1009.0,
+                        281.0
+                    ],
+                    [
+                        1009.0,
+                        305.0
+                    ],
+                    [
+                        629.0,
+                        305.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 7,
+                "label": "figure_title",
+                "score": 0.4447746276855469,
+                "coordinate": [
+                    953,
+                    328,
+                    1079,
+                    347
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        953.0,
+                        328.0
+                    ],
+                    [
+                        1078.0,
+                        328.0
+                    ],
+                    [
+                        1078.0,
+                        346.0
+                    ],
+                    [
+                        953.0,
+                        346.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9694734811782837,
+                "coordinate": [
+                    630,
+                    333,
+                    1138,
+                    1099
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        630.0,
+                        333.0
+                    ],
+                    [
+                        1138.0,
+                        333.0
+                    ],
+                    [
+                        1138.0,
+                        1099.0
+                    ],
+                    [
+                        630.0,
+                        1099.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.8573777675628662,
+                "coordinate": [
+                    93,
+                    1523,
+                    273,
+                    1546
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        93.0,
+                        1523.0
+                    ],
+                    [
+                        273.0,
+                        1523.0
+                    ],
+                    [
+                        273.0,
+                        1546.0
+                    ],
+                    [
+                        93.0,
+                        1546.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.7378123998641968,
+                "coordinate": [
+                    605,
+                    1524,
+                    628,
+                    1545
+                ],
+                "order": 9,
+                "polygon_points": [
+                    [
+                        605.0,
+                        1524.0
+                    ],
+                    [
+                        627.0,
+                        1524.0
+                    ],
+                    [
+                        627.0,
+                        1544.0
+                    ],
+                    [
+                        605.0,
+                        1544.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,1010 @@
+{
+    "input_path": "/workspace/work/data/input/MorganStanleyQ10.pdf",
+    "page_index": 27,
+    "page_count": 77,
+    "width": 1224,
+    "height": 1584,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "header",
+            "block_content": "Table of Contents",
+            "block_bbox": [
+                82,
+                28,
+                233,
+                51
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "block_polygon_points": [
+                [
+                    82.0,
+                    28.0
+                ],
+                [
+                    233.0,
+                    28.0
+                ],
+                [
+                    233.0,
+                    51.0
+                ],
+                [
+                    82.0,
+                    51.0
+                ]
+            ]
+        },
+        {
+            "block_label": "header",
+            "block_content": "Morgan Stanley",
+            "block_bbox": [
+                931,
+                53,
+                1132,
+                85
+            ],
+            "block_id": 1,
+            "block_order": null,
+            "group_id": 1,
+            "block_polygon_points": [
+                [
+                    931.0,
+                    53.0
+                ],
+                [
+                    1132.0,
+                    53.0
+                ],
+                [
+                    1132.0,
+                    85.0
+                ],
+                [
+                    931.0,
+                    85.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "Management's Discussion and Analysis",
+            "block_bbox": [
+                81,
+                59,
+                494,
+                87
+            ],
+            "block_id": 2,
+            "block_order": 1,
+            "group_id": 2,
+            "block_polygon_points": [
+                [
+                    81.0,
+                    59.0
+                ],
+                [
+                    494.0,
+                    59.0
+                ],
+                [
+                    494.0,
+                    87.0
+                ],
+                [
+                    81.0,
+                    87.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "Final Rulemaking on Changes to the Enhanced Supplementary Leverage Ratio",
+            "block_bbox": [
+                83,
+                104,
+                594,
+                155
+            ],
+            "block_id": 3,
+            "block_order": 2,
+            "group_id": 3,
+            "block_polygon_points": [
+                [
+                    83.0,
+                    104.0
+                ],
+                [
+                    594.0,
+                    104.0
+                ],
+                [
+                    594.0,
+                    155.0
+                ],
+                [
+                    83.0,
+                    155.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "On November 25, 2025, the U.S. banking agencies adopted a final rule modifying eSLR standards applicable to U.S. G-SIBs and their U.S. IDI subsidiaries. Under the final rule, the eSLR buffer applicable to U.S. G-SIBs equals 50% of each BHC's Method 1 G-SIB capital surcharge, applied above the 3.0% minimum SLR requirement. The eSLR buffer applicable to U.S. G-SIBs' IDI subsidiaries has the same form and calibration as the BHC-level standard but is capped at 1.0%, applied above the 3.0% minimum SLR requirement. The final rule also included conforming modifications to total leverage exposure calculations in U.S. G-SIBs' TLAC and LTD requirements. The effective date of the final rule is April 1, 2026, with optional early adoption on January 1, 2026.",
+            "block_bbox": [
+                83,
+                172,
+                594,
+                487
+            ],
+            "block_id": 4,
+            "block_order": 3,
+            "group_id": 4,
+            "block_polygon_points": [
+                [
+                    83.0,
+                    172.0
+                ],
+                [
+                    594.0,
+                    172.0
+                ],
+                [
+                    594.0,
+                    487.0
+                ],
+                [
+                    83.0,
+                    487.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "The Firm and its U.S. Bank Subsidiaries elected to early adopt the final rule as of January 1, 2026. For more information on the leverage-based regulatory capital standards, see \"Management's Discussion and Analysis of Financial Condition and Results of Operations—Liquidity and Capital Resources—Regulatory Developments and Other Matters—Final Rulemaking on Changes to the Enhanced Supplementary Leverage Ratio\" in the 2025 Form 10-K and \"Regulatory Requirements\" herein.",
+            "block_bbox": [
+                84,
+                503,
+                594,
+                723
+            ],
+            "block_id": 5,
+            "block_order": 4,
+            "group_id": 5,
+            "block_polygon_points": [
+                [
+                    84.0,
+                    503.0
+                ],
+                [
+                    594.0,
+                    503.0
+                ],
+                [
+                    594.0,
+                    723.0
+                ],
+                [
+                    84.0,
+                    723.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "Supervisory Stress Testing",
+            "block_bbox": [
+                85,
+                740,
+                313,
+                766
+            ],
+            "block_id": 6,
+            "block_order": 5,
+            "group_id": 6,
+            "block_polygon_points": [
+                [
+                    85.0,
+                    740.0
+                ],
+                [
+                    313.0,
+                    740.0
+                ],
+                [
+                    313.0,
+                    766.0
+                ],
+                [
+                    85.0,
+                    766.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "On October 24, 2025, the Federal Reserve proposed revisions to its supervisory stress testing framework through two related proposals. The first proposal would modify the timeline and operation of the annual supervisory stress testing, including through revisions to the Federal Reserve's supervisory stress testing policy statements, and solicits comment on the Federal Reserve's supervisory stress testing models. The second proposal solicited comment on the Federal Reserve's proposed scenarios for the 2026 supervisory stress test. On February 4, 2026, the Federal Reserve finalized the second proposal, and in addition announced that it expects the Firm will continue to be subject to its current SCB requirement of 4.3% until October 1, 2027. We continue to monitor developments related to the open proposal.",
+            "block_bbox": [
+                83,
+                777,
+                594,
+                1141
+            ],
+            "block_id": 7,
+            "block_order": 6,
+            "group_id": 7,
+            "block_polygon_points": [
+                [
+                    83.0,
+                    777.0
+                ],
+                [
+                    594.0,
+                    777.0
+                ],
+                [
+                    594.0,
+                    1141.0
+                ],
+                [
+                    83.0,
+                    1141.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "Basel III Proposal",
+            "block_bbox": [
+                86,
+                1158,
+                247,
+                1182
+            ],
+            "block_id": 8,
+            "block_order": 7,
+            "group_id": 8,
+            "block_polygon_points": [
+                [
+                    86.0,
+                    1158.0
+                ],
+                [
+                    247.0,
+                    1158.0
+                ],
+                [
+                    247.0,
+                    1182.0
+                ],
+                [
+                    86.0,
+                    1182.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "On March 19, 2026, the U.S. banking agencies proposed revisions to risk-based capital and related standards applicable to Category I and II banking organizations, including us and our U.S. Bank Subsidiaries (“Basel III Proposal”). The Basel III Proposal would introduce a new measure of RWAs known as “Expanded Total RWAs” (the “Expanded Approach”), reflecting new RWA methodologies that generally align with changes to the global Basel Accord adopted by the Basel Committee. The Basel III Proposal would eliminate the current capital rule’s Advanced Approach and require Category I and II banking organizations to calculate RWAs only under the Expanded Approach, with the Standardized Approach retained for smaller banking organizations. As compared with the Standardized Approach, the Expanded Approach includes more granular risk weights for credit risk and introduces a new market risk framework. In addition, unlike the Standardized Approach, the Expanded Approach includes operational risk and credit valuation adjustment RWA components.",
+            "block_bbox": [
+                83,
+                1201,
+                594,
+                1493
+            ],
+            "block_id": 9,
+            "block_order": 8,
+            "group_id": 9,
+            "block_polygon_points": [
+                [
+                    83.0,
+                    1201.0
+                ],
+                [
+                    594.0,
+                    1201.0
+                ],
+                [
+                    594.0,
+                    1493.0
+                ],
+                [
+                    83.0,
+                    1493.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "",
+            "block_bbox": [
+                627,
+                104,
+                1138,
+                274
+            ],
+            "block_id": 10,
+            "block_order": 9,
+            "group_id": 9,
+            "block_polygon_points": [
+                [
+                    627.0,
+                    104.0
+                ],
+                [
+                    1138.0,
+                    104.0
+                ],
+                [
+                    1138.0,
+                    274.0
+                ],
+                [
+                    627.0,
+                    274.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "The Basel III Proposal would apply the SCB and G-SIB Surcharge to risk-based capital requirements calculated under the Expanded Approach. The effective date of the Basel III Proposal is unspecified in the Basel III Proposal. We continue to evaluate the Basel III Proposal and its potential impacts on our capital requirements and our Required Capital Framework, which will depend in part on related changes to the Federal Reserve's supervisory stress testing framework and its related proposed rulemaking to revise the G-SIB Surcharge.",
+            "block_bbox": [
+                627,
+                295,
+                1138,
+                539
+            ],
+            "block_id": 11,
+            "block_order": 10,
+            "group_id": 11,
+            "block_polygon_points": [
+                [
+                    627.0,
+                    295.0
+                ],
+                [
+                    1138.0,
+                    295.0
+                ],
+                [
+                    1138.0,
+                    539.0
+                ],
+                [
+                    627.0,
+                    539.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "G-SIB Surcharge Proposal",
+            "block_bbox": [
+                630,
+                556,
+                864,
+                581
+            ],
+            "block_id": 12,
+            "block_order": 11,
+            "group_id": 12,
+            "block_polygon_points": [
+                [
+                    630.0,
+                    556.0
+                ],
+                [
+                    864.0,
+                    556.0
+                ],
+                [
+                    864.0,
+                    581.0
+                ],
+                [
+                    630.0,
+                    581.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "On March 19, 2026, the Federal Reserve proposed revisions to the G-SIB Surcharge framework applicable to us (“G-SIB Surcharge Proposal”). The G-SIB Surcharge Proposal would modify Method 2 by adjusting the calculation and weighting of the short-term wholesale funding component and, for other systemic indicators, introducing a one-time downward adjustment. All Method 2 systemic indicators would be indexed in the future to nominal U.S. GDP. In addition, for Method 2, the G-SIB Surcharge Proposal would require measurement of most systemic indicators based on the annual average of daily or monthly values and would revise the resulting G-SIB Surcharge from 0.5-percentage point increments to 0.1-percentage point increments. The G-SIB Surcharge Proposal would also result in corresponding technical changes to Method 1 G-SIB Surcharge requirements. The G-SIB Surcharge Proposal includes a proposed effective date two calendar quarters after the date of adoption of a final rule by the Federal Reserve and new surcharges calculated under the revised methodology would take effect at a later date. We continue to evaluate the G-SIB Surcharge Proposal and the potential impacts, if adopted, on our capital requirements and our Required Capital Framework.",
+            "block_bbox": [
+                626,
+                599,
+                1139,
+                1133
+            ],
+            "block_id": 13,
+            "block_order": 12,
+            "group_id": 13,
+            "block_polygon_points": [
+                [
+                    626.0,
+                    599.0
+                ],
+                [
+                    1139.0,
+                    599.0
+                ],
+                [
+                    1139.0,
+                    1133.0
+                ],
+                [
+                    626.0,
+                    1133.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "28",
+            "block_bbox": [
+                596,
+                1524,
+                619,
+                1544
+            ],
+            "block_id": 14,
+            "block_order": null,
+            "group_id": 14,
+            "block_polygon_points": [
+                [
+                    596.0,
+                    1524.0
+                ],
+                [
+                    618.0,
+                    1524.0
+                ],
+                [
+                    618.0,
+                    1543.0
+                ],
+                [
+                    596.0,
+                    1543.0
+                ]
+            ]
+        },
+        {
+            "block_label": "footer",
+            "block_content": "March 2026 Form 10-Q",
+            "block_bbox": [
+                951,
+                1523,
+                1129,
+                1545
+            ],
+            "block_id": 15,
+            "block_order": null,
+            "group_id": 15,
+            "block_polygon_points": [
+                [
+                    951.0,
+                    1523.0
+                ],
+                [
+                    1128.0,
+                    1523.0
+                ],
+                [
+                    1128.0,
+                    1544.0
+                ],
+                [
+                    951.0,
+                    1544.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.782251238822937,
+                "coordinate": [
+                    82,
+                    28,
+                    233,
+                    51
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        82.0,
+                        28.0
+                    ],
+                    [
+                        233.0,
+                        28.0
+                    ],
+                    [
+                        233.0,
+                        51.0
+                    ],
+                    [
+                        82.0,
+                        51.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.8739156723022461,
+                "coordinate": [
+                    931,
+                    53,
+                    1132,
+                    85
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        931.0,
+                        53.0
+                    ],
+                    [
+                        1132.0,
+                        53.0
+                    ],
+                    [
+                        1132.0,
+                        85.0
+                    ],
+                    [
+                        931.0,
+                        85.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.7979422211647034,
+                "coordinate": [
+                    81,
+                    59,
+                    494,
+                    87
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        81.0,
+                        59.0
+                    ],
+                    [
+                        494.0,
+                        59.0
+                    ],
+                    [
+                        494.0,
+                        87.0
+                    ],
+                    [
+                        81.0,
+                        87.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.541020393371582,
+                "coordinate": [
+                    83,
+                    104,
+                    594,
+                    155
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        83.0,
+                        104.0
+                    ],
+                    [
+                        594.0,
+                        104.0
+                    ],
+                    [
+                        594.0,
+                        155.0
+                    ],
+                    [
+                        83.0,
+                        155.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9630971550941467,
+                "coordinate": [
+                    83,
+                    172,
+                    594,
+                    487
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        83.0,
+                        172.0
+                    ],
+                    [
+                        594.0,
+                        172.0
+                    ],
+                    [
+                        594.0,
+                        487.0
+                    ],
+                    [
+                        83.0,
+                        487.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.959771454334259,
+                "coordinate": [
+                    84,
+                    503,
+                    594,
+                    723
+                ],
+                "order": 4,
+                "polygon_points": [
+                    [
+                        84.0,
+                        503.0
+                    ],
+                    [
+                        594.0,
+                        503.0
+                    ],
+                    [
+                        594.0,
+                        723.0
+                    ],
+                    [
+                        84.0,
+                        723.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8277134895324707,
+                "coordinate": [
+                    85,
+                    740,
+                    313,
+                    766
+                ],
+                "order": 5,
+                "polygon_points": [
+                    [
+                        85.0,
+                        740.0
+                    ],
+                    [
+                        313.0,
+                        740.0
+                    ],
+                    [
+                        313.0,
+                        766.0
+                    ],
+                    [
+                        85.0,
+                        766.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9646778702735901,
+                "coordinate": [
+                    83,
+                    777,
+                    594,
+                    1141
+                ],
+                "order": 6,
+                "polygon_points": [
+                    [
+                        83.0,
+                        777.0
+                    ],
+                    [
+                        594.0,
+                        777.0
+                    ],
+                    [
+                        594.0,
+                        1141.0
+                    ],
+                    [
+                        83.0,
+                        1141.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8205026388168335,
+                "coordinate": [
+                    86,
+                    1158,
+                    247,
+                    1182
+                ],
+                "order": 7,
+                "polygon_points": [
+                    [
+                        86.0,
+                        1158.0
+                    ],
+                    [
+                        247.0,
+                        1158.0
+                    ],
+                    [
+                        247.0,
+                        1182.0
+                    ],
+                    [
+                        86.0,
+                        1182.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9586229920387268,
+                "coordinate": [
+                    83,
+                    1201,
+                    594,
+                    1493
+                ],
+                "order": 8,
+                "polygon_points": [
+                    [
+                        83.0,
+                        1201.0
+                    ],
+                    [
+                        594.0,
+                        1201.0
+                    ],
+                    [
+                        594.0,
+                        1493.0
+                    ],
+                    [
+                        83.0,
+                        1493.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.957922637462616,
+                "coordinate": [
+                    627,
+                    104,
+                    1138,
+                    274
+                ],
+                "order": 9,
+                "polygon_points": [
+                    [
+                        627.0,
+                        104.0
+                    ],
+                    [
+                        1138.0,
+                        104.0
+                    ],
+                    [
+                        1138.0,
+                        274.0
+                    ],
+                    [
+                        627.0,
+                        274.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9591838121414185,
+                "coordinate": [
+                    627,
+                    295,
+                    1138,
+                    539
+                ],
+                "order": 10,
+                "polygon_points": [
+                    [
+                        627.0,
+                        295.0
+                    ],
+                    [
+                        1138.0,
+                        295.0
+                    ],
+                    [
+                        1138.0,
+                        539.0
+                    ],
+                    [
+                        627.0,
+                        539.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8346782326698303,
+                "coordinate": [
+                    630,
+                    556,
+                    864,
+                    581
+                ],
+                "order": 11,
+                "polygon_points": [
+                    [
+                        630.0,
+                        556.0
+                    ],
+                    [
+                        864.0,
+                        556.0
+                    ],
+                    [
+                        864.0,
+                        581.0
+                    ],
+                    [
+                        630.0,
+                        581.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9693521857261658,
+                "coordinate": [
+                    626,
+                    599,
+                    1139,
+                    1133
+                ],
+                "order": 12,
+                "polygon_points": [
+                    [
+                        626.0,
+                        599.0
+                    ],
+                    [
+                        1139.0,
+                        599.0
+                    ],
+                    [
+                        1139.0,
+                        1133.0
+                    ],
+                    [
+                        626.0,
+                        1133.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.7337606549263,
+                "coordinate": [
+                    596,
+                    1524,
+                    619,
+                    1544
+                ],
+                "order": 13,
+                "polygon_points": [
+                    [
+                        596.0,
+                        1524.0
+                    ],
+                    [
+                        618.0,
+                        1524.0
+                    ],
+                    [
+                        618.0,
+                        1543.0
+                    ],
+                    [
+                        596.0,
+                        1543.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.835305392742157,
+                "coordinate": [
+                    951,
+                    1523,
+                    1129,
+                    1545
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        951.0,
+                        1523.0
+                    ],
+                    [
+                        1128.0,
+                        1523.0
+                    ],
+                    [
+                        1128.0,
+                        1544.0
+                    ],
+                    [
+                        951.0,
+                        1544.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

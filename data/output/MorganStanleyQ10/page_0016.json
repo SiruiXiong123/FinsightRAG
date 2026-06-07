@@ -1,0 +1,1345 @@
+{
+    "input_path": "/workspace/work/data/input/MorganStanleyQ10.pdf",
+    "page_index": 15,
+    "page_count": 77,
+    "width": 1224,
+    "height": 1584,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "header",
+            "block_content": "Table of Contents",
+            "block_bbox": [
+                83,
+                28,
+                232,
+                51
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "block_polygon_points": [
+                [
+                    83.0,
+                    28.0
+                ],
+                [
+                    232.0,
+                    28.0
+                ],
+                [
+                    232.0,
+                    51.0
+                ],
+                [
+                    83.0,
+                    51.0
+                ]
+            ]
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "Management's Discussion and Analysis",
+            "block_bbox": [
+                83,
+                59,
+                492,
+                86
+            ],
+            "block_id": 1,
+            "block_order": 1,
+            "group_id": 1,
+            "block_polygon_points": [
+                [
+                    83.0,
+                    59.0
+                ],
+                [
+                    492.0,
+                    59.0
+                ],
+                [
+                    492.0,
+                    86.0
+                ],
+                [
+                    83.0,
+                    86.0
+                ]
+            ]
+        },
+        {
+            "block_label": "header",
+            "block_content": "Morgan Stanley",
+            "block_bbox": [
+                932,
+                53,
+                1131,
+                86
+            ],
+            "block_id": 2,
+            "block_order": null,
+            "group_id": 2,
+            "block_polygon_points": [
+                [
+                    932.0,
+                    53.0
+                ],
+                [
+                    1131.0,
+                    53.0
+                ],
+                [
+                    1131.0,
+                    86.0
+                ],
+                [
+                    932.0,
+                    86.0
+                ]
+            ]
+        },
+        {
+            "block_label": "figure_title",
+            "block_content": "Assets Under Management or Supervision Rollforwards $ ^{1} $",
+            "block_bbox": [
+                86,
+                103,
+                549,
+                126
+            ],
+            "block_id": 3,
+            "block_order": null,
+            "group_id": 3,
+            "block_polygon_points": [
+                [
+                    86.0,
+                    103.0
+                ],
+                [
+                    549.0,
+                    103.0
+                ],
+                [
+                    549.0,
+                    126.0
+                ],
+                [
+                    86.0,
+                    126.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>in billions</td><td>At December 31, 2025</td><td>Inflows $ ^{2} $</td><td>Outflows $ ^{3} $</td><td>Net Flows</td><td>Distributions $ ^{4} $</td><td>Market Impact and Other $ ^{5} $</td><td>At March 31, 2026</td></tr><tr><td>Equity</td><td>253</td><td>8</td><td>(20)</td><td>(12)</td><td>—</td><td>(20)</td><td>221</td></tr><tr><td>Fixed Income</td><td>217</td><td>23</td><td>(19)</td><td>4</td><td>(1)</td><td>(1)</td><td>219</td></tr><tr><td>Alternatives and Solutions $ ^{6} $</td><td>776</td><td>42</td><td>(31)</td><td>11</td><td>(2)</td><td>(15)</td><td>770</td></tr><tr><td>Long-Term AUM</td><td>1,246</td><td>73</td><td>(70)</td><td>3</td><td>(3)</td><td>(36)</td><td>1,210</td></tr><tr><td>Liquidity and Overlay Services</td><td>649</td><td>748</td><td>(739)</td><td>8</td><td>(3)</td><td>3</td><td>658</td></tr><tr><td>Total</td><td>1,895</td><td>821</td><td>(809)</td><td>12</td><td>(6)</td><td>(33)</td><td>1,868</td></tr></table>",
+            "block_bbox": [
+                88,
+                137,
+                1136,
+                304
+            ],
+            "block_id": 4,
+            "block_order": null,
+            "group_id": 4,
+            "block_polygon_points": [
+                [
+                    88.0,
+                    137.0
+                ],
+                [
+                    1136.0,
+                    137.0
+                ],
+                [
+                    1136.0,
+                    304.0
+                ],
+                [
+                    88.0,
+                    304.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td>in billions</td><td>At December 31, 2024</td><td>Inflows $ ^{2} $</td><td>Outflows $ ^{3} $</td><td>Net Flows</td><td>Distributions $ ^{4} $</td><td>Market Impact and Other $ ^{5} $</td><td>At March 31, 2025</td></tr><tr><td>Equity</td><td>259</td><td>12</td><td>(16)</td><td>(4)</td><td>—</td><td>(5)</td><td>250</td></tr><tr><td>Fixed Income</td><td>179</td><td>16</td><td>(12)</td><td>4</td><td>(1)</td><td>4</td><td>186</td></tr><tr><td>Alternatives and Solutions $ ^{6} $</td><td>654</td><td>35</td><td>(26)</td><td>9</td><td>(2)</td><td>(11)</td><td>650</td></tr><tr><td>Long-Term AUM</td><td>1,092</td><td>63</td><td>(54)</td><td>9</td><td>(3)</td><td>(12)</td><td>1,086</td></tr><tr><td>Liquidity and Overlay Services</td><td>574</td><td>693</td><td>(709)</td><td>(15)</td><td>(4)</td><td>7</td><td>561</td></tr><tr><td>Total</td><td>1,666</td><td>756</td><td>(763)</td><td>(7)</td><td>(7)</td><td>(5)</td><td>1,647</td></tr></table>",
+            "block_bbox": [
+                88,
+                314,
+                1136,
+                485
+            ],
+            "block_id": 5,
+            "block_order": null,
+            "group_id": 5,
+            "block_polygon_points": [
+                [
+                    88.0,
+                    314.0
+                ],
+                [
+                    1136.0,
+                    314.0
+                ],
+                [
+                    1136.0,
+                    485.0
+                ],
+                [
+                    88.0,
+                    485.0
+                ]
+            ]
+        },
+        {
+            "block_label": "vision_footnote",
+            "block_content": "1. During the first quarter of 2026, certain products were reclassified among asset classes to more closely align reporting with underlying investment strategies, primarily reflecting a reclassification of certain tax-managed solutions from Equity to Alternatives and Solutions. These changes had no impact on total AUM. Prior period amounts have been adjusted to conform with the current period presentation.",
+            "block_bbox": [
+                86,
+                495,
+                1138,
+                541
+            ],
+            "block_id": 6,
+            "block_order": null,
+            "group_id": 6,
+            "block_polygon_points": [
+                [
+                    86.0,
+                    495.0
+                ],
+                [
+                    1138.0,
+                    495.0
+                ],
+                [
+                    1138.0,
+                    541.0
+                ],
+                [
+                    86.0,
+                    541.0
+                ]
+            ]
+        },
+        {
+            "block_label": "vision_footnote",
+            "block_content": "2. Inflows represent investments or commitments from new and existing clients in new or existing investment products, including client reinvestments. Inflows exclude the gross impact of exchanges, whereby a client changes positions within the same asset class.",
+            "block_bbox": [
+                85,
+                542,
+                1137,
+                572
+            ],
+            "block_id": 7,
+            "block_order": null,
+            "group_id": 7,
+            "block_polygon_points": [
+                [
+                    85.0,
+                    542.0
+                ],
+                [
+                    1137.0,
+                    542.0
+                ],
+                [
+                    1137.0,
+                    572.0
+                ],
+                [
+                    85.0,
+                    572.0
+                ]
+            ]
+        },
+        {
+            "block_label": "vision_footnote",
+            "block_content": "3. Outflows represent redemptions from clients' funds and exclude the gross impact of exchanges, whereby a client changes positions within the same asset class.",
+            "block_bbox": [
+                84,
+                572,
+                1033,
+                589
+            ],
+            "block_id": 8,
+            "block_order": null,
+            "group_id": 8,
+            "block_polygon_points": [
+                [
+                    84.0,
+                    572.0
+                ],
+                [
+                    1032.0,
+                    572.0
+                ],
+                [
+                    1032.0,
+                    588.0
+                ],
+                [
+                    84.0,
+                    588.0
+                ]
+            ]
+        },
+        {
+            "block_label": "vision_footnote",
+            "block_content": "4. Distributions represent returns of capital or returns on investments. Amounts for prior periods have been reclassified from 'Other' to conform with the current period presentation.",
+            "block_bbox": [
+                87,
+                587,
+                1124,
+                603
+            ],
+            "block_id": 9,
+            "block_order": null,
+            "group_id": 9,
+            "block_polygon_points": [
+                [
+                    87.0,
+                    587.0
+                ],
+                [
+                    87.0,
+                    602.0
+                ],
+                [
+                    1123.0,
+                    602.0
+                ],
+                [
+                    1123.0,
+                    587.0
+                ]
+            ]
+        },
+        {
+            "block_label": "vision_footnote",
+            "block_content": "5. Market Impact and Other includes realized and unrealized gains and losses on portfolio investments and the impact of foreign currency changes for non-U.S. dollar denominated funds, and excludes any funds where market impact does not impact management fees.",
+            "block_bbox": [
+                85,
+                602,
+                1138,
+                634
+            ],
+            "block_id": 10,
+            "block_order": null,
+            "group_id": 10,
+            "block_polygon_points": [
+                [
+                    85.0,
+                    602.0
+                ],
+                [
+                    1138.0,
+                    602.0
+                ],
+                [
+                    1138.0,
+                    634.0
+                ],
+                [
+                    85.0,
+                    634.0
+                ]
+            ]
+        },
+        {
+            "block_label": "vision_footnote",
+            "block_content": "6. As of March 31, 2026 and March 31, 2025, Alternatives and Solutions includes Parametric Long-Term period-end AUM of $524 billion and $424 billion, respectively. Parametric Long-Term products generally have lower average fee rates than other Alternatives and Solutions products.",
+            "block_bbox": [
+                86,
+                634,
+                1138,
+                669
+            ],
+            "block_id": 11,
+            "block_order": null,
+            "group_id": 11,
+            "block_polygon_points": [
+                [
+                    86.0,
+                    634.0
+                ],
+                [
+                    1138.0,
+                    634.0
+                ],
+                [
+                    1138.0,
+                    669.0
+                ],
+                [
+                    86.0,
+                    669.0
+                ]
+            ]
+        },
+        {
+            "block_label": "figure_title",
+            "block_content": "Average AUM $ ^{1} $",
+            "block_bbox": [
+                86,
+                696,
+                209,
+                718
+            ],
+            "block_id": 12,
+            "block_order": null,
+            "group_id": 12,
+            "block_polygon_points": [
+                [
+                    85.99999237060547,
+                    695.9999389648438
+                ],
+                [
+                    207.99996948242188,
+                    695.9999389648438
+                ],
+                [
+                    207.99996948242188,
+                    716.9999389648438
+                ],
+                [
+                    85.99999237060547,
+                    716.9999389648438
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td></td><td colspan=\"2\">Three Months Ended March 31,</td></tr><tr><td>$ in billions</td><td>2026</td><td>2025</td></tr><tr><td>Equity</td><td>$ 242</td><td>$ 260</td></tr><tr><td>Fixed income</td><td>220</td><td>183</td></tr><tr><td>Alternatives and Solutions</td><td>783</td><td>660</td></tr><tr><td>Long-term AUM subtotal</td><td>1,245</td><td>1,103</td></tr><tr><td>Liquidity and Overlay Services</td><td>659</td><td>566</td></tr><tr><td>Total</td><td>$ 1,904</td><td>$ 1,669</td></tr></table>",
+            "block_bbox": [
+                87,
+                722,
+                593,
+                917
+            ],
+            "block_id": 13,
+            "block_order": null,
+            "group_id": 13,
+            "block_polygon_points": [
+                [
+                    87.0,
+                    722.0
+                ],
+                [
+                    593.0,
+                    722.0
+                ],
+                [
+                    593.0,
+                    917.0
+                ],
+                [
+                    87.0,
+                    917.0
+                ]
+            ]
+        },
+        {
+            "block_label": "figure_title",
+            "block_content": "Average Fee Rates $ ^{1,2} $",
+            "block_bbox": [
+                630,
+                696,
+                806,
+                718
+            ],
+            "block_id": 14,
+            "block_order": null,
+            "group_id": 14,
+            "block_polygon_points": [
+                [
+                    630.0,
+                    696.0
+                ],
+                [
+                    805.0,
+                    696.0
+                ],
+                [
+                    805.0,
+                    717.0
+                ],
+                [
+                    630.0,
+                    717.0
+                ]
+            ]
+        },
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td></td><td colspan=\"2\">Three Months Ended March 31,</td></tr><tr><td>Fee rate in bps</td><td>2026</td><td>2025</td></tr><tr><td>Equity</td><td>70</td><td>73</td></tr><tr><td>Fixed income</td><td>34</td><td>35</td></tr><tr><td>Alternatives and Solutions</td><td>29</td><td>31</td></tr><tr><td>Long-term AUM</td><td>38</td><td>42</td></tr><tr><td>Liquidity and Overlay Services</td><td>12</td><td>13</td></tr><tr><td>Investment Management</td><td>29</td><td>32</td></tr></table>",
+            "block_bbox": [
+                630,
+                725,
+                1136,
+                915
+            ],
+            "block_id": 15,
+            "block_order": null,
+            "group_id": 15,
+            "block_polygon_points": [
+                [
+                    630.0,
+                    725.0
+                ],
+                [
+                    1136.0,
+                    725.0
+                ],
+                [
+                    1136.0,
+                    915.0
+                ],
+                [
+                    630.0,
+                    915.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "1. As a result of the reclassification described above in the \"Assets Under Management or Supervision Rollforwards\" table, prior period amounts have been adjusted to conform with the current period presentation.",
+            "block_bbox": [
+                631,
+                920,
+                1137,
+                971
+            ],
+            "block_id": 16,
+            "block_order": 2,
+            "group_id": 16,
+            "block_polygon_points": [
+                [
+                    631.0,
+                    920.0
+                ],
+                [
+                    1137.0,
+                    920.0
+                ],
+                [
+                    1137.0,
+                    971.0
+                ],
+                [
+                    631.0,
+                    971.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "2. Based on Asset management revenues, net of waivers, excluding performance-based fees and other non-management fees. For certain non-U.S. funds, it includes the portion of advisory fees that the advisor collects on behalf of third-party distributors. The payment of those fees to the distributor is included in Non-compensation expenses in the income statement.",
+            "block_bbox": [
+                630,
+                974,
+                1138,
+                1057
+            ],
+            "block_id": 17,
+            "block_order": 3,
+            "group_id": 17,
+            "block_polygon_points": [
+                [
+                    630.0,
+                    974.0
+                ],
+                [
+                    1138.0,
+                    974.0
+                ],
+                [
+                    1138.0,
+                    1057.0
+                ],
+                [
+                    630.0,
+                    1057.0
+                ]
+            ]
+        },
+        {
+            "block_label": "text",
+            "block_content": "For a description of the asset classes in the previous tables, see “Management’s Discussion and Analysis of Financial Condition and Results of Operations—Business Segments—Investment Management—Assets Under Management or Supervision Rollforwards” in the 2025 Form 10-K.",
+            "block_bbox": [
+                628,
+                1072,
+                1138,
+                1194
+            ],
+            "block_id": 18,
+            "block_order": 4,
+            "group_id": 18,
+            "block_polygon_points": [
+                [
+                    628.0,
+                    1072.0
+                ],
+                [
+                    1138.0,
+                    1072.0
+                ],
+                [
+                    1138.0,
+                    1194.0
+                ],
+                [
+                    628.0,
+                    1194.0
+                ]
+            ]
+        },
+        {
+            "block_label": "number",
+            "block_content": "16",
+            "block_bbox": [
+                597,
+                1524,
+                619,
+                1545
+            ],
+            "block_id": 19,
+            "block_order": null,
+            "group_id": 19,
+            "block_polygon_points": [
+                [
+                    597.0,
+                    1524.0
+                ],
+                [
+                    618.0,
+                    1524.0
+                ],
+                [
+                    618.0,
+                    1544.0
+                ],
+                [
+                    597.0,
+                    1544.0
+                ]
+            ]
+        },
+        {
+            "block_label": "footer",
+            "block_content": "March 2026 Form 10-Q",
+            "block_bbox": [
+                951,
+                1523,
+                1129,
+                1545
+            ],
+            "block_id": 20,
+            "block_order": null,
+            "group_id": 20,
+            "block_polygon_points": [
+                [
+                    951.0,
+                    1523.0
+                ],
+                [
+                    1128.0,
+                    1523.0
+                ],
+                [
+                    1128.0,
+                    1544.0
+                ],
+                [
+                    951.0,
+                    1544.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.664561927318573,
+                "coordinate": [
+                    83,
+                    28,
+                    232,
+                    51
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        83.0,
+                        28.0
+                    ],
+                    [
+                        232.0,
+                        28.0
+                    ],
+                    [
+                        232.0,
+                        51.0
+                    ],
+                    [
+                        83.0,
+                        51.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.6033710241317749,
+                "coordinate": [
+                    83,
+                    59,
+                    492,
+                    86
+                ],
+                "order": 1,
+                "polygon_points": [
+                    [
+                        83.0,
+                        59.0
+                    ],
+                    [
+                        492.0,
+                        59.0
+                    ],
+                    [
+                        492.0,
+                        86.0
+                    ],
+                    [
+                        83.0,
+                        86.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.8381410837173462,
+                "coordinate": [
+                    932,
+                    53,
+                    1131,
+                    86
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        932.0,
+                        53.0
+                    ],
+                    [
+                        1131.0,
+                        53.0
+                    ],
+                    [
+                        1131.0,
+                        86.0
+                    ],
+                    [
+                        932.0,
+                        86.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 7,
+                "label": "figure_title",
+                "score": 0.5467929840087891,
+                "coordinate": [
+                    86,
+                    103,
+                    549,
+                    126
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        86.0,
+                        103.0
+                    ],
+                    [
+                        549.0,
+                        103.0
+                    ],
+                    [
+                        549.0,
+                        126.0
+                    ],
+                    [
+                        86.0,
+                        126.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.8053256869316101,
+                "coordinate": [
+                    88,
+                    137,
+                    1136,
+                    304
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        88.0,
+                        137.0
+                    ],
+                    [
+                        1136.0,
+                        137.0
+                    ],
+                    [
+                        1136.0,
+                        304.0
+                    ],
+                    [
+                        88.0,
+                        304.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.8519580960273743,
+                "coordinate": [
+                    88,
+                    314,
+                    1136,
+                    485
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        88.0,
+                        314.0
+                    ],
+                    [
+                        1136.0,
+                        314.0
+                    ],
+                    [
+                        1136.0,
+                        485.0
+                    ],
+                    [
+                        88.0,
+                        485.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 24,
+                "label": "vision_footnote",
+                "score": 0.9152143001556396,
+                "coordinate": [
+                    86,
+                    495,
+                    1138,
+                    541
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        86.0,
+                        495.0
+                    ],
+                    [
+                        1138.0,
+                        495.0
+                    ],
+                    [
+                        1138.0,
+                        541.0
+                    ],
+                    [
+                        86.0,
+                        541.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 24,
+                "label": "vision_footnote",
+                "score": 0.8657553791999817,
+                "coordinate": [
+                    85,
+                    542,
+                    1137,
+                    572
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        85.0,
+                        542.0
+                    ],
+                    [
+                        1137.0,
+                        542.0
+                    ],
+                    [
+                        1137.0,
+                        572.0
+                    ],
+                    [
+                        85.0,
+                        572.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 24,
+                "label": "vision_footnote",
+                "score": 0.7954249978065491,
+                "coordinate": [
+                    84,
+                    572,
+                    1033,
+                    589
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        84.0,
+                        572.0
+                    ],
+                    [
+                        1032.0,
+                        572.0
+                    ],
+                    [
+                        1032.0,
+                        588.0
+                    ],
+                    [
+                        84.0,
+                        588.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 24,
+                "label": "vision_footnote",
+                "score": 0.7574496269226074,
+                "coordinate": [
+                    87,
+                    587,
+                    1124,
+                    603
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        87.0,
+                        587.0
+                    ],
+                    [
+                        87.0,
+                        602.0
+                    ],
+                    [
+                        1123.0,
+                        602.0
+                    ],
+                    [
+                        1123.0,
+                        587.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 24,
+                "label": "vision_footnote",
+                "score": 0.8912816047668457,
+                "coordinate": [
+                    85,
+                    602,
+                    1138,
+                    634
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        85.0,
+                        602.0
+                    ],
+                    [
+                        1138.0,
+                        602.0
+                    ],
+                    [
+                        1138.0,
+                        634.0
+                    ],
+                    [
+                        85.0,
+                        634.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 24,
+                "label": "vision_footnote",
+                "score": 0.8708126544952393,
+                "coordinate": [
+                    86,
+                    634,
+                    1138,
+                    669
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        86.0,
+                        634.0
+                    ],
+                    [
+                        1138.0,
+                        634.0
+                    ],
+                    [
+                        1138.0,
+                        669.0
+                    ],
+                    [
+                        86.0,
+                        669.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 7,
+                "label": "figure_title",
+                "score": 0.49615976214408875,
+                "coordinate": [
+                    86,
+                    696,
+                    209,
+                    718
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        85.99999237060547,
+                        695.9999389648438
+                    ],
+                    [
+                        207.99996948242188,
+                        695.9999389648438
+                    ],
+                    [
+                        207.99996948242188,
+                        716.9999389648438
+                    ],
+                    [
+                        85.99999237060547,
+                        716.9999389648438
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9309468269348145,
+                "coordinate": [
+                    87,
+                    722,
+                    593,
+                    917
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        87.0,
+                        722.0
+                    ],
+                    [
+                        593.0,
+                        722.0
+                    ],
+                    [
+                        593.0,
+                        917.0
+                    ],
+                    [
+                        87.0,
+                        917.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 7,
+                "label": "figure_title",
+                "score": 0.7343646883964539,
+                "coordinate": [
+                    630,
+                    696,
+                    806,
+                    718
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        630.0,
+                        696.0
+                    ],
+                    [
+                        805.0,
+                        696.0
+                    ],
+                    [
+                        805.0,
+                        717.0
+                    ],
+                    [
+                        630.0,
+                        717.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 7,
+                "label": "figure_title",
+                "score": 0.35995471477508545,
+                "coordinate": [
+                    935,
+                    722,
+                    1074,
+                    753
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        935.0,
+                        722.0
+                    ],
+                    [
+                        1074.0,
+                        722.0
+                    ],
+                    [
+                        1074.0,
+                        753.0
+                    ],
+                    [
+                        935.0,
+                        753.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9428513646125793,
+                "coordinate": [
+                    630,
+                    725,
+                    1136,
+                    915
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        630.0,
+                        725.0
+                    ],
+                    [
+                        1136.0,
+                        725.0
+                    ],
+                    [
+                        1136.0,
+                        915.0
+                    ],
+                    [
+                        630.0,
+                        915.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.5008621215820312,
+                "coordinate": [
+                    631,
+                    920,
+                    1137,
+                    971
+                ],
+                "order": 2,
+                "polygon_points": [
+                    [
+                        631.0,
+                        920.0
+                    ],
+                    [
+                        1137.0,
+                        920.0
+                    ],
+                    [
+                        1137.0,
+                        971.0
+                    ],
+                    [
+                        631.0,
+                        971.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.610648512840271,
+                "coordinate": [
+                    630,
+                    974,
+                    1138,
+                    1057
+                ],
+                "order": 3,
+                "polygon_points": [
+                    [
+                        630.0,
+                        974.0
+                    ],
+                    [
+                        1138.0,
+                        974.0
+                    ],
+                    [
+                        1138.0,
+                        1057.0
+                    ],
+                    [
+                        630.0,
+                        1057.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9461882710456848,
+                "coordinate": [
+                    628,
+                    1072,
+                    1138,
+                    1194
+                ],
+                "order": 4,
+                "polygon_points": [
+                    [
+                        628.0,
+                        1072.0
+                    ],
+                    [
+                        1138.0,
+                        1072.0
+                    ],
+                    [
+                        1138.0,
+                        1194.0
+                    ],
+                    [
+                        628.0,
+                        1194.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.7159351706504822,
+                "coordinate": [
+                    597,
+                    1524,
+                    619,
+                    1545
+                ],
+                "order": 5,
+                "polygon_points": [
+                    [
+                        597.0,
+                        1524.0
+                    ],
+                    [
+                        618.0,
+                        1524.0
+                    ],
+                    [
+                        618.0,
+                        1544.0
+                    ],
+                    [
+                        597.0,
+                        1544.0
+                    ]
+                ]
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.8492870926856995,
+                "coordinate": [
+                    951,
+                    1523,
+                    1129,
+                    1545
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        951.0,
+                        1523.0
+                    ],
+                    [
+                        1128.0,
+                        1523.0
+                    ],
+                    [
+                        1128.0,
+                        1544.0
+                    ],
+                    [
+                        951.0,
+                        1544.0
+                    ]
+                ]
+            }
+        ]
+    }
+}

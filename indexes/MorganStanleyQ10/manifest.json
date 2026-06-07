@@ -1,0 +1,35 @@
+{
+  "document_id": "MorganStanleyQ10",
+  "source_file": "MorganStanleyQ10.pdf",
+  "embedding_model": "BAAI/bge-m3",
+  "index_dir": "indexes/MorganStanleyQ10",
+  "inputs": {
+    "text_chunks_path": "data/output/MorganStanleyQ10_chunk_merge.json",
+    "table_enrichment_path": "data/output/MorganStanleyQ10_table_enrichment.json",
+    "image_enrichment_path": "data/output/MorganStanleyQ10_image_enrichment.json",
+    "table_asset_dir": "data/output/MorganStanleyQ10_tables",
+    "image_asset_dir": "data/output/MorganStanleyQ10_images",
+    "table_asset_manifest_path": "data/output/MorganStanleyQ10_tables/asset_manifest.jsonl",
+    "image_asset_manifest_path": "data/output/MorganStanleyQ10_images/asset_manifest.jsonl"
+  },
+  "modalities": {
+    "text": {
+      "count": 488,
+      "faiss_path": "indexes/MorganStanleyQ10/text.faiss",
+      "metadata_path": "indexes/MorganStanleyQ10/text_metadata.jsonl",
+      "dimension": 1024
+    },
+    "table": {
+      "count": 208,
+      "faiss_path": "indexes/MorganStanleyQ10/table.faiss",
+      "metadata_path": "indexes/MorganStanleyQ10/table_metadata.jsonl",
+      "dimension": 1024
+    },
+    "image": {
+      "count": 9,
+      "faiss_path": "indexes/MorganStanleyQ10/image.faiss",
+      "metadata_path": "indexes/MorganStanleyQ10/image_metadata.jsonl",
+      "dimension": 1024
+    }
+  }
+}
