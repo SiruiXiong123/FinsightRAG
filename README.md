@@ -1,5 +1,7 @@
 # FinsightRAG
 
+[中文](README.md) | [English](README_EN.md)
+
 ## 项目简介
 
 FinsightRAG 是一个面向金融文档的轻量、可复现的多模态 RAG 基线项目，基于 [MultiFinRAG](https://arxiv.org/abs/2506.20821) 的核心思想进行工程化实现与扩展，用于从财报、年报、10-Q、10-K 等长篇 PDF 文档中检索并融合文本、表格与图表证据，生成可追溯、可验证的问答结果。
@@ -69,6 +71,9 @@ flowchart LR
 * 嵌入模型
   默认使用 `BAAI/bge-m3`，向量维度为 1024。
 
+* 推荐 GPU
+  从原始 PDF 完整复现时，OCR 和视觉模型调用会明显受益于 GPU。
+
 ---
 
 ## 安装方式
@@ -96,7 +101,6 @@ vision_binding_host: "<your-vlm-api-host>"
 vision_binding_api_key: "<your-api-key>"
 vision_model: "<your-vlm-model>"
 
-embedding:
 embedding_model: "BAAI/bge-m3"
 
 indexing:
@@ -113,7 +117,7 @@ retrieval:
 
 ## 快速开始
 
-如果仓库中已经包含 `MorganStanleyQ10` 的预构建索引，可以直接运行查询链路：
+仓库已包含 `MorganStanleyQ10` 的预构建索引和样例 OCR/裁剪/富化产物，可以直接运行查询链路：
 
 ```powershell
 $Query = @'
@@ -260,6 +264,7 @@ FinsightRAG/
 ├── src/                   # 核心实现代码
 ├── config.yaml            # 运行配置文件
 ├── requirements.txt
+├── README_EN.md
 └── README.md
 ```
 
