@@ -1,6 +1,8 @@
 # FinsightRAG
 
-[English](README_EN.md) | [中文](README.md)
+<div align="center">
+  <a href="README_EN.md">English</a> | <a href="README.md">中文</a>
+</div>
 
 ## Project Overview
 
