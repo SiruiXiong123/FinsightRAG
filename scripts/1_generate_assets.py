@@ -8,23 +8,38 @@ PROJECT_ROOT = SCRIPT_DIR.parent
 if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
-from src.table_assets import extract_table_assets
+from src.block_assets import extract_block_assets
+
+
+ASSET_KINDS = ("table", "image")
 
 
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         description=(
-            "Extract table crops from PaddleOCR-VL JSON and the source PDF. "
+            "Extract table/image crops from PaddleOCR-VL JSON and the source PDF. "
             "Each crop includes a nearby title block when one is found."
         )
     )
-    add_common_args(parser)
+    parser.add_argument(
+        "--asset-kind",
+        choices=[*ASSET_KINDS, "all"],
+        default="all",
+        help="Asset type to extract. Defaults to all.",
+    )
     parser.add_argument(
         "--table-label",
         action="append",
-        dest="target_labels",
+        dest="table_labels",
         help="Table block label to extract. Can be repeated. Defaults to table.",
     )
+    parser.add_argument(
+        "--image-label",
+        action="append",
+        dest="image_labels",
+        help="Image block label to extract. Can be repeated. Defaults to image and chart.",
+    )
+    add_common_args(parser)
     return parser
 
 
@@ -37,32 +52,96 @@ def main(argv=None) -> int:
         print("No PaddleOCR-VL document JSON files found.")
         return 1
 
-    total = 0
+    total_by_kind = {asset_kind: 0 for asset_kind in selected_asset_kinds(args.asset_kind)}
     for json_file, pdf_file, output_root, page_json_dir in work_items:
-        crops = extract_table_assets(
-            json_path=json_file,
-            pdf_path=pdf_file,
-            output_root=output_root,
-            page_json_dir=page_json_dir,
-            title_labels=args.title_labels,
-            title_max_distance=title_max_distance,
-            min_overlap_ratio=args.min_overlap_ratio,
-            padding=args.padding,
-            dpi=args.dpi,
-            overwrite=not args.no_overwrite,
-            target_labels=args.target_labels,
-        )
-        total += len(crops)
-        target_dir = (output_root or json_file.parent) / f"{json_file.stem}_tables"
-        print(f"{json_file.name}: wrote {len(crops)} table PNG files to {target_dir}")
-        for crop in crops:
-            print(
-                f"  page {crop.page_index + 1}, table {crop.asset_index}: "
-                f"{crop.title} -> {crop.output_path.name}"
+        for asset_kind in selected_asset_kinds(args.asset_kind):
+            crops = extract_assets(
+                asset_kind=asset_kind,
+                json_file=json_file,
+                pdf_file=pdf_file,
+                output_root=output_root,
+                page_json_dir=page_json_dir,
+                title_labels=args.title_labels,
+                title_max_distance=title_max_distance,
+                min_overlap_ratio=args.min_overlap_ratio,
+                padding=args.padding,
+                dpi=args.dpi,
+                overwrite=not args.no_overwrite,
+                target_labels=target_labels_for_kind(args, asset_kind),
             )
+            total_by_kind[asset_kind] += len(crops)
+            print_asset_summary(json_file, output_root, asset_kind, crops)
 
-    print(f"Done. Total table PNG files: {total}")
+    for asset_kind, total in total_by_kind.items():
+        print(f"Done. Total {asset_kind} PNG files: {total}")
     return 0
+
+
+def extract_assets(
+    asset_kind: str,
+    json_file: Path,
+    pdf_file: Path,
+    output_root: Path | None,
+    page_json_dir: Path | None,
+    title_labels,
+    title_max_distance,
+    min_overlap_ratio: float,
+    padding: float,
+    dpi: int,
+    overwrite: bool,
+    target_labels,
+):
+    extractor = {
+        "table": {
+            "target_labels": target_labels or {"table"},
+            "output_suffix": "tables",
+            "file_prefix": "table",
+        },
+        "image": {
+            "target_labels": target_labels or {"image", "chart"},
+            "output_suffix": "images",
+            "file_prefix": "image",
+        },
+    }[asset_kind]
+    return extract_block_assets(
+        json_path=json_file,
+        pdf_path=pdf_file,
+        target_labels=extractor["target_labels"],
+        asset_kind=asset_kind,
+        output_suffix=extractor["output_suffix"],
+        file_prefix=extractor["file_prefix"],
+        output_root=output_root,
+        page_json_dir=page_json_dir,
+        title_labels=title_labels,
+        title_max_distance=title_max_distance,
+        min_overlap_ratio=min_overlap_ratio,
+        padding=padding,
+        dpi=dpi,
+        overwrite=overwrite,
+    )
+
+
+def selected_asset_kinds(asset_kind: str) -> tuple[str, ...]:
+    if asset_kind == "all":
+        return ASSET_KINDS
+    return (asset_kind,)
+
+
+def target_labels_for_kind(args, asset_kind: str):
+    if asset_kind == "table":
+        return args.table_labels
+    return args.image_labels
+
+
+def print_asset_summary(json_file: Path, output_root: Path | None, asset_kind: str, crops) -> None:
+    output_suffix = "tables" if asset_kind == "table" else "images"
+    target_dir = (output_root or json_file.parent) / f"{json_file.stem}_{output_suffix}"
+    print(f"{json_file.name}: wrote {len(crops)} {asset_kind} PNG files to {target_dir}")
+    for crop in crops:
+        print(
+            f"  page {crop.page_index + 1}, {asset_kind} {crop.asset_index}: "
+            f"{crop.title} -> {crop.output_path.name}"
+        )
 
 
 def add_common_args(parser: argparse.ArgumentParser) -> None:

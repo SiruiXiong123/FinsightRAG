@@ -1,6 +1,7 @@
 import hashlib
 import json
-from dataclasses import dataclass
+from dataclasses import dataclass, field
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Iterable, Optional
 
@@ -26,7 +27,7 @@ class AssetBlockInfo:
 
 @dataclass(frozen=True)
 class DocumentIndexConfig:
-    document_name: str
+    document_id: str
     source_file: str
     text_chunks_path: Path
     table_enrichment_path: Path
@@ -41,10 +42,11 @@ class DocumentIndexConfig:
     embed_batch_size: int = DEFAULT_EMBED_BATCH_SIZE
     device: Optional[str] = None
     overwrite: bool = True
+    metadata: dict[str, str] = field(default_factory=dict)
 
     @property
     def index_dir(self) -> Path:
-        return self.index_root / self.document_name
+        return self.index_root / self.document_id
 
 
 def build_document_indexes(config: DocumentIndexConfig) -> dict:
@@ -74,47 +76,52 @@ def build_document_indexes(config: DocumentIndexConfig) -> dict:
     )
 
     model = load_embedding_model(config.embedding_model, config.device)
-    outputs = {}
-    outputs["text"] = write_modality_index(
+    modalities = {}
+    modalities["text"] = write_modality_index(
         records=text_records,
         faiss_path=config.index_dir / "text.faiss",
         metadata_path=config.index_dir / "text_metadata.jsonl",
         model=model,
         batch_size=config.embed_batch_size,
         overwrite=config.overwrite,
+        project_root=config.project_root,
     )
-    outputs["table"] = write_modality_index(
+    modalities["table"] = write_modality_index(
         records=table_records,
         faiss_path=config.index_dir / "table.faiss",
         metadata_path=config.index_dir / "table_metadata.jsonl",
         model=model,
         batch_size=config.embed_batch_size,
         overwrite=config.overwrite,
+        project_root=config.project_root,
     )
-    outputs["image"] = write_modality_index(
+    modalities["image"] = write_modality_index(
         records=image_records,
         faiss_path=config.index_dir / "image.faiss",
         metadata_path=config.index_dir / "image_metadata.jsonl",
         model=model,
         batch_size=config.embed_batch_size,
         overwrite=config.overwrite,
+        project_root=config.project_root,
     )
 
     manifest = {
-        "document_name": config.document_name,
-        "source_file": config.source_file,
+        "document_id": config.document_id,
+        "source_file": normalize_manifest_path(config.source_file, config.project_root),
+        "index_dir": make_metadata_path(config.index_dir, config.project_root),
         "embedding_model": config.embedding_model,
-        "index_dir": str(config.index_dir),
+        "modalities": modalities,
+        "metadata": dict(config.metadata),
+        "indexed_at": datetime.now(timezone.utc).isoformat(),
         "inputs": {
-            "text_chunks_path": str(config.text_chunks_path),
-            "table_enrichment_path": str(config.table_enrichment_path),
-            "image_enrichment_path": str(config.image_enrichment_path),
-            "table_asset_dir": str(config.table_asset_dir),
-            "image_asset_dir": str(config.image_asset_dir),
-            "table_asset_manifest_path": str(config.table_asset_manifest_path),
-            "image_asset_manifest_path": str(config.image_asset_manifest_path),
+            "text_chunks_path": make_metadata_path(config.text_chunks_path, config.project_root),
+            "table_enrichment_path": make_metadata_path(config.table_enrichment_path, config.project_root),
+            "image_enrichment_path": make_metadata_path(config.image_enrichment_path, config.project_root),
+            "table_asset_dir": make_metadata_path(config.table_asset_dir, config.project_root),
+            "image_asset_dir": make_metadata_path(config.image_asset_dir, config.project_root),
+            "table_asset_manifest_path": make_metadata_path(config.table_asset_manifest_path, config.project_root),
+            "image_asset_manifest_path": make_metadata_path(config.image_asset_manifest_path, config.project_root),
         },
-        "outputs": outputs,
     }
     (config.index_dir / "manifest.json").write_text(
         json.dumps(manifest, ensure_ascii=False, indent=2),
@@ -125,7 +132,7 @@ def build_document_indexes(config: DocumentIndexConfig) -> dict:
 
 def normalize_config_paths(config: DocumentIndexConfig) -> DocumentIndexConfig:
     return DocumentIndexConfig(
-        document_name=config.document_name,
+        document_id=config.document_id,
         source_file=config.source_file,
         text_chunks_path=config.text_chunks_path.resolve(),
         table_enrichment_path=config.table_enrichment_path.resolve(),
@@ -140,6 +147,7 @@ def normalize_config_paths(config: DocumentIndexConfig) -> DocumentIndexConfig:
         embed_batch_size=config.embed_batch_size,
         device=config.device,
         overwrite=config.overwrite,
+        metadata=dict(config.metadata),
     )
 
 
@@ -240,6 +248,7 @@ def write_modality_index(
     model,
     batch_size: int,
     overwrite: bool,
+    project_root: Path,
 ) -> dict:
     for path in (faiss_path, metadata_path):
         if path.exists() and not overwrite:
@@ -251,8 +260,8 @@ def write_modality_index(
     write_jsonl(records, metadata_path)
     return {
         "count": len(records),
-        "faiss_path": str(faiss_path),
-        "metadata_path": str(metadata_path),
+        "faiss_path": make_metadata_path(faiss_path, project_root),
+        "metadata_path": make_metadata_path(metadata_path, project_root),
         "dimension": int(embeddings.shape[1]) if len(embeddings.shape) == 2 else 0,
     }
 
@@ -344,18 +353,25 @@ def make_metadata_path(path: Path, project_root: Path) -> str:
         return str(path.resolve())
 
 
-def infer_document_name(source_file: Optional[Path], ocr_output_dir: Optional[Path]) -> str:
+def normalize_manifest_path(path: str, project_root: Path) -> str:
+    raw_path = Path(str(path))
+    if raw_path.is_absolute():
+        return make_metadata_path(raw_path, project_root)
+    return str(raw_path).replace("\\", "/")
+
+
+def infer_document_id(source_file: Optional[Path], ocr_output_dir: Optional[Path]) -> str:
     if source_file:
         return Path(source_file).stem
     if ocr_output_dir:
         return Path(ocr_output_dir).stem
-    raise ValueError("Cannot infer document name. Pass --document-name or --source-file.")
+    raise ValueError("Cannot infer document_id. Pass --document-id or --source-file.")
 
 
 def resolve_default_paths(
     project_root: Path,
     config_path: Optional[Path],
-    document_name: Optional[str],
+    document_id: Optional[str],
     ocr_output_dir: Optional[Path],
     source_file: Optional[Path],
 ) -> dict:
@@ -364,26 +380,27 @@ def resolve_default_paths(
     if not isinstance(indexing_settings, dict):
         indexing_settings = {}
     configured_source = source_file or rag_config.get_path("input_file")
-    doc_name = document_name or infer_document_name(configured_source, None)
+    doc_id = document_id or infer_document_id(configured_source, None)
     output_dir = ocr_output_dir or rag_config.get_path("paddleocr_output_dir") or project_root / "data" / "output"
     index_root_value = indexing_settings.get("index_root") or "indexes"
     index_root = Path(index_root_value)
     if not index_root.is_absolute():
         index_root = project_root / index_root
     return {
-        "document_name": doc_name,
-        "source_file": configured_source.name if configured_source else f"{doc_name}.pdf",
-        "text_chunks_path": output_dir / f"{doc_name}_{DEFAULT_TEXT_CHUNK_SUFFIX}.json",
-        "table_enrichment_path": output_dir / f"{doc_name}_{DEFAULT_TABLE_ENRICHMENT_SUFFIX}.json",
-        "image_enrichment_path": output_dir / f"{doc_name}_{DEFAULT_IMAGE_ENRICHMENT_SUFFIX}.json",
-        "table_asset_dir": output_dir / f"{doc_name}_tables",
-        "image_asset_dir": output_dir / f"{doc_name}_images",
-        "table_asset_manifest_path": output_dir / f"{doc_name}_tables" / "asset_manifest.jsonl",
-        "image_asset_manifest_path": output_dir / f"{doc_name}_images" / "asset_manifest.jsonl",
+        "document_id": doc_id,
+        "source_file": make_metadata_path(configured_source, project_root) if configured_source else f"{doc_id}.pdf",
+        "text_chunks_path": output_dir / f"{doc_id}_{DEFAULT_TEXT_CHUNK_SUFFIX}.json",
+        "table_enrichment_path": output_dir / f"{doc_id}_{DEFAULT_TABLE_ENRICHMENT_SUFFIX}.json",
+        "image_enrichment_path": output_dir / f"{doc_id}_{DEFAULT_IMAGE_ENRICHMENT_SUFFIX}.json",
+        "table_asset_dir": output_dir / f"{doc_id}_tables",
+        "image_asset_dir": output_dir / f"{doc_id}_images",
+        "table_asset_manifest_path": output_dir / f"{doc_id}_tables" / "asset_manifest.jsonl",
+        "image_asset_manifest_path": output_dir / f"{doc_id}_images" / "asset_manifest.jsonl",
         "index_root": index_root,
         "embedding_model": rag_config.get("embedding_model", "BAAI/bge-m3"),
         "embed_batch_size": int(indexing_settings.get("embed_batch_size") or DEFAULT_EMBED_BATCH_SIZE),
         "device": indexing_settings.get("device") or None,
+        "metadata": {},
     }
 
 

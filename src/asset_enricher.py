@@ -1,9 +1,7 @@
-import argparse
 import base64
 import importlib.util
 import json
 import mimetypes
-import sys
 import time
 import urllib.error
 import urllib.request
@@ -12,24 +10,17 @@ from pathlib import Path
 from typing import Optional
 
 try:
-    import yaml
-except ImportError:  # pragma: no cover
-    yaml = None
-
-try:
     from .parse_enrichment_output import (
         EnrichmentItem,
         enrichment_item_to_payload,
         parse_enrichment_output,
     )
-    from .rag_config import RagConfig
 except ImportError:
     from parse_enrichment_output import (
         EnrichmentItem,
         enrichment_item_to_payload,
         parse_enrichment_output,
     )
-    from rag_config import RagConfig
 
 
 DEFAULT_BATCH_SIZE = 5
@@ -39,12 +30,14 @@ DEFAULT_MAX_TOKENS = 4096
 DEFAULT_TIMEOUT = 240
 DEFAULT_IMAGE_EXTENSIONS = (".png", ".jpg", ".jpeg", ".webp")
 DEFAULT_TABLE_PROMPT = "prompts/table_enrichment_prompt.py"
+DEFAULT_IMAGE_PROMPT = "prompts/image_enrichment_prompt.py"
 DEFAULT_TABLE_OUTPUT_SUFFIX = "table_enrichment"
+DEFAULT_IMAGE_OUTPUT_SUFFIX = "image_enrichment"
 
 
 @dataclass(frozen=True)
 class EnrichmentConfig:
-    image_dir: Path
+    asset_dir: Path
     output_dir: Optional[Path]
     prompt_path: Path
     prompt_variable: Optional[str]
@@ -77,9 +70,9 @@ class EnrichmentConfig:
             if not self.model:
                 raise ValueError("vision model is required. Set vision_model or pass --model.")
             if not self.base_url:
-                raise ValueError("vision base URL is required. Set llm_binding_host or pass --base-url.")
+                raise ValueError("vision base URL is required. Set vision_binding_host or pass --base-url.")
             if not self.api_key:
-                raise ValueError("vision API key is required. Set llm_binding_api_key or pass --api-key.")
+                raise ValueError("vision API key is required. Set vision_binding_api_key or pass --api-key.")
 
 
 @dataclass(frozen=True)
@@ -96,16 +89,12 @@ class BatchAttempt:
     raw_response: Optional[str] = None
 
 
-def enrich_table_images(config: EnrichmentConfig) -> dict:
-    return enrich_image_directory(config)
-
-
-def enrich_image_directory(config: EnrichmentConfig) -> dict:
+def enrich_asset_directory(config: EnrichmentConfig) -> dict:
     config.validate()
-    image_paths = collect_image_paths(config.image_dir)
+    image_paths = collect_image_paths(config.asset_dir)
     prompt_template = load_prompt_template(config.prompt_path, config.prompt_variable)
-    document_name = config.pdf_name or infer_document_name(config.image_dir, config.asset_kind)
-    output_dir = (config.output_dir or config.image_dir.parent).resolve()
+    document_name = config.pdf_name or infer_document_name(config.asset_dir, config.asset_kind)
+    output_dir = (config.output_dir or config.asset_dir.parent).resolve()
     output_dir.mkdir(parents=True, exist_ok=True)
     output_path = output_dir / f"{document_name}_{config.output_suffix}.json"
     if output_path.exists() and not config.overwrite:
@@ -294,7 +283,7 @@ def build_output_payload(
     return {
         "document_name": document_name,
         "asset_kind": config.asset_kind,
-        "source_image_dir": str(config.image_dir.resolve()),
+        "source_asset_dir": str(config.asset_dir.resolve()),
         "output_path": str(output_path.resolve()),
         "prompt_path": str(config.prompt_path.resolve()),
         "model": config.model,
@@ -343,13 +332,13 @@ def chat_completions_url(base_url: str) -> str:
     return f"{clean}/chat/completions"
 
 
-def collect_image_paths(image_dir: Path) -> list[Path]:
-    image_dir = Path(image_dir).resolve()
-    if not image_dir.exists() or not image_dir.is_dir():
-        raise FileNotFoundError(f"Image directory not found: {image_dir}")
+def collect_image_paths(asset_dir: Path) -> list[Path]:
+    asset_dir = Path(asset_dir).resolve()
+    if not asset_dir.exists() or not asset_dir.is_dir():
+        raise FileNotFoundError(f"Asset directory not found: {asset_dir}")
     return sorted(
         path
-        for path in image_dir.iterdir()
+        for path in asset_dir.iterdir()
         if path.is_file() and path.suffix.lower() in DEFAULT_IMAGE_EXTENSIONS
     )
 
@@ -369,8 +358,8 @@ def chunked(items: list[str], size: int):
         yield items[start : start + size]
 
 
-def infer_document_name(image_dir: Path, asset_kind: str) -> str:
-    name = image_dir.name
+def infer_document_name(asset_dir: Path, asset_kind: str) -> str:
+    name = asset_dir.name
     for suffix in (
         f"_{asset_kind}s",
         f"_{asset_kind}",
@@ -414,122 +403,3 @@ def load_prompt_template(prompt_path: Path, variable_name: Optional[str]) -> str
         f"Prompt file must contain one string variable with 'prompt' in its name, "
         f"or pass --prompt-variable: {prompt_path}"
     )
-
-
-def resolve_project_path(raw_path: Optional[str], default_relative: str) -> Path:
-    if raw_path:
-        return Path(raw_path).expanduser().resolve()
-    return (Path(__file__).resolve().parents[1] / default_relative).resolve()
-
-
-def load_enrichment_settings(config_path: Optional[Path]) -> dict:
-    rag_config = RagConfig.load(str(config_path) if config_path else None)
-    values = dict(rag_config.values or {})
-    section = values.get("enrichment", {})
-    return section if isinstance(section, dict) else {}
-
-
-def get_setting(args, settings: dict, name: str, default):
-    cli_value = getattr(args, name, None)
-    if cli_value is not None:
-        return cli_value
-    if name in settings:
-        return settings[name]
-    return default
-
-
-def build_base_parser(description: str, default_prompt: str) -> argparse.ArgumentParser:
-    parser = argparse.ArgumentParser(description=description)
-    parser.add_argument("--config-path", type=Path, default=None, help="Optional YAML config path.")
-    parser.add_argument("--image-dir", type=Path, required=True, help="Directory containing cropped images.")
-    parser.add_argument("--output-dir", type=Path, default=None, help="Directory for enrichment JSON.")
-    parser.add_argument("--pdf-name", default=None, help="Document name used in the output filename.")
-    parser.add_argument("--prompt-path", default=None, help=f"Prompt path. Defaults to {default_prompt}.")
-    parser.add_argument("--prompt-variable", default=None, help="Prompt string variable for .py prompt files.")
-    parser.add_argument("--batch-size", type=int, default=None, help="Initial batch size. Defaults to config or 5.")
-    parser.add_argument("--single-fallback-retries", type=int, default=None, help="Single-image retry count.")
-    parser.add_argument("--model", default=None, help="Vision model name.")
-    parser.add_argument("--base-url", default=None, help="OpenAI-compatible base URL.")
-    parser.add_argument("--api-key", default=None, help="OpenAI-compatible API key.")
-    parser.add_argument("--temperature", type=float, default=None, help="Vision model temperature.")
-    parser.add_argument("--max-tokens", type=int, default=None, help="Vision response max tokens.")
-    parser.add_argument("--timeout", type=int, default=None, help="Vision request timeout seconds.")
-    parser.add_argument("--include-raw-responses", action="store_true", help="Store raw model text in output JSON.")
-    parser.add_argument("--no-overwrite", action="store_true", help="Fail if output JSON already exists.")
-    parser.add_argument("--dry-run", action="store_true", help="Do not call the model; write deterministic dummy output.")
-    return parser
-
-
-def build_config_from_args(
-    args,
-    asset_kind: str,
-    output_suffix: str,
-    default_prompt: str,
-) -> EnrichmentConfig:
-    rag_config = RagConfig.load(str(args.config_path) if args.config_path else None)
-    settings = load_enrichment_settings(args.config_path)
-    prompt_path = resolve_project_path(
-        choose_prompt_path(args, settings, asset_kind),
-        default_prompt,
-    )
-    return EnrichmentConfig(
-        image_dir=args.image_dir,
-        output_dir=args.output_dir,
-        prompt_path=prompt_path,
-        prompt_variable=get_setting(args, settings, "prompt_variable", None),
-        config_path=args.config_path,
-        pdf_name=args.pdf_name,
-        asset_kind=asset_kind,
-        output_suffix=output_suffix,
-        batch_size=int(get_setting(args, settings, "batch_size", DEFAULT_BATCH_SIZE)),
-        single_fallback_retries=int(
-            get_setting(args, settings, "single_fallback_retries", DEFAULT_SINGLE_FALLBACK_RETRIES)
-        ),
-        model=get_setting(args, settings, "model", None) or rag_config.vision_model,
-        base_url=get_setting(args, settings, "base_url", None) or rag_config.vision_base_url,
-        api_key=get_setting(args, settings, "api_key", None) or rag_config.vision_api_key,
-        temperature=float(get_setting(args, settings, "temperature", DEFAULT_TEMPERATURE)),
-        max_tokens=int(get_setting(args, settings, "max_tokens", DEFAULT_MAX_TOKENS)),
-        timeout=int(get_setting(args, settings, "timeout", DEFAULT_TIMEOUT)),
-        include_raw_responses=bool(args.include_raw_responses),
-        overwrite=not args.no_overwrite,
-        dry_run=bool(args.dry_run),
-    )
-
-
-def choose_prompt_path(args, settings: dict, asset_kind: str):
-    if args.prompt_path:
-        return args.prompt_path
-    asset_prompt_key = f"{asset_kind}_prompt"
-    if asset_prompt_key in settings:
-        return settings[asset_prompt_key]
-    if "prompt_path" in settings:
-        return settings["prompt_path"]
-    return None
-
-
-def main(argv=None) -> int:
-    parser = build_base_parser(
-        description="Batch-enrich cropped table images with a vision model.",
-        default_prompt=DEFAULT_TABLE_PROMPT,
-    )
-    args = parser.parse_args(argv)
-    config = build_config_from_args(
-        args=args,
-        asset_kind="table",
-        output_suffix=DEFAULT_TABLE_OUTPUT_SUFFIX,
-        default_prompt=DEFAULT_TABLE_PROMPT,
-    )
-    payload = enrich_table_images(config)
-    print(
-        f"Wrote {payload['success_count']}/{payload['total_files']} table enrichments "
-        f"to {payload['output_path']}"
-    )
-    if payload["failed_filenames"]:
-        print(f"Failed filenames: {', '.join(payload['failed_filenames'])}")
-        return 1
-    return 0
-
-
-if __name__ == "__main__":
-    raise SystemExit(main())

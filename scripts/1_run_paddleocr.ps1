@@ -57,7 +57,7 @@ $StartedAt = Get-Date
 $Timer = [System.Diagnostics.Stopwatch]::StartNew()
 $ExitCode = 1
 
-$DisableVllmFromConfig = Get-FlatYamlBool -Path $AppConfig -Keys @("paddleocrvl_disable_vllm", "DisableVllm") -Default $false
+$DisableVllmFromConfig = Get-FlatYamlBool -Path $AppConfig -Keys @("paddleocrvl_disable_vllm") -Default $false
 $DisableVllmFromConfig = ConvertTo-BoolValue $env:PADDLEOCRVL_DISABLE_VLLM $DisableVllmFromConfig
 $UseVllmEnabled = -not $DisableVllmFromConfig
 if ($DisableVllm) {
@@ -67,19 +67,19 @@ if ($UseVllm) {
     $UseVllmEnabled = $true
 }
 
-$AutoStartVllm = Get-FlatYamlBool -Path $AppConfig -Keys @("paddleocrvl_auto_start_vllm", "AutoStartVllm") -Default $true
+$AutoStartVllm = Get-FlatYamlBool -Path $AppConfig -Keys @("paddleocrvl_auto_start_vllm") -Default $true
 $AutoStartVllm = ConvertTo-BoolValue $env:PADDLEOCRVL_AUTO_START_VLLM $AutoStartVllm
 if ($NoAutoStartVllm) {
     $AutoStartVllm = $false
 }
 
-$PortValue = Select-FirstValue $env:PADDLEOCRVL_SERVER_PORT (Get-FlatYamlValue -Path $AppConfig -Keys @("paddleocrvl_server_port", "VllmPort")) "8118"
+$PortValue = Select-FirstValue $env:PADDLEOCRVL_SERVER_PORT (Get-FlatYamlValue -Path $AppConfig -Keys @("paddleocrvl_server_port")) "8118"
 $Port = [int]$PortValue
 
-$ClientImage = Select-FirstValue $env:PADDLEOCRVL_OFFLINE_IMAGE (Get-FlatYamlValue -Path $AppConfig -Keys @("paddleocrvl_offline_image", "ClientImage")) $DefaultPaddleOcrVlOfflineImage
-$VolumeName = Select-FirstValue $env:PADDLEOCRVL_MODEL_VOLUME (Get-FlatYamlValue -Path $AppConfig -Keys @("paddleocrvl_model_volume", "ModelVolume")) $DefaultPaddleOcrVlModelVolume
-$ContainerModelDir = Select-FirstValue $env:PADDLEOCRVL_CONTAINER_MODEL_DIR (Get-FlatYamlValue -Path $AppConfig -Keys @("paddleocrvl_container_model_dir", "ModelDir")) $DefaultPaddleOcrVlContainerModelDir
-$ConfiguredLocalModelDir = Get-FlatYamlValue -Path $AppConfig -Keys @("paddleocrvl_local_model_dir", "LocalModelDir")
+$ClientImage = Select-FirstValue $env:PADDLEOCRVL_OFFLINE_IMAGE (Get-FlatYamlValue -Path $AppConfig -Keys @("paddleocrvl_offline_image")) $DefaultPaddleOcrVlOfflineImage
+$VolumeName = Select-FirstValue $env:PADDLEOCRVL_MODEL_VOLUME (Get-FlatYamlValue -Path $AppConfig -Keys @("paddleocrvl_model_volume")) $DefaultPaddleOcrVlModelVolume
+$ContainerModelDir = Select-FirstValue $env:PADDLEOCRVL_CONTAINER_MODEL_DIR (Get-FlatYamlValue -Path $AppConfig -Keys @("paddleocrvl_container_model_dir")) $DefaultPaddleOcrVlContainerModelDir
+$ConfiguredLocalModelDir = Get-FlatYamlValue -Path $AppConfig -Keys @("paddleocrvl_local_model_dir")
 $LocalModelDir = Select-FirstValue $env:PADDLEOCRVL_LOCAL_MODEL_DIR (Resolve-ProjectPath $ConfiguredLocalModelDir $ProjectRoot) (Join-Path $ProjectRoot "models\PaddleOCR-VL-1.6")
 
 $ServerUrlForHost = Select-FirstValue $ServerUrlForHost $env:OCR_VLM_HOST_MODELS_URL "http://localhost:$Port/v1/models"

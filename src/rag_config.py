@@ -9,6 +9,9 @@ except ImportError:  # pragma: no cover - fallback keeps config loading lightwei
 
 
 MISSING_VALUES = {"", "...", "<your api key>", "<your_api_key>", "none", "null"}
+CONFIG_FILENAME = "config.yaml"
+CONFIG_TEMPLATE_FILENAME = "config.example.yaml"
+CONFIG_ENV_NAMES = ("RAG_CONFIG_PATH", "MULTIFINRAG_CONFIG")
 
 
 def _is_missing(value: Any) -> bool:
@@ -43,7 +46,7 @@ def _read_simple_yaml(path: Path) -> Dict[str, Any]:
 
 
 class RagConfig:
-    """Loads the project config without forcing one fixed local path."""
+    """Loads one runtime YAML config file for the project."""
 
     def __init__(self, values: Optional[Dict[str, Any]] = None, path: Optional[Path] = None):
         self.values = values or {}
@@ -51,46 +54,38 @@ class RagConfig:
 
     @classmethod
     def load(cls, explicit_path: Optional[str] = None) -> "RagConfig":
-        for path in cls.candidate_paths(explicit_path):
-            if path.exists() and path.is_file():
-                if yaml is not None:
-                    loaded = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
-                else:
-                    loaded = _read_simple_yaml(path)
-                if not isinstance(loaded, dict):
-                    raise ValueError(f"Config file must contain a mapping: {path}")
-                return cls(values=loaded, path=path)
+        path, required = cls.resolve_config_path(explicit_path)
+        if path.exists() and path.is_file():
+            if path.name == CONFIG_TEMPLATE_FILENAME:
+                raise ValueError(
+                    f"{CONFIG_TEMPLATE_FILENAME} is a template. Copy it to {CONFIG_FILENAME} "
+                    "or pass the runtime config.yaml path."
+                )
+            if yaml is not None:
+                loaded = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
+            else:
+                loaded = _read_simple_yaml(path)
+            if not isinstance(loaded, dict):
+                raise ValueError(f"Config file must contain a mapping: {path}")
+            return cls(values=loaded, path=path)
+        if required:
+            raise FileNotFoundError(f"Config file not found: {path}")
         return cls()
 
     @staticmethod
     def candidate_paths(explicit_path: Optional[str] = None) -> Iterable[Path]:
-        seen = set()
-        raw_paths = []
+        path, _ = RagConfig.resolve_config_path(explicit_path)
+        yield path
+
+    @staticmethod
+    def resolve_config_path(explicit_path: Optional[str] = None) -> tuple[Path, bool]:
         if explicit_path:
-            raw_paths.append(explicit_path)
-        raw_paths.extend(
-            value
-            for value in (
-                os.getenv("RAG_CONFIG_PATH"),
-                os.getenv("MULTIFINRAG_CONFIG"),
-            )
-            if value
-        )
-
-        root = _repo_root()
-        raw_paths.extend(
-            [
-                str(Path.cwd() / "config.yaml"),
-                str(root / "config.yaml"),
-                str(root.parent / "config.yaml"),
-            ]
-        )
-
-        for raw_path in raw_paths:
-            path = _expand_path(raw_path).resolve()
-            if path not in seen:
-                seen.add(path)
-                yield path
+            return _expand_path(explicit_path).resolve(), True
+        for env_name in CONFIG_ENV_NAMES:
+            env_value = os.getenv(env_name)
+            if env_value:
+                return _expand_path(env_value).resolve(), True
+        return (_repo_root() / CONFIG_FILENAME).resolve(), False
 
     def get(self, key: str, default: Any = None, env_names: Optional[Iterable[str]] = None) -> Any:
         value = self.values.get(key)
@@ -124,13 +119,12 @@ class RagConfig:
 
     @property
     def vision_model(self) -> Optional[str]:
-        return self.get("vision_model", self.get("llm_model"))
+        return self.get("vision_model")
 
     @property
     def vision_base_url(self) -> Optional[str]:
         return self.get(
             "vision_binding_host",
-            self.get("llm_binding_host"),
             env_names=("VISION_BINDING_HOST", "OPENAI_BASE_URL", "SILICONFLOW_BASE_URL"),
         )
 
@@ -138,23 +132,5 @@ class RagConfig:
     def vision_api_key(self) -> Optional[str]:
         return self.get(
             "vision_binding_api_key",
-            self.get("llm_binding_api_key"),
             env_names=("VISION_API_KEY", "OPENAI_API_KEY", "SILICONFLOW_API_KEY"),
         )
-
-    @property
-    def paddleocr_command(self) -> Optional[str]:
-        return self.get("paddleocr_command", env_names=("PADDLEOCR_COMMAND",))
-
-    def paddleocr_output_dirs(self) -> Iterable[Path]:
-        keys = (
-            "paddleocr_output_dir",
-            "paddleocr_vl_output_dir",
-            "ocr_output_dir",
-            "output_dir",
-        )
-        for key in keys:
-            path = self.get_path(key)
-            if path is not None:
-                yield path
-

@@ -1,8 +1,7 @@
 # Copy this file to config.yaml and edit local paths/API keys before running.
 
-# Default document and parser.
+# Default document.
 input_file: data/input/MorganStanleyQ10.pdf
-parser: paddleocr
 
 # PaddleOCR-VL Docker runtime.
 paddleocrvl_offline_image: ccr-2vdh3abv-pub.cnc.bj.baidubce.com/paddlepaddle/paddleocr-vl:latest-nvidia-gpu-sm120-offline
@@ -10,60 +9,20 @@ paddleocrvl_server_image: ccr-2vdh3abv-pub.cnc.bj.baidubce.com/paddlepaddle/padd
 paddleocrvl_disable_vllm: false
 paddleocrvl_auto_start_vllm: true
 
-ModelVolume: paddleocrvl-model
-ModelDir: /home/paddleocr/.paddlex/official_models/PaddleOCR-VL-1.6
-LocalModelDir: C:\path\to\PaddleOCR-VL-1.6
 paddleocrvl_model_volume: paddleocrvl-model
 paddleocrvl_container_model_dir: /home/paddleocr/.paddlex/official_models/PaddleOCR-VL-1.6
-paddleocrvl_local_model_dir: C:\path\to\PaddleOCR-VL-1.6
+paddleocrvl_local_model_dir: "C:\\path\\to\\PaddleOCR-VL-1.6"
 paddleocrvl_vllm_config: scripts\0_vllm_server_config.yml
 paddleocrvl_server_port: 8118
 paddleocr_output_dir: data/output
-paddleocr_command: 'powershell -ExecutionPolicy Bypass -File ".\scripts\1_run_paddleocr.ps1" --file "{input}" --output-dir "{output_dir}"'
 
-# vLLM backend config defaults.
-gpu-memory-utilization: 0.9
-max-model-len: 4096
-max-num-batched-tokens: 4096
-max-num-seqs: 1
-
-# OpenAI-compatible chat / vision endpoint.
-llm_binding: openai
-llm_binding_host: https://api.example.com/v1
-llm_binding_api_key: <your api key>
-llm_model: Qwen/Qwen3-VL-8B-Instruct
+# OpenAI-compatible vision endpoint.
+vision_binding_host: https://api.example.com/v1
+vision_binding_api_key: <your api key>
 vision_model: Qwen/Qwen3-VL-8B-Instruct
 
-# OpenAI-compatible embedding endpoint.
-embedding_binding: openai
-embedding_binding_host: https://api.example.com/v1
-embedding_binding_api_key: <your api key>
+# Local SentenceTransformer embedding model used for FAISS indexing/search.
 embedding_model: BAAI/bge-m3
-embedding_dim: 1024
-
-# Reranker.
-reranker_binding: openai
-reranker_binding_host: https://api.example.com/v1
-reranker_binding_api_key: <your api key>
-reranker_model: BAAI/bge-reranker-v2-m3
-
-# Runtime controls.
-max_async: 4
-timeout: 240
-temperature: 0
-verbose: false
-log_dir: runs/logs
-
-# Evaluation placeholders.
-run_name: rag_anything_mmda_baseline
-dataset: MMDA_Bench
-dataset_jsonl: data/mmda_bench/test.jsonl
-pdf_dir: data/mmda_bench/extracted/MMDA_Bench
-output_dir: runs/rag_anything_mmda_baseline
-top_k: 10
-chunk_size: 1200
-chunk_overlap: 100
-prompt_version: v1
 
 # Text chunking / semantic merge defaults.
 text_chunking:
@@ -105,3 +64,51 @@ indexing:
   index_root: indexes
   embed_batch_size: 32
   device:
+
+# Retrieval defaults.
+retrieval:
+  text_threshold: 0.70
+  table_threshold: 0.65
+  image_threshold: 0.55
+  text_candidate_k: 15
+  table_candidate_k: 5
+  image_candidate_k: 5
+  min_text_chunks: 6
+  max_table_chunks: 4
+  max_image_chunks: 3
+
+# Evidence packaging / montage defaults.
+evidence:
+  output_dir: data/output
+  table_montage:
+    enabled: true
+    layout: vertical
+    target_width: 1400
+    max_pixels: 1003520
+    min_pixels: 200704
+    padding: 24
+    label_height: 48
+    background: white
+    output_format: jpg
+    jpeg_quality: 95
+  image_montage:
+    enabled: true
+    layout: grid
+    columns: 2
+    cell_width: 900
+    max_pixels: 1003520
+    min_pixels: 200704
+    padding: 24
+    label_height: 48
+    background: white
+    output_format: jpg
+    jpeg_quality: 95
+
+# Final answer generation from an evidence package.
+generation:
+  prompt: prompts/search_prompt.py
+  prompt_variable: VLM_QA_PROMPT
+  temperature: 0
+  max_tokens: 512
+  timeout: 240
+  max_context_chars: 1800

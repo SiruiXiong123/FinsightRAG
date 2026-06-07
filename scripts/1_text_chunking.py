@@ -8,6 +8,7 @@ PROJECT_ROOT = SCRIPT_DIR.parent
 if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
+from src.rag_config import RagConfig
 from src.text_chunking import (
     DEFAULT_BREAKPOINT_PERCENTILE,
     DEFAULT_CHUNK_OUTPUT_SUFFIX,
@@ -44,7 +45,7 @@ def build_parser() -> argparse.ArgumentParser:
         "--config-path",
         type=Path,
         default=None,
-        help="Optional YAML config path. Reads values from a text_chunking section.",
+        help="Optional runtime config.yaml path. Defaults to the project config.yaml.",
     )
     parser.add_argument(
         "--text-md-file",
@@ -326,16 +327,11 @@ def load_sentence_items_for_file(args, text_md_file: Path, language: str):
 
 
 def load_text_chunking_config(config_path: Path | None) -> dict:
-    if config_path is None:
-        return {}
-    try:
-        import yaml
-    except ImportError as exc:
-        raise RuntimeError("PyYAML is required to read --config-path.") from exc
-    data = yaml.safe_load(config_path.read_text(encoding="utf-8")) or {}
+    rag_config = RagConfig.load(str(config_path) if config_path else None)
+    data = rag_config.values or {}
     if not isinstance(data, dict):
         return {}
-    section = data.get("text_chunking", data)
+    section = data.get("text_chunking", {})
     return section if isinstance(section, dict) else {}
 
 

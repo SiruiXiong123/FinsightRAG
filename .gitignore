@@ -6,6 +6,7 @@ data/output/
 indexes/
 output/
 runs/
+tmp_out/
 *.log
 requirements_pip.txt
 test.ipynb
