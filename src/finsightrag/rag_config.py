@@ -2,6 +2,8 @@ import os
 from pathlib import Path
 from typing import Any, Dict, Iterable, Optional
 
+from .paths import default_project_root
+
 try:
     import yaml
 except ImportError:  # pragma: no cover - fallback keeps config loading lightweight.
@@ -27,7 +29,7 @@ def _expand_path(value: str) -> Path:
 
 
 def _repo_root() -> Path:
-    return Path(__file__).resolve().parents[1]
+    return default_project_root()
 
 
 def _read_simple_yaml(path: Path) -> Dict[str, Any]:

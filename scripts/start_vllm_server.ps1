@@ -1,4 +1,3 @@
-
 [CmdletBinding(PositionalBinding = $false)]
 param(
     [string]$ProjectRoot = $null,
@@ -21,7 +20,7 @@ if ([string]::IsNullOrWhiteSpace($ProjectRoot)) {
     $ProjectRoot = (Resolve-Path (Join-Path $ScriptDir "..")).Path
 }
 
-. (Join-Path $ScriptDir "0_model_volume.ps1")
+. (Join-Path $ScriptDir "paddleocr_model_volume.ps1")
 
 $ProjectRoot = (Resolve-Path -LiteralPath $ProjectRoot).Path
 $AppConfig = Join-Path $ProjectRoot "config.yaml"
@@ -36,7 +35,7 @@ if ($DisableVllm -and !$Force) {
 }
 
 $ConfiguredVllmConfig = Get-FlatYamlValue -Path $AppConfig -Keys @("paddleocrvl_vllm_config")
-$Config = Select-FirstValue $Config $env:PADDLEOCRVL_VLLM_CONFIG (Resolve-ProjectPath $ConfiguredVllmConfig $ProjectRoot) (Join-Path $ScriptDir "0_vllm_server_config.yml")
+$Config = Select-FirstValue $Config $env:PADDLEOCRVL_VLLM_CONFIG (Resolve-ProjectPath $ConfiguredVllmConfig $ProjectRoot) (Join-Path $ScriptDir "vllm_server_config.yml")
 $Config = (Resolve-Path -LiteralPath $Config).Path
 
 $PortOverride = if ($Port -gt 0) { "$Port" } else { $null }

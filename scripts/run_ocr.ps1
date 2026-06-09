@@ -25,11 +25,11 @@ if ([string]::IsNullOrWhiteSpace($ProjectRoot)) {
     $ProjectRoot = (Resolve-Path (Join-Path $ScriptDir "..")).Path
 }
 
-. (Join-Path $ScriptDir "0_model_volume.ps1")
+. (Join-Path $ScriptDir "paddleocr_model_volume.ps1")
 
 $ProjectRoot = (Resolve-Path -LiteralPath $ProjectRoot).Path
 $AppConfig = Join-Path $ProjectRoot "config.yaml"
-$BatchModule = "src.ocr_batch"
+$BatchModule = "finsightrag.ocr_batch"
 
 if ($DisableVllm -and $UseVllm) {
     throw "Use only one of -DisableVllm or -UseVllm."
@@ -89,8 +89,8 @@ if (!(Test-Path -LiteralPath $ProjectRoot)) {
     throw "Project root not found: $ProjectRoot"
 }
 
-if (!(Test-Path -LiteralPath (Join-Path $ProjectRoot "src\ocr_batch.py"))) {
-    throw "src\ocr_batch.py not found under project root: $ProjectRoot"
+if (!(Test-Path -LiteralPath (Join-Path $ProjectRoot "src\finsightrag\ocr_batch.py"))) {
+    throw "src\finsightrag\ocr_batch.py not found under project root: $ProjectRoot"
 }
 
 Assert-DockerAvailable
@@ -108,11 +108,11 @@ if ($UseVllmEnabled -and !$SkipServerCheck) {
         Write-Host "vLLM server is reachable."
     } catch {
         if (!$AutoStartVllm) {
-            throw "vLLM server is not reachable. Please run .\scripts\0_run_vllm_server.ps1 first, or set paddleocrvl_disable_vllm: true. Checked URL: $ServerUrlForHost"
+            throw "vLLM server is not reachable. Please run .\scripts\start_vllm_server.ps1 first, or set paddleocrvl_disable_vllm: true. Checked URL: $ServerUrlForHost"
         }
 
         Write-Host "vLLM server is not reachable. Auto-starting it now..."
-        & (Join-Path $ScriptDir "0_run_vllm_server.ps1") -ProjectRoot $ProjectRoot
+        & (Join-Path $ScriptDir "start_vllm_server.ps1") -ProjectRoot $ProjectRoot
 
         Write-Host "Checking vLLM server again..."
         Invoke-WebRequest -UseBasicParsing $ServerUrlForHost | Out-Null
@@ -150,6 +150,7 @@ $DockerArgs = @(
     "--gpus", "all",
     "--user", "root",
     "-e", "PADDLE_PDX_DISABLE_MODEL_SOURCE_CHECK=True",
+    "-e", "PYTHONPATH=/workspace/work/src",
     "-v", "${ProjectRoot}:/workspace/work",
     "-v", "${VolumeName}:${ContainerModelDir}:ro",
     "-w", "/workspace/work",

@@ -5,9 +5,11 @@ from typing import Optional
 
 try:
     from .document_catalog import CATALOG_FILENAME, resolve_project_path
+    from .paths import default_project_root
     from .rag_config import RagConfig
 except ImportError:
     from document_catalog import CATALOG_FILENAME, resolve_project_path
+    from paths import default_project_root
     from rag_config import RagConfig
 
 
@@ -31,7 +33,7 @@ class MultiModalVectorStore:
         config_path: Optional[Path | str] = None,
         project_root: Optional[Path | str] = None,
     ) -> None:
-        self.project_root = Path(project_root or Path(__file__).resolve().parents[1]).resolve()
+        self.project_root = Path(project_root or default_project_root()).resolve()
         self.rag_config = RagConfig.load(str(config_path) if config_path else None)
         self.config = build_vector_store_config(
             rag_config=self.rag_config,
@@ -43,7 +45,13 @@ class MultiModalVectorStore:
         self._manifests = {}
         self._catalog = None
 
-    def search(self, document_id: str, query: str, modality: str) -> list[dict]:
+    def search(
+        self,
+        document_id: str,
+        query: str,
+        modality: str,
+        include_below_threshold: bool = False,
+    ) -> list[dict]:
         modality = normalize_modality(modality)
         query = str(query or "").strip()
         if not query:
@@ -80,7 +88,8 @@ class MultiModalVectorStore:
             if int(faiss_id) < 0:
                 continue
             score = float(score)
-            if score < threshold:
+            passed_threshold = score >= threshold
+            if not passed_threshold and not include_below_threshold:
                 continue
             chunk = metadata_by_id.get(int(faiss_id))
             if chunk is None:
@@ -92,6 +101,7 @@ class MultiModalVectorStore:
                     "rank": rank,
                     "score": round(score, 6),
                     "threshold": threshold,
+                    "passed_threshold": passed_threshold,
                     **chunk,
                 }
             )

@@ -1,7 +1,19 @@
-src/__pycache__/
+# Python/runtime caches
 __pycache__/
+src/__pycache__/
+.venv/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+
+# Local model and parser outputs
+models/
 data_images/
 data/paddleocr_outputs/
+
+# Keep the bundled MorganStanleyQ10 demo artifacts, ignore new output runs.
 data/output/
 !data/output/
 data/output/*
@@ -12,15 +24,29 @@ data/output/*
 !data/output/MorganStanleyQ10_tables/**
 !data/output/MorganStanleyQ10_images/
 !data/output/MorganStanleyQ10_images/**
+
+# Keep the bundled MorganStanleyQ10 demo index, ignore new indexes.
 indexes/
 !indexes/
 indexes/*
 !indexes/MorganStanleyQ10/
 !indexes/MorganStanleyQ10/**
+
+# Generated run artifacts
 /output/
 runs/
 tmp_out/
 *.log
+
+# Local evaluation/test-set helpers
+script[s]/run_sample_dataset_pipeline.py
+script[s]/*sample_dataset*.py
+script[s]/*eval*.py
+script[s]/*evaluation*.py
+script[s]/*test_set*.py
+script[s]/*testset*.py
+
+# Local scratch/config
 requirements_pip.txt
 test.ipynb
 .env

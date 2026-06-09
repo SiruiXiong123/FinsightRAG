@@ -1,14 +1,13 @@
-import argparse
-import sys
+﻿import argparse
 from pathlib import Path
 
 
-SCRIPT_DIR = Path(__file__).resolve().parent
-PROJECT_ROOT = SCRIPT_DIR.parent
-if str(PROJECT_ROOT) not in sys.path:
-    sys.path.insert(0, str(PROJECT_ROOT))
+from finsightrag.paths import default_project_root
 
-from src.block_assets import extract_block_assets
+
+PROJECT_ROOT = default_project_root()
+
+from finsightrag.block_assets import extract_block_assets
 
 
 ASSET_KINDS = ("table", "image")
@@ -278,3 +277,4 @@ def resolve_pdf_for_json(json_file: Path, pdf_dir: Path) -> Path:
 
 if __name__ == "__main__":
     raise SystemExit(main())
+

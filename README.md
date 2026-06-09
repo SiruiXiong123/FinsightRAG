@@ -6,9 +6,7 @@
 
 ## 项目简介
 
-FinsightRAG 是一个面向金融文档的轻量、可复现的多模态 RAG 基线项目，基于 [MultiFinRAG](https://arxiv.org/abs/2506.20821) 的核心思想进行工程化实现与扩展，用于从财报、年报、10-Q、10-K 等长篇 PDF 文档中检索并融合文本、表格与图表证据，生成可追溯、可验证的问答结果。
-
-本项目不是 MultiFinRAG 的官方复现，而是参考其金融多模态问答中的核心证据检索思路，构建一个更偏工程落地、本地可复现和便于展示的金融文档问答基线系统。
+FinsightRAG 是一个面向金融文档的**轻量、可复现、可扩展**的多模态 RAG 基线项目，基于 [MultiFinRAG](https://arxiv.org/abs/2506.20821) 的核心思想进行工程化实现与扩展，用于从财报、年报等长篇 PDF 文档中检索并融合文本、表格与图表证据，生成可追溯、可验证的问答结果。
 
 ---
 
@@ -63,15 +61,13 @@ flowchart LR
   当前脚本主要在 Windows + PowerShell 环境下测试。
 
 * Docker Desktop
-  用于运行 PaddleOCR-VL OCR 服务。
+  用于运行 PaddleOCR-VL1.6 OCR 服务。
 
 * Python 3.10+
 
 * 兼容 OpenAI 接口的视觉语言模型 API
   用于表格/图片富化和最终问答生成。
 
-* 嵌入模型
-  默认使用 `BAAI/bge-m3`，向量维度为 1024。
 
 * 推荐 GPU
   从原始 PDF 完整复现时，OCR 和视觉模型调用会明显受益于 GPU。
@@ -87,7 +83,7 @@ cd FinsightRAG
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 
-pip install -r requirements.txt
+pip install -e ".[vector]"
 ```
 
 复制并修改配置文件：
@@ -126,7 +122,7 @@ $Query = @'
 As of March 31, 2026, what was the total amount of Wealth Management loans for U.S. Bank Subsidiaries, and how was it divided between Residential real estate and Securities-based lending and Other?
 '@
 
-python .\scripts\4_run_query_pipeline.py `
+finsightrag run-query-pipeline `
   --document-id MorganStanleyQ10 `
   --query $Query.Trim() `
   --output-dir .\runs\query_pipeline\wealth_management_loans_recheck
@@ -170,7 +166,7 @@ runs/query_pipeline/wealth_management_loans_recheck/
 如果 OCR、文本分块、表格/图片裁剪和视觉语言模型富化结果已经存在，可以直接重建 FAISS 索引：
 
 ```powershell
-python .\scripts\2_build_document_indexes.py `
+finsightrag build-indexes `
   --document-id MorganStanleyQ10 `
   --source-file .\data\input\MorganStanleyQ10.pdf `
   --ocr-output-dir .\data\output
@@ -191,7 +187,7 @@ indexes/MorganStanleyQ10/
 ### 1. 运行 PaddleOCR-VL
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File .\scripts\1_run_paddleocr.ps1 `
+powershell -ExecutionPolicy Bypass -File .\scripts\run_ocr.ps1 `
   --file /workspace/work/data/input/MorganStanleyQ10.pdf `
   --output-dir /workspace/work/data/output
 ```
@@ -199,7 +195,7 @@ powershell -ExecutionPolicy Bypass -File .\scripts\1_run_paddleocr.ps1 `
 ### 2. 生成纯文本 Markdown
 
 ```powershell
-python .\scripts\1_generate_text_only_md.py `
+finsightrag generate-text-md `
   --ocr-output-dir .\data\output `
   --output-dir .\data\output
 ```
@@ -207,7 +203,7 @@ python .\scripts\1_generate_text_only_md.py `
 ### 3. 生成文本分块
 
 ```powershell
-python .\scripts\1_text_chunking.py `
+finsightrag chunk-text `
   --text-md-file .\data\output\MorganStanleyQ10_text.md `
   --page-json-dir .\data\output\MorganStanleyQ10 `
   --sentence-output-dir .\data\output `
@@ -217,7 +213,7 @@ python .\scripts\1_text_chunking.py `
 ### 4. 裁剪表格和图片资产
 
 ```powershell
-python .\scripts\1_generate_assets.py `
+finsightrag extract-assets `
   --ocr-output-dir .\data\output `
   --pdf-dir .\data\input `
   --output-dir .\data\output
@@ -226,7 +222,7 @@ python .\scripts\1_generate_assets.py `
 ### 5. 富化表格和图片资产
 
 ```powershell
-python .\scripts\1_enrich_assets.py `
+finsightrag enrich-assets `
   --pdf-name MorganStanleyQ10 `
   --ocr-output-dir .\data\output `
   --output-dir .\data\output
@@ -235,7 +231,7 @@ python .\scripts\1_enrich_assets.py `
 ### 6. 构建 FAISS 索引
 
 ```powershell
-python .\scripts\2_build_document_indexes.py `
+finsightrag build-indexes `
   --document-id MorganStanleyQ10 `
   --source-file .\data\input\MorganStanleyQ10.pdf `
   --ocr-output-dir .\data\output
@@ -244,7 +240,7 @@ python .\scripts\2_build_document_indexes.py `
 ### 7. 运行查询链路
 
 ```powershell
-python .\scripts\4_run_query_pipeline.py `
+finsightrag run-query-pipeline `
   --document-id MorganStanleyQ10 `
   --query "你的问题" `
   --output-dir .\runs\query_pipeline\demo
@@ -262,8 +258,8 @@ FinsightRAG/
 ├── indexes/               # 每个文档对应的 FAISS 索引
 ├── runs/
 │   └── query_pipeline/    # 查询输出和证据包
-├── scripts/               # 流水线脚本
-├── src/                   # 核心实现代码
+├── scripts/               # PowerShell、Docker 和 OCR 环境编排脚本
+├── src/finsightrag/       # 可安装 Python 包和 CLI 实现
 ├── config.yaml            # 运行配置文件
 ├── requirements.txt
 ├── README_EN.md

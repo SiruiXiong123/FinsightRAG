@@ -1,15 +1,14 @@
-import argparse
+﻿import argparse
 import json
-import sys
 from pathlib import Path
 
 
-SCRIPT_DIR = Path(__file__).resolve().parent
-PROJECT_ROOT = SCRIPT_DIR.parent
-if str(PROJECT_ROOT) not in sys.path:
-    sys.path.insert(0, str(PROJECT_ROOT))
+from finsightrag.paths import default_project_root
 
-from src.vector_store import MultiModalVectorStore, SUPPORTED_MODALITIES
+
+PROJECT_ROOT = default_project_root()
+
+from finsightrag.vector_store import MultiModalVectorStore, SUPPORTED_MODALITIES
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -41,3 +40,4 @@ def main(argv=None) -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
+

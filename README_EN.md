@@ -6,15 +6,14 @@
 
 ## Project Overview
 
-FinsightRAG is a lightweight, reproducible multimodal RAG baseline for financial documents. Inspired by the core ideas of [MultiFinRAG](https://arxiv.org/abs/2506.20821), it retrieves and fuses text, table, and chart evidence from long financial PDFs such as earnings reports, annual reports, 10-Q filings, and 10-K filings, then generates traceable and verifiable answers.
+FinsightRAG is a lightweight, reproducible and scalable remultimodal RAG baseline for financial documents. Inspired by the core ideas of [MultiFinRAG](https://arxiv.org/abs/2506.20821), it retrieves and fuses text, table, and chart evidence from long financial PDFs such as earnings reports, annual reports, 10-Q filings, and 10-K filings, then generates traceable and verifiable answers.
 
-This project is not an official reproduction of MultiFinRAG. It is an engineering-oriented baseline that adapts the paper's financial multimodal evidence retrieval ideas into a local, reproducible, and demo-friendly financial document QA system.
 
 ---
 
 ## Key Features
 
-* Parses financial PDFs with **PaddleOCR-VL**, preserving page-level OCR and layout information
+* Parses financial PDFs with **PaddleOCR-VL1.6**, preserving page-level OCR and layout information
 * Crops table, image, and chart regions while keeping metadata such as page number, bbox, and title
 * Enriches tables and images with an OpenAI-compatible vision language model
 * Builds separate **text / table / image** FAISS indexes
@@ -70,9 +69,6 @@ flowchart LR
 * OpenAI-compatible vision language model API
   Used for table/image enrichment and final answer generation.
 
-* Embedding model
-  The default embedding model is `BAAI/bge-m3` with 1024-dimensional vectors.
-
 * GPU recommended
   Full reproduction from raw PDFs is much faster with a GPU, especially for OCR and vision model calls.
 
@@ -87,7 +83,7 @@ cd FinsightRAG
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 
-pip install -r requirements.txt
+pip install -e ".[vector]"
 ```
 
 Copy and edit the configuration file:
@@ -126,7 +122,7 @@ $Query = @'
 As of March 31, 2026, what was the total amount of Wealth Management loans for U.S. Bank Subsidiaries, and how was it divided between Residential real estate and Securities-based lending and Other?
 '@
 
-python .\scripts\4_run_query_pipeline.py `
+finsightrag run-query-pipeline `
   --document-id MorganStanleyQ10 `
   --query $Query.Trim() `
   --output-dir .\runs\query_pipeline\wealth_management_loans_recheck
@@ -170,7 +166,7 @@ This sample triggers multimodal fallback retrieval and uses retrieved table evid
 If OCR outputs, text chunks, cropped table/image assets, and VLM enrichment results already exist, you can rebuild the FAISS indexes directly:
 
 ```powershell
-python .\scripts\2_build_document_indexes.py `
+finsightrag build-indexes `
   --document-id MorganStanleyQ10 `
   --source-file .\data\input\MorganStanleyQ10.pdf `
   --ocr-output-dir .\data\output
@@ -191,7 +187,7 @@ Full reproduction starts from the raw PDF and can be slow. It requires Docker, a
 ### 1. Run PaddleOCR-VL
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File .\scripts\1_run_paddleocr.ps1 `
+powershell -ExecutionPolicy Bypass -File .\scripts\run_ocr.ps1 `
   --file /workspace/work/data/input/MorganStanleyQ10.pdf `
   --output-dir /workspace/work/data/output
 ```
@@ -199,7 +195,7 @@ powershell -ExecutionPolicy Bypass -File .\scripts\1_run_paddleocr.ps1 `
 ### 2. Generate Text-Only Markdown
 
 ```powershell
-python .\scripts\1_generate_text_only_md.py `
+finsightrag generate-text-md `
   --ocr-output-dir .\data\output `
   --output-dir .\data\output
 ```
@@ -207,7 +203,7 @@ python .\scripts\1_generate_text_only_md.py `
 ### 3. Generate Text Chunks
 
 ```powershell
-python .\scripts\1_text_chunking.py `
+finsightrag chunk-text `
   --text-md-file .\data\output\MorganStanleyQ10_text.md `
   --page-json-dir .\data\output\MorganStanleyQ10 `
   --sentence-output-dir .\data\output `
@@ -217,7 +213,7 @@ python .\scripts\1_text_chunking.py `
 ### 4. Crop Table and Image Assets
 
 ```powershell
-python .\scripts\1_generate_assets.py `
+finsightrag extract-assets `
   --ocr-output-dir .\data\output `
   --pdf-dir .\data\input `
   --output-dir .\data\output
@@ -226,7 +222,7 @@ python .\scripts\1_generate_assets.py `
 ### 5. Enrich Table and Image Assets
 
 ```powershell
-python .\scripts\1_enrich_assets.py `
+finsightrag enrich-assets `
   --pdf-name MorganStanleyQ10 `
   --ocr-output-dir .\data\output `
   --output-dir .\data\output
@@ -235,7 +231,7 @@ python .\scripts\1_enrich_assets.py `
 ### 6. Build FAISS Indexes
 
 ```powershell
-python .\scripts\2_build_document_indexes.py `
+finsightrag build-indexes `
   --document-id MorganStanleyQ10 `
   --source-file .\data\input\MorganStanleyQ10.pdf `
   --ocr-output-dir .\data\output
@@ -244,7 +240,7 @@ python .\scripts\2_build_document_indexes.py `
 ### 7. Run the Query Pipeline
 
 ```powershell
-python .\scripts\4_run_query_pipeline.py `
+finsightrag run-query-pipeline `
   --document-id MorganStanleyQ10 `
   --query "your question" `
   --output-dir .\runs\query_pipeline\demo
@@ -262,8 +258,8 @@ FinsightRAG/
 ├── indexes/               # Per-document FAISS indexes
 ├── runs/
 │   └── query_pipeline/    # Query outputs and evidence packages
-├── scripts/               # Pipeline scripts
-├── src/                   # Core implementation
+├── scripts/               # PowerShell, Docker, and OCR orchestration scripts
+├── src/finsightrag/       # Installable Python package and CLI implementation
 ├── config.yaml            # Runtime configuration file
 ├── requirements.txt
 ├── README_EN.md

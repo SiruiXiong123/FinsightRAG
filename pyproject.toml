@@ -1,0 +1,48 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "finsightrag"
+version = "0.1.0"
+description = "Multimodal financial document RAG pipeline with OCR, indexing, retrieval, and VLM answer generation."
+readme = "README_EN.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [
+  { name = "FinsightRAG contributors" }
+]
+dependencies = [
+  "PyYAML>=6.0.2",
+  "PyMuPDF>=1.24.0",
+  "Pillow>=10.0.0",
+  "nltk>=3.9.0",
+]
+
+[project.optional-dependencies]
+vector = [
+  "sentence-transformers>=5.5.0",
+  "faiss-cpu>=1.14.0",
+]
+dev = [
+  "pytest>=8.0.0",
+  "ruff>=0.8.0",
+]
+
+[project.scripts]
+finsightrag = "finsightrag.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "-p no:langsmith"
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["F"]

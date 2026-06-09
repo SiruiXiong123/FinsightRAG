@@ -124,7 +124,7 @@ def check_vlm_server(server_url):
     except (OSError, urllib.error.URLError, RuntimeError) as exc:
         raise RuntimeError(
             "Cannot reach the PaddleOCR-VL vLLM service. Start it first with "
-            "scripts\\0_run_vllm_server.ps1, then retry. "
+            "scripts\\start_vllm_server.ps1, then retry. "
             f"Checked URL: {models_url}. Error: {exc}"
         ) from exc
 

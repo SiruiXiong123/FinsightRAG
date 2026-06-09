@@ -1,21 +1,20 @@
-import argparse
+﻿import argparse
 import json
-import sys
 from pathlib import Path
 
 
-SCRIPT_DIR = Path(__file__).resolve().parent
-PROJECT_ROOT = SCRIPT_DIR.parent
-if str(PROJECT_ROOT) not in sys.path:
-    sys.path.insert(0, str(PROJECT_ROOT))
+from finsightrag.paths import default_project_root
 
-from src.document_indexer import (
+
+PROJECT_ROOT = default_project_root()
+
+from finsightrag.document_indexer import (
     DocumentIndexConfig,
     build_document_indexes,
     require_existing_paths,
     resolve_default_paths,
 )
-from src.document_catalog import DocumentCatalog, catalog_path_for_index_root
+from finsightrag.document_catalog import DocumentCatalog, catalog_path_for_index_root
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -49,8 +48,22 @@ def build_parser() -> argparse.ArgumentParser:
         help="Optional document metadata as key=value. Can be repeated.",
     )
     parser.add_argument("--metadata-json", type=Path, default=None, help="JSON file with document metadata.")
-    parser.add_argument("--ocr-timing-report", type=Path, default=None, help="Timing JSON from scripts/1_run_paddleocr.ps1.")
-    parser.add_argument("--no-auto-ocr-timing", action="store_true", help="Do not infer OCR timing from runs/ocr_timing.")
+    parser.add_argument(
+        "--ocr-timing-report",
+        type=Path,
+        default=None,
+        help="Optional OCR timing JSON for reporting metadata only.",
+    )
+    parser.add_argument(
+        "--auto-ocr-timing",
+        action="store_true",
+        help="Infer OCR timing metadata from runs/ocr_timing. Disabled by default.",
+    )
+    parser.add_argument(
+        "--no-auto-ocr-timing",
+        action="store_true",
+        help="Compatibility no-op. build-indexes no longer reads OCR timing unless explicitly requested.",
+    )
     parser.add_argument("--no-overwrite", action="store_true", help="Fail if index files already exist.")
     parser.add_argument("--catalog-path", type=Path, default=None, help="Catalog JSON path. Defaults to <index-root>/catalog.json.")
     parser.add_argument("--no-catalog", action="store_true", help="Do not update indexes/catalog.json.")
@@ -119,7 +132,7 @@ def main(argv=None) -> int:
 def build_metadata(args, defaults: dict, document_id: str, source_file: str) -> dict[str, str]:
     metadata = dict(defaults.get("metadata") or {})
     timing_report = args.ocr_timing_report
-    if timing_report is None and not args.no_auto_ocr_timing:
+    if timing_report is None and args.auto_ocr_timing and not args.no_auto_ocr_timing:
         timing_report = find_latest_ocr_timing_report(PROJECT_ROOT, document_id, source_file)
     if timing_report:
         metadata.update(load_ocr_timing_metadata(timing_report))
@@ -202,3 +215,4 @@ def project_relative_path(path: Path) -> str:
 
 if __name__ == "__main__":
     raise SystemExit(main())
+

@@ -12,7 +12,7 @@ paddleocrvl_auto_start_vllm: true
 paddleocrvl_model_volume: paddleocrvl-model
 paddleocrvl_container_model_dir: /home/paddleocr/.paddlex/official_models/PaddleOCR-VL-1.6
 paddleocrvl_local_model_dir: "C:\\path\\to\\PaddleOCR-VL-1.6"
-paddleocrvl_vllm_config: scripts\0_vllm_server_config.yml
+paddleocrvl_vllm_config: scripts\vllm_server_config.yml
 paddleocrvl_server_port: 8118
 paddleocr_output_dir: data/output
 

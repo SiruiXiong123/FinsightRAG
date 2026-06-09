@@ -49,7 +49,7 @@ class DocumentIndexConfig:
         return self.index_root / self.document_id
 
 
-def build_document_indexes(config: DocumentIndexConfig) -> dict:
+def build_document_indexes(config: DocumentIndexConfig, model=None) -> dict:
     config = normalize_config_paths(config)
     config.index_dir.mkdir(parents=True, exist_ok=True)
 
@@ -75,7 +75,7 @@ def build_document_indexes(config: DocumentIndexConfig) -> dict:
         project_root=config.project_root,
     )
 
-    model = load_embedding_model(config.embedding_model, config.device)
+    model = model or load_embedding_model(config.embedding_model, config.device)
     modalities = {}
     modalities["text"] = write_modality_index(
         records=text_records,

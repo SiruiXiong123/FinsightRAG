@@ -1,14 +1,13 @@
-import argparse
-import sys
+﻿import argparse
 from pathlib import Path
 
 
-SCRIPT_DIR = Path(__file__).resolve().parent
-PROJECT_ROOT = SCRIPT_DIR.parent
-if str(PROJECT_ROOT) not in sys.path:
-    sys.path.insert(0, str(PROJECT_ROOT))
+from finsightrag.paths import default_project_root
 
-from src.text_md_filter import generate_text_markdown, generate_text_markdown_for_dir
+
+PROJECT_ROOT = default_project_root()
+
+from finsightrag.text_md_filter import generate_text_markdown, generate_text_markdown_for_dir
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -144,3 +143,4 @@ def main(argv=None) -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
+

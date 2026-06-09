@@ -8,9 +8,11 @@ from typing import Optional
 
 try:
     from .asset_enricher import chat_completions_url, image_to_data_url, load_prompt_template
+    from .paths import default_project_root
     from .rag_config import RagConfig
 except ImportError:
     from asset_enricher import chat_completions_url, image_to_data_url, load_prompt_template
+    from paths import default_project_root
     from rag_config import RagConfig
 
 
@@ -109,7 +111,7 @@ def build_config_from_rag_config(
     include_raw_response: bool = False,
     dry_run: bool = False,
 ) -> VlmGeneratorConfig:
-    root = Path(project_root or Path(__file__).resolve().parents[1]).resolve()
+    root = Path(project_root or default_project_root()).resolve()
     rag_config = RagConfig.load(str(config_path) if config_path else None)
     settings = load_generation_settings(rag_config)
     selected_prompt_path = resolve_project_path(

@@ -1,14 +1,13 @@
-import argparse
-import sys
+﻿import argparse
 from pathlib import Path
 
 
-SCRIPT_DIR = Path(__file__).resolve().parent
-PROJECT_ROOT = SCRIPT_DIR.parent
-if str(PROJECT_ROOT) not in sys.path:
-    sys.path.insert(0, str(PROJECT_ROOT))
+from finsightrag.paths import default_project_root
 
-from src.asset_enricher import (
+
+PROJECT_ROOT = default_project_root()
+
+from finsightrag.asset_enricher import (
     DEFAULT_BATCH_SIZE,
     DEFAULT_IMAGE_OUTPUT_SUFFIX,
     DEFAULT_IMAGE_PROMPT,
@@ -21,7 +20,7 @@ from src.asset_enricher import (
     EnrichmentConfig,
     enrich_asset_directory,
 )
-from src.rag_config import RagConfig
+from finsightrag.rag_config import RagConfig
 
 
 ASSET_KINDS = ("table", "image")
@@ -239,3 +238,4 @@ def resolve_project_path(raw_path, default_relative: str) -> Path:
 
 if __name__ == "__main__":
     raise SystemExit(main())
+

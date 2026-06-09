@@ -1,15 +1,14 @@
-import argparse
-import sys
+﻿import argparse
 from pathlib import Path
 
 
-SCRIPT_DIR = Path(__file__).resolve().parent
-PROJECT_ROOT = SCRIPT_DIR.parent
-if str(PROJECT_ROOT) not in sys.path:
-    sys.path.insert(0, str(PROJECT_ROOT))
+from finsightrag.paths import default_project_root
 
-from src.rag_config import RagConfig
-from src.text_chunking import (
+
+PROJECT_ROOT = default_project_root()
+
+from finsightrag.rag_config import RagConfig
+from finsightrag.text_chunking import (
     DEFAULT_BREAKPOINT_PERCENTILE,
     DEFAULT_CHUNK_OUTPUT_SUFFIX,
     DEFAULT_DUPLICATE_OVERLAP_THRESHOLD,
@@ -468,3 +467,4 @@ def optional_bool(value) -> bool:
 
 if __name__ == "__main__":
     raise SystemExit(main())
+

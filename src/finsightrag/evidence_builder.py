@@ -6,8 +6,10 @@ from pathlib import Path
 from typing import Optional
 
 try:
+    from .paths import default_project_root
     from .rag_config import RagConfig
 except ImportError:
+    from paths import default_project_root
     from rag_config import RagConfig
 
 
@@ -51,7 +53,7 @@ class EvidenceBuilder:
         project_root: Optional[Path | str] = None,
         output_dir: Optional[Path | str] = None,
     ) -> "EvidenceBuilder":
-        root = Path(project_root or Path(__file__).resolve().parents[1]).resolve()
+        root = Path(project_root or default_project_root()).resolve()
         rag_config = RagConfig.load(str(config_path) if config_path else None)
         cfg = build_evidence_builder_config(
             rag_config=rag_config,

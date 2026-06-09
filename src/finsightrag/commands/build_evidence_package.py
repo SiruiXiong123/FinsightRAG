@@ -1,16 +1,15 @@
-import argparse
+﻿import argparse
 import json
-import sys
 from pathlib import Path
 
 
-SCRIPT_DIR = Path(__file__).resolve().parent
-PROJECT_ROOT = SCRIPT_DIR.parent
-if str(PROJECT_ROOT) not in sys.path:
-    sys.path.insert(0, str(PROJECT_ROOT))
+from finsightrag.paths import default_project_root
 
-from src.evidence_builder import EvidenceBuilder, safe_filename, write_evidence_package
-from src.rag_config import RagConfig
+
+PROJECT_ROOT = default_project_root()
+
+from finsightrag.evidence_builder import EvidenceBuilder, safe_filename, write_evidence_package
+from finsightrag.rag_config import RagConfig
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -168,3 +167,4 @@ def default_package_path(output_dir: Path, document_id: str) -> Path:
 
 if __name__ == "__main__":
     raise SystemExit(main())
+

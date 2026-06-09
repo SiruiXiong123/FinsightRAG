@@ -1,19 +1,18 @@
-import argparse
+﻿import argparse
 import json
-import sys
 from pathlib import Path
 
 
-SCRIPT_DIR = Path(__file__).resolve().parent
-PROJECT_ROOT = SCRIPT_DIR.parent
-if str(PROJECT_ROOT) not in sys.path:
-    sys.path.insert(0, str(PROJECT_ROOT))
+from finsightrag.paths import default_project_root
 
-from src.evidence_builder import EvidenceBuilder, write_evidence_package
-from src.generator_vlm import build_config_from_rag_config, generate_from_evidence_package
-from src.rag_config import RagConfig
-from src.retriever import MultiFinRetriever
-from src.vector_store import MultiModalVectorStore
+
+PROJECT_ROOT = default_project_root()
+
+from finsightrag.evidence_builder import EvidenceBuilder, write_evidence_package
+from finsightrag.generator_vlm import build_config_from_rag_config, generate_from_evidence_package
+from finsightrag.rag_config import RagConfig
+from finsightrag.retriever import MultiFinRetriever
+from finsightrag.vector_store import MultiModalVectorStore
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -134,3 +133,4 @@ def safe_name(value: str) -> str:
 
 if __name__ == "__main__":
     raise SystemExit(main())
+
